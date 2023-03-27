@@ -269,7 +269,9 @@ types = {
     'multipurpose center'   : ['espace', 'hall'],
     'port'                  : ['puerto', 'port'],
     'neighborhood'          : ['población', 'village', 'hamlet'],
-    'museum'                : ['museo', 'museum' , 'musée']
+    'museum'                : ['museo', 'museum' , 'musée'],
+    'interior'              : ['aula', 'auditorio', 'auditorium'],
+    'memorial plate'        : ['placa', 'plate', 'plaque']
 }
 
 
@@ -580,51 +582,46 @@ for (i, link) in enumerate(single_locale, start=1):
     locale_link = f'https://www.openstreetmap.org/search?query=Salvador%20Allende%20{locale_1}%20{country_en}'
     driver.get(locale_link)
     osm_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", class_="search_results_entry mx-n3"))
-    osm_text = osm_soup.get_text()
+
     #
-    # if there are no results found, keep the default locale=1
+    # go through each search result and have the user verify it
     #
-    if 'No results found' in osm_text:
+    locale_results_list = list(osm_soup.find_all("a"))
+    # a single result looks like this - we can derive lots of info from here once user verifies that it looks good
+    #
+    # <a class="set_position" data-lat="-12.1102763" data-lon="-77.0104283" 
+    # data-min-lat="-12.1103037" data-max-lat="-12.1102452" data-min-lon="-77.0109212" data-max-lon="-77.0097999" 
+    # data-prefix="Residential Road" data-name="Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru" 
+    # data-type="way" data-id="426845566" href="/way/426845566">Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru</a>
+    #
+    if len(locale_results_list) == 0:
         print('No addresses found in OpenStreetMap. Will use the locale derived from the article...')
         data['locale_1'].append(locale_1)
         print(f'Locale 1: {locale_1}')
-    #
-    # else, go through each search result and have the user verify it
-    #
+        # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+        osm_address = ''
+        osm_info = ''
     else:
-        locale_results_list = osm_soup.find_all("a")
-        # a single result looks like this - we can derive lots of info from here once user verifies that it looks good
-        #
-        # <a class="set_position" data-lat="-12.1102763" data-lon="-77.0104283" 
-        # data-min-lat="-12.1103037" data-max-lat="-12.1102452" data-min-lon="-77.0109212" data-max-lon="-77.0097999" 
-        # data-prefix="Residential Road" data-name="Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru" 
-        # data-type="way" data-id="426845566" href="/way/426845566">Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru</a>
-        #
-        if len(locale_results_list) == 0:
-            print('No addresses found in OpenStreetMap. Will use the locale derived from the article...')
-            data['locale_1'].append(locale_1)
-            print(f'Locale 1: {locale_1}')
-        else:
-            print(f'{str(len(locale_results_list)-1)} possible address(es) found in OpenStreetMap.')
-            for result in locale_results_list:
-                result = str(result)
-                osm_address = re.search(r'data-name="(.*?)"', result)
-                osm_address = str(osm_address.group(1))
-                #
-                # have user verify the address - this decides what this loop should do next
-                #
-                print(f'Please verify if this address matches the place in this article:\n{osm_address}')
-                user_verification = input('>>> Type y if yes, n if no: ')
-                if user_verification == 'n' and len(locale_results_list) == 1:
-                    print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
-                    data['locale_1'].append(locale_1)
-                    print(f'Locale 1: {locale_1}')
-                elif user_verification == 'n' and len(locale_results_list) > 1:
-                    continue
-                elif user_verification == 'y':
-                    # we'll save the whole result in a variable for later parsing. we can then close the loop.
-                    osm_info = result
-                    break
+        print(f'{str(len(locale_results_list)-1)} possible address(es) found in OpenStreetMap.')
+        for result in locale_results_list:
+            result = str(result)
+            osm_address = re.search(r'data-name="(.*?)"', result)
+            osm_address = str(osm_address.group(1))
+            #
+            # have user verify the address - this decides what this loop should do next
+            #
+            print(f'Please verify if this address matches the place in this article:\n{osm_address}')
+            user_verification = input('>>> Type y if yes, n if no: ')
+            if user_verification == 'n' and len(locale_results_list) == 1:
+                print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
+                data['locale_1'].append(locale_1)
+                print(f'Locale 1: {locale_1}')
+            elif user_verification == 'n' and len(locale_results_list) > 1:
+                continue
+            elif user_verification == 'y':
+                # we'll save the whole result in a variable for later parsing. we can then close the loop.
+                osm_info = result
+                break
 
         #
         # when we have osm_info, we'll take locale details from its osm_address by splitting it.
@@ -732,6 +729,9 @@ for (i, link) in enumerate(single_locale, start=1):
         except:
             # fallback for when there's neither OSM name nor alt text
             name = 'A memorial to Salvador Allende'
+    # if name ends up being just 'foto' (meaning there's no usable alt text in the article), then fallback to the generic name as well
+    if name == 'foto':
+        name = 'A memorial to Salvador Allende'
     data['name'].append(name)
     print(f'Name: {name}')
 
@@ -768,6 +768,7 @@ for (i, link) in enumerate(single_locale, start=1):
     years_in_text = list(years_in_text)
     for year in years_in_text:
         year = int(year)
+        # things weren't named after Allende when he was alive, I don't think he was that vain 
         if year < oldest_known_year and year > int(1973):
             oldest_known_year = year
     data['oldest_known_year'].append(oldest_known_year)
@@ -796,7 +797,8 @@ for (i, link) in enumerate(single_locale, start=1):
             list_months = []
             month = months[month]
             list_months.append(month)
-        oldest_known_month = list_months
+        oldest_known_month = str(list_months)
+        oldest_known_month = oldest_known_month.strip('[]')
     data['oldest_known_month'].append(oldest_known_month)
     print(f'Oldest known month: {oldest_known_month}')
 
@@ -833,7 +835,8 @@ for (i, link) in enumerate(single_locale, start=1):
             else:
                 day = int(day)
             list_days.append(day)
-        oldest_known_day = list_days
+        oldest_known_day = str(list_days)
+        oldest_known_day = oldest_known_day.strip('[]')
     data['oldest_known_day'].append(oldest_known_day)
     print(f'Oldest known day: {oldest_known_day}')
 
@@ -854,6 +857,7 @@ for (i, link) in enumerate(single_locale, start=1):
         desc_item = str(desc_item)
         desc_item = desc_item.strip('</em>')
         desc += desc_item + '\n'
+    desc = desc.replace('<br/>','')
     data['desc'].append(desc)
     print(f'Desc: {desc}')
 
@@ -882,20 +886,20 @@ for (i, link) in enumerate(single_locale, start=1):
     #
     # get VERIFIED_IN_MAPS (default to 0, will get 1 when it has OSM info)
     #
-    if 'osm_info' in globals():
-        verified_in_maps = 1
-    else:
+    try:
+        openstreetmap_link = re.search(r'href="(.*?)"', osm_info)
+        openstreetmap_link = f'https://www.openstreetmap.org{str(openstreetmap_link.group(1))}'
+    except:
         verified_in_maps = 0
+    else:
+        verified_in_maps = 1
     data['verified_in_maps'].append(verified_in_maps)
     print(f'Verified in maps: {verified_in_maps}')
 
     #
     # get OPENSTREETMAP_LINK
     #
-    try:
-        openstreetmap_link = re.search(r'href="(.*?)"', osm_info)
-        openstreetmap_link = f'https://www.openstreetmap.org{str(openstreetmap_link.group(1))}'
-    except:
+    if verified_in_maps == 0:
         openstreetmap_link = ''
     data['openstreetmap_link'].append(openstreetmap_link)
     print(f'OpenStreetMap link: {openstreetmap_link}')
@@ -1010,10 +1014,12 @@ for (i, link) in enumerate(multi_locale, start=1):
             # data-type="way" data-id="426845566" href="/way/426845566">Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru</a>
             #
             if len(locale_results_list) == 0:
-                print(
-                    'No addresses found in OpenStreetMap. Will use the locale derived from the article...')
+                print('No addresses found in OpenStreetMap. Will use the locale derived from the article...')
                 data['locale_1'].append(locale_1)
                 print(f'Locale 1: {locale_1}')
+                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+                osm_address = ''
+                osm_info = ''
             else:
                 print(
                     f'{str(len(locale_results_list)-1)} possible address(es) found in OpenStreetMap.')
@@ -1024,12 +1030,10 @@ for (i, link) in enumerate(multi_locale, start=1):
                     #
                     # have user verify the address - this decides what this loop should do next
                     #
-                    print(
-                        f'Please verify if this address matches the place in this article:\n{osm_address}')
+                    print(f'Please verify if this address matches the place in this article:\n{osm_address}')
                     user_verification = input('>>> Type y if yes, n if no: ')
                     if user_verification == 'n' and len(locale_results_list) == 1:
-                        print(
-                            'OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
+                        print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
                         data['locale_1'].append(locale_1)
                         print(f'Locale 1: {locale_1}')
                     elif user_verification == 'n' and len(locale_results_list) > 1:
@@ -1145,6 +1149,9 @@ for (i, link) in enumerate(multi_locale, start=1):
             except:
                 # fallback for when there's neither OSM name nor alt text
                 name = 'A memorial to Salvador Allende'
+        # if name ends up being just 'foto' (meaning there's no usable alt text in the article), then fallback to the generic name as well
+        if name == 'foto':
+            name = 'A memorial to Salvador Allende'
         data['name'].append(name)
         print(f'Name: {name}')
 
@@ -1181,6 +1188,7 @@ for (i, link) in enumerate(multi_locale, start=1):
         years_in_text = list(years_in_text)
         for year in years_in_text:
             year = int(year)
+            # things weren't named after Allende when he was alive, I don't think he was that vain
             if year < oldest_known_year and year > int(1973):
                 oldest_known_year = year
         data['oldest_known_year'].append(oldest_known_year)
@@ -1209,7 +1217,8 @@ for (i, link) in enumerate(multi_locale, start=1):
                 list_months = []
                 month = months[month]
                 list_months.append(month)
-            oldest_known_month = list_months
+            oldest_known_month = str(list_months)
+            oldest_known_month = oldest_known_month.strip('[]')
         data['oldest_known_month'].append(oldest_known_month)
         print(f'Oldest known month: {oldest_known_month}')
 
@@ -1246,7 +1255,8 @@ for (i, link) in enumerate(multi_locale, start=1):
                 else:
                     day = int(day)
                 list_days.append(day)
-            oldest_known_day = list_days
+            oldest_known_day = str(list_days)
+            oldest_known_day = oldest_known_day.strip('[]')
         data['oldest_known_day'].append(oldest_known_day)
         print(f'Oldest known day: {oldest_known_day}')
 
@@ -1289,20 +1299,20 @@ for (i, link) in enumerate(multi_locale, start=1):
         #
         # get VERIFIED_IN_MAPS (default to 0, will get 1 when it has OSM info)
         #
-        if 'osm_info' in globals():
-            verified_in_maps = 1
-        else:
+        try:
+            openstreetmap_link = re.search(r'href="(.*?)"', osm_info)
+            openstreetmap_link = f'https://www.openstreetmap.org{str(openstreetmap_link.group(1))}'
+        except:
             verified_in_maps = 0
+        else:
+            verified_in_maps = 1
         data['verified_in_maps'].append(verified_in_maps)
         print(f'Verified in maps: {verified_in_maps}')
 
         #
         # get OPENSTREETMAP_LINK
         #
-        try:
-            openstreetmap_link = re.search(r'href="(.*?)"', osm_info)
-            openstreetmap_link = f'https://www.openstreetmap.org{str(openstreetmap_link.group(1))}'
-        except:
+        if verified_in_maps == 0:
             openstreetmap_link = ''
         data['openstreetmap_link'].append(openstreetmap_link)
         print(f'OpenStreetMap link: {openstreetmap_link}')
