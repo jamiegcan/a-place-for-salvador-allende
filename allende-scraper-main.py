@@ -1,6 +1,14 @@
 # allende-scraper-main.py
 # 'production' script
 
+
+# ------------------------------------------------------ #
+
+
+
+### IMPORTS ###
+
+
 # web scraping tutorial courtesy of https://www.educative.io/blog/python-web-scraping-tutorial
 
 
@@ -10,6 +18,15 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import re
 import pandas as pd
+import time
+
+
+
+# ------------------------------------------------------ #
+
+
+
+### DICTIONARIES ###
 
 
 # countries with a Salvador Allende presence, according to http://www.abacq.org/calle/index.php?toc/toc
@@ -261,7 +278,7 @@ allende_countries = {
 types = {
     'street'                : ['calle', 'avenida', 'pasaje', 'rue', 'rua', 'road', 'avenue', 'circunvalación', 'boulevard', 'bulevar', 'street', 'straat', 'strada'],
     'monument'              : ['monumento', 'escultura', 'monument', 'sculpture', 'busto', 'bust', 'statue'],
-    'park'                  : ['plaza', 'parque', 'square', 'park', 'place', 'plazoleta'],
+    'park'                  : ['plaza', 'parque', 'square', 'park', 'place', 'plazoleta', 'praça'],
     'school'                : ['escuela', 'colegio', 'school', 'college', 'schule', 'école'],
     'healthcare facility'   : ['hospital', 'salud', 'healthcare', 'health'],
     'bridge'                : ['puente', 'bridge', 'pont', 'brücke'],
@@ -321,6 +338,25 @@ days = {
 
 
 
+### FUNCTIONS ###
+
+
+# how long (in seconds) would you like sleep timers to wait before continuing with the scraping?
+timer = 15
+
+
+# the sleep timer - to make this script look like a casual human surfer to web servers rather than a fast-paced bot
+def humanizer(timer):
+    print(f'Taking a break for {str(timer)} seconds...')
+    time.sleep(timer)
+    print('Okay, let\'s continue.\n')
+
+
+
+# ------------------------------------------------------ #
+
+
+
 ### 1. RETRIEVE ALL LINKS ###
 
 
@@ -344,6 +380,10 @@ soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer(
 links_soup = soup.find_all("li")
 print(f'>>> Parsing the site map {toc}...\n')
 # print(links_soup, '\n')
+
+
+# stay in the web page like a normal human would
+humanizer(timer)
 
 
 # create a list of bare links
@@ -463,6 +503,10 @@ print(f'Single-locale links:\n{single_locale}\n')
 print(f'Multi-locale links:\n{multi_locale}\n')
 
 
+# stay in the web page like a normal human would
+humanizer(timer)
+
+
 
 # ------------------------------------------------------ #
 
@@ -530,6 +574,15 @@ for (i, link) in enumerate(single_locale, start=1):
     # we are only interested in the article itself, not the comments, sidebar, etc.
     #
     article_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", class_="post")) #, from_encoding='windows-1252', exclude_encodings=['unicode', 'utf-8'])
+    
+    #
+    # stay in the web page like a normal human would
+    #
+    humanizer(timer)
+
+    #
+    # then go on with our automated lives
+    #
     print(f'\n>>> Parsing single-locale article {str(i)} of {str(len(single_locale))}: {link}...\n')
     text = article_soup.get_text()
     lower_text = text.lower()
@@ -587,6 +640,7 @@ for (i, link) in enumerate(single_locale, start=1):
     # go through each search result and have the user verify it
     #
     locale_results_list = list(osm_soup.find_all("a"))
+    #
     # a single result looks like this - we can derive lots of info from here once user verifies that it looks good
     #
     # <a class="set_position" data-lat="-12.1102763" data-lon="-77.0104283" 
@@ -612,17 +666,30 @@ for (i, link) in enumerate(single_locale, start=1):
             #
             print(f'Please verify if this address matches the place in this article:\n{osm_address}')
             user_verification = input('>>> Type y if yes, n if no: ')
-            if user_verification == 'n' and len(locale_results_list) == 1:
+            if user_verification == 'n' and len(locale_results_list)-1 == 1:
                 print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
+                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+                osm_address = ''
+                osm_info = ''
                 data['locale_1'].append(locale_1)
                 print(f'Locale 1: {locale_1}')
-            elif user_verification == 'n' and len(locale_results_list) > 1:
+                break
+            elif user_verification == 'n' and len(locale_results_list)-1 > 1:
+                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+                osm_address = ''
+                osm_info = ''
                 continue
             elif user_verification == 'y':
                 # we'll save the whole result in a variable for later parsing. we can then close the loop.
                 osm_info = result
                 break
 
+        #
+        # stay in the web page like a normal human would
+        #
+        humanizer(timer)
+        #
+        # then go on with our automated lives
         #
         # when we have osm_info, we'll take locale details from its osm_address by splitting it.
         # sample split:
@@ -692,7 +759,7 @@ for (i, link) in enumerate(single_locale, start=1):
     print(f'Zip code: {zip_code}')
 
     #
-    # get LATITUDE (null)
+    # get LATITUDE
     #
     try:
         latitude = re.search(r'data-lat="(.*?)"', osm_info)
@@ -703,7 +770,7 @@ for (i, link) in enumerate(single_locale, start=1):
     print(f'Latitude: {latitude}')
 
     #
-    # get LONGITUDE (null)
+    # get LONGITUDE
     #
     try:
         longitude = re.search(r'data-lon="(.*?)"', osm_info)
@@ -768,7 +835,7 @@ for (i, link) in enumerate(single_locale, start=1):
     years_in_text = list(years_in_text)
     for year in years_in_text:
         year = int(year)
-        # things weren't named after Allende when he was alive, I don't think he was that vain 
+        # things weren't named after Allende when he was alive, I don't think he was that vain (see Museo de la Solidaridad)
         if year < oldest_known_year and year > int(1973):
             oldest_known_year = year
     data['oldest_known_year'].append(oldest_known_year)
@@ -917,6 +984,11 @@ for (i, link) in enumerate(single_locale, start=1):
     #
     data['abacq_reference'].append(link)
 
+    #
+    # stay in the web page like a normal human would
+    #
+    humanizer(timer)
+
 
 
 # ------------------------------------------------------ #
@@ -934,10 +1006,24 @@ for (i, link) in enumerate(multi_locale, start=1):
     # we are only interested in the article itself, not the comments, sidebar, etc.
     #
     article_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", class_="post")) #, from_encoding='windows-1252', exclude_encodings=['unicode', 'utf-8'])
+    
+    #
+    # stay in the web page like a normal human would
+    #
+    humanizer(timer)
+
+    #
+    # then go on with our automated lives
+    #
     print(f'\n>>> Parsing multi-locale article {str(i)} of {str(len(multi_locale))}: {link}...\n')
     text = article_soup.get_text()
     lower_text = text.lower()
     print(text)
+
+    #
+    # stay in the web page like a normal human would
+    #
+    humanizer(timer)
 
     #
     # honestly, the multi-locale articles are less organized but are concise enough for manual human investigation.
@@ -991,21 +1077,13 @@ for (i, link) in enumerate(multi_locale, start=1):
         #
         locale_link = f'https://www.openstreetmap.org/search?query=Salvador%20Allende%20{locale_1}%20{country_en}'
         driver.get(locale_link)
-        osm_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer(
-            "div", class_="search_results_entry mx-n3"))
-        osm_text = osm_soup.get_text()
+        osm_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", class_="search_results_entry mx-n3"))
+
         #
-        # if there are no results found, keep the default locale_1
+        # go through each search result and have the user verify it
         #
-        if 'No results found' in osm_text:
-            print('No addresses found in OpenStreetMap. Will use the locale derived from the article...')
-            data['locale_1'].append(locale_1)
-            print(f'Locale 1: {locale_1}')
-        #
-        # else, go through each search result and have the user verify it
-        #
-        else:
-            locale_results_list = osm_soup.find_all("a")
+        locale_results_list = list(osm_soup.find_all("a"))
+            #
             # a single result looks like this - we can derive lots of info from here once user verifies that it looks good
             #
             # <a class="set_position" data-lat="-12.1102763" data-lon="-77.0104283"
@@ -1013,36 +1091,47 @@ for (i, link) in enumerate(multi_locale, start=1):
             # data-prefix="Residential Road" data-name="Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru"
             # data-type="way" data-id="426845566" href="/way/426845566">Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru</a>
             #
-            if len(locale_results_list) == 0:
-                print('No addresses found in OpenStreetMap. Will use the locale derived from the article...')
-                data['locale_1'].append(locale_1)
-                print(f'Locale 1: {locale_1}')
-                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
-                osm_address = ''
-                osm_info = ''
-            else:
-                print(
-                    f'{str(len(locale_results_list)-1)} possible address(es) found in OpenStreetMap.')
-                for result in locale_results_list:
-                    result = str(result)
-                    osm_address = re.search(r'data-name="(.*?)"', result)
-                    osm_address = str(osm_address.group(1))
-                    #
-                    # have user verify the address - this decides what this loop should do next
-                    #
-                    print(f'Please verify if this address matches the place in this article:\n{osm_address}')
-                    user_verification = input('>>> Type y if yes, n if no: ')
-                    if user_verification == 'n' and len(locale_results_list) == 1:
-                        print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
-                        data['locale_1'].append(locale_1)
-                        print(f'Locale 1: {locale_1}')
-                    elif user_verification == 'n' and len(locale_results_list) > 1:
-                        continue
-                    elif user_verification == 'y':
-                        # we'll save the whole result in a variable for later parsing. we can then close the loop.
-                        osm_info = result
-                        break
-
+        if len(locale_results_list) == 0:
+            print('No addresses found in OpenStreetMap. Will use the locale derived from the article...')
+            data['locale_1'].append(locale_1)
+            print(f'Locale 1: {locale_1}')
+            # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+            osm_address = ''
+            osm_info = ''
+        else:
+            print(f'{str(len(locale_results_list)-1)} possible address(es) found in OpenStreetMap.')
+            for result in locale_results_list:
+                result = str(result)
+                osm_address = re.search(r'data-name="(.*?)"', result)
+                osm_address = str(osm_address.group(1))
+                #
+                # have user verify the address - this decides what this loop should do next
+                #
+                print(f'Please verify if this address matches the place in this article:\n{osm_address}')
+                user_verification = input('>>> Type y if yes, n if no: ')
+                if user_verification == 'n' and len(locale_results_list)-1 == 1:
+                    print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
+                    # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+                    osm_address = ''
+                    osm_info = ''
+                    data['locale_1'].append(locale_1)
+                    print(f'Locale 1: {locale_1}')
+                    break
+                elif user_verification == 'n' and len(locale_results_list)-1 > 1:
+                    # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+                    osm_address = ''
+                    osm_info = ''
+                    continue
+                elif user_verification == 'y':
+                    # we'll save the whole result in a variable for later parsing. we can then close the loop.
+                    osm_info = result
+                    break
+            #
+            # stay in the web page like a normal human would
+            #
+            humanizer(timer)
+            #
+            # then go on with our automated lives
             #
             # when we have osm_info, we'll take locale details from its osm_address by splitting it.
             # sample split:
@@ -1112,7 +1201,7 @@ for (i, link) in enumerate(multi_locale, start=1):
         print(f'Zip code: {zip_code}')
 
         #
-        # get LATITUDE (null)
+        # get LATITUDE
         #
         try:
             latitude = re.search(r'data-lat="(.*?)"', osm_info)
@@ -1123,7 +1212,7 @@ for (i, link) in enumerate(multi_locale, start=1):
         print(f'Latitude: {latitude}')
 
         #
-        # get LONGITUDE (null)
+        # get LONGITUDE
         #
         try:
             longitude = re.search(r'data-lon="(.*?)"', osm_info)
@@ -1188,7 +1277,7 @@ for (i, link) in enumerate(multi_locale, start=1):
         years_in_text = list(years_in_text)
         for year in years_in_text:
             year = int(year)
-            # things weren't named after Allende when he was alive, I don't think he was that vain
+            # things weren't named after Allende when he was alive, I don't think he was that vain (see Museo de la Solidaridad)
             if year < oldest_known_year and year > int(1973):
                 oldest_known_year = year
         data['oldest_known_year'].append(oldest_known_year)
@@ -1268,7 +1357,7 @@ for (i, link) in enumerate(multi_locale, start=1):
         print(f'Oldest known source: {oldest_known_source}')
 
         #
-        # get DESC
+        # get DESC (null)
         #
         desc = ''
         data['desc'].append(desc)
@@ -1330,6 +1419,11 @@ for (i, link) in enumerate(multi_locale, start=1):
         #
         data['abacq_reference'].append(link)
 
+        #
+        # stay in the web page like a normal human would
+        #
+        humanizer(timer)
+
 
 
 # ------------------------------------------------------ #
@@ -1346,6 +1440,7 @@ print(data_df)
 
 # export dataframe - xlsx supports unicode, so no more encoding fiascos compared to saving to csv
 data_df.to_excel(f'countries/{country_en}.xlsx', index=False)
+print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
 
 
 
