@@ -2,6 +2,7 @@
 # 'production' script
 
 
+
 # ------------------------------------------------------ #
 
 
@@ -16,8 +17,11 @@ from bs4 import BeautifulSoup
 from bs4 import SoupStrainer
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+import chromedriver_autoinstaller as chromedriver
 import re
-import pandas as pd
+import pandas as pd 
 import time
 
 
@@ -32,244 +36,244 @@ import time
 # countries with a Salvador Allende presence, according to http://www.abacq.org/calle/index.php?toc/toc
 allende_countries = {
     'Alemania': {
-        'country_en': 'Germany',
-        'country_link': 'alemania',
-        'region': 'Europe'
+        'country_en'    : 'Germany',
+        'country_link'  : 'alemania',
+        'region'        : 'Europe'
     },
     'Angola': {
-        'country_en': 'Angola',
-        'country_link': 'angola',
-        'region': 'Africa'
+        'country_en'    : 'Angola',
+        'country_link'  : 'angola',
+        'region'        : 'Africa'
     },
     'Arabia Saudita': {
-        'country_en': 'Saudi Arabia',
-        'country_link': 'arabia-saudita',
-        'region': 'Middle East'
+        'country_en'    : 'Saudi Arabia',
+        'country_link'  : 'arabia-saudita',
+        'region'        : 'Middle East'
     },
     'Argelia': {
-        'country_en': 'Algeria',
-        'country_link': 'argelia',
-        'region': 'Africa'
+        'country_en'    : 'Algeria',
+        'country_link'  : 'argelia',
+        'region'        : 'Africa'
     },
     'Argentina': {
-        'country_en': 'Argentina',
-        'country_link': 'argentina',
-        'region': 'South America'
+        'country_en'    : 'Argentina',
+        'country_link'  : 'argentina',
+        'region'        : 'South America'
     },
     'Australia': {
-        'country_en': 'Australia',
-        'country_link': 'australia',
-        'region': 'ANZ and Oceania'
+        'country_en'    : 'Australia',
+        'country_link'  : 'australia',
+        'region'        : 'ANZ and Oceania'
     },
     'Austria': {
-        'country_en': 'Austria',
-        'country_link': 'austria',
-        'region': 'Europe'
+        'country_en'    : 'Austria',
+        'country_link'  : 'austria',
+        'region'        : 'Europe'
     },
     'Bélgica': {
-        'country_en': 'Belgium',
-        'country_link': 'belgica',
-        'region': 'Europe'
+        'country_en'    : 'Belgium',
+        'country_link'  : 'belgica',
+        'region'        : 'Europe'
     },
     'Bosnia-Herzegovina': {
-        'country_en': 'Bosnia and Herzegovina',
-        'country_link': 'bosnia-herzegovina',
-        'region': 'Europe'
+        'country_en'    : 'Bosnia and Herzegovina',
+        'country_link'  : 'bosnia-herzegovina',
+        'region'        : 'Europe'
     },
     'Brasil': {
-        'country_en': 'Brazil',
-        'country_link': 'brasil',
-        'region': 'South America'
+        'country_en'    : 'Brazil',
+        'country_link'  : 'brasil',
+        'region'        : 'South America'
     },
     'Bulgaria': {
-        'country_en': 'Bulgaria',
-        'country_link': 'bulgaria',
-        'region': 'Europe'
+        'country_en'    : 'Bulgaria',
+        'country_link'  : 'bulgaria',
+        'region'        : 'Europe'
     },
     'Canadá': {
-        'country_en': 'Canada',
-        'country_link': 'canada',
-        'region': 'North America'
+        'country_en'    : 'Canada',
+        'country_link'  : 'canada',
+        'region'        : 'North America'
     },
     'Chile': {
-        'country_en': 'Chile',
-        'country_link': 'chile',
-        'region': 'South America'
+        'country_en'    : 'Chile',
+        'country_link'  : 'chile',
+        'region'        : 'South America'
     },
     'Colombia': {
-        'country_en': 'Colombia',
-        'country_link': 'colombia',
-        'region': 'South America'
+        'country_en'    : 'Colombia',
+        'country_link'  : 'colombia',
+        'region'        : 'South America'
     },
     'Cuba': {
-        'country_en': 'Cuba',
-        'country_link': 'cuba',
-        'region': 'Central America'
+        'country_en'    : 'Cuba',
+        'country_link'  : 'cuba',
+        'region'        : 'Central America'
     },
     'Dinamarca': {
-        'country_en': 'Denmark',
-        'country_link': 'dinamarca',
-        'region': 'Europe'
+        'country_en'    : 'Denmark',
+        'country_link'  : 'dinamarca',
+        'region'        : 'Europe'
     },
     'Ecuador': {
-        'country_en': 'Ecuador',
-        'country_link': 'ecuador',
-        'region': 'South America'
+        'country_en'    : 'Ecuador',
+        'country_link'  : 'ecuador',
+        'region'        : 'South America'
     },
     'Eslovaquia': {
-        'country_en': 'Slovakia',
-        'country_link': 'eslovaquia',
-        'region': 'Europe'
+        'country_en'    : 'Slovakia',
+        'country_link'  : 'eslovaquia',
+        'region'        : 'Europe'
     },
     'España': {
-        'country_en': 'Spain',
-        'country_link': 'espana',
-        'region': 'Europe'
+        'country_en'    : 'Spain',
+        'country_link'  : 'espana',
+        'region'        : 'Europe'
     },
     'Estados Unidos': {
-        'country_en': 'United States',
-        'country_link': 'estados-unidos',
-        'region': 'North America'
+        'country_en'    : 'United States',
+        'country_link'  : 'estados-unidos',
+        'region'        : 'North America'
     },
     'Francia': {
-        'country_en': 'France',
-        'country_link': 'francia',
-        'region': 'Europe'
+        'country_en'    : 'France',
+        'country_link'  : 'francia',
+        'region'        : 'Europe'
     },
     'Guinea-Bissáu': {
-        'country_en': 'Guinea-Bissau',
-        'country_link': 'guinea-bissau',
-        'region': 'Africa'
+        'country_en'    : 'Guinea-Bissau',
+        'country_link'  : 'guinea-bissau',
+        'region'        : 'Africa'
     },
     'Holanda': {
-        'country_en': 'Netherlands',
-        'country_link': 'holanda',
-        'region': 'Europe'
+        'country_en'    : 'Netherlands',
+        'country_link'  : 'holanda',
+        'region'        : 'Europe'
     },
     'Hungría': {
-        'country_en': 'Hungary',
-        'country_link': 'hungria',
-        'region': 'Europe'
+        'country_en'    : 'Hungary',
+        'country_link'  : 'hungria',
+        'region'        : 'Europe'
     },
     'India': {
-        'country_en': 'India',
-        'country_link': 'india',
-        'region': 'Asia'
+        'country_en'    : 'India',
+        'country_link'  : 'india',
+        'region'        : 'Asia'
     },
     'Irán': {
-        'country_en': 'Iran',
-        'country_link': 'iran',
-        'region': 'Asia'
+        'country_en'    : 'Iran',
+        'country_link'  : 'iran',
+        'region'        : 'Asia'
     },
     'Israel': {
-        'country_en': 'Israel',
-        'country_link': 'israel',
-        'region': 'Middle East'
+        'country_en'    : 'Israel',
+        'country_link'  : 'israel',
+        'region'        : 'Middle East'
     },
     'Italia': {
-        'country_en': 'Italy',
-        'country_link': 'italia',
-        'region': 'Europe'
+        'country_en'    : 'Italy',
+        'country_link'  : 'italia',
+        'region'        : 'Europe'
     },
     'Luxemburgo': {
-        'country_en': 'Luxembourg',
-        'country_link': 'luxemburgo',
-        'region': 'Europe'
+        'country_en'    : 'Luxembourg',
+        'country_link'  : 'luxemburgo',
+        'region'        : 'Europe'
     },
     'México': {
-        'country_en': 'Mexico',
-        'country_link': 'mexico',
-        'region': 'North America'
+        'country_en'    : 'Mexico',
+        'country_link'  : 'mexico',
+        'region'        : 'North America'
     },
     'Mozambique': {
-        'country_en': 'Mozambique',
-        'country_link': 'mozambique',
-        'region': 'Africa'
+        'country_en'    : 'Mozambique',
+        'country_link'  : 'mozambique',
+        'region'        : 'Africa'
     },
     'Nicaragua': {
-        'country_en': 'Nicaragua',
-        'country_link': 'nicaragua',
-        'region': 'Central America'
+        'country_en'    : 'Nicaragua',
+        'country_link'  : 'nicaragua',
+        'region'        : 'Central America'
     },
     'Pakistán': {
-        'country_en': 'Pakistan',
-        'country_link': 'pakistan',
-        'region': 'Asia'
+        'country_en'    : 'Pakistan',
+        'country_link'  : 'pakistan',
+        'region'        : 'Asia'
     },
     'Palestina': {
-        'country_en': 'Palestine',
-        'country_link': 'palestina',
-        'region': 'Middle East'
+        'country_en'    : 'Palestine',
+        'country_link'  : 'palestina',
+        'region'        : 'Middle East'
     },
     'Paraguay': {
-        'country_en': 'Paraguay',
-        'country_link': 'paraguay',
-        'region': 'South America'
+        'country_en'    : 'Paraguay',
+        'country_link'  : 'paraguay',
+        'region'        : 'South America'
     },
     'Perú': {
-        'country_en': 'Peru',
-        'country_link': 'peru',
-        'region': 'South America'
+        'country_en'    : 'Peru',
+        'country_link'  : 'peru',
+        'region'        : 'South America'
     },
     'Portugal': {
-        'country_en': 'Portugal',
-        'country_link': 'portugal',
-        'region': 'Europe'
+        'country_en'    : 'Portugal',
+        'country_link'  : 'portugal',
+        'region'        : 'Europe'
     },
     'Reino Unido': {
-        'country_en': 'United Kingdom',
-        'country_link': 'reino-unido',
-        'region': 'Europe'
+        'country_en'    : 'United Kingdom',
+        'country_link'  : 'reino-unido',
+        'region'        : 'Europe'
     },
     'República Checa': {
-        'country_en': 'Czechia',
-        'country_link': 'republica-checa',
-        'region': 'Europe'
+        'country_en'    : 'Czechia',
+        'country_link'  : 'republica-checa',
+        'region'        : 'Europe'
     },
     'República del Congo': {
-        'country_en': 'Republic of the Congo',
-        'country_link': 'republica-del-congo',
-        'region': 'Africa'
+        'country_en'    : 'Republic of the Congo',
+        'country_link'  : 'republica-del-congo',
+        'region'        : 'Africa'
     },
     'República de Macedonia': {
-        'country_en': 'North Macedonia',
-        'country_link': 'macedonia',
-        'region': 'Europe'
+        'country_en'    : 'North Macedonia',
+        'country_link'  : 'macedonia',
+        'region'        : 'Europe'
     },
     'República Dominicana': {
-        'country_en': 'Dominican Republic',
-        'country_link': 'republica-dominicana',
-        'region': 'Asia'
+        'country_en'    : 'Dominican Republic',
+        'country_link'  : 'republica-dominicana',
+        'region'        : 'Central America'
     },
     'Rusia': {
-        'country_en': 'Russia',
-        'country_link': 'rusia',
-        'region': 'Europe'
+        'country_en'    : 'Russia',
+        'country_link'  : 'rusia',
+        'region'        : 'Europe'
     },
     'Salvador': {
-        'country_en': 'El Salvador',
-        'country_link': 'el-salvador',
-        'region': 'Central America'
+        'country_en'    : 'El Salvador',
+        'country_link'  : 'el-salvador',
+        'region'        : 'Central America'
     },
     'Serbia': {
-        'country_en': 'Serbia',
-        'country_link': 'serbia',
-        'region': 'Europe'
+        'country_en'    : 'Serbia',
+        'country_link'  : 'serbia',
+        'region'        : 'Europe'
     },
     'Turquía': {
-        'country_en': 'Turkey',
-        'country_link': 'turquia',
-        'region': 'Middle East'
+        'country_en'    : 'Turkey',
+        'country_link'  : 'turquia',
+        'region'        : 'Middle East'
     },
     'Uruguay': {
-        'country_en': 'Uruguay',
-        'country_link': 'uruguay',
-        'region': 'South America'
+        'country_en'    : 'Uruguay',
+        'country_link'  : 'uruguay',
+        'region'        : 'South America'
     },
     'Venezuela': {
-        'country_en': 'Venezuela',
-        'country_link': 'venezuela',
-        'region': 'South America'
+        'country_en'    : 'Venezuela',
+        'country_link'  : 'venezuela',
+        'region'        : 'South America'
     }
 }
 
@@ -341,15 +345,358 @@ days = {
 ### FUNCTIONS ###
 
 
+#
 # how long (in seconds) would you like sleep timers to wait before continuing with the scraping?
+#
 timer = 15
 
 
+#
 # the sleep timer - to make this script look like a casual human surfer to web servers rather than a fast-paced bot
+#
 def humanizer(timer):
     print(f'Taking a break for {str(timer)} seconds...')
     time.sleep(timer)
-    print('Okay, let\'s continue.\n')
+
+
+#
+# clear cache to get fresh data every time we load a new webpage
+# http://stackoverflow.com/questions/32970855/ddg#56659780
+#
+def clear_cache():
+    driver.get('chrome://settings/clearBrowserData')
+    # perhaps staying in the page for a short while would clear the cache properly
+    time.sleep(3)
+    driver.find_element(By.XPATH, '//settings-ui').send_keys(Keys.ENTER)
+
+
+#
+# get COUNTRY and REGION name in English
+#
+def get_country_and_region():
+    for key in allende_countries.keys():
+        if allende_countries[key]['country_link'] in link:
+            global country_en
+            country_en = allende_countries[key]['country_en']
+            data['country'].append(country_en)
+            global region
+            region = allende_countries[key]['region']
+            data['region'].append(region)
+
+
+#
+# OpenStreetMap checker of LOCALE_1
+# note that locale_1 collection process is different between single-locale and multi-locale links
+#
+def osm_check():
+    global locale_1
+    clear_cache()
+    #
+    # when we have this abacq locale, we then cross-check this with OpenStreetMap
+    #
+    locale_link = f'https://www.openstreetmap.org/search?query=Salvador%20Allende%20{locale_1}%20{country_en}'
+    driver.get(locale_link)
+    # humanizer fixes the problem of the script getting no OSM info sometimes when you can see in the browser that there actually is 
+    humanizer(timer)
+    osm_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("ul", class_="results-list list-group list-group-flush"))
+
+    #
+    # go through each search result and have the user verify it
+    #
+    locale_results_list = list(osm_soup.find_all("a", class_="set_position"))
+    #
+    # a single result looks like this - we can derive lots of info from here once user verifies that it looks good
+    #
+    # <a class="set_position" data-lat="-12.1102763" data-lon="-77.0104283" 
+    # data-min-lat="-12.1103037" data-max-lat="-12.1102452" data-min-lon="-77.0109212" data-max-lon="-77.0097999" 
+    # data-prefix="Residential Road" data-name="Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru" 
+    # data-type="way" data-id="426845566" href="/way/426845566">Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru</a>
+    #
+    if len(locale_results_list) == 0:
+        print('No addresses found in OpenStreetMap. Will use the locale derived from the article...')
+        data['locale_1'].append(locale_1)
+        print(f'Locale 1: {locale_1}')
+        # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+        global osm_address
+        osm_address = ''
+        global osm_info
+        osm_info = ''
+    else:
+        print(f'{str(len(locale_results_list))} possible address(es) found in OpenStreetMap.')
+        for result in locale_results_list:
+            result = str(result)
+            osm_address = re.search(r'data-name="(.*?)"', result)
+            osm_address = str(osm_address.group(1))
+            #
+            # have user verify the address - this decides what this loop should do next
+            #
+            print(f'Please verify if this address matches the place in this article:\n{osm_address}')
+            user_verification = input('>>> Type y if yes, n if no: ')
+            while user_verification != 'n' and user_verification != 'y':
+                user_verification = input('>>> Try again - Type y if yes, n if no: ')
+            if user_verification == 'n' and len(locale_results_list) == 1:
+                print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
+                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+                osm_address = ''
+                osm_info = ''
+                data['locale_1'].append(locale_1)
+                print(f'Locale 1: {locale_1}')
+                break
+            elif user_verification == 'n' and len(locale_results_list) > 1:
+                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+                osm_address = ''
+                osm_info = ''
+                continue
+            elif user_verification == 'y':
+                # we'll save the whole result in a variable for later parsing. we can then close the loop.
+                osm_info = result
+                break
+        #
+        # stay in the web page like a normal human would
+        #
+        humanizer(timer)
+        #
+        # then go on with our automated lives
+        #
+        # when we have osm_info, we'll take locale details from its osm_address by splitting it.
+        # sample split:
+        # ['Salvador Allende', 'Villa Victoria', 'Surquillo', 'Province of Lima', 'Lima Metropolitan Area', 'Lima', '15000', 'Peru']
+        # index 0 is the place's name, -1 is the country, -2 is the zip code, -3 is locale_1, etc...
+        #
+        try:
+            osm_address = osm_address.split(', ')
+            locale_1 = osm_address[-3]
+            data['locale_1'].append(locale_1)
+            print(f'Locale 1: {locale_1}')
+        except:
+            pass
+
+
+# 
+# extract OSM info
+# if the place has an OSM link, we'll get values from there. otherwise, we'll make the value null.
+# 
+def extract_osm_info():
+    #
+    # get LOCALE_2
+    #
+    global locale_2
+    try:
+        locale_2 = osm_address[-4]
+    except:
+        locale_2 = ''
+    data['locale_2'].append(locale_2)    
+    #
+    # get LOCALE_3
+    #
+    global locale_3
+    try:
+        locale_3 = osm_address[-5]
+    except:
+        locale_3 = ''
+    data['locale_3'].append(locale_3)
+    #
+    # get LOCALE_4
+    #
+    global locale_4
+    try:
+        locale_4 = osm_address[-6]
+    except:
+        locale_4 = ''
+    data['locale_4'].append(locale_4)
+    #
+    # get LOCALE_5
+    #
+    global locale_5
+    try:
+        locale_5 = osm_address[-7]
+    except:
+        locale_5 = ''
+    data['locale_5'].append(locale_5)
+    #
+    # get ZIP_CODE
+    #
+    global zip_code
+    try:
+        zip_code = osm_address[-2]
+    except:
+        zip_code = ''
+    data['zip_code'].append(zip_code)
+    #
+    # get LATITUDE
+    #
+    global latitude
+    try:
+        latitude = re.search(r'data-lat="(.*?)"', osm_info)
+        latitude = float(latitude.group(1))
+    except:
+        latitude = ''
+    data['latitude'].append(latitude)
+    #
+    # get LONGITUDE
+    #
+    global longitude
+    try:
+        longitude = re.search(r'data-lon="(.*?)"', osm_info)
+        longitude = float(longitude.group(1))
+    except:
+        longitude = ''
+    data['longitude'].append(longitude)
+
+
+#
+# get NAME
+#
+def get_name():
+    global name
+    try:
+        # get OSM name if available
+        name = osm_address[0]
+    except:
+        # if not, get it from the alt text of the article's main image
+        name = article_soup.find("img", alt=True)
+        name = str(name)
+        name = re.search(r'alt="(.*?)"\s*', name)
+        try:
+            name = str(name.group(1))
+        except:
+            # fallback for when there's neither OSM name nor alt text
+            name = 'A memorial to Salvador Allende'
+    # if name ends up being just 'foto' (meaning there's no usable alt text in the article), then fallback to the generic name as well
+    if name == 'foto':
+        name = 'A memorial to Salvador Allende'
+    data['name'].append(name)
+
+
+#
+# get TYPE
+# the dict used here is pretty rudimentary so this is prone to errors and needs human verification
+# 
+def get_type():
+    global type
+    type = ''
+    # get OSM type if available
+    try:
+        type = re.search(r'data-prefix="(.*?)"', osm_info)
+        type = str(type.group(1))
+    except:
+        # if not, derive it from NAME (which itself is either from OSM or the article)
+        for key, value in types.items():
+            for type_item in value:
+                if type_item in name.lower():
+                    type = key
+    else:
+        for key, value in types.items():
+            for type_item in value:
+                if type_item in type.lower():
+                    type = key
+    data['type'].append(type)
+
+
+#
+# get OLDEST_KNOWN_YEAR
+# retrieve the year from the url; when an older year is found within the text, get that instead
+#
+def get_oldest_known_year():
+    global oldest_known_year
+    # start with the year in the url
+    oldest_known_year = re.search(r'(\d{4})', link)
+    oldest_known_year = int(oldest_known_year.group(1))
+    # then look for years in the article text
+    years_in_text = re.findall(r'\d{4}', text)
+    years_in_text = list(years_in_text)
+    for year in years_in_text:
+        year = int(year)
+        # things weren't named after Allende when he was alive, I don't think he was that vain (see Museo de la Solidaridad)
+        if year < oldest_known_year and year > int(1973):
+            oldest_known_year = year
+    data['oldest_known_year'].append(oldest_known_year)
+
+
+#
+# get OLDEST_KNOWN_MONTH
+# retrieve the month from the url; when another month is found within the text, get that instead
+# unlike in oldest_known_year (more straightforward), we will list all months in the text if they're not the same as the one in the url
+#
+def get_oldest_known_month():
+    global oldest_known_month
+    oldest_known_month = re.search(r'\d{4}\/(\d{2})\/\d{2}', link)
+    oldest_known_month = months[oldest_known_month.group(1)]
+    # compare oldest_known_year to the year in the url.
+    # if they're different (i.e. we derived the year from the text), we'll proceed with collecting months_in_text.
+    global year_in_url
+    year_in_url = re.search(r'(\d{4})', link)
+    year_in_url = int(year_in_url.group(1))
+    # fetch all months in the article text
+    months_in_text = re.findall(
+        r'(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)', lower_text)
+    months_in_text = list(months_in_text)
+    if oldest_known_year != year_in_url and len(months_in_text) == 0:
+        oldest_known_month = ''
+    elif oldest_known_year != year_in_url and len(months_in_text) > 0:
+        for month in months_in_text:
+            list_months = []
+            month = months[month]
+            list_months.append(month)
+        oldest_known_month = str(list_months)
+        oldest_known_month = oldest_known_month.strip('[]')
+    data['oldest_known_month'].append(oldest_known_month)
+
+
+#
+# get OLDEST_KNOWN_DAY
+# retrieve the day from the url; when another day is found within the text, get that instead
+# unlike in oldest_known_year (more straightforward), we will list all days in the text if they're not the same as the one in the url
+#
+def get_oldest_known_day():
+    global oldest_known_day
+    oldest_known_day = re.search(r'\d{4}\/\d{2}\/(\d{2})', link)
+    oldest_known_day = str(oldest_known_day.group(1))
+    if oldest_known_day in list(days.keys()):
+        oldest_known_day = days[oldest_known_day]
+    else:
+        oldest_known_day = int(oldest_known_day)
+    # fetch all 1-2 digit numbers in the article text
+    days_in_text = re.findall(r'(\d{1,2})\s+', lower_text)
+    days_in_text = list(days_in_text)
+    # remove numbers that are invalid days of a month
+    for day in days_in_text:
+        if int(day) > int(31):
+            days_in_text.remove(day)
+    # compare oldest_known_year to the year in the url.
+    # if they're different (i.e. we derived the year from the text), we'll proceed with collecting days_in_text.
+    if oldest_known_year != year_in_url and len(days_in_text) == 0:
+        oldest_known_day = ''
+    elif oldest_known_year != year_in_url and len(days_in_text) > 0:
+        for day in days_in_text:
+            list_days = []
+            if day in list(days.keys()):
+                day = days[day]
+            else:
+                day = int(day)
+            list_days.append(day)
+        oldest_known_day = str(list_days)
+        oldest_known_day = oldest_known_day.strip('[]')
+    data['oldest_known_day'].append(oldest_known_day)
+
+
+#
+# get VERIFIED_IN_MAPS and OPENSTREETMAP_LINK
+# verified_in_maps defaults to 0, will get 1 when it has an OSM link
+#
+def get_verified_in_maps_and_osm_link():
+    global openstreetmap_link
+    global verified_in_maps
+    try:
+        openstreetmap_link = re.search(r'href="(.*?)"', osm_info)
+        openstreetmap_link = f'https://www.openstreetmap.org{str(openstreetmap_link.group(1))}'
+    except:
+        verified_in_maps = 0
+        openstreetmap_link = ''
+    else:
+        verified_in_maps = 1
+    data['verified_in_maps'].append(verified_in_maps)
+    data['openstreetmap_link'].append(openstreetmap_link)
 
 
 
@@ -362,7 +709,10 @@ def humanizer(timer):
 
 # create a Google Chrome driver object
 # https://stackoverflow.com/questions/69918148/deprecationwarning-executable-path-has-been-deprecated-please-pass-in-a-servic
-s = Service('C:\\Users\\canogle\\.cache\\selenium\\chromedriver\\win32\\110.0.5481.77\\chromedriver.exe')
+# s = Service('C:\\Users\\canogle\\.cache\\selenium\\chromedriver\\win32\\110.0.5481.77\\chromedriver.exe')
+# selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 110
+# Current browser version is 112.0.5615.49 with binary path C: \Program Files\Google\Chrome\Application\chrome.exe
+s = Service(chromedriver.install())
 driver = webdriver.Chrome(service=s)
 
 
@@ -470,10 +820,11 @@ for link in links_list:
 print('Available countries for processing:\n')
 for key in allende_countries.keys():
     print(key)
+
 country = str(input('>>> Please enter one of the countries above: '))
 
-if country not in allende_countries.keys():
-    raise Exception(f'{country} is not available.')
+while country not in allende_countries.keys():
+    country = str(input('>>> Try again - Please enter one of the countries above: '))
 
 
 # retrieve the links for that country
@@ -563,7 +914,7 @@ data = {
 
 
 
-### SINGLE-LOCALE SCRAPER ###
+### 3a. SINGLE-LOCALE SCRAPER ###
 
 
 # every link is basically an article so we'll retrieve their contents
@@ -596,21 +947,10 @@ for (i, link) in enumerate(single_locale, start=1):
     print(f'ID: {id}')
 
     #
-    # get COUNTRY
+    # get COUNTRY and REGION
     #
-    country_es = article_soup.find("h2", class_="post-title")
-    country_es = str(country_es)
-    country_es = re.search(r'(?:\.|,)\s*(.*)<\/h2>', country_es)
-    country_es = str(country_es.group(1))
-    country_en = allende_countries[country_es]['country_en']
-    data['country'].append(country_en)
+    get_country_and_region()
     print(f'Country: {country_en}')
-
-    #
-    # get REGION
-    #
-    region = allende_countries[country_es]['region']
-    data['region'].append(region)
     print(f'Region: {region}')
 
     #
@@ -632,279 +972,48 @@ for (i, link) in enumerate(single_locale, start=1):
     #
     # when we have this abacq locale, we then cross-check this with OpenStreetMap
     #
-    locale_link = f'https://www.openstreetmap.org/search?query=Salvador%20Allende%20{locale_1}%20{country_en}'
-    driver.get(locale_link)
-    osm_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", class_="search_results_entry mx-n3"))
+    osm_check()
 
     #
-    # go through each search result and have the user verify it
+    # extract OSM info if any
     #
-    locale_results_list = list(osm_soup.find_all("a"))
-    #
-    # a single result looks like this - we can derive lots of info from here once user verifies that it looks good
-    #
-    # <a class="set_position" data-lat="-12.1102763" data-lon="-77.0104283" 
-    # data-min-lat="-12.1103037" data-max-lat="-12.1102452" data-min-lon="-77.0109212" data-max-lon="-77.0097999" 
-    # data-prefix="Residential Road" data-name="Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru" 
-    # data-type="way" data-id="426845566" href="/way/426845566">Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru</a>
-    #
-    if len(locale_results_list) == 0:
-        print('No addresses found in OpenStreetMap. Will use the locale derived from the article...')
-        data['locale_1'].append(locale_1)
-        print(f'Locale 1: {locale_1}')
-        # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
-        osm_address = ''
-        osm_info = ''
-    else:
-        print(f'{str(len(locale_results_list)-1)} possible address(es) found in OpenStreetMap.')
-        for result in locale_results_list:
-            result = str(result)
-            osm_address = re.search(r'data-name="(.*?)"', result)
-            osm_address = str(osm_address.group(1))
-            #
-            # have user verify the address - this decides what this loop should do next
-            #
-            print(f'Please verify if this address matches the place in this article:\n{osm_address}')
-            user_verification = input('>>> Type y if yes, n if no: ')
-            if user_verification == 'n' and len(locale_results_list)-1 == 1:
-                print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
-                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
-                osm_address = ''
-                osm_info = ''
-                data['locale_1'].append(locale_1)
-                print(f'Locale 1: {locale_1}')
-                break
-            elif user_verification == 'n' and len(locale_results_list)-1 > 1:
-                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
-                osm_address = ''
-                osm_info = ''
-                continue
-            elif user_verification == 'y':
-                # we'll save the whole result in a variable for later parsing. we can then close the loop.
-                osm_info = result
-                break
-
-        #
-        # stay in the web page like a normal human would
-        #
-        humanizer(timer)
-        #
-        # then go on with our automated lives
-        #
-        # when we have osm_info, we'll take locale details from its osm_address by splitting it.
-        # sample split:
-        # ['Salvador Allende', 'Villa Victoria', 'Surquillo', 'Province of Lima', 'Lima Metropolitan Area', 'Lima', '15000', 'Peru']
-        # index 0 is the place's name, -1 is the country, -2 is the zip code, -3 is locale_1, etc...
-        #
-        try:
-            osm_address = osm_address.split(', ')
-            locale_1 = osm_address[-3]
-            data['locale_1'].append(locale_1)
-            print(f'Locale 1: {locale_1}')
-        except:
-            pass
-
-    #
-    # if the place has an OSM link, we'll get values from there. otherwise, we'll take from the article or make the value null.
-    #
-
-    #
-    # get LOCALE_2
-    #
-    try:
-        locale_2 = osm_address[-4]
-    except:
-        locale_2 = ''
-    data['locale_2'].append(locale_2)
+    extract_osm_info()
     print(f'Locale 2: {locale_2}')
-
-    #
-    # get LOCALE_3
-    #
-    try:
-        locale_3 = osm_address[-5]
-    except:
-        locale_3 = ''
-    data['locale_3'].append(locale_3)
     print(f'Locale 3: {locale_3}')
-
-    #
-    # get LOCALE_4
-    #
-    try:
-        locale_4 = osm_address[-6]
-    except:
-        locale_4 = ''
-    data['locale_4'].append(locale_4)
     print(f'Locale 4: {locale_4}')
-
-    #
-    # get LOCALE_5
-    #
-    try:
-        locale_5 = osm_address[-7]
-    except:
-        locale_5 = ''
-    data['locale_5'].append(locale_5)
     print(f'Locale 5: {locale_5}')
-
-    #
-    # get ZIP_CODE
-    #
-    try:
-        zip_code = osm_address[-2]
-    except:
-        zip_code = ''
-    data['zip_code'].append(zip_code)
     print(f'Zip code: {zip_code}')
-
-    #
-    # get LATITUDE
-    #
-    try:
-        latitude = re.search(r'data-lat="(.*?)"', osm_info)
-        latitude = float(latitude.group(1))
-    except:
-        latitude = ''
-    data['latitude'].append(latitude)
     print(f'Latitude: {latitude}')
-
-    #
-    # get LONGITUDE
-    #
-    try:
-        longitude = re.search(r'data-lon="(.*?)"', osm_info)
-        longitude = float(longitude.group(1))
-    except:
-        longitude = ''
-    data['longitude'].append(longitude)
     print(f'Longitude: {longitude}')
 
     #
     # get NAME
     #
-    try:
-        # get OSM name if available
-        name = osm_address[0]
-    except:
-        # if not, get it from the alt text of the article's main image
-        name = article_soup.find("img", alt=True)
-        name = str(name)
-        name = re.search(r'alt="(.*?)"\s*', name)
-        try:
-            name = str(name.group(1))
-        except:
-            # fallback for when there's neither OSM name nor alt text
-            name = 'A memorial to Salvador Allende'
-    # if name ends up being just 'foto' (meaning there's no usable alt text in the article), then fallback to the generic name as well
-    if name == 'foto':
-        name = 'A memorial to Salvador Allende'
-    data['name'].append(name)
+    get_name()
     print(f'Name: {name}')
 
     #
     # get TYPE
-    # the dict used here is pretty rudimentary so this is prone to errors and needs human verification
     #
-    type = ''
-    # get OSM type if available
-    try:
-        type = re.search(r'data-prefix="(.*?)"', osm_info)
-        type = str(type.group(1))
-    except:
-        # if not, derive it from NAME (which itself is either from OSM or the article)
-        for key, value in types.items():
-            for type_item in value:
-                if type_item in name.lower():
-                    type = key
-    else:
-        for key, value in types.items():
-            for type_item in value:
-                if type_item in type.lower():
-                    type = key
-    data['type'].append(type)
+    get_type()
     print(f'Type: {type}')
 
     #
     # get OLDEST_KNOWN_YEAR
-    # retrieve the year from the url; when an older year is found within the text, get that instead
     #
-    oldest_known_year = re.search(r'(\d{4})', link)
-    oldest_known_year = int(oldest_known_year.group(1))
-    years_in_text = re.findall(r'\d{4}', text)
-    years_in_text = list(years_in_text)
-    for year in years_in_text:
-        year = int(year)
-        # things weren't named after Allende when he was alive, I don't think he was that vain (see Museo de la Solidaridad)
-        if year < oldest_known_year and year > int(1973):
-            oldest_known_year = year
-    data['oldest_known_year'].append(oldest_known_year)
+    get_oldest_known_year()
     print(f'Oldest known year: {oldest_known_year}')
 
     #
     # get OLDEST_KNOWN_MONTH
-    # retrieve the month from the url; when another month is found within the text, get that instead
-    # unlike in oldest_known_year (more straightforward), we will list all months in the text if they're not the same as the one in the url
     #
-    oldest_known_month = re.search(r'\d{4}\/(\d{2})\/\d{2}', link)
-    oldest_known_month = months[oldest_known_month.group(1)]
-    #
-    # compare oldest_known_year to the year in the url.
-    # if they're different (i.e. we derived the year from the text), we'll proceed with collecting months_in_text.
-    #
-    year_in_url = re.search(r'(\d{4})', link)
-    year_in_url = int(year_in_url.group(1))
-    months_in_text = re.findall(
-        r'(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)', lower_text)
-    months_in_text = list(months_in_text)
-    if oldest_known_year != year_in_url and len(months_in_text) == 0:
-        oldest_known_month = ''
-    elif oldest_known_year != year_in_url and len(months_in_text) > 0:
-        for month in months_in_text:
-            list_months = []
-            month = months[month]
-            list_months.append(month)
-        oldest_known_month = str(list_months)
-        oldest_known_month = oldest_known_month.strip('[]')
-    data['oldest_known_month'].append(oldest_known_month)
+    get_oldest_known_month()
     print(f'Oldest known month: {oldest_known_month}')
 
     #
     # get OLDEST_KNOWN_DAY
-    # retrieve the day from the url; when another day is found within the text, get that instead
-    # unlike in oldest_known_year (more straightforward), we will list all days in the text if they're not the same as the one in the url
     #
-    oldest_known_day = re.search(r'\d{4}\/\d{2}\/(\d{2})', link)
-    oldest_known_day = str(oldest_known_day.group(1))
-    if oldest_known_day in list(days.keys()):
-        oldest_known_day = days[oldest_known_day]
-    else:
-        oldest_known_day = int(oldest_known_day)
-    #
-    # compare oldest_known_year to the year in the url.
-    # if they're different (i.e. we derived the year from the text), we'll proceed with collecting days_in_text.
-    #
-    days_in_text = re.findall(r'(\d{1,2})\s+', lower_text)
-    days_in_text = list(days_in_text)
-    #
-    # remove numbers that are invalid days of a month
-    #
-    for day in days_in_text:
-        if int(day) > int(31):
-            days_in_text.remove(day)
-    if oldest_known_year != year_in_url and len(days_in_text) == 0:
-        oldest_known_day = ''
-    elif oldest_known_year != year_in_url and len(days_in_text) > 0:
-        for day in days_in_text:
-            list_days = []
-            if day in list(days.keys()):
-                day = days[day]
-            else:
-                day = int(day)
-            list_days.append(day)
-        oldest_known_day = str(list_days)
-        oldest_known_day = oldest_known_day.strip('[]')
-    data['oldest_known_day'].append(oldest_known_day)
+    get_oldest_known_day()
     print(f'Oldest known day: {oldest_known_day}')
 
     #
@@ -916,6 +1025,7 @@ for (i, link) in enumerate(single_locale, start=1):
 
     #
     # get DESC
+    # whatever text is in the memorial place
     #
     desc = ''
     desc_soup = article_soup.find_all("em")
@@ -951,24 +1061,10 @@ for (i, link) in enumerate(single_locale, start=1):
     print(f'Former name: {former_name}')
 
     #
-    # get VERIFIED_IN_MAPS (default to 0, will get 1 when it has OSM info)
+    # get VERIFIED_IN_MAPS and OPENSTREETMAP_LINK
     #
-    try:
-        openstreetmap_link = re.search(r'href="(.*?)"', osm_info)
-        openstreetmap_link = f'https://www.openstreetmap.org{str(openstreetmap_link.group(1))}'
-    except:
-        verified_in_maps = 0
-    else:
-        verified_in_maps = 1
-    data['verified_in_maps'].append(verified_in_maps)
+    get_verified_in_maps_and_osm_link()
     print(f'Verified in maps: {verified_in_maps}')
-
-    #
-    # get OPENSTREETMAP_LINK
-    #
-    if verified_in_maps == 0:
-        openstreetmap_link = ''
-    data['openstreetmap_link'].append(openstreetmap_link)
     print(f'OpenStreetMap link: {openstreetmap_link}')
 
     #
@@ -989,13 +1085,18 @@ for (i, link) in enumerate(single_locale, start=1):
     #
     humanizer(timer)
 
+    #
+    # clear browser cache for the next iteration
+    #
+    clear_cache()
+
 
 
 # ------------------------------------------------------ #
 
 
 
-### MULTI-LOCALE SCRAPER ###
+### 3b. MULTI-LOCALE SCRAPER ###
 
 
 # every link is basically an article so we'll retrieve their contents
@@ -1019,11 +1120,6 @@ for (i, link) in enumerate(multi_locale, start=1):
     text = article_soup.get_text()
     lower_text = text.lower()
     print(text)
-
-    #
-    # stay in the web page like a normal human would
-    #
-    humanizer(timer)
 
     #
     # honestly, the multi-locale articles are less organized but are concise enough for manual human investigation.
@@ -1055,298 +1151,57 @@ for (i, link) in enumerate(multi_locale, start=1):
         print(f'ID: {id}')
 
         #
-        # get COUNTRY
+        # get COUNTRY and REGION
         #
-        country_es = article_soup.find("h2", class_="post-title")
-        country_es = str(country_es)
-        country_es = re.search(r'<h2 class="post-title">(.*?)(?:\s*\.*)*<\/h2>', country_es)
-        country_es = str(country_es.group(1))
-        country_en = allende_countries[country_es]['country_en']
-        data['country'].append(country_en)
+        get_country_and_region()
         print(f'Country: {country_en}')
-
-        #
-        # get REGION
-        #
-        region = allende_countries[country_es]['region']
-        data['region'].append(region)
         print(f'Region: {region}')
 
         #
         # cross-check LOCALE_1 with OSM
         #
-        locale_link = f'https://www.openstreetmap.org/search?query=Salvador%20Allende%20{locale_1}%20{country_en}'
-        driver.get(locale_link)
-        osm_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", class_="search_results_entry mx-n3"))
+        osm_check()
 
         #
-        # go through each search result and have the user verify it
+        # extract OSM info if any
         #
-        locale_results_list = list(osm_soup.find_all("a"))
-            #
-            # a single result looks like this - we can derive lots of info from here once user verifies that it looks good
-            #
-            # <a class="set_position" data-lat="-12.1102763" data-lon="-77.0104283"
-            # data-min-lat="-12.1103037" data-max-lat="-12.1102452" data-min-lon="-77.0109212" data-max-lon="-77.0097999"
-            # data-prefix="Residential Road" data-name="Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru"
-            # data-type="way" data-id="426845566" href="/way/426845566">Salvador Allende, Villa Victoria, Surquillo, Province of Lima, Lima Metropolitan Area, Lima, 15000, Peru</a>
-            #
-        if len(locale_results_list) == 0:
-            print('No addresses found in OpenStreetMap. Will use the locale derived from the article...')
-            data['locale_1'].append(locale_1)
-            print(f'Locale 1: {locale_1}')
-            # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
-            osm_address = ''
-            osm_info = ''
-        else:
-            print(f'{str(len(locale_results_list)-1)} possible address(es) found in OpenStreetMap.')
-            for result in locale_results_list:
-                result = str(result)
-                osm_address = re.search(r'data-name="(.*?)"', result)
-                osm_address = str(osm_address.group(1))
-                #
-                # have user verify the address - this decides what this loop should do next
-                #
-                print(f'Please verify if this address matches the place in this article:\n{osm_address}')
-                user_verification = input('>>> Type y if yes, n if no: ')
-                if user_verification == 'n' and len(locale_results_list)-1 == 1:
-                    print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
-                    # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
-                    osm_address = ''
-                    osm_info = ''
-                    data['locale_1'].append(locale_1)
-                    print(f'Locale 1: {locale_1}')
-                    break
-                elif user_verification == 'n' and len(locale_results_list)-1 > 1:
-                    # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
-                    osm_address = ''
-                    osm_info = ''
-                    continue
-                elif user_verification == 'y':
-                    # we'll save the whole result in a variable for later parsing. we can then close the loop.
-                    osm_info = result
-                    break
-            #
-            # stay in the web page like a normal human would
-            #
-            humanizer(timer)
-            #
-            # then go on with our automated lives
-            #
-            # when we have osm_info, we'll take locale details from its osm_address by splitting it.
-            # sample split:
-            # ['Salvador Allende', 'Villa Victoria', 'Surquillo', 'Province of Lima', 'Lima Metropolitan Area', 'Lima', '15000', 'Peru']
-            # index 0 is the place's name, -1 is the country, -2 is the zip code, -3 is locale_1, etc...
-            #
-            try:
-                osm_address = osm_address.split(', ')
-                locale_1 = osm_address[-3]
-                data['locale_1'].append(locale_1)
-                print(f'Locale 1: {locale_1}')
-            except:
-                pass
-
-        #
-        # if the place has an OSM link, we'll get values from there. otherwise, we'll take from the article or make the value null.
-        #
-
-        #
-        # get LOCALE_2
-        #
-        try:
-            locale_2 = osm_address[-4]
-        except:
-            locale_2 = ''
-        data['locale_2'].append(locale_2)
+        extract_osm_info()
         print(f'Locale 2: {locale_2}')
-
-        #
-        # get LOCALE_3
-        #
-        try:
-            locale_3 = osm_address[-5]
-        except:
-            locale_3 = ''
-        data['locale_3'].append(locale_3)
         print(f'Locale 3: {locale_3}')
-
-        #
-        # get LOCALE_4
-        #
-        try:
-            locale_4 = osm_address[-6]
-        except:
-            locale_4 = ''
-        data['locale_4'].append(locale_4)
         print(f'Locale 4: {locale_4}')
-
-        #
-        # get LOCALE_5
-        #
-        try:
-            locale_5 = osm_address[-7]
-        except:
-            locale_5 = ''
-        data['locale_5'].append(locale_5)
         print(f'Locale 5: {locale_5}')
-
-        #
-        # get ZIP_CODE
-        #
-        try:
-            zip_code = osm_address[-2]
-        except:
-            zip_code = ''
-        data['zip_code'].append(zip_code)
         print(f'Zip code: {zip_code}')
-
-        #
-        # get LATITUDE
-        #
-        try:
-            latitude = re.search(r'data-lat="(.*?)"', osm_info)
-            latitude = float(latitude.group(1))
-        except:
-            latitude = ''
-        data['latitude'].append(latitude)
         print(f'Latitude: {latitude}')
-
-        #
-        # get LONGITUDE
-        #
-        try:
-            longitude = re.search(r'data-lon="(.*?)"', osm_info)
-            longitude = float(longitude.group(1))
-        except:
-            longitude = ''
-        data['longitude'].append(longitude)
         print(f'Longitude: {longitude}')
 
         #
         # get NAME
         #
-        try:
-            # get OSM name if available
-            name = osm_address[0]
-        except:
-            # if not, get it from the alt text of the article's main image
-            name = article_soup.find("img", alt=True)
-            name = str(name)
-            name = re.search(r'alt="(.*?)"\s*', name)
-            try:
-                name = str(name.group(1))
-            except:
-                # fallback for when there's neither OSM name nor alt text
-                name = 'A memorial to Salvador Allende'
-        # if name ends up being just 'foto' (meaning there's no usable alt text in the article), then fallback to the generic name as well
-        if name == 'foto':
-            name = 'A memorial to Salvador Allende'
-        data['name'].append(name)
+        get_name()
         print(f'Name: {name}')
 
         #
         # get TYPE
-        # the dict used here is pretty rudimentary so this is prone to errors and needs human verification
         #
-        type = ''
-        # get OSM type if available
-        try:
-            type = re.search(r'data-prefix="(.*?)"', osm_info)
-            type = str(type.group(1))
-        except:
-            # if not, derive it from NAME (which itself is either from OSM or the article)
-            for key, value in types.items():
-                for type_item in value:
-                    if type_item in name.lower():
-                        type = key
-        else:
-            for key, value in types.items():
-                for type_item in value:
-                    if type_item in type.lower():
-                        type = key
-        data['type'].append(type)
+        get_type()
         print(f'Type: {type}')
 
         #
         # get OLDEST_KNOWN_YEAR
-        # retrieve the year from the url; when an older year is found within the text, get that instead
         #
-        oldest_known_year = re.search(r'(\d{4})', link)
-        oldest_known_year = int(oldest_known_year.group(1))
-        years_in_text = re.findall(r'\d{4}', text)
-        years_in_text = list(years_in_text)
-        for year in years_in_text:
-            year = int(year)
-            # things weren't named after Allende when he was alive, I don't think he was that vain (see Museo de la Solidaridad)
-            if year < oldest_known_year and year > int(1973):
-                oldest_known_year = year
-        data['oldest_known_year'].append(oldest_known_year)
+        get_oldest_known_year()
         print(f'Oldest known year: {oldest_known_year}')
 
         #
         # get OLDEST_KNOWN_MONTH
-        # retrieve the month from the url; when another month is found within the text, get that instead
-        # unlike in oldest_known_year (more straightforward), we will list all months in the text if they're not the same as the one in the url
         #
-        oldest_known_month = re.search(r'\d{4}\/(\d{2})\/\d{2}', link)
-        oldest_known_month = months[oldest_known_month.group(1)]
-        #
-        # compare oldest_known_year to the year in the url.
-        # if they're different (i.e. we derived the year from the text), we'll proceed with collecting months_in_text.
-        #
-        year_in_url = re.search(r'(\d{4})', link)
-        year_in_url = int(year_in_url.group(1))
-        months_in_text = re.findall(
-            r'(?:enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)', lower_text)
-        months_in_text = list(months_in_text)
-        if oldest_known_year != year_in_url and len(months_in_text) == 0:
-            oldest_known_month = ''
-        elif oldest_known_year != year_in_url and len(months_in_text) > 0:
-            for month in months_in_text:
-                list_months = []
-                month = months[month]
-                list_months.append(month)
-            oldest_known_month = str(list_months)
-            oldest_known_month = oldest_known_month.strip('[]')
-        data['oldest_known_month'].append(oldest_known_month)
+        get_oldest_known_month()
         print(f'Oldest known month: {oldest_known_month}')
 
         #
         # get OLDEST_KNOWN_DAY
-        # retrieve the day from the url; when another day is found within the text, get that instead
-        # unlike in oldest_known_year (more straightforward), we will list all days in the text if they're not the same as the one in the url
         #
-        oldest_known_day = re.search(r'\d{4}\/\d{2}\/(\d{2})', link)
-        oldest_known_day = str(oldest_known_day.group(1))
-        if oldest_known_day in list(days.keys()):
-            oldest_known_day = days[oldest_known_day]
-        else:
-            oldest_known_day = int(oldest_known_day)
-        #
-        # compare oldest_known_year to the year in the url.
-        # if they're different (i.e. we derived the year from the text), we'll proceed with collecting days_in_text.
-        #
-        days_in_text = re.findall(r'(\d{1,2})\s+', lower_text)
-        days_in_text = list(days_in_text)
-        #
-        # remove numbers that are invalid days of a month
-        #
-        for day in days_in_text:
-            if int(day) > int(31):
-                days_in_text.remove(day)
-        if oldest_known_year != year_in_url and len(days_in_text) == 0:
-            oldest_known_day = ''
-        elif oldest_known_year != year_in_url and len(days_in_text) > 0:
-            for day in days_in_text:
-                list_days = []
-                if day in list(days.keys()):
-                    day = days[day]
-                else:
-                    day = int(day)
-                list_days.append(day)
-            oldest_known_day = str(list_days)
-            oldest_known_day = oldest_known_day.strip('[]')
-        data['oldest_known_day'].append(oldest_known_day)
+        get_oldest_known_day()
         print(f'Oldest known day: {oldest_known_day}')
 
         #
@@ -1386,24 +1241,10 @@ for (i, link) in enumerate(multi_locale, start=1):
         print(f'Former name: {former_name}')
 
         #
-        # get VERIFIED_IN_MAPS (default to 0, will get 1 when it has OSM info)
+        # get VERIFIED_IN_MAPS and OPENSTREETMAP_LINK
         #
-        try:
-            openstreetmap_link = re.search(r'href="(.*?)"', osm_info)
-            openstreetmap_link = f'https://www.openstreetmap.org{str(openstreetmap_link.group(1))}'
-        except:
-            verified_in_maps = 0
-        else:
-            verified_in_maps = 1
-        data['verified_in_maps'].append(verified_in_maps)
+        get_verified_in_maps_and_osm_link()
         print(f'Verified in maps: {verified_in_maps}')
-
-        #
-        # get OPENSTREETMAP_LINK
-        #
-        if verified_in_maps == 0:
-            openstreetmap_link = ''
-        data['openstreetmap_link'].append(openstreetmap_link)
         print(f'OpenStreetMap link: {openstreetmap_link}')
 
         #
@@ -1424,13 +1265,18 @@ for (i, link) in enumerate(multi_locale, start=1):
         #
         humanizer(timer)
 
+        #
+        # clear browser cache for the next iteration
+        #
+        clear_cache()
+
 
 
 # ------------------------------------------------------ #
 
 
 
-### EXPORT THE DATA ###
+### 4. EXPORT THE DATA ###
 
 
 # create a dataframe of all info collected
@@ -1439,8 +1285,9 @@ print('\nDataFrame created:\n')
 print(data_df)
 
 # export dataframe - xlsx supports unicode, so no more encoding fiascos compared to saving to csv
-data_df.to_excel(f'countries/{country_en}.xlsx', index=False)
-print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
+# data_df.to_excel(f'{country_en}.xlsx', index=False) # for test files
+# # data_df.to_excel(f'countries/{country_en}.xlsx', index=False) # for main files
+# print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
 
 
 
