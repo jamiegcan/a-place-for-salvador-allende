@@ -281,18 +281,18 @@ allende_countries = {
 # non-exhaustive lists of words that correspond to a specific type of establishment
 types = {
     'street'                : ['calle', 'avenida', 'pasaje', 'rue', 'rua', 'road', 'avenue', 'circunvalación', 'boulevard', 'bulevar', 'street', 'straat', 'strada'],
-    'monument'              : ['monumento', 'escultura', 'monument', 'sculpture', 'busto', 'bust', 'statue'],
+    'monument'              : ['monumento', 'escultura', 'monument', 'sculpture', 'busto', 'bust', 'statue', 'memorial'],
     'park'                  : ['plaza', 'parque', 'square', 'park', 'place', 'plazoleta', 'praça'],
-    'school'                : ['escuela', 'colegio', 'school', 'college', 'schule', 'école'],
+    'school'                : ['escuela', 'colegio', 'school', 'college', 'schule', 'école', 'liceo', 'escola'],
     'healthcare facility'   : ['hospital', 'salud', 'healthcare', 'health'],
     'bridge'                : ['puente', 'bridge', 'pont', 'brücke'],
     'sports center'         : ['complexe sportif', 'sports complex', 'sport', 'sports', 'sports center', 'sports centre',  'complejo de deporte'],
     'multipurpose center'   : ['espace', 'hall'],
     'port'                  : ['puerto', 'port'],
-    'neighborhood'          : ['población', 'village', 'hamlet'],
+    'residential area'      : ['población', 'village', 'hamlet', 'neighbourhood', 'residential area'],
     'museum'                : ['museo', 'museum' , 'musée'],
     'interior'              : ['aula', 'auditorio', 'auditorium'],
-    'memorial plate'        : ['placa', 'plate', 'plaque']
+    'memorial plate'        : ['placa', 'plate', 'plaque'],
 }
 
 
@@ -402,8 +402,10 @@ def osm_check():
 
     #
     # go through each search result and have the user verify it
+    # we also have a placeholder list for loop comparison purposes
     #
     locale_results_list = list(osm_soup.find_all("a", class_="set_position"))
+    lrl_placeholder = []
     #
     # a single result looks like this - we can derive lots of info from here once user verifies that it looks good
     #
@@ -425,6 +427,7 @@ def osm_check():
         print(f'{str(len(locale_results_list))} possible address(es) found in OpenStreetMap.')
         for result in locale_results_list:
             result = str(result)
+            lrl_placeholder.append(result)
             osm_address = re.search(r'data-name="(.*?)"', result)
             osm_address = str(osm_address.group(1))
             #
@@ -432,8 +435,10 @@ def osm_check():
             #
             print(f'Please verify if this address matches the place in this article:\n{osm_address}')
             user_verification = input('>>> Type y if yes, n if no: ')
+            # if user enters a typo let them try again
             while user_verification != 'n' and user_verification != 'y':
                 user_verification = input('>>> Try again - Type y if yes, n if no: ')
+            # if there is only one result and it doesn't match the article's place
             if user_verification == 'n' and len(locale_results_list) == 1:
                 print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
                 # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
@@ -442,11 +447,23 @@ def osm_check():
                 data['locale_1'].append(locale_1)
                 print(f'Locale 1: {locale_1}')
                 break
-            elif user_verification == 'n' and len(locale_results_list) > 1:
+            # if there are more than one result and we haven't exhausted the loop yet
+            elif user_verification == 'n' and len(locale_results_list) > len(lrl_placeholder):
                 # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
                 osm_address = ''
                 osm_info = ''
                 continue
+            # if we have exhausted all results and none of them match the article's place
+            elif user_verification == 'n' and len(locale_results_list) == len(lrl_placeholder):
+                print('All OpenStreetMap addresses do not match the place in this article. Will use the locale derived from the article...')
+                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+                osm_address = ''
+                osm_info = ''
+                # nothing else we can do but add the default locale_1
+                data['locale_1'].append(locale_1)
+                print(f'Locale 1: {locale_1}')
+                break
+            # if result matches article's place
             elif user_verification == 'y':
                 # we'll save the whole result in a variable for later parsing. we can then close the loop.
                 osm_info = result
@@ -561,10 +578,10 @@ def get_name():
             name = str(name.group(1))
         except:
             # fallback for when there's neither OSM name nor alt text
-            name = 'A memorial to Salvador Allende'
+            name = 'A tribute to Salvador Allende'
     # if name ends up being just 'foto' (meaning there's no usable alt text in the article), then fallback to the generic name as well
     if name == 'foto':
-        name = 'A memorial to Salvador Allende'
+        name = 'A tribute to Salvador Allende'
     data['name'].append(name)
 
 
@@ -603,12 +620,13 @@ def get_oldest_known_year():
     oldest_known_year = re.search(r'(\d{4})', link)
     oldest_known_year = int(oldest_known_year.group(1))
     # then look for years in the article text
+    global years_in_text
     years_in_text = re.findall(r'\d{4}', text)
     years_in_text = list(years_in_text)
     for year in years_in_text:
         year = int(year)
-        # things weren't named after Allende when he was alive, I don't think he was that vain (see Museo de la Solidaridad)
-        if year < oldest_known_year and year > int(1973):
+        # things weren't named after Allende before September 1973, I don't think he was that vain (see Museo de la Solidaridad)
+        if year < oldest_known_year and year >= int(1973):
             oldest_known_year = year
     data['oldest_known_year'].append(oldest_known_year)
 
@@ -678,6 +696,32 @@ def get_oldest_known_day():
         oldest_known_day = str(list_days)
         oldest_known_day = oldest_known_day.strip('[]')
     data['oldest_known_day'].append(oldest_known_day)
+
+
+#
+# get OLDEST_KNOWN_SOURCE
+# for this script we can only derive a few sources - this can always be overriden during manual checking
+# order of precedence, highest to lowest: 
+#   1. desc place (the place itself says when it was founded)
+#   2. desc abacq (secondhand info on when the place was founded)
+#   3. abacq date posted (we can only tell by the date the article was posted)
+#
+def get_oldest_known_source():
+    global oldest_known_source
+    oldest_known_source = ''
+    for desc_item in desc_soup:
+        if str(oldest_known_year) in str(desc_item):
+            oldest_known_source = 'desc place'
+            break
+        elif str(oldest_known_year) in years_in_text:
+            oldest_known_source = 'desc abacq'
+            break
+        elif oldest_known_year == year_in_url:
+            oldest_known_source = 'abacq date posted'
+            break
+        else:
+            oldest_known_source = ''
+    data['oldest_known_source'].append(oldest_known_source)
 
 
 #
@@ -999,6 +1043,23 @@ for (i, link) in enumerate(single_locale, start=1):
     print(f'Type: {type}')
 
     #
+    # get DESC
+    # whatever text is in the memorial place
+    # had to move this before get_oldest_known_source so that the function can use desc_soup
+    #
+    desc = ''
+    global desc_soup
+    desc_soup = article_soup.find_all("em")
+    desc_soup = list(desc_soup)
+    for desc_item in desc_soup:
+        desc_item = str(desc_item)
+        desc_item = desc_item.strip('</em>')
+        desc += desc_item + '\n'
+    desc = desc.replace('<br/>', '')
+    data['desc'].append(desc)
+    print(f'Desc: {desc}')
+
+    #
     # get OLDEST_KNOWN_YEAR
     #
     get_oldest_known_year()
@@ -1017,26 +1078,10 @@ for (i, link) in enumerate(single_locale, start=1):
     print(f'Oldest known day: {oldest_known_day}')
 
     #
-    # get OLDEST_KNOWN_SOURCE (null)
+    # get OLDEST_KNOWN_SOURCE
     #
-    oldest_known_source = ''
-    data['oldest_known_source'].append(oldest_known_source)
+    get_oldest_known_source()
     print(f'Oldest known source: {oldest_known_source}')
-
-    #
-    # get DESC
-    # whatever text is in the memorial place
-    #
-    desc = ''
-    desc_soup = article_soup.find_all("em")
-    desc_soup = list(desc_soup)
-    for desc_item in desc_soup:
-        desc_item = str(desc_item)
-        desc_item = desc_item.strip('</em>')
-        desc += desc_item + '\n'
-    desc = desc.replace('<br/>','')
-    data['desc'].append(desc)
-    print(f'Desc: {desc}')
 
     #
     # get DESC_LANGUAGE (null)
@@ -1205,10 +1250,9 @@ for (i, link) in enumerate(multi_locale, start=1):
         print(f'Oldest known day: {oldest_known_day}')
 
         #
-        # get OLDEST_KNOWN_SOURCE (null)
+        # get OLDEST_KNOWN_SOURCE
         #
-        oldest_known_source = ''
-        data['oldest_known_source'].append(oldest_known_source)
+        get_oldest_known_source()
         print(f'Oldest known source: {oldest_known_source}')
 
         #
@@ -1286,8 +1330,8 @@ print(data_df)
 
 # export dataframe - xlsx supports unicode, so no more encoding fiascos compared to saving to csv
 # data_df.to_excel(f'{country_en}.xlsx', index=False) # for test files
-# # data_df.to_excel(f'countries/{country_en}.xlsx', index=False) # for main files
-# print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
+data_df.to_excel(f'countries/{country_en}.xlsx', index=False) # for main files
+print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
 
 
 
