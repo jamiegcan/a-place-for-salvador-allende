@@ -64,7 +64,7 @@ When the Chilean state under Pinochet won't do the necessary honors for Allende,
 
 ![Photo of the signage at Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](assets/Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg)
 
-**[ID 118] Salvador-Allende-Weg at Donaupark, Vienna, Austria ([Photo](https://commons.wikimedia.org/wiki/File:Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg) by Robot8A, CC BY-SA 4.0).**
+**[ID 118] Salvador-Allende-Weg at Donaupark, Vienna, Austria ([Photo](https://commons.wikimedia.org/wiki/File:Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg) by Robot8A, CC BY-SA 4.0)**
 
 > The "Salvador-Allende-Weg" (Salvador Allende Path) was named after Salvador Allende, born in 1908 in Valparaíso, president of Chile, physician and co-founder of the Socialist Party of Chile. Allende died on 11 September 1973 in Santiago de Chile during the takeover of the presidential palace by the coup plotters. This path on the Danube Park was built with support from Chilean workers (refugees).
 
@@ -72,7 +72,7 @@ When the Chilean state under Pinochet won't do the necessary honors for Allende,
 
 ![Photo of the signage for L'Arc in Montréal, Canada - translated text of signage follows.](assets/L-arc_-_Michel_de_Broin_13.jpg)
 
-**[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photos](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) by [Jeangagnon](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG), CC BY-SA 3.0).**
+**[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photos](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) by [Jeangagnon](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG), CC BY-SA 3.0)**
 
 > **Tribute to Salvador Allende (1908-1973)**
 >
@@ -129,7 +129,7 @@ You may have read that Allende "_took his own life by committing suicide_", but 
 
 ![Photo of the street sign at Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France - translated text of signage follows.](assets/Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg)
 
-Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg) by GFreihalter, CC BY-SA 4.0).
+**Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg) by GFreihalter, CC BY-SA 4.0)**
 
 > Salvador Allende Street
 >
@@ -141,7 +141,7 @@ Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de
 
 ![Photo of the street sign at Rue Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France - translated text of signage follows.](assets/Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg)
 
-Avenue du Président Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg) by Chabe01, CC BY-SA 4.0).
+**Avenue du Président Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg) by Chabe01, CC BY-SA 4.0)**
 
 > Montreuil
 >
