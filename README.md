@@ -2,6 +2,7 @@
 
 Mapping (almost) every place in the world named after the Chilean president, inspired by the "Una calle Salvador Allende" website.
 
+
 ## About this project
 
 This project builds up upon "Una calle Salvador Allende" at http://www.abacq.org/calle/, which compiled every street ("una calle") and every place named after Salvador Allende, president of Chile from 1970 to 1973. The website accepted inputs from individuals around the world, mostly Chileans within and outside of Chile. The website was active from late 2000's (centennial of Allende's birth) to early 2010's, and many of these streets and places may have changed since then.
@@ -63,6 +64,7 @@ Of course, the website may have missed other places named after Salvador Allende
 **This repo is a work in progress**, and it will only contain complete tables and scripts that have been tested to work. Test scripts and tables are in my [datasets-of-interest](https://github.com/GoGroGlo/datasets-of-interest/tree/main/a-place-for-salvador-allende) repo.
 
 My data investigation (also a work in progress) can be found here: [**A Place for Salvador Allende: A Data Investigation**](a-place-for-salvador-allende.md).
+
 
 ## Data dictionary
 
@@ -135,9 +137,11 @@ My data investigation (also a work in progress) can be found here: [**A Place fo
 * `abacq_reference`
     * [str, optional] The link to an article from http://www.abacq.org/calle/ about the place. Although there can be more than one article for the same place, this column only accommodates one link per place. Refer to the webpage's [site map](http://www.abacq.org/calle/index.php?toc/toc) for a full list of articles.
 
+
 ## Disclaimer about web scraping
 
 The scripts here rely on web scraping. While they are written so that they can run at a reasonably human pace, be aware that scraping too often may put a heavy strain on the website and may cause your IP address to be banned from the website. I recommend collecting country-specific data on spaced intervals that are long enough for websites to think you are a casual human browser rather than a bot.
+
 
 ## This repository is in the public domain
 
