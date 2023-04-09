@@ -62,17 +62,17 @@ These individuals appreciate Allende for defending the Chilean working class thr
 
 When the Chilean state under Pinochet won't do the necessary honors for Allende, these Chileans will, from their respective countries of residence. And even after democracy has been restored in Chile, they continue to do the honors wherever they are in the world.
 
-![Photo of the signage at Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](https://upload.wikimedia.org/wikipedia/commons/9/9b/Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg)
+![Photo of the signage at Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](assets/Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg)
 
-[ID 118] Salvador-Allende-Weg at Donaupark, Vienna, Austria (Photo by Robot8A, CC BY-SA 4.0).
+**[ID 118] Salvador-Allende-Weg at Donaupark, Vienna, Austria ([Photo](https://commons.wikimedia.org/wiki/File:Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg) by Robot8A, CC BY-SA 4.0).**
 
 > The "Salvador-Allende-Weg" (Salvador Allende Path) was named after Salvador Allende, born in 1908 in Valparaíso, president of Chile, physician and co-founder of the Socialist Party of Chile. Allende died on 11 September 1973 in Santiago de Chile during the takeover of the presidential palace by the coup plotters. This path on the Danube Park was built with support from Chilean workers (refugees).
 
-![Photo of the the sculpture L'Arc in Montréal, Canada. It "portrays a tree whose crown plunges into the ground to form an arch, rooted at each end". One of the ends has multiple roots, the other one single.](https://upload.wikimedia.org/wikipedia/commons/f/fb/L-arc_-_Michel_de_Broin_02.JPG)
+![Photo of the the sculpture L'Arc in Montréal, Canada. It "portrays a tree whose crown plunges into the ground to form an arch, rooted at each end". One of the ends has multiple roots, the other one single.](assets/L-arc_-_Michel_de_Broin_02.jpg)
 
-![Photo of the signage for L'Arc in Montréal, Canada - translated text of signage follows.](https://upload.wikimedia.org/wikipedia/commons/e/ed/L-arc_-_Michel_de_Broin_13.JPG)
+![Photo of the signage for L'Arc in Montréal, Canada - translated text of signage follows.](assets/L-arc_-_Michel_de_Broin_13.jpg)
 
-[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada (Photos by Jeangagnon, CC BY-SA 3.0).
+**[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photos](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) by [Jeangagnon](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG), CC BY-SA 3.0).**
 
 > **Tribute to Salvador Allende (1908-1973)**
 >
@@ -81,17 +81,27 @@ When the Chilean state under Pinochet won't do the necessary honors for Allende,
 > "History is ours, and people make history."
 > 
 > Salvador Allende
+>
 > Excerpt from his final speech,
+>
 > Radio Magallanes, 11 September 1973
 >
-> Municipal collection of public art
+> _Municipal collection of public art_
+>
 > Title: **L’arc**
+>
 > Artist: **Michel de Broin**
+>
 > Materials: Ultra-high performance concrete, stainless steel
+>
 > Fabrication: Design m3béton inc.
+>
 > Collaboration: Véronique Ducharmes, Louis Dumontier, Jean-Pierre Thonney
+>
 > Installation: 2009
+>
 > Acquisition: Public commission from the Ville de Montréal, with financial support from members of Chilean organizations in Montréal and the Salvador Allende Foundation in Montréal
+>
 > Location: Île Notre-Dame, parc Jean-Drapeau, Arrondissement de Ville-Marie 
 
 ### Socialists (regardless of whether they gained power through democratic means)
@@ -117,28 +127,36 @@ This part would benefit from specific examples and we'll provide them as we scra
 
 You may have read that Allende "_took his own life by committing suicide_", but some monuments, plates and street signs say that he was killed by the coup plotters. 
 
-![Photo of the street sign at Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France - translated text of signage follows.](https://upload.wikimedia.org/wikipedia/commons/6/68/Saint-Ouen-l%E2%80%99Aum%C3%B4ne_%2895%29_Rue_Salvador_Allende_426.jpg)
+![Photo of the street sign at Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France - translated text of signage follows.](assets/Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg)
 
-Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France (Photo by GFreihalter, CC BY-SA 4.0).
+Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg) by GFreihalter, CC BY-SA 4.0).
 
 > Salvador Allende Street
+>
 > 1908-1973
+>
 > President of the Republic
+>
 > Killed while defending democracy
 
-![Photo of the street sign at Rue Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France - translated text of signage follows.](https://upload.wikimedia.org/wikipedia/commons/6/68/Saint-Ouen-l%E2%80%99Aum%C3%B4ne_%2895%29_Rue_Salvador_Allende_426.jpg)
+![Photo of the street sign at Rue Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France - translated text of signage follows.](assets/Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg)
 
-Avenue du Président Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France (Photo by Chabe01, CC BY-SA 4.0).
+Avenue du Président Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg) by Chabe01, CC BY-SA 4.0).
 
 > Montreuil
+>
 > President Salvador Allende Avenue
+>
 > President of the Unity Government of Chile
+>
 > Assassinated by the Chilean fascists on 11 September 1973
 
 Allende himself hinted in his [speech during the coup](https://www.marxists.org/archive/allende/1973/september/11.htm) that this was going to be his last, and that he would be willing to sacrifice himself, though the manner of sacrifice was vague.
 
 > Given these facts, the only thing left for me is to say to workers: I am not going to resign! Placed in a historic transition, I will pay for loyalty to the people with my life.
+>
 > [...]
+>
 > Long live Chile! Long live the people! Long live the workers! These are my last words, and I am certain that my sacrifice will not be in vain [...]
 
 Wikipedia's article on the [death of Salvador Allende](https://en.wikipedia.org/wiki/Death_of_Salvador_Allende) briefly explains the controversy and why Allende would be more inclined to kill himself instead of getting killed:
@@ -178,4 +196,4 @@ To make our lives easier, we can limit the scope of this column to rows in the m
 
 > At this point, politically it doesn't really matter how Allende died (if historical%). What matters is that we have streets and parks named after him.
 > 
-> —Gabriel Boric, current president of Chile. Tweet from 31 May 2011, but edited and taken out of context.
+> —Gabriel Boric, current president of Chile. [Tweet](https://twitter.com/GabrielBoric/status/75411227647545344) from 31 May 2011, but edited and taken out of context.
