@@ -58,105 +58,87 @@ According to the website, there are at least 48 territories with a place for Sal
 
 In a nutshell, this project goes through every article in http://www.abacq.org/calle/ and cross-checks them using OpenStreetMap (OSM) and Google Maps to see if they still exist. The scripts here automate most of the data collection, but the data is still manually verified whenever I have the time. Every place is kept in a table for reference and investigation of anyone interested in this dataset.
 
-Of course, the website may have missed other places named after Salvador Allende. I plan to create a script that searches OSM for places named after Salvador Allende (or Salvador Allende Gossens, "Gossens" being the second surname) in every possible country and territory, but this will come later on. For now, this project focuses on the already extensive list of places in the website.
+Of course, the website may have missed other places named after Salvador Allende. I plan to create a script that searches OSM for places named after Salvador Allende (or Salvador Allende Gossens, "Gossens" being the second surname) in every possible country and territory, but this will come later on. For now, this project focuses on the already extensive list of places in http://www.abacq.org/calle/.
 
-**This repo is a work in progress**, but it will only contain complete data tables and scripts that have been tested to work. Test scripts and data tables are in my [datasets-of-interest](https://github.com/GoGroGlo/datasets-of-interest) repo.
+**This repo is a work in progress**, and it will only contain complete tables and scripts that have been tested to work. Test scripts and tables are in my [datasets-of-interest](https://github.com/GoGroGlo/datasets-of-interest/tree/main/a-place-for-salvador-allende) repo.
 
-## Disclaimer
+My data investigation (also a work in progress) can be found here: [**A Place for Salvador Allende: A Data Investigation**](a-place-for-salvador-allende.md).
 
-The scripts here rely on web scraping. If you're going to run the scripts, be aware that scraping too often may put a heavy strain on the website and may cause your IP address to be banned from the website. I recommend collecting country-specific data on spaced intervals that are long enough for websites to think you are a casual human browser rather a bot. I also recommend waiting for a few minutes between web scrapes - I do it by delaying my response in every user input.
+## Data dictionary
 
-> Script: `>>> Please enter one of the countries above: `
-> 
-> Me: \*goes out for some snacks and drinks, then returns to my desk to respond to the script\*
+* `id`
+    * [int] A distinct number to identify a place that is assigned when it is added to the main table `a-place-for-salvador-allende.xlsx`. One ID corresponds to exactly one _standalone_ place.
+    * _Standalone_ here means a distinct place that is located in a distinct locale and is established on a distinct date. For two or more places that are located in the same locale, each place is considered standalone if it can exist independently of the other. 
+        * Standalone example: If a street changes its name from "Salvador Allende" to something else, but a park named after Salvador Allende remains there, then both places are considered standalone (see IDs 146 and 147).
+        * Non-standalone example: If there is a bus stop named after Salvador Allende, not because it deserves its own name but because the street it is located at is named "Salvador Allende", then the bus stop will not be added to the main table. For this reason, the hundreds of bus stops in Chile named after Salvador Allende are not included in the main table, but their corresponding streets are.
+* `name`
+    * [str] Either of the following:
+        * The local name of the place (e.g., `Avenida Salvador Allende` or `Allendeho`); or
+        * If the place is not explicitly named after Salvador Allende, the local name of the memorial itself (e.g., `L'Arc`) or the place where the memorial to Allende is located at (e.g., `Den Røde Plads`); or
+        * If the place used to be named after Salvador Allende but has since changed its name, the current local name of the place (e.g., `бул. „Андрей Сахаров“ / Boulevard "Andrej Sakharov"`); or
+        * If no local name is available, a short description of the place (e.g., `Salvador Allende memorial tree and plate`).
+* `type`
+    * [str] The type of establishment of the place, normalized to group together similar establishments.
+* `region`
+    * [str] The continent or part thereof where the country is located.
+* `country`
+    * [str] The country where the place is located, specified either by http://www.abacq.org/calle/ or OpenStreetMap.
+* `locale_1`
+    * [str] The topmost geographical unit of the country, for example a US state, Canadian province or French overseas territory (Réunion, French Guiana). This is the only locale column that is always populated.
+* `locale_2`
+    * [str, optional] The second topmost geographical unit of the country, used for distinguishing between places within the same country and for getting more specific within locale_1.
+* `locale_3`
+    * [str, optional] The third most localized geographical unit of the country, used for distinguishing between places within the same country. Could be anything from a city to a park to a specific street.
+* `locale_4`
+    * [str, optional] The second most localized geographical unit of the country, used for distinguishing between places within the same country. Could be anything from a city to a park to a specific street.
+* `locale_5`
+    * [str, optional] The most localized geographical unit of the country, used for distinguishing between places within the same country. Could be anything from a city to a park to a specific street.
+* `zip_code`
+    * [str, optional] The postal code of the locale, if available.
+* `latitude`
+    * [int, optional] The first number and horizontal axis of the map coordinates of the locale (e.g., -33.44202926, -70.65339974), where a positive latitude corresponds to north of the equator and a negative latitude corresponds to south of the equator.
+* `longitude`
+    * [int, optional] The second number and vertical axis of the map coordinates of the locale (e.g., -33.44202926, -70.65339974), where a positive longitude corresponds to east of the prime meridian and a negative longitude corresponds to west of the prime meridian.
+* `oldest_known_year`
+    * [int, optional] Either of the following:
+        * The year in which the place is established; or
+        * The year in which the place is explicitly named after Salvador Allende, if it was established with a previous name; or
+        * The oldest year in which the place is known to exist _and_ to be named after Salvador Allende; or
+        * Null if any of the above is unknown.
+* `oldest_known_month`
+    * [int, optional] If known, A numnber from 1 to 12 corresponding to the month that goes with the `oldest_known_year`. Null if unknown.
+* `oldest_known_day`
+    * [int, optional] If known, A numnber from 1 to 31 corresponding to the day that goes with the `oldest_known_year`. Null if unknown. A full date can be derived if `oldest_known_year`, `oldest_known_month` and `oldest_known_day` are known.
+* `oldest_known_source`
+    * [str, optional] Populated only if `oldest_known_year` is known and can be either of the following:
+        * `desc place` - The date of establishment of the place is explicitly stated within the place's `desc`.
+        * `desc abacq` - The date of establishment of the place comes from secondhand accounts of contributors to http://www.abacq.org/calle/.
+        * `desc implied` - The date of the establishment of the place is derived from another nearby place whose date of establishment is known. 
+        * `abacq date posted` - The date in which the place was first featured in an article in http://www.abacq.org/calle/. 
+        * `openstreetmap` - The date in which the place was first edited in OpenStreetMap to exist and/or be named after Salvador Allende.
+        * `google maps` - The earliest date in which Google Maps street view imagery reveals that the place exists and/or is named after Salvador Allende.
+    * If `oldest_known_source` contains `desc`, then the `oldest_known_year`, `oldest_known_month` and/or `oldest_known_day` is fairly reliable. This avoids a certain data bias where a lot of places are first recorded on the internet during certain years when they in fact have existed way before the internet era.
+* `desc`
+    * [str, optional] Any text that is written within the place (e.g., on street signs, memorial plates and monument inscriptions).
+* `desc_language`
+    * [str, optional] If `desc` is present, this is the [two-letter ISO code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) of the language in which the `desc` is written. 
+* `alt_name`
+    * [str, optional] Alternative name for the place, if known. If the place has a different name, but it is not known whether it is a former name, then the name is populated here.
+* `former_name`
+    * [str, optional] Former name of the place, if known. If the place was once named after Salvador Allende but has since changed its name, the name with Salvador Allende is populated here.
+* `verified_in_maps`
+    * [int] `1` if the place is verified to be present in OpenStreetMap and/or Google Maps, otherwise `0`. Good for filtering places that currently exist.
+* `openstreetmap_link`
+    * [str, optional] The link to the OpenStreetMap listing of the place, if `verified_in_maps` is `1`. Good for viewing the listing's edit history.
+* `google_maps_link`
+    * [str, optional] The link to the Google Maps listing of the place, if `verified_in_maps` is `1`. Good for viewing current and historical street views, if available.
+* `abacq_reference`
+    * [str, optional] The link to an article from http://www.abacq.org/calle/ about the place. Although there can be more than one article for the same place, this column only accommodates one link per place. Refer to the webpage's [site map](http://www.abacq.org/calle/index.php?toc/toc) for a full list of articles.
 
-## This repository is in the public domain to encourage open and replicable data
+## Disclaimer about web scraping
 
-The data that are collected in this repo are available for anyone for any positive purpose. The scripts here can also be adapted for any positive purpose, including data collection of places named after anyone or anything. 
+The scripts here rely on web scraping. While they are written so that they can run at a reasonably human pace, be aware that scraping too often may put a heavy strain on the website and may cause your IP address to be banned from the website. I recommend collecting country-specific data on spaced intervals that are long enough for websites to think you are a casual human browser rather than a bot.
 
+## This repository is in the public domain
 
-
-# Why are there more places named after Salvador Allende that are outside of Chile than inside Chile? A data investigation [work in progress]
-
-## Who was Salvador Allende?
-
-**Content warning: this section contains references to suicide.**
-
-[Wikipedia's summary of Allende's life](https://en.wikipedia.org/wiki/Salvador_Allende) provides enough information without causing information overload, and I'll paste it here for everyone's convenience:
-
-> Salvador Guillermo Allende Gossens (26 June 1908 – 11 September 1973) was a Chilean physician and socialist politician who served as the 28th president of Chile from 3 November 1970 until his death on 11 September 1973. He was the first Marxist to be elected president in a liberal democracy in Latin America.
-> 
-> Allende's involvement in Chilean politics spanned a period of nearly forty years, having covered the posts of senator, deputy and cabinet minister. As a life-long committed member of the Socialist Party of Chile, whose foundation he had actively contributed to, he unsuccessfully ran for the national presidency in the 1952, 1958, and 1964 elections. In 1970, he won the presidency as the candidate of the Popular Unity coalition, in a close three-way race. He was elected in a run-off by Congress, as no candidate had gained a majority.
-> 
-> As president, Allende sought to nationalize major industries, expand education and improve the living standards of the working class. He clashed with the right-wing parties that controlled Congress and with the judiciary. On 11 September 1973, the military moved to oust Allende in a coup d'état supported by the United States Central Intelligence Agency (CIA). As troops surrounded La Moneda Palace, he gave his last speech vowing not to resign. Later that day, Allende died by suicide in his office.
-> 
-> Following Allende's death, General Augusto Pinochet refused to return authority to a civilian government, and Chile was later ruled by a military junta until 1990, ending more than four decades of uninterrupted democratic governance. The military junta that took over dissolved the Congress of Chile, suspended the Constitution, and began a program of persecuting alleged dissidents, in which at least 3,095 civilians disappeared or were killed.
-
-The [Simple English version](https://simple.wikipedia.org/wiki/Salvador_Allende) of Wikipedia's article on Allende works as a more accessible version of the full English Wikipedia article, especially for those who are new to socialist discourse. Pardon this article's occasional repetitiveness to the point of being absurd because apparently "_some feel that he took his own life by committing suicide_".
-
-## Why are places named after Salvador Allende?
-
-When we talk about Salvador Allende, two things matter the most: _socialist_ and _democratically elected_. These two explain a lot about his presence around the world.
-
-* Allende has been a socialist since his student days. As a socialist, he believed that the gap between the richest and the poorest people in Chile is unacceptable and this could be eliminated when resources and institutions are owned by the Chilean state rather than the private sector who also happen to be the richest people. He campaigned for the improvement of the lives of working-class people, and for that he got the support of a lot of them.
-* Socialists around the world have their vocal (and wealthy) opponents, and Chilean socialists like Allende were no exception. This is why Allende had a hard time winning the presidential elections the first three times he tried. Back then, socialists became leaders of their own countries not through elections but through chaotic revolutions. Allende was convinced that he could avoid another chaotic revolution, so he ran again for the presidency in 1970. This time, he became the first democratically elected socialist leader in the world. When he became president, he established and maintained contact with other socialist leaders around the world who recognized that Allende was seeking the same goals as them (socialism) through different means (peaceful democratic processes).
-
-Allende's presidency, which started peacefully in 1970, ended violently with the coup in 1973 that was led by Augusto Pinochet. The military leadership took over the country and refused to give him a state funeral that every president who dies in office deserves. A lot of Chileans, especially Allende's supporters, had to seek exile abroad to save themselves from the human rights violations done by Pinochet's military dictatorship. Allende effectively became a taboo topic during the dictatorship, and virtually no one in Chile was able to pay respects to the late president because they either had to escape from Chile or was already killed by the army.
-
-Outside of Chile, I can identify three interest groups that have been naming and building things in honor of Salvador Allende:
-* Chilean diaspora
-    * These individuals appreciate Allende for defending the Chilean working class throughout his political career, and of course for having been President of the Republic of Chile (arguably the most widely known, if not controversial, president of Chile).
-    * When the Chilean state under Pinochet won't do the necessary honors for Allende, these Chileans will, from their respective countries of residence.
-* Socialists (regardless of whether they gained power through democratic means)
-    * These individuals appreciate Allende for being a socialist who never softened his position despite fierce opposition.
-    * Some socialist leaders have named and built places in honor of Allende and portrayed him as a martyr to further their own socialist agenda - see Cuba for example.
-* Advocates of democracy (regardless of whether they're outwardly socialist or not)
-    * These individuals appreciate Allende for believing in democratic institutions until the end.
-
-Inside Chile, Allende only got the historical recognition he deserved (including a state funeral) with the return of democracy in 1990.
-
-This part would benefit from specific examples and we'll get there once we've scraped the web for those places.
-
-## How did Salvador Allende die, really?
-
-**Content warning: this section contains references to suicide and murder.**
-
-You may have read that Allende "_took his own life by committing suicide_", but some monuments, plates and street signs say that he was killed by the coup plotters. 
-
-Allende himself hinted in his speech during the coup that this was going to be his last, and that he would be willing to sacrifice himself, though the manner of sacrifice was vague.
-
-> Given these facts, the only thing left for me is to say to workers: I am not going to resign! Placed in a historic transition, I will pay for the loyalty of the people with my life.
-> 
-> Long live Chile! Long live the people! Long live the workers! These are my last words, and I am certain that my sacrifice will not be in vain.
-
-Wikipedia's article on the [death of Salvador Allende](https://en.wikipedia.org/wiki/Death_of_Salvador_Allende) briefly explains the controversy and why Allende would be more inclined to kill himself instead of getting killed:
-
-> Isabel Allende Bussi, the daughter of Salvador Allende and a former member of the Senate of Chile, stated that the Allende family had long accepted that the former president shot himself. She told the BBC, "The report conclusions [that Allende died by suicide] are consistent with what we already believed. When faced with extreme circumstances, he made the decision of taking his own life, instead of being humiliated."
-> 
-> Carlos Altamirano, who was close to Allende, recalls that prior to the coup, Allende would have dismissed his suggestion to seek refuge in a loyalist regiment and fight back from there. In Altamirano's words Allende also rejected the option "to do as so many dictators and presidents of Latin America, that is to grab a briefcase full of money and take a plane out the country." Allende was an admirer of José Manuel Balmaceda, a Chilean president who died by suicide in face of his defeat in the Chilean Civil War of 1891. According to Altamirano, Allende was "obsessed with the attitude of Balmaceda."
-
-However, I think there are several reasons a lot of individuals found it easier to believe that Allende was murdered.
-* The first people who announced that Allende had killed himself were the coup plotters. Why would Allende's supporters believe what their enemies are saying?
-    * An actual exchange between Pinochet and Vice Admiral Patricio Carvajal during the coup - 05:19 onwards in this [video from Memoria Chilena](http://www.memoriachilena.gob.cl/archivos2/videos/MC0043416.mpg):
-        * Carvajal: [_in Spanish_] There is a communication from the infantry school staff who is already inside La Moneda, and due to the possibility of interception I will transmit it in English: [_in English, verbatim_] They say that Allende committed suicide and is dead now. [_in Spanish_] Tell me if you understood.
-        * Pinochet: [_in Spanish_] Understood, perfectly understood. 
-* Suicide can be interpreted as an acceptance of defeat and is highly contradictory to Allende's announcement in his last speech that he would not resign. Supporters would rather believe that Allende fought until the end.
-* The exact method of Allende's suicide, which was only confirmed many years after the event, can come off as ridiculous or made-up to some individuals. 
-    * Who else would shoot oneself with an AK-47? Which was held between the legs and under the chin? And which was a gift from none other than Fidel Castro of Cuba? This is too oddly specific. Allende being shot by enemies would be much easier to imagine, I suppose.
-
-Anecdotal evidence supporting suicide only came about after 1990, and an autopsy in 2011 confirmed it. Until then, Allende's supporters and others could only speculate about how he died, and the easiest reason was death in the hands of the enemies.
-
-Right now, does believing that Allende died in his own hands make someone anti-Allende and pro-coup? Not necessarily, according to some witnesses of his death: 
-
-> The other witnesses kept silent until after the restoration of democracy in Chile, as they believed (according to their own statements) that to corroborate the version of a suicide would in some measure downgrade Allende's sacrifice and lend support to the military regime.
-
-With that said, it would be interesting to know which places claim murder and if any place ever acknowledged Allende's conscious, free-willed decision on that fateful day. We can create a new column which classifies each place's stance on Allende's death:
-* null  -   The place doesn't mention Allende's death
-* -1    -   Explicitly mentions that Allende was murdered
-* -0.5  -   Mentions Allende's death in a vague way, but suggests murder
-* 0     -   Mentions Allende's death, but suggests neither murder nor suicide
-* 0.5   -   Mentions Allende's death in a vague way, but suggests suicide
-* 1     -   Explicitly mentions that Allende died by suicide
-
-`desc` could be helpful here, but not every data row comes with one so this requires manual verification.
-
+The data that are collected in this repo are available for anyone for any constructive purpose. The scripts here can also be adapted for any constructive purpose, including data collection of places named after anyone or anything. 
