@@ -1,5 +1,15 @@
 # allende-scraper-main.py
-# 'production' script
+# Main repo: https://github.com/GoGroGlo/a-place-for-salvador-allende
+# Automates the data collection by scraping articles from http://www.abacq.org/calle/ and then verifying them using https://www.openstreetmap.org
+
+
+# Workflow:
+# 1. Retrieve all links from the site map http://www.abacq.org/calle/index.php?toc/toc
+# 2. Group them by country and ask user to provide one country to work on
+# 3. Group country-specific links by whether they're single-locale (one article to one place) or multi-locale (one article to multiple places)
+# 4.1. Scrape every single-locale link for info, verify it using OpenStreetMap, and then save info in a DataFrame 
+# 4.2. Do the above step, but for multi-locale links
+# 5. Export DataFrame as a country-specific Excel file
 
 
 
@@ -282,12 +292,12 @@ allende_countries = {
 types = {
     'street'                : ['calle', 'avenida', 'pasaje', 'rue', 'rua', 'road', 'avenue', 'circunvalación', 'boulevard', 'bulevar', 'street', 'straat', 'strada'],
     'monument'              : ['monumento', 'escultura', 'monument', 'sculpture', 'busto', 'bust', 'statue', 'memorial'],
-    'park'                  : ['plaza', 'parque', 'square', 'park', 'place', 'plazoleta', 'praça'],
+    'park'                  : ['plaza', 'parque', 'square', 'park', 'place', 'plazoleta', 'plazuela', 'praça'],
     'school'                : ['escuela', 'colegio', 'school', 'college', 'schule', 'école', 'liceo', 'escola'],
     'healthcare facility'   : ['hospital', 'salud', 'healthcare', 'health'],
     'bridge'                : ['puente', 'bridge', 'pont', 'brücke'],
     'sports center'         : ['complexe sportif', 'sports complex', 'sport', 'sports', 'sports center', 'sports centre',  'complejo de deporte'],
-    'multipurpose center'   : ['espace', 'hall'],
+    'multipurpose center'   : ['espace', 'hall', 'centro cívico'],
     'port'                  : ['puerto', 'port'],
     'residential area'      : ['población', 'village', 'hamlet', 'neighbourhood', 'residential area'],
     'museum'                : ['museo', 'museum' , 'musée'],
@@ -394,7 +404,7 @@ def osm_check():
     #
     # when we have this abacq locale, we then cross-check this with OpenStreetMap
     #
-    locale_link = f'https://www.openstreetmap.org/search?query=Salvador%20Allende%20{locale_1}%20{country_en}'
+    locale_link = f'https://www.openstreetmap.org/search?query=Allende%20{locale_1}%20{country_en}'
     driver.get(locale_link)
     # humanizer fixes the problem of the script getting no OSM info sometimes when you can see in the browser that there actually is 
     humanizer(timer)
@@ -428,7 +438,8 @@ def osm_check():
         for result in locale_results_list:
             result = str(result)
             lrl_placeholder.append(result)
-            osm_address = re.search(r'data-name="(.*?)"', result)
+            # osm_address = re.search(r'data-name=\"(.*)\"\s*data-type', result)
+            osm_address = re.search(r'>\"*(.*)\"*<\/a>', result)
             osm_address = str(osm_address.group(1))
             #
             # have user verify the address - this decides what this loop should do next
@@ -573,7 +584,7 @@ def get_name():
         # if not, get it from the alt text of the article's main image
         name = article_soup.find("img", alt=True)
         name = str(name)
-        name = re.search(r'alt="(.*?)"\s*', name)
+        name = re.search(r'alt=\"(.*?)\"\s*', name)
         try:
             name = str(name.group(1))
         except:
@@ -594,7 +605,7 @@ def get_type():
     type = ''
     # get OSM type if available
     try:
-        type = re.search(r'data-prefix="(.*?)"', osm_info)
+        type = re.search(r'data-prefix=\"(.*?)\"', osm_info)
         type = str(type.group(1))
     except:
         # if not, derive it from NAME (which itself is either from OSM or the article)
@@ -625,8 +636,9 @@ def get_oldest_known_year():
     years_in_text = list(years_in_text)
     for year in years_in_text:
         year = int(year)
-        # things weren't named after Allende before September 1973, I don't think he was that vain (see Museo de la Solidaridad)
-        if year < oldest_known_year and year >= int(1973):
+        # let's assume things weren't named after Allende before 1973, I don't think he was that vain (see Museo de la Solidaridad).
+        # things being named after Allende between September and December 1973 are more of an exception rather than the rule.
+        if year < oldest_known_year and year > int(1973):
             oldest_known_year = year
     data['oldest_known_year'].append(oldest_known_year)
 
@@ -679,7 +691,7 @@ def get_oldest_known_day():
     days_in_text = list(days_in_text)
     # remove numbers that are invalid days of a month
     for day in days_in_text:
-        if int(day) > int(31):
+        if int(day) > int(31) or int(day) == 0:
             days_in_text.remove(day)
     # compare oldest_known_year to the year in the url.
     # if they're different (i.e. we derived the year from the text), we'll proceed with collecting days_in_text.
@@ -709,18 +721,14 @@ def get_oldest_known_day():
 def get_oldest_known_source():
     global oldest_known_source
     oldest_known_source = ''
-    for desc_item in desc_soup:
-        if str(oldest_known_year) in str(desc_item):
-            oldest_known_source = 'desc place'
-            break
-        elif str(oldest_known_year) in years_in_text:
-            oldest_known_source = 'desc abacq'
-            break
-        elif oldest_known_year == year_in_url:
-            oldest_known_source = 'abacq date posted'
-            break
-        else:
-            oldest_known_source = ''
+    if str(oldest_known_year) in desc:
+        oldest_known_source = 'desc place'
+    elif str(oldest_known_year) in years_in_text:
+        oldest_known_source = 'desc abacq'
+    elif oldest_known_year == year_in_url:
+        oldest_known_source = 'abacq date posted'
+    else:
+        oldest_known_source = ''
     data['oldest_known_source'].append(oldest_known_source)
 
 

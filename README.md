@@ -57,9 +57,11 @@ According to the website, there are at least 48 territories with a place for Sal
 47. Uruguay
 48. Venezuela
 
-In a nutshell, this project goes through every article in http://www.abacq.org/calle/ and cross-checks them using OpenStreetMap (OSM) and Google Maps to see if they still exist. The scripts here automate most of the data collection, but the data is still manually verified whenever I have the time. Every place is kept in a table for reference and investigation of anyone interested in this dataset.
+In a nutshell, this project goes through every article in http://www.abacq.org/calle/ and cross-checks them automatically using OpenStreetMap (OSM) and manually using Google Maps to see if they still exist. The scripts here automate most of the data collection, but the data is still manually verified whenever I have the time. Every place is kept in a table for reference and investigation of anyone interested in this dataset.
 
-Of course, the website may have missed other places named after Salvador Allende. I plan to create a script that searches OSM for places named after Salvador Allende (or Salvador Allende Gossens, "Gossens" being the second surname) in every possible country and territory, but this will come later on. For now, this project focuses on the already extensive list of places in http://www.abacq.org/calle/.
+Of course, the website may have missed other places named after Salvador Allende. I plan to create a script that searches OSM for places named after Salvador Allende in every possible country and territory, but this will come later on. For now, this project focuses on the already extensive list of places in http://www.abacq.org/calle/.
+
+Some articles include places named after or dedicated to Pablo Neruda, Victor Jara and other notable Chilean personalities; they are not included in this project.
 
 **This repo is a work in progress**, and it will only contain complete tables and scripts that have been tested to work. Test scripts and tables are in my [datasets-of-interest](https://github.com/GoGroGlo/datasets-of-interest/tree/main/a-place-for-salvador-allende) repo.
 
@@ -107,6 +109,7 @@ My data investigation (also a work in progress) can be found here: [**A Place fo
         * The year in which the place is explicitly named after Salvador Allende, if it was established with a previous name; or
         * The oldest year in which the place is known to exist _and_ to be named after Salvador Allende; or
         * Null if any of the above is unknown.
+    * Sometimes a place would be officially reinaugurated or remodeled, but it has been attested in http://www.abacq.org/calle/ to exist earlier. In these cases, the oldest known year of existence is recorded (see IDs 165 and 173).
 * `oldest_known_month`
     * [int, optional] If known, A numnber from 1 to 12 corresponding to the month that goes with the `oldest_known_year`. Null if unknown.
 * `oldest_known_day`
@@ -115,15 +118,16 @@ My data investigation (also a work in progress) can be found here: [**A Place fo
     * [str, optional] Populated only if `oldest_known_year` is known and can be either of the following:
         * `desc place` - The date of establishment of the place is explicitly stated within the place's `desc`.
         * `desc abacq` - The date of establishment of the place comes from secondhand accounts of contributors to http://www.abacq.org/calle/.
-        * `desc implied` - The date of the establishment of the place is derived from another nearby place whose date of establishment is known. 
+        * `desc implied` - The date of establishment of the place is derived from another nearby place whose date of establishment is known. 
+        * `desc other` - The date of establishment of the place is derived from other sources, usually the contents of file category [Monuments and memorials to Salvador Allende](https://commons.wikimedia.org/wiki/Category:Monuments_and_memorials_to_Salvador_Allende) at Wikimedia Commons.
         * `abacq date posted` - The date in which the place was first featured in an article in http://www.abacq.org/calle/. 
         * `openstreetmap` - The date in which the place was first edited in OpenStreetMap to exist and/or be named after Salvador Allende.
         * `google maps` - The earliest date in which Google Maps street view imagery reveals that the place exists and/or is named after Salvador Allende.
-    * If `oldest_known_source` contains `desc`, then the `oldest_known_year`, `oldest_known_month` and/or `oldest_known_day` is fairly reliable. This avoids a certain data bias where a lot of places are first recorded on the internet during certain years when they in fact have existed way before the internet era.
+    * If `oldest_known_source` begins with `desc`, then the `oldest_known_year`, `oldest_known_month` and/or `oldest_known_day` is fairly reliable. This avoids a certain data bias where a lot of places are first recorded on the internet during certain years when they in fact have existed way before the internet era.
 * `desc`
-    * [str, optional] Any text that is written within the place (e.g., on street signs, memorial plates and monument inscriptions).
+    * [str, optional] Any text that is written within the place (e.g., on street signs, memorial plates and monument inscriptions). If the text cannot be reliably transcribed in its native language, we take the its translation as provided in the `abacq_reference` article. Null if original text cannot be reliably transcribed and no translation is available.
 * `desc_language`
-    * [str, optional] If `desc` is present, this is the [two-letter ISO code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) of the language in which the `desc` is written. 
+    * [str, optional] If `desc` is present, this is the [two-letter ISO code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) of the native language in which the `desc` is written. 
 * `alt_name`
     * [str, optional] Alternative name for the place, if known. If the place has a different name, but it is not known whether it is a former name, then the name is populated here.
 * `former_name`
