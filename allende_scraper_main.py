@@ -290,7 +290,7 @@ allende_countries = {
 
 # non-exhaustive lists of words that correspond to a specific type of establishment
 types = {
-    'street'                : ['calle', 'avenida', 'pasaje', 'rue', 'rua', 'road', 'avenue', 'circunvalación', 'boulevard', 'bulevar', 'street', 'straat', 'strada'],
+    'street'                : ['calle', 'avenida', 'pasaje', 'rue', 'rua', 'road', 'avenue', 'circunvalación', 'boulevard', 'bulevar', 'street', 'straat', 'strada', 'estrada'],
     'monument'              : ['monumento', 'escultura', 'monument', 'sculpture', 'busto', 'bust', 'statue', 'memorial'],
     'park'                  : ['plaza', 'parque', 'square', 'park', 'place', 'plazoleta', 'plazuela', 'praça'],
     'school'                : ['escuela', 'colegio', 'school', 'college', 'schule', 'école', 'liceo', 'escola'],
@@ -383,23 +383,24 @@ def clear_cache():
 #
 # get COUNTRY and REGION name in English
 #
-def get_country_and_region():
+def get_country_and_region(link, data):
     for key in allende_countries.keys():
         if allende_countries[key]['country_link'] in link:
             global country_en
             country_en = allende_countries[key]['country_en']
             data['country'].append(country_en)
+            print(f'Country: {country_en}')
             global region
             region = allende_countries[key]['region']
             data['region'].append(region)
+            print(f'Region: {region}')
 
 
 #
 # OpenStreetMap checker of LOCALE_1
 # note that locale_1 collection process is different between single-locale and multi-locale links
 #
-def osm_check():
-    global locale_1
+def osm_check(locale_1, data):
     clear_cache()
     #
     # when we have this abacq locale, we then cross-check this with OpenStreetMap
@@ -504,7 +505,7 @@ def osm_check():
 # extract OSM info
 # if the place has an OSM link, we'll get values from there. otherwise, we'll make the value null.
 # 
-def extract_osm_info():
+def extract_osm_info(data):
     #
     # get LOCALE_2
     #
@@ -513,7 +514,8 @@ def extract_osm_info():
         locale_2 = osm_address[-4]
     except:
         locale_2 = ''
-    data['locale_2'].append(locale_2)    
+    data['locale_2'].append(locale_2) 
+    print(f'Locale 2: {locale_2}')
     #
     # get LOCALE_3
     #
@@ -523,6 +525,7 @@ def extract_osm_info():
     except:
         locale_3 = ''
     data['locale_3'].append(locale_3)
+    print(f'Locale 3: {locale_3}')
     #
     # get LOCALE_4
     #
@@ -532,6 +535,7 @@ def extract_osm_info():
     except:
         locale_4 = ''
     data['locale_4'].append(locale_4)
+    print(f'Locale 4: {locale_4}')
     #
     # get LOCALE_5
     #
@@ -541,6 +545,7 @@ def extract_osm_info():
     except:
         locale_5 = ''
     data['locale_5'].append(locale_5)
+    print(f'Locale 5: {locale_5}')
     #
     # get ZIP_CODE
     #
@@ -550,6 +555,7 @@ def extract_osm_info():
     except:
         zip_code = ''
     data['zip_code'].append(zip_code)
+    print(f'Zip code: {zip_code}')
     #
     # get LATITUDE
     #
@@ -560,6 +566,7 @@ def extract_osm_info():
     except:
         latitude = ''
     data['latitude'].append(latitude)
+    print(f'Latitude: {latitude}')
     #
     # get LONGITUDE
     #
@@ -570,12 +577,13 @@ def extract_osm_info():
     except:
         longitude = ''
     data['longitude'].append(longitude)
+    print(f'Longitude: {longitude}')
 
 
 #
 # get NAME
 #
-def get_name():
+def get_name(article_soup, data):
     global name
     try:
         # get OSM name if available
@@ -594,13 +602,14 @@ def get_name():
     if name == 'foto':
         name = 'A tribute to Salvador Allende'
     data['name'].append(name)
+    print(f'Name: {name}')
 
 
 #
 # get TYPE
 # the dict used here is pretty rudimentary so this is prone to errors and needs human verification
 # 
-def get_type():
+def get_type(data):
     global type
     type = ''
     # get OSM type if available
@@ -619,13 +628,14 @@ def get_type():
                 if type_item in type.lower():
                     type = key
     data['type'].append(type)
+    print(f'Type: {type}')
 
 
 #
 # get OLDEST_KNOWN_YEAR
 # retrieve the year from the url; when an older year is found within the text, get that instead
 #
-def get_oldest_known_year():
+def get_oldest_known_year(link, text, data):
     global oldest_known_year
     # start with the year in the url
     oldest_known_year = re.search(r'(\d{4})', link)
@@ -641,6 +651,7 @@ def get_oldest_known_year():
         if year < oldest_known_year and year > int(1973):
             oldest_known_year = year
     data['oldest_known_year'].append(oldest_known_year)
+    print(f'Oldest known year: {oldest_known_year}')
 
 
 #
@@ -648,7 +659,7 @@ def get_oldest_known_year():
 # retrieve the month from the url; when another month is found within the text, get that instead
 # unlike in oldest_known_year (more straightforward), we will list all months in the text if they're not the same as the one in the url
 #
-def get_oldest_known_month():
+def get_oldest_known_month(link, lower_text, data):
     global oldest_known_month
     oldest_known_month = re.search(r'\d{4}\/(\d{2})\/\d{2}', link)
     oldest_known_month = months[oldest_known_month.group(1)]
@@ -671,6 +682,7 @@ def get_oldest_known_month():
         oldest_known_month = str(list_months)
         oldest_known_month = oldest_known_month.strip('[]')
     data['oldest_known_month'].append(oldest_known_month)
+    print(f'Oldest known month: {oldest_known_month}')
 
 
 #
@@ -678,7 +690,7 @@ def get_oldest_known_month():
 # retrieve the day from the url; when another day is found within the text, get that instead
 # unlike in oldest_known_year (more straightforward), we will list all days in the text if they're not the same as the one in the url
 #
-def get_oldest_known_day():
+def get_oldest_known_day(link, lower_text, data):
     global oldest_known_day
     oldest_known_day = re.search(r'\d{4}\/\d{2}\/(\d{2})', link)
     oldest_known_day = str(oldest_known_day.group(1))
@@ -708,6 +720,7 @@ def get_oldest_known_day():
         oldest_known_day = str(list_days)
         oldest_known_day = oldest_known_day.strip('[]')
     data['oldest_known_day'].append(oldest_known_day)
+    print(f'Oldest known day: {oldest_known_day}')
 
 
 #
@@ -718,7 +731,7 @@ def get_oldest_known_day():
 #   2. desc abacq (secondhand info on when the place was founded)
 #   3. abacq date posted (we can only tell by the date the article was posted)
 #
-def get_oldest_known_source():
+def get_oldest_known_source(desc, data):
     global oldest_known_source
     oldest_known_source = ''
     if str(oldest_known_year) in desc:
@@ -730,13 +743,14 @@ def get_oldest_known_source():
     else:
         oldest_known_source = ''
     data['oldest_known_source'].append(oldest_known_source)
+    print(f'Oldest known source: {oldest_known_source}')
 
 
 #
 # get VERIFIED_IN_MAPS and OPENSTREETMAP_LINK
 # verified_in_maps defaults to 0, will get 1 when it has an OSM link
 #
-def get_verified_in_maps_and_osm_link():
+def get_verified_in_maps_and_osm_link(data):
     global openstreetmap_link
     global verified_in_maps
     try:
@@ -749,6 +763,8 @@ def get_verified_in_maps_and_osm_link():
         verified_in_maps = 1
     data['verified_in_maps'].append(verified_in_maps)
     data['openstreetmap_link'].append(openstreetmap_link)
+    print(f'Verified in maps: {verified_in_maps}')
+    print(f'OpenStreetMap link: {openstreetmap_link}')
 
 
 
@@ -767,434 +783,232 @@ def get_verified_in_maps_and_osm_link():
 s = Service(chromedriver.install())
 driver = webdriver.Chrome(service=s)
 
+# let other scripts borrow the functions from this script
+# while still being able to run this script on its own
+if __name__ == "__main__":
 
-# base URLs
-homepage = 'http://www.abacq.org'
-toc = 'http://www.abacq.org/calle/index.php?toc/toc'
-
-
-# fetch all urls from the site map
-driver.get(toc)
-soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", id="toc"))
+    # base URLs
+    homepage = 'http://www.abacq.org'
+    toc = 'http://www.abacq.org/calle/index.php?toc/toc'
 
 
-# all links are under an <li> tag
-links_soup = soup.find_all("li")
-print(f'>>> Parsing the site map {toc}...\n')
-# print(links_soup, '\n')
+    # fetch all urls from the site map
+    driver.get(toc)
+    soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", id="toc"))
 
 
-# stay in the web page like a normal human would
-humanizer(timer)
+    # all links are under an <li> tag
+    links_soup = soup.find_all("li")
+    print(f'>>> Parsing the site map {toc}...\n')
+    # print(links_soup, '\n')
 
 
-# create a list of bare links
-links_list = []
-
-for link in links_soup:
-    link = str(link)
-    link = re.search(r'(\/calle\/index.php\?\d{4}\/\d{2}\/\d{2}\/\d*(?:-\w*)*)', link)
-    link = str(homepage) + str(link.group(1))
-    links_list.append(link)
-print('>>> Fetching all links...')
-print(f'{str(len(links_list))} links found.\n')
-# print(links_list, '\n')
+    # stay in the web page like a normal human would
+    humanizer(timer)
 
 
+    # create a list of bare links
+    links_list = []
 
-# ------------------------------------------------------ #
-
-
-
-### 2. GROUP LINKS BY COUNTRY ###
-
-
-countries_links = {
-    'Alemania'                  : [],
-    'Angola'                    : [],
-    'Arabia Saudita'            : [],
-    'Argelia'                   : [],
-    'Argentina'                 : [],
-    'Australia'                 : [],
-    'Austria'                   : [],
-    'Bélgica'                   : [],
-    'Bosnia-Herzegovina'        : [],
-    'Brasil'                    : [],
-    'Bulgaria'                  : [],
-    'Canadá'                    : [],
-    'Chile'                     : [],
-    'Colombia'                  : [],
-    'Cuba'                      : [],
-    'Dinamarca'                 : [],
-    'Ecuador'                   : [],
-    'Eslovaquia'                : [],
-    'España'                    : [],
-    'Estados Unidos'            : [],
-    'Francia'                   : [],
-    'Guinea-Bissáu'             : [],
-    'Holanda'                   : [],
-    'Hungría'                   : [],
-    'India'                     : [],
-    'Irán'                      : [],
-    'Israel'                    : [],
-    'Italia'                    : [],
-    'Luxemburgo'                : [],
-    'México'                    : [],
-    'Mozambique'                : [],
-    'Nicaragua'                 : [],
-    'Pakistán'                  : [],
-    'Palestina'                 : [],
-    'Paraguay'                  : [],
-    'Perú'                      : [],
-    'Portugal'                  : [],
-    'Reino Unido'               : [],
-    'República Checa'           : [],
-    'República del Congo'       : [],
-    'República de Macedonia'    : [],
-    'República Dominicana'      : [],
-    'Rusia'                     : [],
-    'Salvador'                  : [],
-    'Serbia'                    : [],
-    'Turquía'                   : [],
-    'Uruguay'                   : [],
-    'Venezuela'                 : []
-}
+    for link in links_soup:
+        link = str(link)
+        link = re.search(r'(\/calle\/index.php\?\d{4}\/\d{2}\/\d{2}\/\d*(?:-\w*)*)', link)
+        link = str(homepage) + str(link.group(1))
+        links_list.append(link)
+    print('>>> Fetching all links...')
+    print(f'{str(len(links_list))} links found.\n')
+    # print(links_list, '\n')
 
 
-# assign links according to the country in their url
-for link in links_list:
+
+    # ------------------------------------------------------ #
+
+
+
+    ### 2. GROUP LINKS BY COUNTRY ###
+
+
+    countries_links = {
+        'Alemania'                  : [],
+        'Angola'                    : [],
+        'Arabia Saudita'            : [],
+        'Argelia'                   : [],
+        'Argentina'                 : [],
+        'Australia'                 : [],
+        'Austria'                   : [],
+        'Bélgica'                   : [],
+        'Bosnia-Herzegovina'        : [],
+        'Brasil'                    : [],
+        'Bulgaria'                  : [],
+        'Canadá'                    : [],
+        'Chile'                     : [],
+        'Colombia'                  : [],
+        'Cuba'                      : [],
+        'Dinamarca'                 : [],
+        'Ecuador'                   : [],
+        'Eslovaquia'                : [],
+        'España'                    : [],
+        'Estados Unidos'            : [],
+        'Francia'                   : [],
+        'Guinea-Bissáu'             : [],
+        'Holanda'                   : [],
+        'Hungría'                   : [],
+        'India'                     : [],
+        'Irán'                      : [],
+        'Israel'                    : [],
+        'Italia'                    : [],
+        'Luxemburgo'                : [],
+        'México'                    : [],
+        'Mozambique'                : [],
+        'Nicaragua'                 : [],
+        'Pakistán'                  : [],
+        'Palestina'                 : [],
+        'Paraguay'                  : [],
+        'Perú'                      : [],
+        'Portugal'                  : [],
+        'Reino Unido'               : [],
+        'República Checa'           : [],
+        'República del Congo'       : [],
+        'República de Macedonia'    : [],
+        'República Dominicana'      : [],
+        'Rusia'                     : [],
+        'Salvador'                  : [],
+        'Serbia'                    : [],
+        'Turquía'                   : [],
+        'Uruguay'                   : [],
+        'Venezuela'                 : []
+    }
+
+
+    # assign links according to the country in their url
+    for link in links_list:
+        for key in allende_countries.keys():
+            if allende_countries[key]['country_link'] in link:
+                countries_links[key].append(link)
+
+
+    # enter here the country name (in Spanish) you want to do
+    print('Available countries for processing:\n')
     for key in allende_countries.keys():
-        if allende_countries[key]['country_link'] in link:
-            countries_links[key].append(link)
+        print(key)
+
+    country = str(input('>>> Please enter one of the countries above: '))
+
+    while country not in allende_countries.keys():
+        country = str(input('>>> Try again - Please enter one of the countries above: '))
 
 
-# enter here the country name (in Spanish) you want to do
-print('Available countries for processing:\n')
-for key in allende_countries.keys():
-    print(key)
-
-country = str(input('>>> Please enter one of the countries above: '))
-
-while country not in allende_countries.keys():
-    country = str(input('>>> Try again - Please enter one of the countries above: '))
+    # retrieve the links for that country
+    print(f'>>> Fetching links for this country...')
+    # print(countries_links[country])
 
 
-# retrieve the links for that country
-print(f'>>> Fetching links for this country...')
-# print(countries_links[country])
-
-
-# most links have the format http://www.abacq.org/calle/index.php?2009/11/06/435-sierra-gorda-chile
-# this corresponds to one locale in one country.
-# links with this format http://www.abacq.org/calle/index.php?2009/01/08/303-chile
-# contains multiple locales within one country.
-#
-# sort links according to whether they're single-locale or multi-locale
-
-single_locale = []
-multi_locale = []
-
-for link in countries_links[country]:
-    link_check = re.search(r'(\/calle\/index.php\?\d{4}\/\d{2}\/\d{2}\/\d*(?:-\w*){2,})', link)
-    if link_check is None:
-        multi_locale.append(link)
-    else:
-        single_locale.append(link)
-
-print(f'{str(len(countries_links[country]))} links found: {str(len(single_locale))} single-locale, {str(len(multi_locale))} multi-locale.\n')
-print(f'Single-locale links:\n{single_locale}\n')
-print(f'Multi-locale links:\n{multi_locale}\n')
-
-
-# stay in the web page like a normal human would
-humanizer(timer)
-
-
-
-# ------------------------------------------------------ #
-
-
-
-### 3. SCRAPE EVERY LINK IN A BATCH ###
-
-
-### WHAT TO COLLECT ###
-
-# for each post, let's collect the following and connect them with the existing columns from the current db:
-# name - image_alt - <img alt=[alt]>
-# type - derived from the post's name and/or text
-# _region - derived from allende_countries
-# country - country - regex-ed from post title <h2 class="post-title">
-# locale - <strong>
-# oldest_known_year,month,day - scraped from the post's text
-# desc - desc - <em>
-# abacq-reference - post_url - <h2><a href=[]>
-
-
-# create a dictionary of lists that's easily translatable into our existing db
-data = {
-    'id'                         : [],
-    'name'                       : [],
-    'type'                       : [],
-    'region'                     : [],
-    'country'                    : [],
-    'locale_1'                   : [],
-    'locale_2'                   : [],
-    'locale_3'                   : [],
-    'locale_4'                   : [],
-    'locale_5'                   : [],
-    'zip_code'                   : [],
-    'latitude'                   : [],
-    'longitude'                  : [],
-    'oldest_known_year'          : [],
-    'oldest_known_month'         : [],
-    'oldest_known_day'           : [],
-    'oldest_known_source'        : [],
-    'desc'                       : [],
-    'desc_language'              : [],
-    'alt_name'                   : [],
-    'former_name'                : [],
-    'verified_in_maps'           : [],
-    'openstreetmap_link'         : [],
-    'google_maps_link'           : [],
-    'abacq_reference'            : [],
-}
-
-
-
-# ------------------------------------------------------ #
-
-
-
-### 3a. SINGLE-LOCALE SCRAPER ###
-
-
-# every link is basically an article so we'll retrieve their contents
-for (i, link) in enumerate(single_locale, start=1):
-    driver.get(link)
-
+    # most links have the format http://www.abacq.org/calle/index.php?2009/11/06/435-sierra-gorda-chile
+    # this corresponds to one locale in one country.
+    # links with this format http://www.abacq.org/calle/index.php?2009/01/08/303-chile
+    # contains multiple locales within one country.
     #
-    # we are only interested in the article itself, not the comments, sidebar, etc.
-    #
-    article_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", class_="post")) #, from_encoding='windows-1252', exclude_encodings=['unicode', 'utf-8'])
-    
-    #
+    # sort links according to whether they're single-locale or multi-locale
+
+    single_locale = []
+    multi_locale = []
+
+    for link in countries_links[country]:
+        link_check = re.search(r'(\/calle\/index.php\?\d{4}\/\d{2}\/\d{2}\/\d*(?:-\w*){2,})', link)
+        if link_check is None:
+            multi_locale.append(link)
+        else:
+            single_locale.append(link)
+
+    print(f'{str(len(countries_links[country]))} links found: {str(len(single_locale))} single-locale, {str(len(multi_locale))} multi-locale.\n')
+    print(f'Single-locale links:\n{single_locale}\n')
+    print(f'Multi-locale links:\n{multi_locale}\n')
+
+
     # stay in the web page like a normal human would
-    #
     humanizer(timer)
 
-    #
-    # then go on with our automated lives
-    #
-    print(f'\n>>> Parsing single-locale article {str(i)} of {str(len(single_locale))}: {link}...\n')
-    text = article_soup.get_text()
-    lower_text = text.lower()
-    print(text)
 
-    #
-    # get ID (null)
-    #
-    id = ''
-    data['id'].append(id)
-    print(f'ID: {id}')
 
-    #
-    # get COUNTRY and REGION
-    #
-    get_country_and_region()
-    print(f'Country: {country_en}')
-    print(f'Region: {region}')
-
-    #
-    # get LOCALE_1
-    # we'll take the locale found in abacq as the default locale_1
-    #
-    locale_1 = article_soup.find("strong")
-    locale_1 = str(locale_1)
-    locale_1 = re.search(r'<strong>(.*)<\/strong>', locale_1)
-    try:
-        str(locale_1.group(1))
-    except:
-        locale_1 = article_soup.find("h2", class_="post-title")
-        locale_1 = str(locale_1)
-        locale_1 = re.search(r'<h2 class="post-title">(.*)(?:\.|,)\s*.*<\/h2>', locale_1)
-        locale_1 = str(locale_1.group(1))
-    else:
-        locale_1 = str(locale_1.group(1))
-    #
-    # when we have this abacq locale, we then cross-check this with OpenStreetMap
-    #
-    osm_check()
-
-    #
-    # extract OSM info if any
-    #
-    extract_osm_info()
-    print(f'Locale 2: {locale_2}')
-    print(f'Locale 3: {locale_3}')
-    print(f'Locale 4: {locale_4}')
-    print(f'Locale 5: {locale_5}')
-    print(f'Zip code: {zip_code}')
-    print(f'Latitude: {latitude}')
-    print(f'Longitude: {longitude}')
-
-    #
-    # get NAME
-    #
-    get_name()
-    print(f'Name: {name}')
-
-    #
-    # get TYPE
-    #
-    get_type()
-    print(f'Type: {type}')
-
-    #
-    # get DESC
-    # whatever text is in the memorial place
-    # had to move this before get_oldest_known_source so that the function can use desc_soup
-    #
-    desc = ''
-    global desc_soup
-    desc_soup = article_soup.find_all("em")
-    desc_soup = list(desc_soup)
-    for desc_item in desc_soup:
-        desc_item = str(desc_item)
-        desc_item = desc_item.strip('</em>')
-        desc += desc_item + '\n'
-    desc = desc.replace('<br/>', '')
-    data['desc'].append(desc)
-    print(f'Desc: {desc}')
-
-    #
-    # get OLDEST_KNOWN_YEAR
-    #
-    get_oldest_known_year()
-    print(f'Oldest known year: {oldest_known_year}')
-
-    #
-    # get OLDEST_KNOWN_MONTH
-    #
-    get_oldest_known_month()
-    print(f'Oldest known month: {oldest_known_month}')
-
-    #
-    # get OLDEST_KNOWN_DAY
-    #
-    get_oldest_known_day()
-    print(f'Oldest known day: {oldest_known_day}')
-
-    #
-    # get OLDEST_KNOWN_SOURCE
-    #
-    get_oldest_known_source()
-    print(f'Oldest known source: {oldest_known_source}')
-
-    #
-    # get DESC_LANGUAGE (null)
-    # won't assume anything here for now because most of the descriptions I see are in Spanish, regardless of the region
-    #
-    desc_language = ''
-    data['desc_language'].append(desc_language)
-    print(f'Desc language: {desc_language}')
-
-    #
-    # get ALT_NAME (null)
-    #
-    alt_name = ''
-    data['alt_name'].append(alt_name)
-    print(f'Alt name: {alt_name}')
-
-    #
-    # get FORMER_NAME (null)
-    #
-    former_name = ''
-    data['former_name'].append(former_name)
-    print(f'Former name: {former_name}')
-
-    #
-    # get VERIFIED_IN_MAPS and OPENSTREETMAP_LINK
-    #
-    get_verified_in_maps_and_osm_link()
-    print(f'Verified in maps: {verified_in_maps}')
-    print(f'OpenStreetMap link: {openstreetmap_link}')
-
-    #
-    # get GOOGLE_MAPS_LINK (null)
-    #
-    google_maps_link = ''
-    data['google_maps_link'].append(google_maps_link)
-    print(f'Google Maps link: {google_maps_link}')
-
-    #
-    # get ABACQ_REFERENCE
-    # basically the url we're working with
-    #
-    data['abacq_reference'].append(link)
-
-    #
-    # stay in the web page like a normal human would
-    #
-    humanizer(timer)
-
-    #
-    # clear browser cache for the next iteration
-    #
-    clear_cache()
+    # ------------------------------------------------------ #
 
 
 
-# ------------------------------------------------------ #
+    ### 3. SCRAPE EVERY LINK IN A BATCH ###
+
+
+    ### WHAT TO COLLECT ###
+
+    # for each post, let's collect the following and connect them with the existing columns from the current db:
+    # name - image_alt - <img alt=[alt]>
+    # type - derived from the post's name and/or text
+    # _region - derived from allende_countries
+    # country - country - regex-ed from post title <h2 class="post-title">
+    # locale - <strong>
+    # oldest_known_year,month,day - scraped from the post's text
+    # desc - desc - <em>
+    # abacq-reference - post_url - <h2><a href=[]>
+
+
+    # create a dictionary of lists that's easily translatable into our existing db
+    data = {
+        'id'                         : [],
+        'name'                       : [],
+        'type'                       : [],
+        'region'                     : [],
+        'country'                    : [],
+        'locale_1'                   : [],
+        'locale_2'                   : [],
+        'locale_3'                   : [],
+        'locale_4'                   : [],
+        'locale_5'                   : [],
+        'zip_code'                   : [],
+        'latitude'                   : [],
+        'longitude'                  : [],
+        'oldest_known_year'          : [],
+        'oldest_known_month'         : [],
+        'oldest_known_day'           : [],
+        'oldest_known_source'        : [],
+        'desc'                       : [],
+        'desc_language'              : [],
+        'alt_name'                   : [],
+        'former_name'                : [],
+        'verified_in_maps'           : [],
+        'openstreetmap_link'         : [],
+        'google_maps_link'           : [],
+        'abacq_reference'            : [],
+    }
 
 
 
-### 3b. MULTI-LOCALE SCRAPER ###
+    # ------------------------------------------------------ #
 
 
-# every link is basically an article so we'll retrieve their contents
-for (i, link) in enumerate(multi_locale, start=1):
-    driver.get(link)
 
-    #
-    # we are only interested in the article itself, not the comments, sidebar, etc.
-    #
-    article_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", class_="post")) #, from_encoding='windows-1252', exclude_encodings=['unicode', 'utf-8'])
-    
-    #
-    # stay in the web page like a normal human would
-    #
-    humanizer(timer)
+    ### 3a. SINGLE-LOCALE SCRAPER ###
 
-    #
-    # then go on with our automated lives
-    #
-    print(f'\n>>> Parsing multi-locale article {str(i)} of {str(len(multi_locale))}: {link}...\n')
-    text = article_soup.get_text()
-    lower_text = text.lower()
-    print(text)
 
-    #
-    # honestly, the multi-locale articles are less organized but are concise enough for manual human investigation.
-    # each locale is still within <strong> tags so we'll take advantage of those
-    #
+    # every link is basically an article so we'll retrieve their contents
+    for (i, link) in enumerate(single_locale, start=1):
+        driver.get(link)
 
-    #
-    # get all LOCALE_1
-    #
-    locale_1_soup = article_soup.find_all("strong")
-    locale_1_soup = list(locale_1_soup)
-    locale_1_list = []
-    for locale_1 in locale_1_soup:
-        locale_1 = str(locale_1)
-        locale_1 = re.search(r'<strong>(.*)<\/strong>', locale_1)
-        locale_1 = str(locale_1.group(1))
-        locale_1_list.append(locale_1)
+        #
+        # we are only interested in the article itself, not the comments, sidebar, etc.
+        #
+        article_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", class_="post")) #, from_encoding='windows-1252', exclude_encodings=['unicode', 'utf-8'])
+        
+        #
+        # stay in the web page like a normal human would
+        #
+        humanizer(timer)
 
-    #
-    # for each LOCALE_1, give them the same base information as the rest of the article
-    #
-    for locale_1 in locale_1_list:
+        #
+        # then go on with our automated lives
+        #
+        print(f'\n>>> Parsing single-locale article {str(i)} of {str(len(single_locale))}: {link}...\n')
+        text = article_soup.get_text()
+        lower_text = text.lower()
+        print(text)
 
         #
         # get ID (null)
@@ -1206,69 +1020,60 @@ for (i, link) in enumerate(multi_locale, start=1):
         #
         # get COUNTRY and REGION
         #
-        get_country_and_region()
-        print(f'Country: {country_en}')
-        print(f'Region: {region}')
+        get_country_and_region(link, data)
 
         #
-        # cross-check LOCALE_1 with OSM
+        # get LOCALE_1
+        # we'll take the locale found in abacq as the default locale_1
         #
-        osm_check()
+        locale_1 = article_soup.find("strong")
+        locale_1 = str(locale_1)
+        locale_1 = re.search(r'<strong>(.*)<\/strong>', locale_1)
+        try:
+            str(locale_1.group(1))
+        except:
+            locale_1 = article_soup.find("h2", class_="post-title")
+            locale_1 = str(locale_1)
+            locale_1 = re.search(r'<h2 class="post-title">(.*)(?:\.|,)\s*.*<\/h2>', locale_1)
+            locale_1 = str(locale_1.group(1))
+        else:
+            locale_1 = str(locale_1.group(1))
+        #
+        # when we have this abacq locale, we then cross-check this with OpenStreetMap
+        #
+        osm_check(locale_1, data)
 
         #
         # extract OSM info if any
         #
-        extract_osm_info()
-        print(f'Locale 2: {locale_2}')
-        print(f'Locale 3: {locale_3}')
-        print(f'Locale 4: {locale_4}')
-        print(f'Locale 5: {locale_5}')
-        print(f'Zip code: {zip_code}')
-        print(f'Latitude: {latitude}')
-        print(f'Longitude: {longitude}')
+        extract_osm_info(data)
 
         #
         # get NAME
         #
-        get_name()
-        print(f'Name: {name}')
+        get_name(article_soup, data)
 
         #
         # get TYPE
         #
-        get_type()
-        print(f'Type: {type}')
+        get_type(data)
 
         #
-        # get OLDEST_KNOWN_YEAR
-        #
-        get_oldest_known_year()
-        print(f'Oldest known year: {oldest_known_year}')
-
-        #
-        # get OLDEST_KNOWN_MONTH
-        #
-        get_oldest_known_month()
-        print(f'Oldest known month: {oldest_known_month}')
-
-        #
-        # get OLDEST_KNOWN_DAY
-        #
-        get_oldest_known_day()
-        print(f'Oldest known day: {oldest_known_day}')
-
-        #
-        # get OLDEST_KNOWN_SOURCE
-        #
-        get_oldest_known_source()
-        print(f'Oldest known source: {oldest_known_source}')
-
-        #
-        # get DESC (null)
+        # get DESC
+        # whatever text is in the memorial place
+        # had to move this before get_oldest_known_source so that the function can use desc_soup
         #
         desc = ''
+        global desc_soup
+        desc_soup = article_soup.find_all("em")
+        desc_soup = list(desc_soup)
+        for desc_item in desc_soup:
+            desc_item = str(desc_item)
+            desc_item = desc_item.strip('</em>')
+            desc += desc_item + '\n'
+        desc = desc.replace('<br/>', '')
         data['desc'].append(desc)
-        print(f'Desc: {desc}\n')
+        print(f'Desc: {desc}')
 
         #
         # get DESC_LANGUAGE (null)
@@ -1277,6 +1082,26 @@ for (i, link) in enumerate(multi_locale, start=1):
         desc_language = ''
         data['desc_language'].append(desc_language)
         print(f'Desc language: {desc_language}')
+
+        #
+        # get OLDEST_KNOWN_YEAR
+        #
+        get_oldest_known_year(link, text, data)
+
+        #
+        # get OLDEST_KNOWN_MONTH
+        #
+        get_oldest_known_month(link, lower_text, data)
+
+        #
+        # get OLDEST_KNOWN_DAY
+        #
+        get_oldest_known_day(link, lower_text, data)
+
+        #
+        # get OLDEST_KNOWN_SOURCE
+        #
+        get_oldest_known_source(desc, data)
 
         #
         # get ALT_NAME (null)
@@ -1295,9 +1120,7 @@ for (i, link) in enumerate(multi_locale, start=1):
         #
         # get VERIFIED_IN_MAPS and OPENSTREETMAP_LINK
         #
-        get_verified_in_maps_and_osm_link()
-        print(f'Verified in maps: {verified_in_maps}')
-        print(f'OpenStreetMap link: {openstreetmap_link}')
+        get_verified_in_maps_and_osm_link(data)
 
         #
         # get GOOGLE_MAPS_LINK (null)
@@ -1324,25 +1147,187 @@ for (i, link) in enumerate(multi_locale, start=1):
 
 
 
-# ------------------------------------------------------ #
+    # ------------------------------------------------------ #
 
 
 
-### 4. EXPORT THE DATA ###
+    ### 3b. MULTI-LOCALE SCRAPER ###
 
 
-# create a dataframe of all info collected
-data_df = pd.DataFrame(data=data)
-print('\nDataFrame created:\n')
-print(data_df)
+    # every link is basically an article so we'll retrieve their contents
+    for (i, link) in enumerate(multi_locale, start=1):
+        driver.get(link)
 
-# export dataframe - xlsx supports unicode, so no more encoding fiascos compared to saving to csv
-# data_df.to_excel(f'{country_en}.xlsx', index=False) # for test files
-data_df.to_excel(f'countries/{country_en}.xlsx', index=False) # for main files
-print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
+        #
+        # we are only interested in the article itself, not the comments, sidebar, etc.
+        #
+        article_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("div", class_="post")) #, from_encoding='windows-1252', exclude_encodings=['unicode', 'utf-8'])
+        
+        #
+        # stay in the web page like a normal human would
+        #
+        humanizer(timer)
+
+        #
+        # then go on with our automated lives
+        #
+        print(f'\n>>> Parsing multi-locale article {str(i)} of {str(len(multi_locale))}: {link}...\n')
+        text = article_soup.get_text()
+        lower_text = text.lower()
+        print(text)
+
+        #
+        # honestly, the multi-locale articles are less organized but are concise enough for manual human investigation.
+        # each locale is still within <strong> tags so we'll take advantage of those
+        #
+
+        #
+        # get all LOCALE_1
+        #
+        locale_1_soup = article_soup.find_all("strong")
+        locale_1_soup = list(locale_1_soup)
+        locale_1_list = []
+        for locale_1 in locale_1_soup:
+            locale_1 = str(locale_1)
+            locale_1 = re.search(r'<strong>(.*)<\/strong>', locale_1)
+            locale_1 = str(locale_1.group(1))
+            locale_1_list.append(locale_1)
+
+        #
+        # for each LOCALE_1, give them the same base information as the rest of the article
+        #
+        for locale_1 in locale_1_list:
+
+            #
+            # get ID (null)
+            #
+            id = ''
+            data['id'].append(id)
+            print(f'ID: {id}')
+
+            #
+            # get COUNTRY and REGION
+            #
+            get_country_and_region(link, data)
+
+            #
+            # cross-check LOCALE_1 with OSM
+            #
+            osm_check(locale_1, data)
+
+            #
+            # extract OSM info if any
+            #
+            extract_osm_info(data)
+
+            #
+            # get NAME
+            #
+            get_name(article_soup, data)
+
+            #
+            # get TYPE
+            #
+            get_type(data)
+
+            #
+            # get DESC (null)
+            #
+            desc = ''
+            data['desc'].append(desc)
+            print(f'Desc: {desc}\n')
+
+            #
+            # get DESC_LANGUAGE (null)
+            # won't assume anything here for now because most of the descriptions I see are in Spanish, regardless of the region
+            #
+            desc_language = ''
+            data['desc_language'].append(desc_language)
+            print(f'Desc language: {desc_language}')
+
+            #
+            # get OLDEST_KNOWN_YEAR
+            #
+            get_oldest_known_year(link, text, data)
+
+            #
+            # get OLDEST_KNOWN_MONTH
+            #
+            get_oldest_known_month(link, lower_text, data)
+
+            #
+            # get OLDEST_KNOWN_DAY
+            #
+            get_oldest_known_day(link, lower_text, data)
+
+            #
+            # get OLDEST_KNOWN_SOURCE
+            #
+            get_oldest_known_source(desc, data)
+
+            #
+            # get ALT_NAME (null)
+            #
+            alt_name = ''
+            data['alt_name'].append(alt_name)
+            print(f'Alt name: {alt_name}')
+
+            #
+            # get FORMER_NAME (null)
+            #
+            former_name = ''
+            data['former_name'].append(former_name)
+            print(f'Former name: {former_name}')
+
+            #
+            # get VERIFIED_IN_MAPS and OPENSTREETMAP_LINK
+            #
+            get_verified_in_maps_and_osm_link(data)
+
+            #
+            # get GOOGLE_MAPS_LINK (null)
+            #
+            google_maps_link = ''
+            data['google_maps_link'].append(google_maps_link)
+            print(f'Google Maps link: {google_maps_link}')
+
+            #
+            # get ABACQ_REFERENCE
+            # basically the url we're working with
+            #
+            data['abacq_reference'].append(link)
+
+            #
+            # stay in the web page like a normal human would
+            #
+            humanizer(timer)
+
+            #
+            # clear browser cache for the next iteration
+            #
+            clear_cache()
 
 
 
-# ------------------------------------------------------ #
+    # ------------------------------------------------------ #
+
+
+
+    ### 4. EXPORT THE DATA ###
+
+
+    # create a dataframe of all info collected
+    data_df = pd.DataFrame(data=data)
+    print('\nDataFrame created:\n')
+    print(data_df)
+
+    # export dataframe - xlsx supports unicode, so no more encoding fiascos compared to saving to csv
+    data_df.to_excel(f'{country_en}.xlsx', index=False) # for test files
+    # data_df.to_excel(f'countries/{country_en}.xlsx', index=False) # for main files
+    print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
+
+
+
+    # ------------------------------------------------------ #
 
 

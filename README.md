@@ -65,7 +65,7 @@ Some articles include places named after or dedicated to Pablo Neruda, Victor Ja
 
 **This repo is a work in progress**, and it will only contain complete tables and scripts that have been tested to work. Test scripts and tables are in my [datasets-of-interest](https://github.com/GoGroGlo/datasets-of-interest/tree/main/a-place-for-salvador-allende) repo.
 
-My data investigation (also a work in progress) can be found here: [**A Place for Salvador Allende: A Data Investigation**](a-place-for-salvador-allende.md).
+My data investigation (also a work in progress) can be found here: [**A Place for Salvador Allende: A Data Investigation**](a_place_for_salvador_allende.md).
 
 
 ## Data dictionary
