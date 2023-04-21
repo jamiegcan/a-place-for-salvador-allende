@@ -783,6 +783,7 @@ def get_verified_in_maps_and_osm_link(data):
 s = Service(chromedriver.install())
 driver = webdriver.Chrome(service=s)
 
+
 # let other scripts borrow the functions from this script
 # while still being able to run this script on its own
 if __name__ == "__main__":
@@ -923,6 +924,23 @@ if __name__ == "__main__":
     print(f'{str(len(countries_links[country]))} links found: {str(len(single_locale))} single-locale, {str(len(multi_locale))} multi-locale.\n')
     print(f'Single-locale links:\n{single_locale}\n')
     print(f'Multi-locale links:\n{multi_locale}\n')
+
+
+    # let user enter links to be skipped - this would be removed from the single/multi-locale links
+    exclude_links_input = input('\n>>> Enter links to be excluded in the format link1,link2,link3,... (or press Enter if none): ')
+
+    try:
+        exclude_links = exclude_links_input.split(',')
+    except:
+        exclude_links = []
+        exclude_links.append(exclude_links_input)
+
+    if exclude_links is not None:
+        for link in exclude_links:
+            if link in single_locale:
+                single_locale.remove(link)
+            elif link in multi_locale:
+                multi_locale.remove(link)
 
 
     # stay in the web page like a normal human would
@@ -1322,8 +1340,8 @@ if __name__ == "__main__":
     print(data_df)
 
     # export dataframe - xlsx supports unicode, so no more encoding fiascos compared to saving to csv
-    data_df.to_excel(f'{country_en}.xlsx', index=False) # for test files
-    # data_df.to_excel(f'countries/{country_en}.xlsx', index=False) # for main files
+    # data_df.to_excel(f'{country_en}.xlsx', index=False) # for test files
+    data_df.to_excel(f'countries/{country_en}.xlsx', index=False) # for main files
     print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
 
 
