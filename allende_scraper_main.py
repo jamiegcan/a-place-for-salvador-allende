@@ -33,6 +33,7 @@ import chromedriver_autoinstaller as chromedriver
 import re
 import pandas as pd 
 import time
+import math
 
 
 
@@ -290,13 +291,15 @@ allende_countries = {
 
 # non-exhaustive lists of words that correspond to a specific type of establishment
 types = {
-    'street'                : ['calle', 'avenida', 'pasaje', 'rue', 'rua', 'road', 'avenue', 'circunvalación', 'boulevard', 'bulevar', 'street', 'straat', 'strada', 'estrada'],
+    'street'                : ['calle', 'avenida', 'pasaje', 'rue', 'rua', 'road', 'avenue', 'circunvalación', 
+                               'boulevard', 'bulevar', 'street', 'straat', 'strada', 'estrada', 'via', 'viale'],
     'monument'              : ['monumento', 'escultura', 'monument', 'sculpture', 'busto', 'bust', 'statue', 'memorial'],
     'park'                  : ['plaza', 'parque', 'square', 'park', 'place', 'plazoleta', 'plazuela', 'praça'],
     'school'                : ['escuela', 'colegio', 'school', 'college', 'schule', 'école', 'liceo', 'escola'],
     'healthcare facility'   : ['hospital', 'salud', 'healthcare', 'health'],
     'bridge'                : ['puente', 'bridge', 'pont', 'brücke'],
-    'sports center'         : ['complexe sportif', 'sports complex', 'sport', 'sports', 'sports center', 'sports centre',  'complejo de deporte'],
+    'sports center'         : ['complexe sportif', 'sports complex', 'sport', 'sports', 'sports center', 
+                               'sports centre',  'complejo de deporte'],
     'multipurpose center'   : ['espace', 'hall', 'centro cívico'],
     'port'                  : ['puerto', 'port'],
     'residential area'      : ['población', 'village', 'hamlet', 'neighbourhood', 'residential area'],
@@ -895,13 +898,9 @@ if __name__ == "__main__":
 
     country = str(input('>>> Please enter one of the countries above: '))
 
+    # typo prevention
     while country not in allende_countries.keys():
         country = str(input('>>> Try again - Please enter one of the countries above: '))
-
-
-    # retrieve the links for that country
-    print(f'>>> Fetching links for this country...')
-    # print(countries_links[country])
 
 
     # most links have the format http://www.abacq.org/calle/index.php?2009/11/06/435-sierra-gorda-chile
@@ -921,16 +920,27 @@ if __name__ == "__main__":
         else:
             single_locale.append(link)
 
-    print(f'{str(len(countries_links[country]))} links found: {str(len(single_locale))} single-locale, {str(len(multi_locale))} multi-locale.\n')
-    print(f'Single-locale links:\n{single_locale}\n')
-    print(f'Multi-locale links:\n{multi_locale}\n')
+
+    # preemptively remove links that contain 'victor-jara' or 'pablo-neruda' (sorry for the both of you)
+    for link in single_locale:
+        for i in ['victor-jara', 'pablo-neruda']:
+            if i in link:
+                single_locale.remove(link)
+
+    for link in multi_locale:
+        for i in ['victor-jara', 'pablo-neruda']:
+            if i in link:
+                multi_locale.remove(link)
 
 
     # let user enter links to be skipped - this would be removed from the single/multi-locale links
-    exclude_links_input = input('\n>>> Enter links to be excluded in the format link1,link2,link3,... (or press Enter if none): ')
+    exclude_links_input = input('>>> Enter links to be excluded in the format link1,link2,link3,... (or press Enter if none): ')
 
     try:
-        exclude_links = exclude_links_input.split(',')
+        exclude_links = []
+        for link in exclude_links_input.split(','):
+            link = link.strip()
+            exclude_links.append(link)
     except:
         exclude_links = []
         exclude_links.append(exclude_links_input)
@@ -941,6 +951,48 @@ if __name__ == "__main__":
                 single_locale.remove(link)
             elif link in multi_locale:
                 multi_locale.remove(link)
+
+    
+    # split single_locale into groups of x
+    def chunks(l, n):
+        n = max(1, n)
+        # this returns a generator object - http://stackoverflow.com/questions/1756096/ddg#1756156
+        return (l[i:i+n] for i in range(0, len(l), n))
+
+
+    # let user decide by how many groups we can divide big lists into - this has to be consistent for each big country (looking at you, France)
+    try:
+        chunk_number = int(input('>>> Separate single-locale list into chunks with x links each? Enter number if yes, press Enter if no: '))
+    except:
+        chunk_number = None
+
+    if chunk_number is not None:
+        # we have to take note of which chunks we've done so that we don't repeat work
+        try:
+            target_chunk = int(input(
+                f'>>> {math.ceil(len(single_locale) / chunk_number)} chunks generated - Enter the number of the chunk you want to work on: '))
+        # typo prevention
+        except:
+            target_chunk = int(input(
+                f'>>> Try again - {math.ceil(len(single_locale) / chunk_number)} chunks generated - Enter the number of the chunk you want to work on: '))
+        while target_chunk > math.ceil(len(single_locale) / chunk_number):
+            target_chunk = int(input(
+                f'>>> Try again - {math.ceil(len(single_locale) / chunk_number)} chunks generated - Enter the number of the chunk you want to work on: '))
+        
+        single_locale = chunks(single_locale, chunk_number)
+        # skip through chunks that we don't need
+        _i = 1
+        while _i < target_chunk:
+            next(single_locale)
+            _i += 1
+        # this next iteration is the chunk we want to work with
+        single_locale = next(single_locale)
+
+
+    # print all links after the exclusions have been removed
+    print(f'Links found: {str(len(single_locale))} single-locale, {str(len(multi_locale))} multi-locale.\n')
+    print(f'Single-locale links:\n{single_locale}\n')
+    print(f'Multi-locale links:\n{multi_locale}\n')
 
 
     # stay in the web page like a normal human would
@@ -1340,9 +1392,13 @@ if __name__ == "__main__":
     print(data_df)
 
     # export dataframe - xlsx supports unicode, so no more encoding fiascos compared to saving to csv
-    # data_df.to_excel(f'{country_en}.xlsx', index=False) # for test files
-    data_df.to_excel(f'countries/{country_en}.xlsx', index=False) # for main files
-    print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
+    if chunk_number is not None:
+        data_df.to_excel(f'countries/{country_en}_{target_chunk}.xlsx', index=False) # for main files
+        print(f'DataFrame saved in \'countries/{country_en}_{target_chunk}.xlsx\'.')
+    else:
+        # data_df.to_excel(f'{country_en}.xlsx', index=False) # for test files
+        data_df.to_excel(f'countries/{country_en}.xlsx', index=False) # for main files
+        print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
 
 
 
