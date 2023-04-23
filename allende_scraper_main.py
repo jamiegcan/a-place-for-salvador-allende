@@ -306,6 +306,7 @@ types = {
     'museum'                : ['museo', 'museum' , 'musée'],
     'interior'              : ['aula', 'auditorio', 'auditorium'],
     'memorial plate'        : ['placa', 'plate', 'plaque'],
+    'government facility'   : ['governmental office']
 }
 
 
@@ -404,22 +405,33 @@ def get_country_and_region(link, data):
 # note that locale_1 collection process is different between single-locale and multi-locale links
 #
 def osm_check(locale_1, data):
-    clear_cache()
     #
     # when we have this abacq locale, we then cross-check this with OpenStreetMap
+    # first, do a specific search for 'Salvador Allende'
     #
-    locale_link = f'https://www.openstreetmap.org/search?query=Allende%20{locale_1}%20{country_en}'
+    locale_link = f'https://www.openstreetmap.org/search?query=Salvador%20Allende%20{locale_1}%20{country_en}'
     driver.get(locale_link)
     # humanizer fixes the problem of the script getting no OSM info sometimes when you can see in the browser that there actually is 
     humanizer(timer)
     osm_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("ul", class_="results-list list-group list-group-flush"))
 
     #
-    # go through each search result and have the user verify it
-    # we also have a placeholder list for loop comparison purposes
+    # collect search results
     #
-    locale_results_list = list(osm_soup.find_all("a", class_="set_position"))
-    lrl_placeholder = []
+    locale_results_list = []
+    locale_results_list.extend(list(osm_soup.find_all("a", class_="set_position")))
+
+    #
+    # if the first search has no results, try a more general search for 'Allende'
+    #
+    if len(locale_results_list) == 0:
+        locale_link = f'https://www.openstreetmap.org/search?query=Allende%20{locale_1}%20{country_en}'
+        driver.get(locale_link)
+        # humanizer fixes the problem of the script getting no OSM info sometimes when you can see in the browser that there actually is 
+        humanizer(timer)
+        osm_soup = BeautifulSoup(driver.page_source, 'html.parser', parse_only=SoupStrainer("ul", class_="results-list list-group list-group-flush"))
+        locale_results_list.extend(list(osm_soup.find_all("a", class_="set_position")))
+
     #
     # a single result looks like this - we can derive lots of info from here once user verifies that it looks good
     #
@@ -441,8 +453,6 @@ def osm_check(locale_1, data):
         print(f'{str(len(locale_results_list))} possible address(es) found in OpenStreetMap.')
         for result in locale_results_list:
             result = str(result)
-            lrl_placeholder.append(result)
-            # osm_address = re.search(r'data-name=\"(.*)\"\s*data-type', result)
             osm_address = re.search(r'>\"*(.*)\"*<\/a>', result)
             osm_address = str(osm_address.group(1))
             #
@@ -450,10 +460,12 @@ def osm_check(locale_1, data):
             #
             print(f'Please verify if this address matches the place in this article:\n{osm_address}')
             user_verification = input('>>> Type y if yes, n if no: ')
-            # if user enters a typo let them try again
+            # typo prevention
             while user_verification != 'n' and user_verification != 'y':
                 user_verification = input('>>> Try again - Type y if yes, n if no: ')
+            #
             # if there is only one result and it doesn't match the article's place
+            #
             if user_verification == 'n' and len(locale_results_list) == 1:
                 print('OpenStreetMap address does not match the place in this article. Will use the locale derived from the article...')
                 # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
@@ -462,27 +474,33 @@ def osm_check(locale_1, data):
                 data['locale_1'].append(locale_1)
                 print(f'Locale 1: {locale_1}')
                 break
-            # if there are more than one result and we haven't exhausted the loop yet
-            elif user_verification == 'n' and len(locale_results_list) > len(lrl_placeholder):
-                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
-                osm_address = ''
-                osm_info = ''
-                continue
-            # if we have exhausted all results and none of them match the article's place
-            elif user_verification == 'n' and len(locale_results_list) == len(lrl_placeholder):
-                print('All OpenStreetMap addresses do not match the place in this article. Will use the locale derived from the article...')
-                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
-                osm_address = ''
-                osm_info = ''
-                # nothing else we can do but add the default locale_1
-                data['locale_1'].append(locale_1)
-                print(f'Locale 1: {locale_1}')
-                break
+            #
             # if result matches article's place
+            #
             elif user_verification == 'y':
                 # we'll save the whole result in a variable for later parsing. we can then close the loop.
                 osm_info = result
                 break
+            #
+            # if there are more than one result and we haven't exhausted the loop yet
+            #
+            elif user_verification == 'n' and len(locale_results_list) > 1:
+                # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+                osm_address = ''
+                osm_info = ''
+                continue
+        #
+        # if we have exhausted all list items and none of them matches the place
+        #
+        else:
+            print('All OpenStreetMap addresses do not match the place in this article. Will use the locale derived from the article...')
+            # clear the previous entry's osm_address and osm_info so that it doesn't get copied into the current entry
+            osm_address = ''
+            osm_info = ''
+            # nothing else we can do but add the default locale_1
+            data['locale_1'].append(locale_1)
+            print(f'Locale 1: {locale_1}')
+
         #
         # stay in the web page like a normal human would
         #
@@ -599,11 +617,11 @@ def get_name(article_soup, data):
         try:
             name = str(name.group(1))
         except:
-            # fallback for when there's neither OSM name nor alt text
-            name = 'A tribute to Salvador Allende'
-    # if name ends up being just 'foto' (meaning there's no usable alt text in the article), then fallback to the generic name as well
+            # name is blank there's neither OSM name nor alt text
+            name = ''
+    # if name ends up being just 'foto' (meaning there's no usable alt text in the article), then make it blank as well
     if name == 'foto':
-        name = 'A tribute to Salvador Allende'
+        name = ''
     data['name'].append(name)
     print(f'Name: {name}')
 
@@ -960,7 +978,8 @@ if __name__ == "__main__":
         return (l[i:i+n] for i in range(0, len(l), n))
 
 
-    # let user decide by how many groups we can divide big lists into - this has to be consistent for each big country (looking at you, France)
+    # let user decide how many links each chunk should have - 10 is good enough for one sitting
+    # this has to be consistent for each big country (looking at you, France)
     try:
         chunk_number = int(input('>>> Separate single-locale list into chunks with x links each? Enter number if yes, press Enter if no: '))
     except:
@@ -1393,10 +1412,11 @@ if __name__ == "__main__":
 
     # export dataframe - xlsx supports unicode, so no more encoding fiascos compared to saving to csv
     if chunk_number is not None:
+        # data_df.to_excel(f'test_files/{country_en}_{target_chunk}.xlsx', index=False) # for test files
         data_df.to_excel(f'countries/{country_en}_{target_chunk}.xlsx', index=False) # for main files
         print(f'DataFrame saved in \'countries/{country_en}_{target_chunk}.xlsx\'.')
     else:
-        # data_df.to_excel(f'{country_en}.xlsx', index=False) # for test files
+        # data_df.to_excel(f'test_files/{country_en}.xlsx', index=False) # for test files
         data_df.to_excel(f'countries/{country_en}.xlsx', index=False) # for main files
         print(f'DataFrame saved in \'countries/{country_en}.xlsx\'.')
 
