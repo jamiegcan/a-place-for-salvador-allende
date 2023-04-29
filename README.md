@@ -5,7 +5,7 @@ Mapping (almost) every place in the world named after the Chilean president, ins
 
 ## About this project
 
-This project builds up upon "Una calle Salvador Allende" at http://www.abacq.org/calle/, which compiled every street and every place named after Salvador Allende, president of Chile from 1970 to 1973. The website accepted inputs from individuals around the world, mostly Chileans within and outside of Chile. The website was active from late 2000's (centennial of Allende's birth) to early 2010's, and many of these streets and places may have changed since then.
+This project builds up upon "Una calle Salvador Allende" at http://www.abacq.org/calle/, which compiled every street and every place named after Salvador Allende, president of Chile from 1970 to 1973. The website accepted inputs from individuals around the world, mostly Chileans within and outside of Chile. The website was active from late 2000's (around the centennial of Allende's birth) to early 2010's, and many of these streets and places may have changed since then.
 
 According to the website, there are at least 48 territories with a place for Salvador Allende:
 1. Angola
@@ -57,13 +57,13 @@ According to the website, there are at least 48 territories with a place for Sal
 47. Uruguay
 48. Venezuela
 
-In a nutshell, this project goes through every article in http://www.abacq.org/calle/ and cross-checks them automatically using OpenStreetMap (OSM) and manually using Google Maps to see if they still exist. The scripts here automate most of the data collection, but the data is still manually verified whenever I have the time. Every place is kept in a table for reference and investigation of anyone interested in this dataset.
+In a nutshell, this project goes through every article in http://www.abacq.org/calle/ and cross-checks them automatically using OpenStreetMap (OSM) and manually using Google Maps to see if they still exist. The scripts here automate most of the data collection, but the data is still manually verified whenever I have the time. Every place is kept in a .xlsx file for reference and investigation of anyone interested in this dataset.
 
 Of course, the website may have missed other places named after Salvador Allende. I plan to create a script that searches OSM for places named after Salvador Allende in every possible country and territory, but this will come later on. For now, this project focuses on the already extensive list of places in http://www.abacq.org/calle/.
 
 Some articles include places named after or dedicated to Pablo Neruda, Victor Jara, and other notable Chilean personalities; they are not included in this project.
 
-**This repo is a work in progress**, and it will only contain complete tables and scripts that have been tested to work. Test scripts and tables are in my [datasets-of-interest](https://github.com/GoGroGlo/datasets-of-interest/tree/main/a-place-for-salvador-allende) repo.
+**This project is a work in progress**, and it will only contain complete datasets and scripts that have been tested to work. Test scripts and datasets are in my [datasets-of-interest](https://github.com/GoGroGlo/datasets-of-interest/tree/main/a-place-for-salvador-allende) repository.
 
 My data investigation (also a work in progress) can be found here: [**A Place for Salvador Allende: A Data Investigation**](a_place_for_salvador_allende.md).
 
@@ -71,10 +71,10 @@ My data investigation (also a work in progress) can be found here: [**A Place fo
 ## Data dictionary
 
 * `id`
-    * [int] A distinct number that is assigned to a place when it is added to the main table `a_place_for_salvador_allende.xlsx`. One ID corresponds to exactly one _standalone_ place.
+    * [int] A distinct number that is assigned to a place when it is added to the main dataset `a_place_for_salvador_allende.xlsx`. One ID corresponds to exactly one _standalone_ place.
     * _Standalone_ here means a distinct place that is located in a distinct locale and is established on a distinct date. For two or more places that are located in the same locale, each place is considered standalone if it can exist independently of the other. 
         * Standalone example: If a street changes its name from "Salvador Allende" to something else, but a park named after Salvador Allende remains there, then both places are considered standalone (see IDs 146 and 147).
-        * Non-standalone example: If there is a bus stop named after Salvador Allende, not because it deserves its own name but because the street it is located at is named "Salvador Allende", then the bus stop will not be added to the main table. For this reason, the hundreds of bus stops in Chile named after Salvador Allende are not included in the main table, but their corresponding streets are.
+        * Non-standalone example: If there is a bus stop named after Salvador Allende, not because it deserves its own name but because the street it is located at is named "Salvador Allende", then the bus stop will not be added to the main dataset. For this reason, the hundreds of bus stops in Chile named after Salvador Allende are not included in the main dataset, but their corresponding streets are.
 * `name`
     * [str] Either of the following:
         * The local name of the place (e.g., `Avenida Salvador Allende` or `Allendeho`); or
@@ -147,6 +147,6 @@ My data investigation (also a work in progress) can be found here: [**A Place fo
 The scripts here rely on web scraping. While they are written so that they can run at a reasonably human pace, be aware that scraping too often may put a heavy strain on the website and may cause your IP address to be banned from the website. I recommend collecting country-specific data on spaced intervals that are long enough for websites to think you are a casual human browser rather than a bot.
 
 
-## This repository is in the public domain
+## License
 
-The data that are collected in this repo are available for anyone for any constructive purpose. The scripts here can also be adapted for any constructive purpose, including data collection of places named after anyone or anything. 
+[GoGroGlo](https://GoGroGlo.carrd.co) maintains this project. The datasets in this project are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to collect data is licensed under the [MIT license](MIT_License.txt). Both the datasets and source code can be used for any purpose (hopefully constructive) as long as credit is given—it can be something as simple as a link to this page.
