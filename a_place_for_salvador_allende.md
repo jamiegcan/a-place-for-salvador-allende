@@ -79,7 +79,7 @@ When the Chilean state under Pinochet won't do the necessary honors for Allende,
 >
 > Location: Île Notre-Dame, parc Jean-Drapeau, Arrondissement de Ville-Marie 
 >
-> [Note: English translation and alt text are taken from the [sculpture's page](https://artpublic.ville.montreal.qc.ca/en/oeuvre/larc/) in the Ville de Montréal's website._]
+> [_Note: English translation and alt text are taken from the [sculpture's page](https://artpublic.ville.montreal.qc.ca/en/oeuvre/larc/) in the Ville de Montréal's website._]
 
 ### Socialists (regardless of whether they gained power through democratic means)
 
