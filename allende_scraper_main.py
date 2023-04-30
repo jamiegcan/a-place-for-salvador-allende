@@ -302,7 +302,8 @@ types = {
     'museum'                : ['museo', 'museum', 'musée'],
     'interior'              : ['aula', 'auditorio', 'auditorium'],
     'memorial plate'        : ['placa', 'plate', 'plaque'],
-    'government facility'   : ['governmental office']
+    'government facility'   : ['governmental office'],
+    'library'               : ['library', 'biblioteca', 'bibliothèque']
 }
 
 
