@@ -778,18 +778,18 @@ def get_verified_in_maps_and_osm_link(data):
 ### 1. RETRIEVE ALL LINKS ###
 
 
-# create a Google Chrome driver object
-# https://stackoverflow.com/questions/69918148/deprecationwarning-executable-path-has-been-deprecated-please-pass-in-a-servic
-# s = Service('C:\\Users\\canogle\\.cache\\selenium\\chromedriver\\win32\\110.0.5481.77\\chromedriver.exe')
-# selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 110
-# Current browser version is 112.0.5615.49 with binary path C: \Program Files\Google\Chrome\Application\chrome.exe
-s = Service(chromedriver.install())
-driver = webdriver.Chrome(service=s)
-
-
 # let other scripts borrow the functions from this script
 # while still being able to run this script on its own
 if __name__ == "__main__":
+
+
+    # create a Google Chrome driver object
+    # https://stackoverflow.com/questions/69918148/deprecationwarning-executable-path-has-been-deprecated-please-pass-in-a-servic
+    # s = Service('C:\\Users\\canogle\\.cache\\selenium\\chromedriver\\win32\\110.0.5481.77\\chromedriver.exe')
+    # selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 110
+    # Current browser version is 112.0.5615.49 with binary path C: \Program Files\Google\Chrome\Application\chrome.exe
+    s = Service(chromedriver.install())
+    driver = webdriver.Chrome(service=s)
 
 
     # base URLs
