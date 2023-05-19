@@ -594,10 +594,10 @@ def get_name(article_soup, data):
         name = osm_address[0]
     except:
         # if not, get it from the alt text of the article's main image
-        name = article_soup.find("img", alt=True)
-        name = str(name)
-        name = re.search(r'alt=\"(.*?)\"\s*', name)
         try:
+            name = article_soup.find("img", alt=True)
+            name = str(name)
+            name = re.search(r'alt=\"(.*?)\"\s*', name)
             name = str(name.group(1))
         except:
             # name is blank if there's neither OSM name nor alt text
@@ -611,7 +611,7 @@ def get_name(article_soup, data):
 
 # get TYPE
 # the dict used here is pretty rudimentary so this is prone to errors and needs human verification
-def get_type(data):
+def get_type(osm_info, data):
     global type
     type = ''
     # get OSM type if available
@@ -755,7 +755,7 @@ def get_oldest_known_source(desc, data):
 
 # get VERIFIED_IN_MAPS and OPENSTREETMAP_LINK
 # verified_in_maps defaults to 0, will get 1 when it has an OSM link
-def get_verified_in_maps_and_osm_link(data):
+def get_verified_in_maps_and_osm_link(osm_info, data):
     global openstreetmap_link
     global verified_in_maps
     try:
