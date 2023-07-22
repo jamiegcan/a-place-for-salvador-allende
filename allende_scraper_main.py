@@ -379,7 +379,7 @@ days = {
 
 # how long (in seconds) would you like sleep timers to 
 # wait before continuing with the scraping?
-timer = 15
+timer = 30
 
 
 # the sleep timer
@@ -398,6 +398,14 @@ def humanizer(timer):
 #     # perhaps staying in the page for a short while would clear the cache properly
 #     time.sleep(3)
 #     driver.find_element(By.XPATH, '//settings-ui').send_keys(Keys.ENTER)
+
+
+# create a Firefox driver object
+# I made this so that the other scripts can work
+def create_driver():
+    s = Service()
+    global driver
+    driver = webdriver.Firefox(service=s)
 
 
 # maximize window for every open page
@@ -1189,7 +1197,7 @@ if __name__ == "__main__":
 
         
         # get TYPE
-        get_type(data)
+        get_type(osm_info, name, data)
 
         
         # get DESC
@@ -1246,7 +1254,7 @@ if __name__ == "__main__":
 
         
         # get VERIFIED_IN_MAPS and OPENSTREETMAP_LINK
-        get_verified_in_maps_and_osm_link(data)
+        get_verified_in_maps_and_osm_link(osm_info, data)
 
         
         # get GOOGLE_MAPS_LINK (null)
@@ -1342,7 +1350,7 @@ if __name__ == "__main__":
 
             
             # get TYPE
-            get_type(data)
+            get_type(osm_info, name, data)
 
             
             # get DESC (null)
@@ -1388,7 +1396,7 @@ if __name__ == "__main__":
 
             
             # get VERIFIED_IN_MAPS and OPENSTREETMAP_LINK
-            get_verified_in_maps_and_osm_link(data)
+            get_verified_in_maps_and_osm_link(osm_info, data)
 
             
             # get GOOGLE_MAPS_LINK (null)
