@@ -1,0 +1,92 @@
+1. Alfortville 94140, plaza S. Allende
+2. Andrésy 78570, calle S. Allende, calle P. Neruda
+3. Arcueil 94110, avenida S. Allende
+4. Argenteuil 95100, explanada S. Allende
+5. Athis-Mons 91200, plaza S. Allende
+6. Bagneux 92220, calle S. Allende, calle P. Neruda
+7. Bagnolet 93170, plaza S. Allende
+8. Bezons 95870, calle S. Allende
+9. Blanc-Mesnil (Le) 93150, plaza S. Allende, avenida P. Neruda
+10. Bobigny 93000, avenida S. Allende
+11. Bondy 93140, allée P. Neruda
+12. Bonneuil-Sur-Marne 94380 mail S. Allende, calle P. Neruda
+13. Brétigny-Sur-Orge 91220, avenida S. Allende
+14. Champigny-sur-Marne 94500, avenida S. Allende
+15. Châtenay-Malabry 92290, rotonda S. Allende
+16. Chelles 77550, rotonda S. Allende
+17. Chennevières-sur-Marne 94430, avenida S. Allende
+18. Choisy-le-Roi 94600, square S. Allende
+19. Clichy-Sous-Bois 93390, residencia S. Allende
+20. Colombes 92700, calle S. Allende
+21. Conflans-Sainte-Honorine 78700, boulevard S. Allende
+22. Corbeil-Essonnes 91100, avenida S. Allende
+23. Coulommiers 77120, avenida S. Allende
+24. Créteil 94000, plaza S. Allende
+25. Dugny 93340, residencia S. Allende
+26. Elancourt 78990, calle S. Allende
+27. Epinay-Sur-Seine 93800, avenida S. Allende
+28. Eragny-Sur-Oise 95610, calle S. Allende
+29. Etampes 91150, calle S. Allende
+30. Evry 91000, plaza S. Allende, allée P. Neruda
+31. Fleury-Mérogis 91700, calle S. Allende
+32. Gagny 93220, avenida S. Allende
+33. Gennevilliers 92230, plaza S. Allende
+34. Guyancourt 78280, calle S. Allende
+35. Haÿ-Les-Roses 94240, parque S. Allende
+36. Igny 91430, calle S. Allende
+37. Ile-Saint-Denis 93450, allée S. Allende
+38. Levallois-Perret 92300, calle P. Neruda
+39. Livry-Gargan 93190, rotonda S. Allende
+40. Malakoff 92240, calle S. Allende
+41. Massy 91300, avenida S. Allende
+42. Meaux 77100, avenida S. Allende
+43. Mitry-Mory 77290, plaza S. Allende
+44. Montereau-Fault-Yonne 77130, rotonda S. Allende
+45. Montreuil 93100, avenida S. Allende
+46. Morsang-Sur-Orge calle S. Allende
+47. Mureaux (Les) 78130, calle S. Allende
+48. Nangis 77370, allée S. Allende
+49. Nanterre 9200, calle S. Allende, calle P. Neruda
+50. Noisea 94880 calle S. Allende
+51. Noisiel 77186, boulevard S. Allende
+52. Noisy-Le-Grand 93160, parque S. Allende, allée P. Neruda
+53. Noisy-Le-Sec 93130, square P. Neruda
+54. Ozoir-La-Ferrière 77330 calle S. Allende, calle P. Neruda
+55. Palaiseau 91120 plaza S. Allende
+56. Pantin 93500, plaza S. Allende
+57. Pavillons-Sous-Bois 93320, rotonda S. Allende
+58. Persan 95340, plaza S. Allende
+59. Pierrefitte-Sur-Seine 93380, plaza S. Allende
+60. Plaisir 78370, plaza S. Allende
+61. Pontault-Combault 77340, plaza S. Allende
+62. Pré-St-Gervais 93310 square S. Allende
+63. Ris-Orangis 91130 square S. Allende
+64. Roissy-En-Brie 77680 plaza S. Allende
+65. Romainville 93230, plaza S. Allende, cité P. Neruda
+66. Saint-Denis 93200 cité S. Allende, cité P. Neruda
+67. Saint-Germain-Lès-Arpajon 91180, avenida S. Allende
+68. Saint-Gratien 95210, calle S. Allende
+69. Saint-Michel-Sur-Orge 91240, avenida S. Allende, calle P. Neruda
+70. Saint-Ouen 93400, calle S. Allende
+71. Saint-Ouen-L'Aumône 95310, calle S. Allende
+72. Sainte-Geneviève-des-Bois 91700, avenida S. Allende
+73. Sannois 95110, plaza S. Allende
+74. Sarcelles 95200, boulevard S. Allende
+75. Saulx-Les-Chartreux 91160, avenida S. Allende
+76. Savigny-Le-Temple, calle P. Neruda
+77. Savigny-Sur-Orge 91600 plaza S. Allende
+78. Sevran 93270, avenida S. Allende
+79. Stains 93240, calle S. Allende, cité S. Allende
+80. Taverny 95150, avenida S. Allende
+81. Torcy 77200, avenida S. Allende, calle P. Neruda
+82. Trappes 78190, avenida S. Allende, calle P. Neruda
+83. Tremblay-en-France 93290, avenida S. Allende, avenida P. Neruda
+84. Valenton 94460, avenida S. Allende
+85. Vert-Saint-Denis 77240, calle S. Allende
+86. Vigneux-Sur-Seine 91270, calle S. Allende
+87. Villejuif 94800, avenida S. Allende, parque P. Neruda
+88. Villeparisis 77270, calle S. Allende
+89. Villepinte 93240, avenida S. Allende
+90. Villetaneuse 93430, cité S. Allende, plaza V. Jara, calle P. Neruda
+91. Villiers-le-Bel 95400, boulevard S. Allende
+92. Vitry-Sur-Seine 94400, avenida S. Allende, jardín P. Neruda

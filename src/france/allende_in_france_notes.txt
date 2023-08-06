@@ -1,0 +1,14 @@
+PARIS ZIP CODES - WORKFLOW
+open allende_in_france_paris
+create list of paris addresses
+compare against zip codes allende_in_france_streets
+	extract each zip code in allende_in_france_streets
+	if zip in paris address, then remove from list
+compare against locales in allende_in_france_links
+	extract locales from allende_in_france_links
+	if locale in paris address, then remove from list
+whatever remains after removing finished zips and addresses
+	test: check first how many locales are left, might be manageable enough for one run
+	regex the locale and zip code
+	copy some code from allende_in_france_strets.py
+
