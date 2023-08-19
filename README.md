@@ -118,7 +118,7 @@ My data investigation (also a work in progress) can be found here: [**A Place fo
     * `desc place` - The date of establishment of the place is explicitly stated within the place's `desc`.
     * `desc abacq` - The date of establishment of the place comes from contributors at <http://www.abacq.org/calle/>.
     * `desc implied` - The date of establishment of the place is derived from another nearby place whose date of establishment is known.
-    * `desc other` - The date of establishment of the place is derived from other sources, usually the contents of file category [Monuments and memorials to Salvador Allende](https://commons.wikimedia.org/wiki/Category:Monuments_and_memorials_to_Salvador_Allende) at Wikimedia Commons.
+    * `desc other` - The date of establishment of the place is derived from other sources, usually the contents of file category ["Monuments and memorials to Salvador Allende"](https://commons.wikimedia.org/wiki/Category:Monuments_and_memorials_to_Salvador_Allende) at Wikimedia Commons.
     * `abacq date posted` - The date in which the place was first featured in an article in <http://www.abacq.org/calle/>.
     * `openstreetmap` - The date in which the place was first edited in OpenStreetMap to exist and/or be named after Salvador Allende.
     * `google maps` - The earliest date in which Google Maps street view imagery reveals that the place exists and/or is named after Salvador Allende.

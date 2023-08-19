@@ -11,11 +11,11 @@ Individually, each place has their own story, but when taken together they revea
 First, some notes on the name:
 
 * For English speakers who haven't heard of the name, "Allende" is pronounced like `ah-YEN-deh`.
-* Salvador Allende sometimes appears as "**Salvador Allende Gossens**" or "Salvador Allende G." because of naming customs in most Spanish-speaking regions like Chile.
+* Salvador Allende sometimes appears as "**Salvador Allende Gossens**" or "Salvador Allende G." because of naming customs in Spanish-speaking regions like Chile.
   * People in Spanish-speaking regions have two surnames.
   * The first one ("Allende") comes from the father's surname at birth. It's the more commonly used surname and people in Spanish-speaking regions are usually called by their first surname ("Dr. Allende").
-  * The second one ("Gossens") comes from the mother's surname at birth. It's not as important as the first surname in daily life. If it is used at all, it's often used along with the first surname for the sake of formality, or to distinguish people with the same given name and surname. It's also often abbreviated if someone chooses to include it in a name.
-  * Because the second surname is the last "word" in a Spanish full name, people who aren't familiar with Spanish naming customs would mistake it for the surname which someone should be called, but in reality people with second surnames are not called by their second surnames ("~~Dr. Gossens~~").
+  * The second one ("Gossens") comes from the mother's surname at birth. It's not as important as the first surname in daily life. If it is used at all, it's often used along with the first surname for the sake of formality, or to distinguish people with the same given name and first surname. It's also often abbreviated if someone chooses to include it in a name.
+  * Because the second surname is the last "word" in a Spanish full name, people who aren't familiar with Spanish naming customs would mistake it for the surname which someone should be called, but in reality people with second surnames are usually not called by their second surnames ("~~Dr. Gossens~~").
 
 Salvador Allende's biography in [Memoria Chilena](https://www.memoriachilena.gob.cl/602/w3-article-799.html) aptly begins with:
 
@@ -25,25 +25,113 @@ An English translation of this biography is available [here](texts/salvador_alle
 
 ### Socialist, democratic, Chilean
 
-Instead of writing yet another biography, this introduction focuses on these three key features of Allende: socialist, democratic, and Chilean.
+Instead of writing yet another biography, this introduction focuses on these three key features of Allende.
 
-* **Socialist**: Allende has been a socialist since his student days. As a socialist, he believed that the gap between the richest and the poorest people in Chile is unacceptable and this could be eliminated when resources like copper mines and institutions like hospitals are owned by the Chilean state rather than the private sector who also happen to be the richest people. He campaigned for the improvement of the lives of working-class people, and for that he got the support of a lot of them.
-* **Democratic**: Socialists around the world have their vocal, wealthy, and privileged opponents, and Chilean socialists like Allende were no exception. This is why Allende had a hard time winning the presidential elections the first three times he tried. Back then, socialists became leaders of their own countries not through elections but through chaotic revolutions. Allende was convinced that he could avoid another chaotic revolution, so he ran again for the presidency in 1970. This time, he became the first democratically elected socialist president in Chile. When he became president, he established and maintained contact with other socialist leaders around the world who recognized that Allende was seeking the same goals as them (socialism) through different means (peaceful democratic processes).
+* **Socialist**: Allende has been a socialist since his student days. As a socialist, he believed that the gap between the poor and the rich in Chile is unacceptable and this could be eliminated when resources like copper mines and institutions like hospitals are owned by the Chilean state rather than the private sector who also happen to be the richest people. He campaigned for the improvement of the lives of working-class people, and for that he got the support of a lot of them.
+
+* **Democratic**: Socialists around the world have their vocal, wealthy, privileged, and powerful opponents; Chilean socialists like Allende were no exception. This is why Allende had a hard time winning the presidential elections the first three times he tried. Back then, socialists became leaders of their own countries not through elections but through chaotic revolutions. Allende was convinced that he could avoid another chaotic revolution, so he ran again for the presidency in 1970. This time, he became the first democratically elected socialist president in Chile. When he became president, he established and maintained contact with other socialist leaders around the world who recognized that Allende was seeking the same goals as them (socialism) through different means (peaceful democratic processes).
+
 * **Chilean**: Chilean history isn't discussed in a lot of places outside of Chile, like schools and online forums, because what most people call "world history" is actually the history of Europe and the USA. We cannot talk about world history without taking lessons from lesser known countries like Chile. I feel the need to emphasize that Allende was Chilean, because he attempted to make Chilean history from a Chilean perspective and for the benefit of the Chilean people. Non-Chilean (lamentably, privileged American) forces disrupted Chilean history for the worse in an attempt to assert their own version of history, so it is up to Chileans and their sympathizers to reclaim Chilean history and make it part of world history.
 
 ### A violent end to a peaceful government
 
-Allende's presidency, which started peacefully in 3 November 1970, ended violently in 11 September 1973 with the [US-backed coup](https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat) led by Augusto Pinochet. The military dictatorship that took over the country refused to give him a state funeral that every deceased president deserves. A lot of Chileans, especially Allende's supporters, had to seek exile abroad to save themselves from the human rights violations done by Pinochet's military dictatorship. Allende effectively became a taboo topic during the dictatorship, and virtually no one in Chile was able to pay respects to the late president because they either had to escape from Chile or was already killed by the army.
+Allende's presidency, which started peacefully in 3 November 1970, ended violently in 11 September 1973 with the [US-backed coup d'état](https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat) led by Augusto Pinochet. Instead of resigning as demanded by the coup leaders or taking offers of safe passage to escape the coup alive, Allende delivered his last words to the public and chose to remain in the presidential palace, in the middle of gunshots and explosions, to die as President of Chile.
 
-## Long overdue respects
+The military dictatorship that took over the country refused to give him a state funeral that every deceased president deserves. A lot of Chileans, especially Allende's supporters, had to seek exile abroad to save themselves from the human rights violations committed by Pinochet's military dictatorship throughout its rule.
+
+Allende effectively became a taboo topic during the dictatorship, and virtually no one in Chile was able to pay respects to the late president because they either had to escape from Chile or was already killed by accomplices to the dictatorship.
+
+### Long overdue respects
 
 In 1988, Chileans voted against continuing on with a military government in a [historic referendum](https://en.wikipedia.org/wiki/1988_Chilean_national_plebiscite), and in 1990 the country elected its [first democratically elected president in almost two decades](https://en.wikipedia.org/wiki/Patricio_Aylwin). This year, the time was finally right to hold the [state funeral for Allende](https://twitter.com/LaChileanWay/status/1674960526214852608), but some Chileans still thought it wasn't deserved.
 
-Regardless of when the state funeral was held, many people have taken initiatives to pay respects to Allende as soon as after his death. This project proves that most of the initiatives come from outside of Chile thanks to the following interest groups.
+Regardless of when or whether the state funeral was held, many people have taken initiatives to pay respects to Allende as soon as after his death. This project proves that most of the initiatives come from outside of Chile thanks to the following interest groups.
 
-## Who are naming things after Salvador Allende?
+## Who are naming places after Salvador Allende?
 
-Outside of Chile, I can identify three interest groups that have been naming and building things in honor of Salvador Allende: socialists, democrats, and Chileans. All three reflect who Allende was, but each interest group have their own reasons to honor Allende.
+Outside of Chile, I can identify three interest groups that have been naming and building things in honor of Salvador Allende: socialists, democrats, and Chileans. All three reflect who Allende was, but each interest group has their own reasons to honor Allende, which in turn reflects who they are (or who they think they are).
+
+Photos used throughout this project come from the file category ["Monuments and memorials to Salvador Allende"](https://commons.wikimedia.org/wiki/Category:Monuments_and_memorials_to_Salvador_Allende) at Wikimedia Commons, an underrated source of free-to-use files. Each file contains a description which helps provide context to the file and this project.
+
+### Socialists (regardless of whether they uphold peaceful democratic values or not)
+
+Although socialist-aligned leaders around the world share the same goals, they differ in their means to achieve them. The means used throughout history had been unpleasant, and this is where Allende wanted to differ. There are brief historical information about each example country to compare them to the peaceful and democratic way in which Allende pursued socialist goals.
+
+#### **Former Soviet Russia (and the Soviet Union)**
+
+_[ID 172] улица Сальвадора Альенде / ulitsa Sal'vadora Al'yende at Moscow, Russia_
+
+[Soviet Russia](https://en.wikipedia.org/wiki/Russian_Soviet_Federative_Socialist_Republic) was the center of the former Soviet Union, and Moscow was the capital of both Soviet Russia and Soviet Union. In 1973, Soviet Russian public organizations recommended to rename Moscow's 7th Sandy Street (7-я Песчаная улица) to [Salvador Allende Street](https://ru.wikipedia.org/wiki/ru:%D0%A3%D0%BB%D0%B8%D1%86%D0%B0%20%D0%A1%D0%B0%D0%BB%D1%8C%D0%B2%D0%B0%D0%B4%D0%BE%D1%80%D0%B0%20%D0%90%D0%BB%D1%8C%D0%B5%D0%BD%D0%B4%D0%B5?uselang=en). This street still carries Allende's name today, and the original memorial plate located at 1 Salvador Allende Street still remains as of May 2021 according to [Google Street View](https://goo.gl/maps/FtSoreDJD2VpteQL6).
+
+Soviet Russia was established after the end of the Russian Empire and an armed revolution in 1917 that overthrew the short-lived provisional government that sought to follow. It became the world's first constitutionally socialist state. Opposition forces armed themselves against the revolution leaders, so the revolution escalated into a civil war. To win the civil war, Soviet Russia took most territories that belonged to the former Russian Empire, turned them into their own "independent" states, and grouped Soviet Russia and these states into the [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union).
+
+The economy of the Soviet Union was highly centralized and state-planned. Its economy progressed to the detriment of laborers in the union's extensive forced labor camps. One of Soviet Union's leaders, Joseph Stalin, implemented a Great Purge to eliminate political opponents and anyone else who was a threat to his power, to the point of literally erasing them out of photos with Stalin (see a sample photo [before](https://en.wikipedia.org/wiki/File:Nikolai_Yezhov_with_Stalin_and_Molotov_along_the_Volga%E2%80%93Don_Canal,_orignal.jpg) and [after](https://en.wikipedia.org/wiki/File:Stalin_and_Molotov_along_the_Volga%E2%80%93Don_Canal,_Nikolai_Yezhov_removed.jpg) the purge).
+
+The Soviet Union and its allied countries were the representative of socialism and communism during the Cold War, which was not an armed war in itself but rather a series of competitions between socialist/communist interests and capitalist interests represented by the USA and its Western allies. Allende's government saw itself stuck in this political climate—the USA saw the socialist tendency of Allende's government as a threat to its interests, hence one of the "competitions" of the Cold War was fought in Chile.
+
+Government-led reform within Soviet Russia (in an effort to save its economy and political system), separatist movements within the Soviet Union, and the overthrow of socialist/communist one-party governments in the Soviet Union's allied countries led to the Soviet Union's dissolution and the "victory" of capitalist interests in the Cold War.
+
+#### **Former East Germany**
+
+![Archive photo of street signs of Pablo-Neruda-Straße and Salvador-Allende-Straße during the streets' inauguration on 3 November 1973 at Berlin-Köpenick, East Germany.](assets/286_Germany_Salvador-Allende-Strasse.jpg)
+
+_[ID 286] Salvador-Allende-Straße at Berlin-Köpenick, Germany ([Photo](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-M1103-0013,_Berlin,_Pablo-Neruda-Stra%C3%9Fe,_Salvador-Allende-Stra%C3%9Fe.jpg) by Bundesarchiv, Bild 183-M1103-0013, CC-BY-SA 3.0)_
+
+Residents of the workers' quarters in Berlin-Köpenick, which was then part of East Germany, voted to name two intersecting streets after Salvador Allende and [Pablo Neruda](https://en.wikipedia.org/wiki/Pablo_Neruda), a Chilean poet, Nobel Prize laureate, and important ally of Allende who died a few days after the coup d'état. The street names were officially given on 3 November 1973, which would have marked three years since Allende took office as president.
+
+[East Germany](https://en.wikipedia.org/wiki/East_Germany) existed from 1949 to 1990 and was a one-party state founded and governed by a socialist-aligned political party. When faced with an increasing number of skilled people leaving the country and weakening the economy, the government responded with building the Berlin Wall and violent means to keep people inside the country: landmines and traps were built around the wall, and border guards either killed people attemtpting to leave or captured them as long-term prisoners.
+
+Peaceful protests influenced the fall of the Berlin Wall, multi-party free and fair elections in East German states, the reunification of East Germany and West Germany into today's Germany, and the prosecution of former East German leaders for crimes against their own people.
+
+#### **Hungary**
+
+![Photo of the Salvador Allende memorial stone at Budapest, Hungary - translated text of memorial stone follows.](assets/157_Hungary_Salvador-Allende-eml%C3%A9kk%C5%91.jpg)
+
+_[ID 157] Salvador Allende memorial stone located within a park with the same name at Budapest, Hungary ([Photo](https://commons.wikimedia.org/wiki/File:Salvador_Allende-eml%C3%A9kk%C5%91,_2018_Kelenf%C3%B6ld.jpg) by Globetrotter19, CC BY-SA 3.0)_
+
+> Dr. Salvador Allende
+>
+> 1908 - 1973
+>
+> In memory of the President of the Republic of Chile, who died a martyr's death in the struggle for the socialist rise of his people
+>
+> Erected by the Budapest City Council
+>
+> 1973
+
+The Budapest City Council approved the erection of this memorial stone in 24 October 1973. The apartments around the [park](https://commons.wikimedia.org/wiki/Category:Allende_park,_Budapest) were built in the early 1970's by the Hungarian Young Communist League, which was attached to the then ruling socialist-aligned party of Hungary which gained power by suppressing opposition parties.
+
+[Hungary](https://en.wikipedia.org/wiki/Hungarian_People%27s_Republic) was a one-party state from 1949 to 1989 with tight control from the Soviet Union, which violently repressed a people's revolution in 1956, killed thousands of Hungarians, and forced thousands more into exile.
+
+The new goverment which the Soviet Union installed after the revolution grew to become less restrictive of people's freedoms and more welcoming of products from outside the Soviet Union, though the country remained a one-party Soviet-aligned state. This context made it easier for Hungary to transition into multi-party democracy after the Soviet Union's dissolution. To mark this transition, the country symbolically reburied the victims of the 1956 revolution in June 1989.
+
+#### **Cuba**
+
+_[ID 132] Avenida Salvador Allende at Havana, Cuba_
+
+_[ID 129] Monument to Salvador Allende by Mónica Bunster at Havana, Cuba_
+
+In Havana, capital of Cuba, Avenida Carlos III was renamed to [Avenida Salvador Allende](http://www.abacq.org/calle/index.php?2011/08/23/530-la-habana-cuba) in October 1973, though [OpenStreetMap](https://www.openstreetmap.org/way/23860167) and [Google Maps](https://goo.gl/maps/CfjwCeYfvvFJM6jg9) show both names to refer to the same avenue.
+
+Nearby, there is a [monument to Salvador Allende](http://www.abacq.org/calle/index.php?2007/07/17/90-monumento-a-salvador-allende-cuba) located at a park in Calle 23 corner Calle G (a.k.a. Avenida de los Presidentes). This monument was inaugurated in 2000 and is one of the four replicas of the original monument by Chilean artist Mónica Bunster located at Palmilla, Chile [ID 25]. It is a half-body bust of Allende wearing a professional suit without a tie, looking up and waving the right hand up high.
+
+The other three replicas are in Castuera, Spain [ID 357]; Gijón, Spain [ID 360]; and at the University of Guadalajara in Mexico [ID 213], where Allende spoke the following quote in front of students on 2 December 1972.
+
+> Being young and not being revolutionary is a contradiction at a biological level.
+
+As for [Cuba](https://en.wikipedia.org/wiki/Cuba), it is currently one of the few remaining one-party socialist states in the world. The current government gained power through an elaborate armed revolution that lasted from 1953 to 1959. The revolution's leader, Fidel Castro, set himself up as the country's leader. Castro implemented a planned economy and nationalized industries according to socialist goals, but also took full control of the press and banned political opposition.
+
+[Details on Allende's relations with Cuba] 
+
+### Advocates of democracy (regardless of whether they're outwardly socialist or not)
+
+These individuals appreciate Allende for believing in democratic institutions until the end.
+
+I have yet to find out how socialists in France approached Allende relative to the former Soviet Socialist states, but look at all those 300+ streets named after Allende!
+
+Inside Chile, Allende only got the historical recognition he deserved (including a state funeral) with the return of democracy in 1990.
+
+This part would benefit from specific examples and we'll provide them as we scrape the web for those places.  
 
 ### Chilean diaspora
 
@@ -53,7 +141,7 @@ When the Chilean state under Pinochet won't do the necessary honors for Allende,
 
 ![Photo of the signage at Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549067-76e71e36-ea42-4942-bf79-c92c9eda14be.jpg)
 
-**[ID 118] Salvador-Allende-Weg at Donaupark, Vienna, Austria ([Photo](https://commons.wikimedia.org/wiki/File:Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg) by Robot8A, CC BY-SA 4.0)**
+_[ID 118] Salvador-Allende-Weg at Donaupark, Vienna, Austria ([Photo](https://commons.wikimedia.org/wiki/File:Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg) by Robot8A, CC BY-SA 4.0)_
 
 > The "Salvador-Allende-Weg" (Salvador Allende Path) was named after Salvador Allende, born in 1908 in Valparaíso, president of Chile, physician and co-founder of the Socialist Party of Chile. Allende died on 11 September 1973 in Santiago de Chile during the takeover of the presidential palace by the coup plotters. This path on the Danube Park was built with support from Chilean workers (refugees).
 
@@ -61,7 +149,7 @@ When the Chilean state under Pinochet won't do the necessary honors for Allende,
 
 ![Photo of the signage for L'Arc in Montréal, Canada - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549331-4f62d9d8-8e9d-49d1-a7ba-aefa7d49d724.jpg)
 
-**[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photos](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) by [Jeangagnon](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG), CC BY-SA 3.0)**
+_[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photos](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) by [Jeangagnon](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG), CC BY-SA 3.0)_
 
 > **Tribute to Salvador Allende (1908-1973)**
 >
@@ -95,23 +183,9 @@ When the Chilean state under Pinochet won't do the necessary honors for Allende,
 >
 > [_Note: English translation and alt text are taken from the [sculpture's page](https://artpublic.ville.montreal.qc.ca/en/oeuvre/larc/) in the Ville de Montréal's website._]
 
-### Socialists (regardless of whether they gained power through democratic means)
+## [Data investigation proper: insert charts here]
 
-These individuals appreciate Allende for being a socialist who never softened his position despite fierce opposition.
-
-Some socialist leaders have named and built places in honor of Allende and portrayed him as a martyr to further their own socialist agenda - see Cuba for example.
-
-### Advocates of democracy (regardless of whether they're outwardly socialist or not)
-
-These individuals appreciate Allende for believing in democratic institutions until the end.
-
-I have yet to find out how socialists in France approached Allende relative to the former Soviet Socialist states, but look at all those 300+ streets named after Allende!
-
-Inside Chile, Allende only got the historical recognition he deserved (including a state funeral) with the return of democracy in 1990.
-
-This part would benefit from specific examples and we'll provide them as we scrape the web for those places.  
-
-## How did Salvador Allende die, really?
+### How did Salvador Allende die, really?
 
 ⚠ **Content warning: this section contains references to suicide and murder.**
 
@@ -119,7 +193,7 @@ You may have read that Allende "_took his own life by committing suicide_", but 
 
 ![Photo of the street sign at Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549725-c2b63d59-92cb-44a8-a54c-69e76b6d6609.jpg)
 
-**Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg) by GFreihalter, CC BY-SA 4.0)**
+_Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg) by GFreihalter, CC BY-SA 4.0)_
 
 > Salvador Allende Street
 >
@@ -131,7 +205,7 @@ You may have read that Allende "_took his own life by committing suicide_", but 
 
 ![Photo of the street sign at Rue Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549845-dc561d9f-9b27-4dd5-85b8-87b2d30dfd0e.jpg)
 
-**Avenue du Président Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg) by Chabe01, CC BY-SA 4.0)**
+_Avenue du Président Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg) by Chabe01, CC BY-SA 4.0)_
 
 > Montreuil
 >
