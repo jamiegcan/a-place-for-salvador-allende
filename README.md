@@ -1,10 +1,10 @@
 # A Place for Salvador Allende
 
-Mapping (almost) every place in the world named after the Chilean president, inspired by the "Una calle Salvador Allende" website.
+Mapping (almost) every place in the world named after the Chilean president, inspired by the _Una calle Salvador Allende_ website.
 
 ## About this project
 
-This project builds up upon "Una calle Salvador Allende" at <http://www.abacq.org/calle/>, which compiled every street and every place named after Salvador Allende, president of Chile from 1970 to 1973. The website accepted inputs from individuals around the world, mostly Chileans within and outside of Chile. The website was active from late 2000's (around the centennial of Allende's birth) to early 2010's, and many of these streets and places may have changed since then.
+This project builds up upon _Una calle Salvador Allende_ at <http://www.abacq.org/calle/>, which compiled every street and every place named after Salvador Allende, president of Chile from 1970 to 1973. The website accepted inputs from individuals around the world, mostly Chileans within and outside of Chile. The website was active from late 2000's (around the centennial of Allende's birth) to early 2010's, and many of these streets and places may have changed since then.
 
 According to the website, there are at least 48 territories with a place for Salvador Allende:
 

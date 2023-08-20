@@ -2,7 +2,7 @@
 
 ## [Work in progress]
 
-This project seeks to make some sense out of the numerous places that contributors have made known through the website ["Una calle Salvador Allende"](http://www.abacq.org/calle/) ("_A Salvador Allende street_").
+This project seeks to make some sense out of the numerous places that contributors have made known through the website [_Una calle Salvador Allende_](http://www.abacq.org/calle/) ("_A Salvador Allende street_").
 
 Individually, each place has their own story, but when taken together they reveal some insights on where and how Salvador Allende is commemorated around the world. Overall, these places don't just tell something about Allende, but also the people who made these places possible.
 
@@ -51,7 +51,10 @@ Regardless of when or whether the state funeral was held, many people have taken
 
 Outside of Chile, I can identify three interest groups that have been naming and building things in honor of Salvador Allende: socialists, democrats, and Chileans. All three reflect who Allende was, but each interest group has their own reasons to honor Allende, which in turn reflects who they are (or who they think they are).
 
-Photos used throughout this project come from the file category ["Monuments and memorials to Salvador Allende"](https://commons.wikimedia.org/wiki/Category:Monuments_and_memorials_to_Salvador_Allende) at Wikimedia Commons, an underrated source of free-to-use files. Each file contains a description which helps provide context to the file and this project.
+Notes about images:
+
+* Images used throughout this project come from the file category ["Monuments and memorials to Salvador Allende"](https://commons.wikimedia.org/wiki/Category:Monuments_and_memorials_to_Salvador_Allende) at Wikimedia Commons, an underrated source of free-to-use files. Each file contains a description in English and/or other languages, which helps provide context to the file and this project.
+* To minimize copyrighted content in this [free-to-use](/LICENSE) [repository](/MIT_License.txt), there are links to each place with photos and details (usually in Spanish, the main language used in _Una calle Salvador Allende_).
 
 ### Socialists (regardless of whether they uphold peaceful democratic values or not)
 
@@ -59,7 +62,7 @@ Although socialist-aligned leaders around the world share the same goals, they d
 
 #### **Former Soviet Russia (and the Soviet Union)**
 
-_[ID 172] улица Сальвадора Альенде / ulitsa Sal'vadora Al'yende at Moscow, Russia_
+_[[ID 172](http://www.abacq.org/calle/index.php?2008/06/30/214-moscu-rusia)] улица Сальвадора Альенде / ulitsa Sal'vadora Al'yende at Moscow, Russia_
 
 [Soviet Russia](https://en.wikipedia.org/wiki/Russian_Soviet_Federative_Socialist_Republic) was the center of the former Soviet Union, and Moscow was the capital of both Soviet Russia and Soviet Union. In 1973, Soviet Russian public organizations recommended to rename Moscow's 7th Sandy Street (7-я Песчаная улица) to [Salvador Allende Street](https://ru.wikipedia.org/wiki/ru:%D0%A3%D0%BB%D0%B8%D1%86%D0%B0%20%D0%A1%D0%B0%D0%BB%D1%8C%D0%B2%D0%B0%D0%B4%D0%BE%D1%80%D0%B0%20%D0%90%D0%BB%D1%8C%D0%B5%D0%BD%D0%B4%D0%B5?uselang=en). This street still carries Allende's name today, and the original memorial plate located at 1 Salvador Allende Street still remains as of May 2021 according to [Google Street View](https://goo.gl/maps/FtSoreDJD2VpteQL6).
 
@@ -69,15 +72,57 @@ The economy of the Soviet Union was highly centralized and state-planned. Its ec
 
 The Soviet Union and its allied countries were the representative of socialism and communism during the Cold War, which was not an armed war in itself but rather a series of competitions between socialist/communist interests and capitalist interests represented by the USA and its Western allies. Allende's government saw itself stuck in this political climate—the USA saw the socialist tendency of Allende's government as a threat to its interests, hence one of the "competitions" of the Cold War was fought in Chile.
 
-Government-led reform within Soviet Russia (in an effort to save its economy and political system), separatist movements within the Soviet Union, and the overthrow of socialist/communist one-party governments in the Soviet Union's allied countries led to the Soviet Union's dissolution and the "victory" of capitalist interests in the Cold War.
+Government-led reform within Soviet Russia (in an effort to save its economic and political system), separatist movements within the Soviet Union, and the overthrow of socialist/communist one-party governments in the Soviet Union's allied countries led to the Soviet Union's dissolution. Capitalist interests won in the Cold War, but not without violent means to suppress perceived threats such as Allende's government.
 
 #### **Former East Germany**
 
-![Archive photo of street signs of Pablo-Neruda-Straße and Salvador-Allende-Straße during the streets' inauguration on 3 November 1973 at Berlin-Köpenick, East Germany.](assets/286_Germany_Salvador-Allende-Strasse.jpg)
+![Archive photo of street signs of Pablo-Neruda-Straße and Salvador-Allende-Straße during the streets' inauguration on 3 November 1973 at Berlin-Köpenick, East Germany.](assets/286_Germany_Berlin_Salvador-Allende-Strasse.jpg)
 
-_[ID 286] Salvador-Allende-Straße at Berlin-Köpenick, Germany ([Photo](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-M1103-0013,_Berlin,_Pablo-Neruda-Stra%C3%9Fe,_Salvador-Allende-Stra%C3%9Fe.jpg) by Bundesarchiv, Bild 183-M1103-0013, CC-BY-SA 3.0)_
+_[[ID 286](http://www.abacq.org/calle/index.php?2009/11/08/436-berlin-alemania)] Salvador-Allende-Straße at Berlin-Köpenick, Germany ([Photo](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-M1103-0013,_Berlin,_Pablo-Neruda-Stra%C3%9Fe,_Salvador-Allende-Stra%C3%9Fe.jpg) by Bundesarchiv, Bild 183-M1103-0013, CC-BY-SA 3.0)_
 
 Residents of the workers' quarters in Berlin-Köpenick, which was then part of East Germany, voted to name two intersecting streets after Salvador Allende and [Pablo Neruda](https://en.wikipedia.org/wiki/Pablo_Neruda), a Chilean poet, Nobel Prize laureate, and important ally of Allende who died a few days after the coup d'état. The street names were officially given on 3 November 1973, which would have marked three years since Allende took office as president.
+
+⚠ **Content warning: the following biography plate contains a reference to suicide.**
+
+![Photo of the bust of Salvador Allende at Berlin-Köpenick, Germany](assets/287_Germany_Berlin_Bust-Salvador-Allende_1.jpg)
+
+![Plate under the bust with biographies of Salvador Allende and Pablo Neruda - translated text follows.](assets/287_Germany_Berlin_Bust-Salvador-Allende_2.jpg)
+
+_[[ID 287](http://www.abacq.org/calle/index.php?2012/07/19/575-berlin-alemania)] Bust of Salvador Allende by Dietrich Rohde at Berlin-Köpenick, Germany ([Photos](https://commons.wikimedia.org/wiki/File:Bust_Salvador_Allende_by_Dietrich_Rohde_in_Berlin_01.jpg) by Singlespeedfahrer, CC0 Public Domain. Photo of the biography plate cropped from the [original](https://commons.wikimedia.org/wiki/File:Bust_Salvador_Allende_by_Dietrich_Rohde_in_Berlin_02.jpg).)_
+
+A bronze bust of Salvador Allende was installed in 1981 and is currently located at Salvador Allende corner Pablo Neruda streets. There is a plate under the bust that provides brief biographies of the two Chileans.
+
+> **Salvador Allende**
+>
+> Born 26 June 1908 in Valparaiso (Chile),
+>
+> Died 11 September 1973 in Santiago de Chile
+>
+> Physician
+>
+> Member of the Socialist Party of Chile
+>
+> Elected President of the Republic of Chile in 1970
+>
+> Overthrown during a military coup d'état led by General Pinochet. After the La Moneda presidential palace was stormed by the military, Allende took his own life.
+>
+> Today a monument to Allende stands in front of La Moneda.
+>
+> **Pablo Neruda**
+>
+> Born 12 July 1904 in Parral (Chile),
+>
+> Died 23 September 1973 in Santiago de Chile
+>
+> Poet
+>
+> Member of the Communist Party of Chile
+>
+> Senator of the Republic of Chile for many years
+>
+> Ambassador of the Republic of Chile in Paris during Salvador Allende's presidency
+>
+> Nobel Prize laureate for Literature (1971)
 
 [East Germany](https://en.wikipedia.org/wiki/East_Germany) existed from 1949 to 1990 and was a one-party state founded and governed by a socialist-aligned political party. When faced with an increasing number of skilled people leaving the country and weakening the economy, the government responded with building the Berlin Wall and violent means to keep people inside the country: landmines and traps were built around the wall, and border guards either killed people attemtpting to leave or captured them as long-term prisoners.
 
@@ -85,9 +130,9 @@ Peaceful protests influenced the fall of the Berlin Wall, multi-party free and f
 
 #### **Hungary**
 
-![Photo of the Salvador Allende memorial stone at Budapest, Hungary - translated text of memorial stone follows.](assets/157_Hungary_Salvador-Allende-eml%C3%A9kk%C5%91.jpg)
+![Photo of the Salvador Allende memorial stone at Budapest, Hungary - translated text of memorial stone follows.](assets/157_Hungary_Budapest_Salvador-Allende-eml%C3%A9kk%C5%91.jpg)
 
-_[ID 157] Salvador Allende memorial stone located within a park with the same name at Budapest, Hungary ([Photo](https://commons.wikimedia.org/wiki/File:Salvador_Allende-eml%C3%A9kk%C5%91,_2018_Kelenf%C3%B6ld.jpg) by Globetrotter19, CC BY-SA 3.0)_
+_[[ID 157](http://www.abacq.org/calle/index.php?2009/07/15/363-budapest-hungria)] Salvador Allende memorial stone located within a park with the same name at Budapest, Hungary ([Photo](https://commons.wikimedia.org/wiki/File:Salvador_Allende-eml%C3%A9kk%C5%91,_2018_Kelenf%C3%B6ld.jpg) by Globetrotter19, CC BY-SA 3.0)_
 
 > Dr. Salvador Allende
 >
@@ -107,33 +152,61 @@ The new goverment which the Soviet Union installed after the revolution grew to 
 
 #### **Cuba**
 
-_[ID 132] Avenida Salvador Allende at Havana, Cuba_
+_[[ID 132](http://www.abacq.org/calle/index.php?2011/08/23/530-la-habana-cuba)] Avenida Salvador Allende at Havana, Cuba_
 
-_[ID 129] Monument to Salvador Allende by Mónica Bunster at Havana, Cuba_
+_[[ID 129]((http://www.abacq.org/calle/index.php?2007/07/17/90-monumento-a-salvador-allende-cuba))] Monument to Salvador Allende by Mónica Bunster at Havana, Cuba_
 
-In Havana, capital of Cuba, Avenida Carlos III was renamed to [Avenida Salvador Allende](http://www.abacq.org/calle/index.php?2011/08/23/530-la-habana-cuba) in October 1973, though [OpenStreetMap](https://www.openstreetmap.org/way/23860167) and [Google Maps](https://goo.gl/maps/CfjwCeYfvvFJM6jg9) show both names to refer to the same avenue.
+In Havana, capital of Cuba, Avenida Carlos III was renamed to Avenida Salvador Allende in October 1973, though [OpenStreetMap](https://www.openstreetmap.org/way/23860167) and [Google Maps](https://goo.gl/maps/CfjwCeYfvvFJM6jg9) show both names to refer to the same avenue.
 
-Nearby, there is a [monument to Salvador Allende](http://www.abacq.org/calle/index.php?2007/07/17/90-monumento-a-salvador-allende-cuba) located at a park in Calle 23 corner Calle G (a.k.a. Avenida de los Presidentes). This monument was inaugurated in 2000 and is one of the four replicas of the original monument by Chilean artist Mónica Bunster located at Palmilla, Chile [ID 25]. It is a half-body bust of Allende wearing a professional suit without a tie, looking up and waving the right hand up high.
+Nearby, there is a monument to Salvador Allende located at a park in Calle 23 corner Calle G (a.k.a. Avenida de los Presidentes). This monument was inaugurated in 2000 and is one of the four replicas of the original monument by Chilean artist Mónica Bunster located at Palmilla, Chile [[ID 25](http://www.abacq.org/calle/index.php?2008/07/01/216-la-palmilla-chile)]. It is a half-body bust of Allende wearing a professional suit without a tie, looking up and waving the right hand up high.
 
-The other three replicas are in Castuera, Spain [ID 357]; Gijón, Spain [ID 360]; and at the University of Guadalajara in Mexico [ID 213], where Allende spoke the following quote in front of students on 2 December 1972.
+The other three replicas are in Castuera, Spain [[ID 357](http://www.abacq.org/calle/index.php?2007/09/11/93-castuera-espana)]; Gijón, Spain [[ID 360](http://www.abacq.org/calle/index.php?2007/03/21/63-gijon-espana)]; and at the University of Guadalajara in Mexico [[ID 213](http://www.abacq.org/calle/index.php?2007/02/18/43-universidad-de-guadalajara)], where Allende spoke the following quote in front of students on 2 December 1972.
 
 > Being young and not being revolutionary is a contradiction at a biological level.
 
-As for [Cuba](https://en.wikipedia.org/wiki/Cuba), it is currently one of the few remaining one-party socialist states in the world. The current government gained power through an elaborate armed revolution that lasted from 1953 to 1959. The revolution's leader, Fidel Castro, set himself up as the country's leader. Castro implemented a planned economy and nationalized industries according to socialist goals, but also took full control of the press and banned political opposition.
+As for [Cuba](https://en.wikipedia.org/wiki/Cuba), it is currently one of the few remaining one-party socialist states in the world. The current government gained power through an elaborate armed revolution that lasted from 1953 to 1959. The revolution's leader, Fidel Castro, set himself up as the country's leader. Castro implemented a planned economy and nationalized industries according to socialist goals, but also banned political opposition and took full control of the press such that practically all news and information in Cuba comes from the one-party government.
 
-[Details on Allende's relations with Cuba] 
+Allende's government (re)established diplomatic relations with Cuba, a strong ally despite the differences in the means to achieve socialism. Castro held an official visit to Chile in 1971, and Allende held an official visit to Cuba in 1972. History says that Castro gifted Allende an AK-47 rifle; this rifle would become relevant in another section of this investigation.
 
 ### Advocates of democracy (regardless of whether they're outwardly socialist or not)
 
-These individuals appreciate Allende for believing in democratic institutions until the end.
+There has always been a significant opposition against socialist movements because historical socialist governments like the ones previously mentioned have been associated with violent forms of gaining and maintaining power, coercive measures such as forced labor that disrespect human autonomy, the suppression of all forms of opposition and criticism including well-meaning ones, and the suppression of human freedoms such as the right to migrate.
 
-I have yet to find out how socialists in France approached Allende relative to the former Soviet Socialist states, but look at all those 300+ streets named after Allende!
+Allende was a socialist politician who gained power through free and fair elections (even if it took him four times) and maintained power without suppressing opposition, criticism, or human freedoms. However, his government was violently overthrown by forces who failed to disassociate Allende from the oppressive socialist governments in other countries.
 
-Inside Chile, Allende only got the historical recognition he deserved (including a state funeral) with the return of democracy in 1990.
+Making such disassociation allows advocates of democracy, socialist or otherwise, to honor Allende as a faithful servant of citizen-led democracy and to condemn violence as a means to suppress opposition and perceived threats.
 
-This part would benefit from specific examples and we'll provide them as we scrape the web for those places.  
+#### **France**
+
+![Photo of the street sign at Rue Salvador Allende at Saint-Ouen-l’Aumône, France - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549725-c2b63d59-92cb-44a8-a54c-69e76b6d6609.jpg)
+
+_[[ID 740](http://www.abacq.org/calle/index.php?2007/12/11/131-saint-ouen-l-aumone-francia)] Rue Salvador Allende at Saint-Ouen-l’Aumône, France ([Photo](https://commons.wikimedia.org/wiki/File:Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg) by GFreihalter, CC BY-SA 4.0)_
+
+> Salvador Allende Street
+>
+> 1908-1973
+>
+> President of the Republic
+>
+> Killed while defending democracy
+
+![Photo of the street sign at Rue Salvador Allende at Montreuil, France - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549845-dc561d9f-9b27-4dd5-85b8-87b2d30dfd0e.jpg)
+
+_[[ID 711](http://www.abacq.org/calle/index.php?2009/03/05/332-montreuil-francia)] Avenue du Président Salvador Allende at Montreuil, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg) by Chabe01, CC BY-SA 4.0)_
+
+> Montreuil
+>
+> President Salvador Allende Avenue
+>
+> President of the Unity Government of Chile
+>
+> Assassinated by the Chilean fascists on 11 September 1973
+
+[Write something about France] 
 
 ### Chilean diaspora
+
+Chileans are the most affected by Allende's efforts and the disruptions faced by his government.
 
 These individuals appreciate Allende for defending the Chilean working class throughout his political career, and of course for having been the last democratically elected President of the Republic of Chile before the 1973 coup.
 
@@ -190,30 +263,6 @@ _[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photo
 ⚠ **Content warning: this section contains references to suicide and murder.**
 
 You may have read that Allende "_took his own life by committing suicide_", but some monuments, plates and street signs say that he was killed by the coup plotters.
-
-![Photo of the street sign at Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549725-c2b63d59-92cb-44a8-a54c-69e76b6d6609.jpg)
-
-_Rue Salvador Allende at Saint-Ouen-l’Aumône, Val-d’Oise Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg) by GFreihalter, CC BY-SA 4.0)_
-
-> Salvador Allende Street
->
-> 1908-1973
->
-> President of the Republic
->
-> Killed while defending democracy
-
-![Photo of the street sign at Rue Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549845-dc561d9f-9b27-4dd5-85b8-87b2d30dfd0e.jpg)
-
-_Avenue du Président Salvador Allende at Montreuil, Seine-Saint-Denis Department, Île-de-France Region, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg) by Chabe01, CC BY-SA 4.0)_
-
-> Montreuil
->
-> President Salvador Allende Avenue
->
-> President of the Unity Government of Chile
->
-> Assassinated by the Chilean fascists on 11 September 1973
 
 Allende himself hinted in his [speech during the coup](https://www.marxists.org/archive/allende/1973/september/11.htm) that this was going to be his last, and that he would be willing to sacrifice himself, though the manner of sacrifice was vague.
 
