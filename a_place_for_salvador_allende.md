@@ -6,6 +6,8 @@ This project seeks to make some sense out of the numerous places that contributo
 
 Individually, each place has their own story, but when taken together they reveal some insights on where and how Salvador Allende is commemorated around the world. Overall, these places don't just tell something about Allende, but also the people who made these places possible.
 
+⚠ **Content warning: Throughout this investigation there will be references to sensitive topics, including violent means of death. Content warnings like this are provided before the specific sections that refer to these sensitive topics.**
+
 ## Who was Salvador Allende and why are places named after him?
 
 First, some notes on the name:
@@ -76,19 +78,19 @@ Government-led reform within Soviet Russia (in an effort to save its economic an
 
 #### **Former East Germany**
 
-![Archive photo of street signs of Pablo-Neruda-Straße and Salvador-Allende-Straße during the streets' inauguration on 3 November 1973 at Berlin-Köpenick, East Germany.](assets/286_Germany_Berlin_Salvador-Allende-Strasse.jpg)
-
 _[[ID 286](http://www.abacq.org/calle/index.php?2009/11/08/436-berlin-alemania)] Salvador-Allende-Straße at Berlin-Köpenick, Germany ([Photo](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-M1103-0013,_Berlin,_Pablo-Neruda-Stra%C3%9Fe,_Salvador-Allende-Stra%C3%9Fe.jpg) by Bundesarchiv, Bild 183-M1103-0013, CC-BY-SA 3.0)_
+
+![Archive photo of street signs of Pablo-Neruda-Straße and Salvador-Allende-Straße during the streets' inauguration on 3 November 1973 at Berlin-Köpenick, East Germany.](assets/286_Germany_Berlin_Salvador-Allende-Strasse.jpg)
 
 Residents of the workers' quarters in Berlin-Köpenick, which was then part of East Germany, voted to name two intersecting streets after Salvador Allende and [Pablo Neruda](https://en.wikipedia.org/wiki/Pablo_Neruda), a Chilean poet, Nobel Prize laureate, and important ally of Allende who died a few days after the coup d'état. The street names were officially given on 3 November 1973, which would have marked three years since Allende took office as president.
 
-⚠ **Content warning: the following biography plate contains a reference to suicide.**
+⚠ **Content warning: the following photo and quotation from the biography plate contains references to suicide.**
+
+_[[ID 287](http://www.abacq.org/calle/index.php?2012/07/19/575-berlin-alemania)] Bust of Salvador Allende by Dietrich Rohde at Berlin-Köpenick, Germany ([Photos](https://commons.wikimedia.org/wiki/File:Bust_Salvador_Allende_by_Dietrich_Rohde_in_Berlin_01.jpg) by Singlespeedfahrer, CC0 Public Domain. Photo of the biography plate cropped from the [original](https://commons.wikimedia.org/wiki/File:Bust_Salvador_Allende_by_Dietrich_Rohde_in_Berlin_02.jpg).)_
 
 ![Photo of the bust of Salvador Allende at Berlin-Köpenick, Germany](assets/287_Germany_Berlin_Bust-Salvador-Allende_1.jpg)
 
 ![Plate under the bust with biographies of Salvador Allende and Pablo Neruda - translated text follows.](assets/287_Germany_Berlin_Bust-Salvador-Allende_2.jpg)
-
-_[[ID 287](http://www.abacq.org/calle/index.php?2012/07/19/575-berlin-alemania)] Bust of Salvador Allende by Dietrich Rohde at Berlin-Köpenick, Germany ([Photos](https://commons.wikimedia.org/wiki/File:Bust_Salvador_Allende_by_Dietrich_Rohde_in_Berlin_01.jpg) by Singlespeedfahrer, CC0 Public Domain. Photo of the biography plate cropped from the [original](https://commons.wikimedia.org/wiki/File:Bust_Salvador_Allende_by_Dietrich_Rohde_in_Berlin_02.jpg).)_
 
 A bronze bust of Salvador Allende was installed in 1981 and is currently located at Salvador Allende corner Pablo Neruda streets. There is a plate under the bust that provides brief biographies of the two Chileans.
 
@@ -104,7 +106,7 @@ A bronze bust of Salvador Allende was installed in 1981 and is currently located
 >
 > Elected President of the Republic of Chile in 1970
 >
-> Overthrown during a military coup d'état led by General Pinochet. After the La Moneda presidential palace was stormed by the military, Allende took his own life.
+> Overthrown during a military coup d'état led by General Pinochet. After the military stormed the La Moneda presidential palace, Allende died by suicide.
 >
 > Today a monument to Allende stands in front of La Moneda.
 >
@@ -130,9 +132,9 @@ Peaceful protests influenced the fall of the Berlin Wall, multi-party free and f
 
 #### **Hungary**
 
-![Photo of the Salvador Allende memorial stone at Budapest, Hungary - translated text of memorial stone follows.](assets/157_Hungary_Budapest_Salvador-Allende-eml%C3%A9kk%C5%91.jpg)
-
 _[[ID 157](http://www.abacq.org/calle/index.php?2009/07/15/363-budapest-hungria)] Salvador Allende memorial stone located within a park with the same name at Budapest, Hungary ([Photo](https://commons.wikimedia.org/wiki/File:Salvador_Allende-eml%C3%A9kk%C5%91,_2018_Kelenf%C3%B6ld.jpg) by Globetrotter19, CC BY-SA 3.0)_
+
+![Photo of the Salvador Allende memorial stone at Budapest, Hungary - translated text of memorial stone follows.](assets/157_Hungary_Budapest_Salvador-Allende-eml%C3%A9kk%C5%91.jpg)
 
 > Dr. Salvador Allende
 >
@@ -178,9 +180,73 @@ Making such disassociation allows advocates of democracy, socialist or otherwise
 
 #### **France**
 
-![Photo of the street sign at Rue Salvador Allende at Saint-Ouen-l’Aumône, France - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549725-c2b63d59-92cb-44a8-a54c-69e76b6d6609.jpg)
+France's national foreign policy during Allende's presidency was unremarkable in the context of this investigation, because [its government](https://en.wikipedia.org/wiki/Georges_Pompidou) sought to maintain independence through its relations with both the Soviet Union and the USA. France would also elect a [president](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Mitterrand) from its Socialist Party only in 1981.
 
-_[[ID 740](http://www.abacq.org/calle/index.php?2007/12/11/131-saint-ouen-l-aumone-francia)] Rue Salvador Allende at Saint-Ouen-l’Aumône, France ([Photo](https://commons.wikimedia.org/wiki/File:Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg) by GFreihalter, CC BY-SA 4.0)_
+In this context, the existence of numerous places in France named after Allende is better explained by efforts at the municipal level, depending on whether a municipal government is socialist-aligned, honoring Allende's democratic efforts, condemning the violent coup that overthrew Allende, and/or sympathetic towards Chilean refugees who had to escape the military dictatorship that followed the coup.
+
+_[[ID 717](http://www.abacq.org/calle/index.php?2008/11/05/281-argenteuil-francia)] Esplanade Salvador Allende at Argenteuil, France_
+
+The place in the dataset that was named after Salvador Allende the earliest is located at Argenteuil, France, where the municipal council at that time unanimously agreed to name a street after Salvador Allende as early as three days after the coup. The official announcement (full text below) used an anti-imperialist and pro-worker tone that is commonly seen in socialist-aligned messages, but also mentioned the legal and democratic nature of Allende's socialist government.
+
+> **A _President Salvador Allende_ Street in Argenteuil**
+>
+> A military coup had just deposed the legal Popular Unity government in Chile.
+>
+> Reactionary forces with the help of multinational copper and telephone companies, supported by United States imperialism, violated the legality, suppressed liberties, and provoked a civil war to reclaim their privileges.
+>
+> A bloody repression arises over the democratic workers' movement.
+>
+> There are already thousands of victims.
+>
+> One of the first victims was the President of the Republic Salvador Allende.
+>
+> The Municipal Council in its public session on 14 September 1973 gave a respectful tribute to this brave and determined militant who died in combat and who will remain the symbol of Popular Unity.
+>
+> To immortalize his memory and highlight the solidarity of the inhabitants of Argenteuil towards the people of Chile, the Municipal Council unanimously decided to name the new street in the city center, which connects Rue de la Liberté to Rue du 8 Mai 1945, after President Salvador Allende.
+
+Not all places in France named after Salvador Allende kept the name, and the main factor is, ironically but expectedly, driven by routine democratic elections at the municipal level. After winning elections, some right-wing anti-socialist municipal governments took out Allende's name from streets, parks, and other public spaces. One right-wing municipal mayor even [justified](http://www.abacq.org/calle/index.php?2007/02/18/4-levallois-perret-francia) the renaming of a street from Salvador Allende to another name by saying "Pinochet saved Chile from chaos".
+
+Among those places that kept Salvador Allende's name, there is often an emphasis on Allende's death for the sake of democracy and/or socialism, in the face of fascist adversaries who chose to fight with violence. The portrayal of Allende's death is typically dramatic, if not graphic, to evoke the idea of martyrdom.
+
+⚠ **Content warning: the following photos and place signage translations contain references to murder and implied suicide.**
+
+_[[ID 474](http://www.abacq.org/calle/index.php?2008/07/24/241-gaillon-francia)] Place Salvador Allende at Gaillon, France_
+
+Salvador Allende park at Gaillon was inaugurated in 1980 and has a bust of Allende made by Chilean artist José Edulio Barrientos. The inscription below the bust says:
+
+> Salvador Allende
+>
+> 1908 - 1973
+>
+> President of the Republic of Chile
+>
+> Died so that democracy may live
+
+_[[ID 86](http://www.abacq.org/calle/index.php?2013/11/15/619-poitiers-francia)] Rue Salvador Allende at Poitiers, France_
+
+Salvador Allende Street at Poitiers was inaugurated on 5 November 1978 and this descriptive biography was installed just below the street sign in a commemorative ceremony on September 2013, 40 years after the coup.
+
+> Salvador Allende (1908-1973)
+>
+> President of the Republic of Chile from 1970 to 1973 who responded to the aspirations of the majority of the Chilean people by installing the Popular Unity government. Important reforms were done with the strictest respect for legality.
+>
+> Overthrown on 11 September 1973 by a military coup d'état, President Allende died with a weapon on hand inside the presidential palace which was bombed by air strikes. His socialist ideal, his bravery and his dignity serve as an example for democrats around the world.
+
+_[[ID 694](http://www.abacq.org/calle/index.php?2009/12/01/430-vitry-sur-seine-francia)] Avenue du Président Salvador Allende at Vitry-sur-Seine, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Vitry-sur-Seine_(FR94)_-_2021-03-17_-_1.jpg) by Chabe01, CC BY-SA 4.0)_
+
+![Photo of the street sign at Avenue du Président Salvador Allende at Vitry-sur-Seine, France - translated text of signage follows.](assets/694_France_Vitry-sur-Seine_Avenue-President-Salvador-Allende.jpg)
+
+> Vitry sur Seine
+>
+> President Salvador Allende Avenue
+>
+> President of the Republic of Chile
+>
+> Died in combat for democracy and socialism 1908 - 1973
+
+_[[ID 740](http://www.abacq.org/calle/index.php?2007/12/11/131-saint-ouen-l-aumone-francia)] Rue Salvador Allende at Saint-Ouen-l'Aumône, France ([Photo](https://commons.wikimedia.org/wiki/File:Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg) by GFreihalter, CC BY-SA 4.0)_
+
+![Photo of the street sign at Rue Salvador Allende at Saint-Ouen-l'Aumône, France - translated text of signage follows.](assets/740_France_Saint-Ouen-l'Aumone_Rue-Salvador-Allende.jpg)
 
 > Salvador Allende Street
 >
@@ -190,9 +256,21 @@ _[[ID 740](http://www.abacq.org/calle/index.php?2007/12/11/131-saint-ouen-l-aumo
 >
 > Killed while defending democracy
 
-![Photo of the street sign at Rue Salvador Allende at Montreuil, France - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549845-dc561d9f-9b27-4dd5-85b8-87b2d30dfd0e.jpg)
+_[[ID 699](http://www.abacq.org/calle/index.php?2009/09/13/398-le-blanc-mesnil-francia)] Place Salvador Allende at Le Blanc-Mesnil, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Place_Salvador_Allende_-_Le_Blanc-Mesnil_(FR93)_-_2022-08-21_-_1.jpg) by Chabe01, CC BY-SA 4.0)_
+
+![Photo of the place sign at Place Salvador Allende at Le Blanc-Mesnil, France - translated text of signage follows.](assets/699_France_Le-Blanc-Mesnil_Place-Salvador-Allende.jpg)
+
+> Le Blanc-Mesnil
+>
+> Salvador Allende Park
+>
+> President of Chile
+>
+> Assassinated during the military coup d'état on 11 September 1973
 
 _[[ID 711](http://www.abacq.org/calle/index.php?2009/03/05/332-montreuil-francia)] Avenue du Président Salvador Allende at Montreuil, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg) by Chabe01, CC BY-SA 4.0)_
+
+![Photo of the street sign at Rue Salvador Allende at Montreuil, France - translated text of signage follows.](assets/711_France_Montreuil_Avenue-du-President-Salvador-Allende.jpg)
 
 > Montreuil
 >
@@ -202,7 +280,115 @@ _[[ID 711](http://www.abacq.org/calle/index.php?2009/03/05/332-montreuil-francia
 >
 > Assassinated by the Chilean fascists on 11 September 1973
 
-[Write something about France] 
+#### **Catalonia**
+
+_[[ID 335](http://www.abacq.org/calle/index.php?2010/09/03/500-rubi-espana)] Plaça de Salvador Allende at Rubí_
+
+In this park at Rubí named after Salvador Allende, there is a [dedication stone](https://monuments.iec.cat/fitxa.asp?id=366) made of marble that reads:
+
+> This park symbolizes the effort of ex-president Salvador Allende to preserve the rights and freedoms of the Chilean people
+>
+> Rubí, 14 November 1999
+
+_[[ID 312](http://www.abacq.org/calle/index.php?2011/09/09/538-valls-espana)] Monument to Salvador Allende at Plaça de l'Estació in Valls ([Photo](https://commons.wikimedia.org/wiki/File:015_Monument_a_Salvador_Allende,_pl._de_l%27Estaci%C3%B3_(Valls).jpg) by Enric, CC BY-SA 4.0)_
+
+![Photo of the monument to Salvador Allende at Plaça de l'Estació in Valls. It is a vertical artificial stone block that stands on this park filled with greenery. On one side of the block, a portrait of Allende is inscribed on the upper right side. A text inscription can be found below on the lower left side (translation follows).](assets/312_Spain_Valls_Monument-a-Salvador-Allende.jpg)
+
+> The City of Valls
+>
+> to Salvador Allende
+>
+> President of Chile 1970-1973
+>
+> Valls, 16 September 2010
+
+_[[ID 339](http://www.abacq.org/calle/index.php?2009/10/25/425-barcelona-espana)] Plaça de Salvador Allende at Barcelona_
+
+_[[ID 359](http://www.abacq.org/calle/index.php?2007/07/09/82-barcelona-espana)] "A Salvador Allende" ("To Salvador Allende") by Lautaro Díaz at Barcelona ([Photo](https://commons.wikimedia.org/wiki/File:Altre_11_de_setembre.jpg) by Xaxat, CC BY-SA 3.0 Spain)_
+
+![Photo of the bust "A Salvador Allende" by Lautaro Díaz located within Salvador Allende Park at Barcelona. The bust, composed of Allende's head and neck, is installed jutting off from a bronze plaque with an inscription above the bust (translation of the inscription follows). On the side of the bust, to the viewer's left, there is the Chilean flag and an outline of South America with Chile's borders emphasized. The whole bronze plaque containing these features is placed over a bigger vertical steel sheet so that the plaque could be mounted on the park's wall. Spanning across the vertical steel sheet, below the bronze plaque, and mounted on the wall is a large horizontal dedication plaque that says "A Salvador Allende" ("To Salvador Allende"). Carme Grandas writes in the online catalog of public art in Barcelona: "The head is sculpted in strong, bold, even brutal strokes, appropriate for the person it depicts, his manner of death, and for the work itself."](assets/359_Spain_Barcelona_A-Salvador-Allende.jpg)
+
+> TO SALVADOR ALLENDE
+>
+> "History is ours and is made by the people"
+>
+> SALVADOR ALLENDE GOSSENS 1908-1973
+>
+> Chilean politician. Founder of the Chilean Socialist Party, Minister of Public Health, Member of Parliament and Senator.
+>
+> Having been elected President de the Republic in 1970, his government initiated the path towards socialism along democratic lines, carrying out important reform projects and nationalizations.
+>
+> On 11 September 1973 the Government of "Unidad Popular" [Popular Unity], presided over by Allende, was overthrown by a coup. Salvador Allende died heroically during the assault on the Palacio de la Moneda.
+>
+> [_Note: English translation and alt text are taken from the [bust's page](https://w10.bcn.es/APPS/gmocataleg_monum/FitxaMonumentAc.do?idioma=EN&codiMonumIntern=960) in the online catalog of public art in Barcelona. Write-ups by Jaume Fabre, Josep M. Huertas; review by Carme Grandas._]
+
+The Salvador Allende Park at Barcelona was inaugurated in April 1985 and its primary feature used to be a fountain. Upon the initiative of Chilean residents in Barcelona, and to make the dedication to Allende more obvious, Chilean artist Lautaro Díaz created a bust of Allende made of bronze. The bust was installed in this park and was inaugurated on 11 September 1997 (25th anniversary of the coup) in the presence of Isabel Allende, one of Salvador Allende's children, as well as Chilean and Catalan representatives.
+
+What binds Chilean and Catalan people together in solidarity is the date 11 September: for Chileans, this date is a symbol of Allende's democratic efforts towards economic independence, and for Catalans, this date is a symbol of their democratic efforts towards [national independence](https://en.wikipedia.org/wiki/Catalan_independence_movement).
+
+While 11 September or 9/11 is best known worldwide as the anniversary of the 2001 terror attacks in the US, this in itself is an example of _world_ history being defined exclusively by _US_ events from a _US_ perspective. The 1973 coup d'état in Chile happened way earlier than these terror attacks, is influenced by global political contexts, is symbolic of external disruptions to internal processes that have become a common theme across peoples (including Catalan people), and has long-lasting consequences and impact. Fifty years later, this event is still less known worldwide compared to the terror attacks in the US.
+
+What is even less known is that 11 September also marks the national day of Catalonia, called locally as the "[Diada](https://en.wikipedia.org/wiki/National_Day_of_Catalonia)" (literally "Day"). On this day in 1714, after a year-long battle in Barcelona, the Catalan army lost to the army of King Philip V, and the Catalan institutional system and rights were replaced with Philip V's absolute rule in an attempt to unify Spain. Modern-day celebrations of the Diada involve offering flowers and respects to Catalan army members who fought in 1714 and rallies in favor of Catalonia's independence from Spain.
+
+#### **Italy, Argentina, Austria**
+
+Regardless of political background or lack thereof, Allende's commitment towards peaceful democratic means of achieving human well-being for Chileans can find appeal anywhere in the world. 
+
+_[[ID 227](http://www.abacq.org/calle/index.php?2011/02/22/513-jesi-italia)] Largo Salvador Allende at Jesi, Italy_
+
+There is a lane in Jesi named after Salvador Allende as well as a memorial stone erected on the 10th anniversary of the coup, though [Google Street View imagery](https://goo.gl/maps/nMLFVFk6e9GGEXce7) suggests that the memorial stone may not be located at this lane but rather somewhere else in Jesi.
+
+> Santiago 11 September 1973
+>
+> "My sacrifice will not be in vain:
+>
+> Long live Chile,
+>
+> Long live the Chilean people"
+>
+> President Salvador Allende, martyr of socialism and democracy
+>
+> City of Jesi
+>
+> 11 September 1983
+
+_[[ID 243](http://www.abacq.org/calle/index.php?2007/02/18/26-italia)] Piazza Salvador Allende at Arenzano, Italy_
+
+The place name sign isn't immediately apparent from the [Google Street View imagery](https://goo.gl/maps/cpr44t88iWfcRxSz5)—one has to move and/or turn through the parking area towards the area with bushes, trees and other greenery. To the right, there stands an aging place name sign with a green pole that looks like a [dental floss handle](https://i.pinimg.com/originals/61/14/c2/6114c2ab4270b50db318ea333891fd79.jpg). Upon zooming in, the sign reads, with typo included in the original:
+
+> Salvator Allende
+>
+> Antifascist martyr
+
+_[[ID 113](http://www.abacq.org/calle/index.php?2009/10/08/421-viena-austria)] Memorial plate to Salvador Allende at Plaza República de Chile, Buenos Aires, Argentina ([Photo](https://commons.wikimedia.org/wiki/File:Salvador_Allende_en_Plaza_Chile.JPG) by Gelpgim22 (Sergio Panei Pitrau), CC BY 3.0)_
+
+![Photo of the memorial plate to Salvador Allende at Plaza Chile, Recoleta, Buenos Aires Argentina - translated text follows.](assets/113_Argentina_Buenos-Aires_Centennial-memorial-plate.jpg)
+
+This aptly named park in central Buenos Aires—Republic of Chile Park—is located next to the Chilean embassy in Buenos Aires and has a monument to Chilean independence hero Bernardo O'Higgins.
+
+> Hommage of the legislature of the City of Buenos Aires in the birth centennial of the President of the Republic of Chile
+>
+> Salvador Allende Gossens
+>
+> Fighter for liberty, democracy and social justice
+>
+> 1908 - 26 June - 2008
+
+User-submitted photos of the park reveal that there is another memorial plate to Allende in the 25th anniversary of the coup.
+
+> [insert translation here when i find a better photo]
+
+_[[ID 116](http://www.abacq.org/calle/index.php?2009/10/08/421-viena-austria)] Salvador-Allende-Denkmal at Donaupark, Vienna, Austria ([Photo 1](https://commons.wikimedia.org/wiki/File:20210620_Donaupark_Salvador-Allende-Denkmal_01.jpg) by Funke, CC BY-SA 4.0. [Photo 2](https://commons.wikimedia.org/wiki/File:Salvador_Allende_monument_plaque,_Donaupark_(Vienna).jpg) by Robot8A, CC BY-SA 4.0.)_
+
+![Photo of the Salvador-Allende-Denkmal at Donaupark, Vienna, Austria. A bust of Allende stands on top of a vertical stone surrounded by flowers and grass. A few steps away from the bust is a memorial plate on a relatively flat rock at ground level.](assets/116_Austria_Vienna_Salvador-Allende-Denkmal_1.jpg)
+
+![Close-up photo of the memorial plate with inscriptions in German and Spanish - translated text follows.](assets/116_Austria_Vienna_Salvador-Allende-Denkmal_2.jpg)
+
+> "Sooner rather than later, the great avenues will open again and free people will walk through them to construct a better society."
+>
+> Words from Allende's last speech, before he and thousands more died during the military coup on 11 September 1973. The coup was a reaction to his democratic fight for social justice.
+>
+> Salvador Allende G. 26 June 1908 - 11 September 1973
 
 ### Chilean diaspora
 
@@ -212,17 +398,17 @@ These individuals appreciate Allende for defending the Chilean working class thr
 
 When the Chilean state under Pinochet won't do the necessary honors for Allende, these Chileans will, from their respective countries of residence. And even after democracy has been restored in Chile, they continue to do the honors wherever they are in the world.
 
-![Photo of the signage at Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549067-76e71e36-ea42-4942-bf79-c92c9eda14be.jpg)
-
 _[ID 118] Salvador-Allende-Weg at Donaupark, Vienna, Austria ([Photo](https://commons.wikimedia.org/wiki/File:Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg) by Robot8A, CC BY-SA 4.0)_
+
+![Photo of the signage at Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](assets/118_Austria_Vienna_Salvador-Allende-Weg.jpg)
 
 > The "Salvador-Allende-Weg" (Salvador Allende Path) was named after Salvador Allende, born in 1908 in Valparaíso, president of Chile, physician and co-founder of the Socialist Party of Chile. Allende died on 11 September 1973 in Santiago de Chile during the takeover of the presidential palace by the coup plotters. This path on the Danube Park was built with support from Chilean workers (refugees).
 
-![Photo of the the sculpture L'Arc in Montréal, Canada. It "portrays a tree whose crown plunges into the ground to form an arch, rooted at each end". One of the ends has multiple roots, the other one single.](https://user-images.githubusercontent.com/117693012/233549285-84a99610-d766-4427-8d1e-bb2a37b3c500.jpg)
+_[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photos 1](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) and [2](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG) by Jeangagnon, CC BY-SA 3.0)_
 
-![Photo of the signage for L'Arc in Montréal, Canada - translated text of signage follows.](https://user-images.githubusercontent.com/117693012/233549331-4f62d9d8-8e9d-49d1-a7ba-aefa7d49d724.jpg)
+![Photo of the the sculpture L'Arc in Montréal, Canada. It "portrays a tree whose crown plunges into the ground to form an arch, rooted at each end". One of the ends has multiple roots, the other one single.](assets/145_Canada_Montreal_L'arc_1.jpg)
 
-_[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photos](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) by [Jeangagnon](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG), CC BY-SA 3.0)_
+![Photo of the signage for L'Arc in Montréal, Canada - translated text of signage follows.](assets/145_Canada_Montreal_L'arc_2.jpg)
 
 > **Tribute to Salvador Allende (1908-1973)**
 >
@@ -306,7 +492,7 @@ With that said, it would be interesting to know which places claim murder and if
 
 To make our lives easier, we can limit the scope of this column to rows in the main table with a populated `desc`. The full investigation will follow once I have full data, but for now here's an edited tweet from the current president of Chile.
 
-![An edited screenshot of a tweet from Gabriel Boric, current president of Chile - edited text follows.](https://user-images.githubusercontent.com/117693012/233550031-76fad645-1b80-4ff5-9666-be74bcd9595d.png)
+![An edited screenshot of a tweet from Gabriel Boric, current president of Chile - edited text follows.](assets/GabrielBoric_a_estas_alturas.png)
 
 > At this point, politically it doesn't really matter how Allende died (if historical%). What matters is that we have streets and parks named after him.
 >
