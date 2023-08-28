@@ -330,13 +330,13 @@ While 11 September or 9/11 is best known worldwide as the anniversary of the 200
 
 What is even less known is that 11 September also marks the national day of Catalonia, called locally as the "[Diada](https://en.wikipedia.org/wiki/National_Day_of_Catalonia)" (literally "Day"). On this day in 1714, after a year-long battle in Barcelona, the Catalan army lost to the army of King Philip V, and the Catalan institutional system and rights were replaced with Philip V's absolute rule in an attempt to unify Spain. Modern-day celebrations of the Diada involve offering flowers and respects to Catalan army members who fought in 1714 and rallies in favor of Catalonia's independence from Spain.
 
-#### **Italy, Argentina, Austria**
+#### **Italy**
 
-Regardless of political background or lack thereof, Allende's commitment towards peaceful democratic means of achieving human well-being for Chileans can find appeal anywhere in the world. 
+In a now-democratic country with a fascist dictator past, where the [original idea of fascism](https://en.wikipedia.org/wiki/Italian_fascism) was born, was influenced by Nazi Germany, and evolved into a state that legalized racism and disregarded individual freedoms for the sake of imperialist nationalism, it is not surprising to see memorials to Allende.
 
 _[[ID 227](http://www.abacq.org/calle/index.php?2011/02/22/513-jesi-italia)] Largo Salvador Allende at Jesi, Italy_
 
-There is a lane in Jesi named after Salvador Allende as well as a memorial stone erected on the 10th anniversary of the coup, though [Google Street View imagery](https://goo.gl/maps/nMLFVFk6e9GGEXce7) suggests that the memorial stone may not be located at this lane but rather somewhere else in Jesi.
+There is a lane in Jesi named after Salvador Allende as well as a memorial stone erected on the 10th anniversary of the coup, though [Google Street View imagery](https://goo.gl/maps/nMLFVFk6e9GGEXce7) suggests that the memorial stone (if it still exists today) may not be located at this lane but rather somewhere else in Jesi.
 
 > Santiago 11 September 1973
 >
@@ -354,29 +354,47 @@ There is a lane in Jesi named after Salvador Allende as well as a memorial stone
 
 _[[ID 243](http://www.abacq.org/calle/index.php?2007/02/18/26-italia)] Piazza Salvador Allende at Arenzano, Italy_
 
-The place name sign isn't immediately apparent from the [Google Street View imagery](https://goo.gl/maps/cpr44t88iWfcRxSz5)—one has to move and/or turn through the parking area towards the area with bushes, trees and other greenery. To the right, there stands an aging place name sign with a green pole that looks like a [dental floss handle](https://i.pinimg.com/originals/61/14/c2/6114c2ab4270b50db318ea333891fd79.jpg). Upon zooming in, the sign reads, with typo included in the original:
+The place name sign isn't immediately apparent from the [Google Street View imagery](https://goo.gl/maps/cpr44t88iWfcRxSz5)—one has to move and/or turn through the parking area towards the area with bushes, trees and other greenery. To the right, there stands an aging place name sign with a green pole that looks like a [dental floss handle](https://i.pinimg.com/originals/61/14/c2/6114c2ab4270b50db318ea333891fd79.jpg). Upon zooming in, the sign reads:
 
 > Salvator Allende
 >
 > Antifascist martyr
+>
+> [_Note: the typo is included in the sign itself._]
+
+_[[ID 267](http://www.abacq.org/calle/index.php?2008/09/10/262-orgosolo-italia)] Via Allende and mural dedicated to Salvador Allende at Orgosolo, Italy_
+
+This mountain town is known for colorful murals all around its buildings—most of these murals are political and feature less known personalities and events around the world. It has a street named after Allende (Via Allende) and as expected there is also a mural dedicated to Allende near the intersection of Corso Repubblica and Via Cavour.
+
+> 11 September 1973. Chilean military fascists, supported by the [United States] CIA, carry out a coup d'état and bomb the presidential palace where President Salvador Allende is found.
+
+The mural also quotes an excerpt—in its original Spanish language—from Allende's [last speech](https://www.marxists.org/archive/allende/1973/september/11.htm) delivered via radio from the La Moneda presidential palace at 9:10 am in the middle of the coup:
+
+> Sigan ustedes sabiendo que, mucho más temprano que tarde, se abrirán las grandes alamedas por donde pase el hombre libre para construir una sociedad mejor.
+>
+> [Go forward knowing that, much sooner rather than later, the great avenues will open again where free people will walk through to construct a better society.]
+
+#### **Argentina, Austria & Belgium**
+
+Allende's pursuit of social justice through democratic means finds sympathy around the world, because respect for democracy and social justice is not exclusive to socialism. Rather, both should be expected from any government, local or national, regardless of political affiliation or lack thereof.
 
 _[[ID 113](http://www.abacq.org/calle/index.php?2009/10/08/421-viena-austria)] Memorial plate to Salvador Allende at Plaza República de Chile, Buenos Aires, Argentina ([Photo](https://commons.wikimedia.org/wiki/File:Salvador_Allende_en_Plaza_Chile.JPG) by Gelpgim22 (Sergio Panei Pitrau), CC BY 3.0)_
 
 ![Photo of the memorial plate to Salvador Allende at Plaza Chile, Recoleta, Buenos Aires Argentina - translated text follows.](assets/113_Argentina_Buenos-Aires_Centennial-memorial-plate.jpg)
 
-This aptly named park in central Buenos Aires—Republic of Chile Park—is located next to the Chilean embassy in Buenos Aires and has a monument to Chilean independence hero Bernardo O'Higgins.
+This aptly named park in central Buenos Aires—Republic of Chile Park—is located next to the Chilean embassy in Buenos Aires and has monuments and memorial plates to several Chilean historical personalities.
 
 > Hommage of the legislature of the City of Buenos Aires in the birth centennial of the President of the Republic of Chile
 >
-> Salvador Allende Gossens
+> Salvador Allende Grossens
 >
 > Fighter for liberty, democracy and social justice
 >
 > 1908 - 26 June - 2008
+>
+> [_Note: the typo is included in the memorial plate itself._]
 
-User-submitted photos of the park reveal that there is another memorial plate to Allende in the 25th anniversary of the coup.
-
-> [insert translation here when i find a better photo]
+A photo from the park submitted to [Google Maps](https://goo.gl/maps/bC8B4zyaEvwK6u64A) by Ramon Luizaga on December 2021 reveals that there is another memorial plate to Allende inaugurated by the legislature of the City of Buenos Aires during the 25th anniversary of the coup in 1998.
 
 _[[ID 116](http://www.abacq.org/calle/index.php?2009/10/08/421-viena-austria)] Salvador-Allende-Denkmal at Donaupark, Vienna, Austria ([Photo 1](https://commons.wikimedia.org/wiki/File:20210620_Donaupark_Salvador-Allende-Denkmal_01.jpg) by Funke, CC BY-SA 4.0. [Photo 2](https://commons.wikimedia.org/wiki/File:Salvador_Allende_monument_plaque,_Donaupark_(Vienna).jpg) by Robot8A, CC BY-SA 4.0.)_
 
@@ -384,31 +402,89 @@ _[[ID 116](http://www.abacq.org/calle/index.php?2009/10/08/421-viena-austria)] S
 
 ![Close-up photo of the memorial plate with inscriptions in German and Spanish - translated text follows.](assets/116_Austria_Vienna_Salvador-Allende-Denkmal_2.jpg)
 
-> "Sooner rather than later, the great avenues will open again and free people will walk through them to construct a better society."
+> "Sooner rather than later, the great avenues will open again where free people will walk through to construct a better society."
 >
 > Words from Allende's last speech, before he and thousands more died during the military coup on 11 September 1973. The coup was a reaction to his democratic fight for social justice.
 >
 > Salvador Allende G. 26 June 1908 - 11 September 1973
 
-### Chilean diaspora
+_[[ID 772](https://commons.wikimedia.org/wiki/Category:Monuments_and_memorials_to_Salvador_Allende)] Monument to Salvador Allende at Université Libre de Bruxelles, Brussels, Belgium ([Photo](https://commons.wikimedia.org/wiki/File:Buste_Salvator_Allende_ULB_Bruxelles.jpg) by Geertivp, CC BY-SA 4.0)_
+
+![Photo of the monument to Salvador Allende at Université Libre de Bruxelles, Brussels, Belgium - translated text follows](assets/772_Belgium_Brussels_Buste-Salvador-Allende.jpg)
+
+> Salvador Allende
+>
+> (26 June 1908 - 11 September 1973)
+>
+> Elected President of the Republic of Chile in 1970 by many who have nothing. Overthrown in violence by a few who have everything.
+>
+> He preferred to pay with his life, on 11 September 1973, at the Presidential Palace of La Moneda, in Santiago de Chile, his will to give his people liberty, equality, fraternity.
+>
+> That day, he was able to broadcast to his people and to the world a last call:
+>
+> "Workers of my country, I have faith in Chile and its destiny. Other men will overcome this dark and bitter moment when treason seeks to prevail. Go forward knowing that, much sooner rather than later, the great avenues will open again where free people will walk through to construct a better society."
+
+### Chilean community
 
 Chileans are the most affected by Allende's efforts and the disruptions faced by his government.
 
-These individuals appreciate Allende for defending the Chilean working class throughout his political career, and of course for having been the last democratically elected President of the Republic of Chile before the 1973 coup.
+When the Chilean state under Pinochet was not willing to do the necessary honors for Allende, these Chileans did, from their respective countries of residence. And even after democracy had been restored in Chile, they continue to do the honors wherever they are in the world.
 
-When the Chilean state under Pinochet won't do the necessary honors for Allende, these Chileans will, from their respective countries of residence. And even after democracy has been restored in Chile, they continue to do the honors wherever they are in the world.
+To achieve this, they come together as a community and collaborate with local governments and society groups to make commemorative spaces for Allende.
 
-_[ID 118] Salvador-Allende-Weg at Donaupark, Vienna, Austria ([Photo](https://commons.wikimedia.org/wiki/File:Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg) by Robot8A, CC BY-SA 4.0)_
+#### **Chilean community in South America**
 
-![Photo of the signage at Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](assets/118_Austria_Vienna_Salvador-Allende-Weg.jpg)
+_[[ID 181](http://www.abacq.org/calle/index.php?2007/03/02/83-caracas-venezuela)] Monument to Salvador Allende at Plazuela Salvador Allende, Caracas, Venezuela_
 
-> The "Salvador-Allende-Weg" (Salvador Allende Path) was named after Salvador Allende, born in 1908 in Valparaíso, president of Chile, physician and co-founder of the Socialist Party of Chile. Allende died on 11 September 1973 in Santiago de Chile during the takeover of the presidential palace by the coup plotters. This path on the Danube Park was built with support from Chilean workers (refugees).
+> "Know that, sooner rather than later, the great avenues will open again where free people will walk through"
+>
+> Salvador Allende
+>
+> (Last message to Chilean people: 11-09-73)
+>
+> Chilean Democratic Community
+>
+> Sculptor: Ana Avalos
+>
+> 11-09-93
 
-_[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photos 1](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) and [2](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG) by Jeangagnon, CC BY-SA 3.0)_
+_[[ID 184](http://www.abacq.org/calle/index.php?2007/10/11/117-valencia-venezuela)] Avenida Salvador Allende and monument to Salvador Allende at Valencia, Venezuela_
+
+Salvador Allende Avenue at Valencia, capital of the Carabobo state in Venezuela, is located within the University of Carabobo. On one of the university's entrances, there is a bust of Allende created by Rubén Colombo. Below the plate quoting Allende's last speech, there are some other plates that mention interest groups including the Socialist Party of Chile in Carabobo.
+
+> Social processes can be arrested by neither crime nor force.
+>
+> History is ours, and people make history.
+>
+> Salvador Allende
+>
+> 26-06-1908 - 11-09-1973
+
+#### **Chilean community in North America**
+
+_[[ID 85](http://www.abacq.org/calle/index.php?2010/10/20/502-ottawa-canada)] Memorial tree and plate to Salvador Allende at Ottawa, Canada_
+
+> President of Chile
+>
+> Salvador Allende Gossens
+>
+> 1908 - 1973
+>
+> At his centennial
+>
+> Chilean Popular Unity Ottawa - Gatineau
+>
+> Montréal, Toronto
+>
+> June 26, 2008
+
+_[[ID 145](https://commons.wikimedia.org/wiki/Category:L%27arc)] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photos 1](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) and [2](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG) by Jeangagnon, CC BY-SA 3.0)_
 
 ![Photo of the the sculpture L'Arc in Montréal, Canada. It "portrays a tree whose crown plunges into the ground to form an arch, rooted at each end". One of the ends has multiple roots, the other one single.](assets/145_Canada_Montreal_L'arc_1.jpg)
 
 ![Photo of the signage for L'Arc in Montréal, Canada - translated text of signage follows.](assets/145_Canada_Montreal_L'arc_2.jpg)
+
+This sculpture by Michel de Broin was commissioned in time for Allende's centennial and was completed in 2009.
 
 > **Tribute to Salvador Allende (1908-1973)**
 >
@@ -424,7 +500,7 @@ _[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photo
 >
 > _Municipal collection of public art_
 >
-> Title: **L’arc**
+> Title: ***L’arc***
 >
 > Artist: **Michel de Broin**
 >
@@ -442,15 +518,173 @@ _[ID 145] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photo
 >
 > [_Note: English translation and alt text are taken from the [sculpture's page](https://artpublic.ville.montreal.qc.ca/en/oeuvre/larc/) in the Ville de Montréal's website._]
 
+#### **Chilean community in Europe**
+
+_[[ID 85](http://www.abacq.org/calle/index.php?2010/01/15/412-copenhague-dinamarca)] Mural and monument to Salvador Allende at Copenhagen, Denmark_
+
+This mural bearing an outline of Allende's likeness contains a small memorial plate that provides context:
+
+> 
+
+_[ID 118] Salvador-Allende-Weg at Donaupark, Vienna, Austria ([Photo](https://commons.wikimedia.org/wiki/File:Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg) by Robot8A, CC BY-SA 4.0)_
+
+![Photo of the signage at Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](assets/118_Austria_Vienna_Salvador-Allende-Weg.jpg)
+
+This path is located within the Donaupark (Danube Park) and leads to the memorial bust to Salvador Allende shown earlier.
+
+> The "Salvador-Allende-Weg" [Salvador Allende Way] was named after Salvador Allende, born in 1908 in Valparaíso, president of Chile, physician and co-founder of the Socialist Party of Chile. Allende died on 11 September 1973 in Santiago de Chile during the takeover of the presidential palace by the coup plotters. This path on the Danube Park was built with support from Chilean workers (refugees).
+
+#### **Chilean community in Australia**
+
+_[[ID 114](http://www.abacq.org/calle/index.php?2011/08/25/534-fairfield-australia)] Monument to Salvador Allende at Fairfield, Australia_
+
+> **Dr. Salvador Allende Gossens**
+>
+> 26th June 1908 - 11th September 1973
+>
+> President of Chile 1970 - 1973
+>
+> Last Broadcasting Words;
+>
+> _Workers of my homeland!_
+>
+> _I have faith in Chile and its destiny._
+>
+> _Other men will overcome this gray and bitter moment where treason tries to impose itself._
+>
+> _May you continue to know that much sooner than later the great avenues through which free men walk to build a better society will open._
+>
+> _Long live Chile!_
+>
+> _Long live the people!_
+>
+> _Long live the workers!_
+>
+> This monument was unveiled on the 28th of Septiembre 2003.
+>
+> We thanks all those that assisted with this project including the
+>
+> Construction Forestry Mining Energy Union
+>
+> Salvador Allende Committee of Adelaide
+>
+> Salvador Allende Solidarity Group of Canberra
+>
+> Committee Pro Monument Salvador Allende of Sydney
+>
+> In Chile September 11, 1973 President Salvador Allende was overthrown in a bloody military coup led by General Pinochet.
+>
+> During the dictatorship thousands of supporters of the elected President were killed, disappeared, tortured and imprisoned.
+>
+> 29th May 2005
+
+#### **Chileans in Chile**
+
+The examples so far make it look like Allende is only commemorated outside of Chile—this was true during the dictatorship. Chileans inside Chile had to wait for the end of the dictatorship to be able to dedicate public spaces to Allende.
+
+_[[ID 102](https://es.wikipedia.org/wiki/Museo_de_la_Solidaridad_Salvador_Allende)] Museo de la Solidaridad Salvador Allende at Barrio República, Santiago, Chile_
+
+This contemporary art museum seems to not have been mentioned in any post in "Una calle Salvador Allende", but deserves to be mentioned because it lived alongside Allende himself and is a perfect example of exile and coming back home experienced in Chilean history.
+
+A Spanish art critic proposed a project to establish a museum in support of Allende's government. Allende approved this proposal, then wrote an open letter to artists around the world calling for artistic donations in all forms. He officially inaugurated the museum on 17 May 1972—at the time, it was named "Museo de la Solidaridad" ("Museum of Solidarity").
+
+![A casually taken photo of Salvador Allende hanging at the entrance of the Museo de la Solidaridad Salvador Allende. He is wearing the Chilean presidential sash during what appears to be a presidential parade. He smiles at an unseen spectator across him and extends his right hand to offer a handshake. Below this photo frame is an excerpt from Allende's letter to the artists of the world - translation follows.](assets/102_Chile_Santiago_Museo-de-la-Solidaridad-Salvador-Allende_1.jpg)
+
+_([Photo](https://commons.wikimedia.org/wiki/File:Wiki_MSSA_-_Ingreso_MSSA.JPG) by Warko, CC BY-SA 3.0_)
+
+> "On behalf of the people and the government of Chile, I extend my emotional gratitude to the artists who have donated their works to build the foundation of the future Museum of Solidarity. It is undoubtedly an exceptional event, which inaugurates an unprecedented type of relationship between creators and the public."
+>
+> Letter from Salvador Allende to the artists of the world, Santiago, 1972
+
+After the 1973 coup and the installation of the dictatorship, the museum closed and its art, artists and managers went into exile outside Chile. A group of artists organized a roving museum from their places of exile, continued accepting art donations, and organized exhibitions all around Europe to denounce human rights violations during the dictatorship.
+
+The museum was officially reestablished on September 1991, a year after the end of dictatorship in Chile, under its current name. It has since recovered its art collection from the 1970s, received new art donations, and currently houses some of Allende's personal objects, some of which are shown below:
+
+* Doctor's cape
+* Presidential sash and a copy of Allende's 1939 work _La realidad médico social chilena_ (_The Chilean medico-social reality_)
+* Socialist Party membership card, watch, wallet, and an unidentifiable long brown object bearing his initials S.A.G.
+
+_([Photos 1](https://commons.wikimedia.org/wiki/File:Objetos_personales_de_Salvador_Allende_en_el_Museo_de_la_Solidaridad_-_1.jpg), [2](https://commons.wikimedia.org/wiki/File:Objetos_personales_de_Salvador_Allende_en_el_Museo_de_la_Solidaridad_-_2.jpg) and [3](https://commons.wikimedia.org/wiki/File:Objetos_personales_de_Salvador_Allende_en_el_Museo_de_la_Solidaridad_-_3.jpg) by ProtoplasmaKid, CC BY-SA 4.0_)
+
+![Salvador Allende's thick, long, black doctor cape on display at the Museo de la Solidaridad Salvador Allende.](assets/102_Chile_Santiago_Museo-de-la-Solidaridad-Salvador-Allende_2.jpg)
+
+![Salvador Allende's presidential sash and a copy of his 1939 work "La realidad médico-social chilena" on display at the Museo de la Solidaridad Salvador Allende.](assets/102_Chile_Santiago_Museo-de-la-Solidaridad-Salvador-Allende_3.jpg)
+
+![Salvador Allende's Socialist Party membership card, watch and wallet on display at the Museo de la Solidaridad Salvador Allende. There is also an unidentifiable long brown object, but we know it belonged to Allende because it has his initials S.A.G.](assets/102_Chile_Santiago_Museo-de-la-Solidaridad-Salvador-Allende_4.jpg)
+
+_[[ID 21](http://www.abacq.org/calle/index.php?2008/10/22/276-valparaiso-chile)] Plaza del Pueblo Salvador Allende at Valparaíso, Chile_
+
+This park in the place of origin of Allende's family (and sometimes mentioned as Allende's birthplace, though his [birth certificate](https://commons.wikimedia.org/wiki/File:CLSRCeI_AP1190806260(1)_(page_1_crop).jpg) suggests that he was born in Santiago) is another example of a public space that lived alongside the President. The memorial plate takes advantage of Allende's iconic thick and rounded glasses to identify the park—this memorial plate can be seen in the park's photos in [Google Maps](https://goo.gl/maps/DJandbNBEfehjLsG8).
+
+> **Salvador Allende People's Park**
+>
+> Work constructed during the Popular Unity government headed by President Salvador Allende Gossens (1970 - 1973)
+>
+> Inaugurated on June 2008 under the administration of Mayor Aldo Cornejo González and the Municipal Council 2004 - 2008
+>
+> Recuperated under the administration of Mayor Jorge Sharp Fajardo in 2017.
+>
+> "Being young and not being revolutionary is a contradiction at a biological level."
+>
+> Coordinating Roundtable for Human Rights
+>
+> Valparaíso Mayor's Office
+
+_[[ID 18](http://www.abacq.org/calle/index.php?2008/11/16/285-santiago-chile)] Monument to Salvador Allende in front of La Moneda Palace, Santiago, Chile ([Photo](https://commons.wikimedia.org/wiki/File:Monumento_Salvador_Allende_Gossens.jpg) by Rjcastillo, CC BY-SA 4.0)_
+
+![Photo of the monument to Salvador Allende at Santiago, Chile, in front of La Moneda Palace corner the Ministry of Justice and Human Rights of Chile. The monument depicts Allende looking up with one step forward while his whole body is draped in the Chilean flag.](assets/18_Chile_Santiago_Monument-in-front-of-La-Moneda.jpg)
+
+The Congress of Chile approved a law in 1994 which said that three monuments in honor of Allende shall be built in Punta Arenas, Valparaíso, and Santiago. This [monument in Santiago](https://es.wikipedia.org/wiki/Monumento_a_Salvador_Allende_(Santiago_de_Chile)) by Arturo Hevia was inaugurated on 26 June 2000 and stands just outside of the La Moneda Palace, where Allende died in 1973, as well as the Ministry of Justice and Human Rights of Chile. Due to its symbolic location, this monument serves as a [focal point](https://commons.wikimedia.org/wiki/Category:Monumento_a_Salvador_Allende,_Santiago_de_Chile) where supporters do floral offerings and demonstrations to commemorate Allende's death and protest against human rights violations.
+
+> Salvador Allende Gossens
+>
+> (1908-1973)
+>
+> "I have faith in Chile and its destiny."
+>
+> 11 September 1973
+
+Another focal point of commemorations is [Morandé 80](https://en.wikipedia.org/wiki/Morand%C3%A9_80), the address of one of La Moneda's doors which is only a few steps away from the monument to Allende.
+
+_([Photo](https://commons.wikimedia.org/wiki/File:Morande_80_11_septiembre_2009.jpg) by Richard Espinoza, CC BY-SA 3.0)_
+
+![Flowers being offered right in front of Morandé 80 on 11 September 2009.](assets/0_Chile_Santiago_Morande-80.jpg)
+
+When Presidents of Chile used to live in La Moneda, Morandé 80 was a convenient backdoor for the President to be able to enter and leave the palace without time-consuming formalities. Symbolically speaking, the President of Chile enters and leaves this door as a common citizen, like other common Chileans who enter and leave their doors of residence. After 1958, Presidents don't live in La Moneda anymore.
+
+What used to be a mundane backdoor became a historically significant door when Salvador Allende's dead body was taken out of Morandé 80 after the 1973 coup. Symbolically speaking, the President who wished to die as President was taken out of La Moneda as a common citizen. During the reconstruction of La Moneda after the coup, the door of Morandé 80 and the room where Allende died were [sealed off into disappearance](https://es.wikipedia.org/wiki/Palacio_de_La_Moneda) to avoid them becoming symbols of Allende. The door and room were restored 30 and 35 years after the coup, respectively.
+
+_[[ID 38](http://www.abacq.org/calle/index.php?2009/01/08/303-chile)] Salón Blanco Presidente Allende inside La Moneda Palace, Santiago, Chile ([Photo 1](https://commons.wikimedia.org/wiki/File:Sal%C3%B3n_Blanco_%E2%80%9CPresidente_Allende%E2%80%9D.jpg) by Oscampor, CC BY-SA 3.0. [Photo 2](https://commons.wikimedia.org/wiki/File:Oficina_Salvador_Allende.jpg) by Osmar Valdebenito from Santiago, Chile, CC BY-SA 2.0.)_
+
+The restoration of the room where Allende died includes two paintings by Guillermo Muñoz Vera and some original furniture from before the 1973 coup, including the sofa where Allende died.
+
+![Photo from inside Salón blanco "Salvador Allende", a reconstruction of the room where Salvador Allende died inside La Moneda Palace at Santiago, Chile. The photo features a chandelier, desk, seat, and a full-body portrait painting of Allende by Guillermo Muñoz Vera. The portrait depicts Allende with a neutral expression while waving to the viewer.](assets/38_Chile_Santiago_Salon-blanco-Salvador-Allende_1.jpg)
+
+![Photo from inside Salón blanco "Salvador Allende", a reconstruction of the room where Salvador Allende died inside La Moneda Palace at Santiago, Chile. The photo features the sofa where Allende died.](assets/38_Chile_Santiago_Salon-blanco-Salvador-Allende_2.jpg)
+
+_[[ID 14](http://www.abacq.org/calle/index.php?2009/03/07/330-rancagua-chile)] Monument to Salvador Allende at Rancagua, O'Higgins Region, Chile ([Photo](https://commons.wikimedia.org/wiki/File:Monumento_Salvador_Allende_Gossens,_en_Alameda_Bernardo_O%22higgins_comuna_de_Rancagua.jpg) by Marco Antonio Correa Flores, CC BY-SA 4.0)_
+
+![Monument to Salvador Allende at Rancagua, O'Higgins Region, Chile - description follows.](assets/14_Chile_Rancagua_Monumento-Salvador-Allende.jpg)
+
+The bust of Allende by sculptor Gregorio Berchenko is made of copper, the same resource that Allende nationalized to assert Chile's economic independence, much to the hostile reaction of the US government and businesses from whom the copper mines were taken.
+
+The bust is framed within a white quadrilateral pillar that stands alongside two others. The pillar on the viewer's right has a large star drilled onto its upper half. The pillar on the right looks empty, but the article at _Una calle Salvador Allende_ says that it contains an excerpt from Allende's last speech. The star, the different textures across the three pillars, and the subtle line that divides the upper and lower parts of the pillars evoke the image of the flag of Chile. This monument was inaugurated on January 2009.
+
+_[[ID 5](http://www.abacq.org/calle/index.php?2011/06/27/527-san-joaquin-chile)] Monument to Salvador Allende('s last speech) at San Joaquín, Santiago, Chile ([Photo](https://commons.wikimedia.org/wiki/File:Monumento_a_Salvador_Allende_en_San_Joaqu%C3%ADn.JPG) by Richard Espinoza, CC BY 3.0)_
+
+![Monument to Salvador Allende's last speech at San Joaquín, Santiago, Chile. It depicts Allende standing and holding on to a tall and thick partially chipped sculpture base, with a long excerpt from his last speech inscribed on it. Allende is standing high enough from the ground that wind is blowing across his face as suggested by the waving necktie.](assets/5_Chile_San-Joaquin_Monumento-al-ultimo-discurso-de-Salvador-Allende.jpg)
+
+One of the more recent memorials to Allende (relative to other memorials in the dataset with known dates of establishment) was unveiled on 26 June 2011. This sculpture by Oscar Plandiura quotes the most from Allende's last speech—there are nine paragraphs of quotation inscribed on this high monument, excluding the title, location and date of the speech. Even from afar, it already looks like a long read despite not being the full speech. Those who would like to read the full speech are advised to read this [English translation that comes with the original Spanish recording](https://www.marxists.org/archive/allende/1973/september/11.htm). (Be warned that the recording is suddenly very loud and startling at the end, but it is part of the violent background and emotional intent of Allende's last speech.)
+
 ## [Data investigation proper: insert charts here]
 
 ### How did Salvador Allende die, really?
 
 ⚠ **Content warning: this section contains references to suicide and murder.**
 
-You may have read that Allende "_took his own life by committing suicide_", but some monuments, plates and street signs say that he was killed by the coup plotters.
+Some memorials to Allende say that he was killed by the coup plotters, and at least one memorial disagrees with this version of events. Rather than elaborate on both death versions, this investigation seeks to explain at a psychological level why people would believe one death version over another.
 
-Allende himself hinted in his [speech during the coup](https://www.marxists.org/archive/allende/1973/september/11.htm) that this was going to be his last, and that he would be willing to sacrifice himself, though the manner of sacrifice was vague.
+Allende hinted in his speech during the coup that this was going to be his last, and that he would be willing to sacrifice himself, though the manner of sacrifice was vague.
 
 > Given these facts, the only thing left for me is to say to workers: I am not going to resign! Placed in a historic transition, I will pay for loyalty to the people with my life.
 >
@@ -458,39 +692,22 @@ Allende himself hinted in his [speech during the coup](https://www.marxists.org/
 >
 > Long live Chile! Long live the people! Long live the workers! These are my last words, and I am certain that my sacrifice will not be in vain [...]
 
-Wikipedia's article on the [death of Salvador Allende](https://en.wikipedia.org/wiki/Death_of_Salvador_Allende) briefly explains the controversy and why Allende would be more inclined to kill himself instead of getting killed:
-
-> Isabel Allende Bussi, the daughter of Salvador Allende and a former member of the Senate of Chile, stated that the Allende family had long accepted that the former president shot himself. She told the BBC, "The report conclusions [that Allende died by suicide] are consistent with what we already believed. When faced with extreme circumstances, he made the decision of taking his own life, instead of being humiliated."
->
-> Carlos Altamirano, who was close to Allende, recalls that prior to the coup, Allende would have dismissed his suggestion to seek refuge in a loyalist regiment and fight back from there. In Altamirano's words Allende also rejected the option "to do as so many dictators and presidents of Latin America, that is to grab a briefcase full of money and take a plane out the country." Allende was an admirer of José Manuel Balmaceda, a Chilean president who died by suicide in face of his defeat in the Chilean Civil War of 1891. According to Altamirano, Allende was "obsessed with the attitude of Balmaceda."
-
-However, I think there are several reasons a lot of individuals found it easier to believe that Allende was murdered.
+There could be several reasons a lot of individuals found it easier to believe that Allende was killed.
 
 * The first people who announced that Allende had killed himself were the coup plotters. Why would Allende's supporters believe what their enemies were saying?
   * An actual exchange between Pinochet and Vice Admiral Patricio Carvajal during the coup - 05:19 onwards in this [video from Memoria Chilena](http://www.memoriachilena.gob.cl/archivos2/videos/MC0043416.mpg):
-    * Carvajal: [_in Spanish_] There is a communication from the infantry school staff who is already inside La Moneda, and due to the possibility of interception I will transmit it in English: [_in English, verbatim_] They say that Allende committed suicide and is dead now. [_in Spanish_] Tell me if you understood.
-    * Pinochet: [_in Spanish_] Understood, perfectly understood.
+    * > Carvajal: [_in Spanish_] There is a communication from the infantry school staff who is already inside La Moneda, and due to the possibility of interception I will transmit it in English: [_word-for-word_] They say that Allende committed suicide and is dead now. [_in Spanish_] Tell me if you understood.
+    * > Pinochet: [_in Spanish_] Understood, perfectly understood.
 * Suicide can be interpreted as an acceptance of defeat and is highly contradictory to Allende's announcement in his last speech that he would not resign. Supporters would rather believe that Allende fought until the end.
-* The exact method of Allende's suicide, which was only confirmed many years after the event, can come off as ridiculous or made-up to some individuals.
-  * Who else would shoot oneself with an AK-47? Which was held between the legs and under the chin? And which was a gift from none other than Fidel Castro of Cuba? This is too oddly specific. Allende being shot by enemies would be much easier to imagine, I suppose.
+* The exact method of Allende's suicide, at least according to the autopsies, can come off as ridiculous or made-up to some individuals.
+  * Who else would shoot oneself with an AK-47? Which was held between the legs and under the chin? And which was a gift from none other than Fidel Castro of Cuba? This is too oddly specific. Allende being shot by enemies would be much easier to imagine, perhaps.
 * Suicide is just taboo for some individuals, depending on their personal background.
 
-Anecdotal evidence supporting suicide only came about after 1990, and an autopsy in 2011 confirmed it. Until then, Allende's supporters and others could only speculate about how he died, and the easiest reason was death in the hands of the enemies.
+Anecdotal evidence supporting suicide only came about after the return of democracy in Chile, and an autopsy in 2011 sought to add further details onto it. Until then, Allende's supporters and others could only speculate about how he died, and the easiest reason was death in the hands of the enemies.
 
-Right now, does believing that Allende died in his own hands make someone anti-Allende and pro-coup? Not necessarily, according to some witnesses of his death:
+Right now, does believing that Allende died in his own hands make someone anti-Allende and pro-coup? Not necessarily, according to [some witnesses to the death](https://en.wikipedia.org/wiki/Death_of_Salvador_Allende):
 
 > The other witnesses kept silent until after the restoration of democracy in Chile, as they believed (according to their own statements) that to corroborate the version of a suicide would in some measure downgrade Allende's sacrifice and lend support to the military regime.
-
-With that said, it would be interesting to know which places claim murder and if any place ever acknowledged Allende's conscious, free-willed decision on that fateful day. We can create a new column which classifies (in an admittedly subjective manner) each place's stance on Allende's death:
-
-* null  -   The place doesn't mention Allende's death
-* -1    -   Explicitly mentions that Allende was murdered
-* -0.5  -   Mentions Allende's death in a vague way, but suggests murder
-* 0     -   Mentions Allende's death, but suggests neither murder nor suicide
-* 0.5   -   Mentions Allende's death in a vague way, but suggests suicide
-* 1     -   Explicitly mentions that Allende died by suicide
-
-To make our lives easier, we can limit the scope of this column to rows in the main table with a populated `desc`. The full investigation will follow once I have full data, but for now here's an edited tweet from the current president of Chile.
 
 ![An edited screenshot of a tweet from Gabriel Boric, current president of Chile - edited text follows.](assets/GabrielBoric_a_estas_alturas.png)
 
