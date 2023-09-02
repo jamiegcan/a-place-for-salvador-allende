@@ -2,7 +2,7 @@
 
 ## [Work in progress]
 
-This project seeks to make some sense out of the numerous places that contributors have made known through the website [_Una calle Salvador Allende_](http://www.abacq.org/calle/) ("_A Salvador Allende street_").
+This project seeks to make some sense out of the numerous memorial places to Salvador Allende that contributors have made known through the website [_Una calle Salvador Allende_](http://www.abacq.org/calle/) ("_A Salvador Allende street_").
 
 Individually, each place has their own story, but when taken together they reveal some insights on where and how Salvador Allende is commemorated around the world. Overall, these places don't just tell something about Allende, but also the people who made these places possible.
 
@@ -51,7 +51,7 @@ Regardless of when or whether the state funeral was held, many people have taken
 
 ## Who are naming places after Salvador Allende?
 
-Outside of Chile, I can identify three interest groups that have been naming and building things in honor of Salvador Allende: socialists, democrats, and Chileans. All three reflect who Allende was, but each interest group has their own reasons to honor Allende, which in turn reflects who they are (or who they think they are).
+Outside of Chile, we can identify three interest groups that have been naming and building things in honor of Salvador Allende: socialists, democrats, and Chileans. All three reflect who Allende was, but each interest group has their own reasons to honor Allende, which in turn reflects who they are (or who they think they are).
 
 Notes about images:
 
@@ -586,9 +586,9 @@ _[[ID 102](https://es.wikipedia.org/wiki/Museo_de_la_Solidaridad_Salvador_Allend
 
 This contemporary art museum seems to not have been mentioned in any post in "Una calle Salvador Allende", but deserves to be mentioned because it lived alongside Allende himself and is a perfect example of exile and coming back home experienced in Chilean history.
 
-A Spanish art critic proposed a project to establish a museum in support of Allende's government. Allende approved this proposal, then wrote an open letter to artists around the world calling for artistic donations in all forms. He officially inaugurated the museum on 17 May 1972—at the time, it was named "Museo de la Solidaridad" ("Museum of Solidarity").
+A Spanish art critic proposed a project to establish a museum in support of Allende's government. Allende approved this proposal, then wrote an open letter to artists around the world calling for artistic donations in all forms.
 
-![A casually taken photo of Salvador Allende hanging at the entrance of the Museo de la Solidaridad Salvador Allende. He is wearing the Chilean presidential sash during what appears to be a presidential parade. He smiles at an unseen spectator across him and extends his right hand to offer a handshake. Below this photo frame is an excerpt from Allende's letter to the artists of the world - translation follows.](assets/102_Chile_Santiago_Museo-de-la-Solidaridad-Salvador-Allende_1.jpg)
+![A casually taken photo of Salvador Allende hanging at the entrance of the Museo de la Solidaridad Salvador Allende. He is wearing the Chilean presidential sash during what appears to be a presidential parade. He smiles at an unseen spectator across him and extends his right hand to offer a handshake. Allende's angle looks like his arm is reaching out to the viewer of the photo. Below this photo frame is an excerpt from Allende's letter to the artists of the world - translation follows.](assets/102_Chile_Santiago_Museo-de-la-Solidaridad-Salvador-Allende_1.jpg)
 
 _([Photo](https://commons.wikimedia.org/wiki/File:Wiki_MSSA_-_Ingreso_MSSA.JPG) by Warko, CC BY-SA 3.0_)
 
@@ -596,12 +596,14 @@ _([Photo](https://commons.wikimedia.org/wiki/File:Wiki_MSSA_-_Ingreso_MSSA.JPG) 
 >
 > Letter from Salvador Allende to the artists of the world, Santiago, 1972
 
+He officially inaugurated the museum on 17 May 1972—at the time, it was named "Museo de la Solidaridad" ("Museum of Solidarity").
+
 After the 1973 coup and the installation of the dictatorship, the museum closed and its art, artists and managers went into exile outside Chile. A group of artists organized a roving museum from their places of exile, continued accepting art donations, and organized exhibitions all around Europe to denounce human rights violations during the dictatorship.
 
 The museum was officially reestablished on September 1991, a year after the end of dictatorship in Chile, under its current name. It has since recovered its art collection from the 1970s, received new art donations, and currently houses some of Allende's personal objects, some of which are shown below:
 
-* Doctor's cape
-* Presidential sash and a copy of Allende's 1939 work _La realidad médico social chilena_ (_The Chilean medico-social reality_)
+* Doctor's cape.
+* Presidential sash and a copy of Allende's 1939 work _La realidad médico social chilena_ (_The Chilean medico-social reality_).
 * Socialist Party membership card, watch, wallet, and an unidentifiable long brown object bearing his initials S.A.G.
 
 _([Photos 1](https://commons.wikimedia.org/wiki/File:Objetos_personales_de_Salvador_Allende_en_el_Museo_de_la_Solidaridad_-_1.jpg), [2](https://commons.wikimedia.org/wiki/File:Objetos_personales_de_Salvador_Allende_en_el_Museo_de_la_Solidaridad_-_2.jpg) and [3](https://commons.wikimedia.org/wiki/File:Objetos_personales_de_Salvador_Allende_en_el_Museo_de_la_Solidaridad_-_3.jpg) by ProtoplasmaKid, CC BY-SA 4.0_)
@@ -654,13 +656,26 @@ When Presidents of Chile used to live in La Moneda, Morandé 80 was a convenient
 
 What used to be a mundane backdoor became a historically significant door when Salvador Allende's dead body was taken out of Morandé 80 after the 1973 coup. Symbolically speaking, the President who wished to die as President was taken out of La Moneda as a common citizen. During the reconstruction of La Moneda after the coup, the door of Morandé 80 and the room where Allende died were [sealed off into disappearance](https://es.wikipedia.org/wiki/Palacio_de_La_Moneda) to avoid them becoming symbols of Allende. The door and room were restored 30 and 35 years after the coup, respectively.
 
+The restoration of the room where Allende died includes two paintings by Guillermo Muñoz Vera, one of which is shown below, and some original furniture from before the 1973 coup, including the sofa where Allende died.
+
 _[[ID 38](http://www.abacq.org/calle/index.php?2009/01/08/303-chile)] Salón Blanco Presidente Allende inside La Moneda Palace, Santiago, Chile ([Photo 1](https://commons.wikimedia.org/wiki/File:Sal%C3%B3n_Blanco_%E2%80%9CPresidente_Allende%E2%80%9D.jpg) by Oscampor, CC BY-SA 3.0. [Photo 2](https://commons.wikimedia.org/wiki/File:Oficina_Salvador_Allende.jpg) by Osmar Valdebenito from Santiago, Chile, CC BY-SA 2.0.)_
 
-The restoration of the room where Allende died includes two paintings by Guillermo Muñoz Vera and some original furniture from before the 1973 coup, including the sofa where Allende died.
+![Photo from inside Salón Blanco "Presidente Allende", a reconstruction of the room where Salvador Allende died inside La Moneda Palace at Santiago, Chile. The photo features a chandelier, desk, seat, and a full-body portrait painting of Allende by Guillermo Muñoz Vera. The portrait depicts Allende with a neutral expression while waving to the viewer.](assets/38_Chile_Santiago_Salon-blanco-Salvador-Allende_1.jpg)
 
-![Photo from inside Salón blanco "Salvador Allende", a reconstruction of the room where Salvador Allende died inside La Moneda Palace at Santiago, Chile. The photo features a chandelier, desk, seat, and a full-body portrait painting of Allende by Guillermo Muñoz Vera. The portrait depicts Allende with a neutral expression while waving to the viewer.](assets/38_Chile_Santiago_Salon-blanco-Salvador-Allende_1.jpg)
+![Photo from inside Salón Blanco "Presidente Allende", a reconstruction of the room where Salvador Allende died inside La Moneda Palace at Santiago, Chile. The photo features the velvet red sofa where Allende died.](assets/38_Chile_Santiago_Salon-blanco-Salvador-Allende_2.jpg)
 
-![Photo from inside Salón blanco "Salvador Allende", a reconstruction of the room where Salvador Allende died inside La Moneda Palace at Santiago, Chile. The photo features the sofa where Allende died.](assets/38_Chile_Santiago_Salon-blanco-Salvador-Allende_2.jpg)
+_[[ID 39](http://www.abacq.org/calle/index.php?2009/01/08/303-chile)] Memorial medal and plate to Salvador Allende inside La Moneda Palace, Santiago, Chile ([Photo](https://commons.wikimedia.org/wiki/File:Placa_conmemorativa_Salvador_Allende.jpg) by Osmar Valdebenito from Santiago, Chile, CC BY-SA 2.0)_
+
+![Memorial medal and plate to Salvador Allende inside La Moneda Palace, Santiago, Chile - description follows.](assets/39_Chile_Santiago_Memorial-medal-and-plate.jpg)
+
+Aside from the restoration of the room where Allende died, there is a commemorative corner for Allende that was inaugurated in 2008 with the following features:
+
+* A big commemorative medal dedicated to Allende and the nationalization of copper.
+  * On one side, a portrait of Allende up to the shoulders, surrounded by text along the rim: "Dr. Salvador Allende G. President of the Republic of Chile".
+  * On the other side, a depiction of a [Chilean presidential flag](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bandera_del_presidente_de_Chile.svg/1500px-Bandera_del_presidente_de_Chile.svg.png) waving up high behind various Chilean citizens, including a parent and infant, a farmer, a soldier, an architect and a miner. The top text along the rim reads "Owners of our own destiny"; on the bottom it reads "1970 - 1976", the years which Allende would've served as president.
+* A piece of the original wall from after the bombing of the La Moneda Palace in 1973.
+* A memorial plate that reads: "In this section of the La Moneda Palace, the President of the Republic Dr. Salvador Allende Gossens died on 11 September 1973".
+* (Not seen in photo) On the opposite wall, a memorial plate listing the names of "staff of President Salvador Allende who gave their lives on 11 September 1973 in defense of the La Moneda Palace, democracy and liberty".
 
 _[[ID 14](http://www.abacq.org/calle/index.php?2009/03/07/330-rancagua-chile)] Monument to Salvador Allende at Rancagua, O'Higgins Region, Chile ([Photo](https://commons.wikimedia.org/wiki/File:Monumento_Salvador_Allende_Gossens,_en_Alameda_Bernardo_O%22higgins_comuna_de_Rancagua.jpg) by Marco Antonio Correa Flores, CC BY-SA 4.0)_
 
@@ -676,7 +691,187 @@ _[[ID 5](http://www.abacq.org/calle/index.php?2011/06/27/527-san-joaquin-chile)]
 
 One of the more recent memorials to Allende (relative to other memorials in the dataset with known dates of establishment) was unveiled on 26 June 2011. This sculpture by Oscar Plandiura quotes the most from Allende's last speech—there are nine paragraphs of quotation inscribed on this high monument, excluding the title, location and date of the speech. Even from afar, it already looks like a long read despite not being the full speech. Those who would like to read the full speech are advised to read this [English translation that comes with the original Spanish recording](https://www.marxists.org/archive/allende/1973/september/11.htm). (Be warned that the recording is suddenly very loud and startling at the end, but it is part of the violent background and emotional intent of Allende's last speech.)
 
-## [Data investigation proper: insert charts here]
+## What does the data say about memorials to Salvador Allende around the world?
+
+This project was able to gather from _Una calle Salvador Allende_, Wikimedia Commons, map websites and others a total of 780 memorial places around the world, but the project makes a distinction between extant and non-extant places. Here, a place is extant if its current name is (Salvador) Allende and if it is verified to exist in OpenStreetMap and/or Google Maps. There are 729 extant places and the following data visualizations focus on these extant places.
+
+***Important note:*** this is a **non-exhaustive** list of memorial places to Salvador Allende because there could be a lot more that are not available in _Una calle Salvador Allende_ and Wikimedia Commons, both of which relied on user submissions. Finding more memorial places available in online maps (without violating their terms of use and risking an IP address ban) requires more time and effort, and even then not all of these places are recorded in online maps in the first place.
+
+### Number of extant places by geographic region
+
+![Bar chart of number of extant places by geographic region (total: 729). Breakdown of values follows.](assets/dataviz/number_of_extant_places_by_region.png)
+
+There are disproportionately more memorials to Allende in Europe than in any other geographical region, including South America itself where Chile is located: there are 592 memorials to Allende in Europe and 104 in South America. In the rest of the world, there are 13 in North America, 10 in Central America, 7 in Africa, 2 in the Middle East, and 1 in Australia.
+
+There are two reasons for the geographic bias towards Europe, particularly France.
+
+* First, most of the memorials to Allende from 1973 onwards are conentrated around Europe because a lot of national and local governments in Europe (socialist, democratic or both) sympathized with Allende and because a lot of Chileans exiled here. The combination of Chilean supporters and sympathizing governments made it easy for memorials to Allende to be built within Europe, when such memorials were practically impossible to build in Chile for a long time.
+
+* Second, most submitters to _Una calle Salvador Allende_ submitted places within Europe. The maintainer of this website, Fernando Orellana, is a Chilean political refugee living in France (the website's [root URL](http://www.abacq.org/) showcases Orellana's photographic collections in French and Spanish). Since there are many Chilean refugees in Europe and freedom of movement across European countries is possible for European residents and citizens, it was easy for Chilean refugees in Europe to meet each other, find memorials to Allende, and even [expropriate](http://www.abacq.org/calle/index.php?2019/09/11/620-villejuif-francia) some place name signs to share between themselves and keep for future generations.
+
+![Bar chart of number of extant places by geographic region, excluding France (total: 316). Breakdown of new values follows.](assets/dataviz/number_of_extant_places_by_region_excluding_france.png)
+
+The initiative of Orellana and other users in France led to this project identifying 413 memorials to Allende in Metropolitan France (i.e., European France) and France's overseas departments of French Guiana in South America, Guadeloupe in Central America, and Réunion in the African part of Indian Ocean. If we exclude memorials in France, there are 186 in Europe, 103 in South America, 13 in North America, 8 in Central America, 3 in Africa, 2 in the Middle East, and 1 in Australia.
+
+### Number of extant places by country
+
+![Bar chart of number of extant places by country (total: 729). Breakdown of values follows.](assets/dataviz/number_of_extant_places_by_country.png)
+
+> Surely Radio Magallanes will be silenced, and the calm metal instrument of my voice will no longer reach you. It does not matter. You will continue hearing it. I will always be next to you.
+>
+> _—Excerpt from Salvador Allende's last speech, 11 September 1973_
+
+Salvador Allende is present in at least 34 countries in the world including Chile.
+
+Breaking down the number of memorials to Allende by country reveals a bleak yet expected reality that Salvador Allende, President of Chile, is more commemorated _outside_ Chile than _inside_ Chile.
+
+If we exclude France's 413 memorials, Chile would have the most number of memorials in the world at 77. Here are the numbers in the rest of the world, in descending order.
+
+* Italy: 61
+* Spain: 52
+* Germany: 24
+* Belgium: 13
+* Portugal: 11
+* Mexico: 9
+* Netherlands: 7
+* Ecuador: 6
+* Venezuela: 6
+* Cuba: 5
+* Hungary: 5
+* Argentina: 4
+* Austria: 4
+* Brazil: 4
+* Canada: 4
+* Peru: 3
+* Serbia: 3
+* Luxembourg: 2
+* Nicaragua: 2
+* Uruguay: 2
+* Algeria: 1
+* Angola: 1
+* Australia: 1
+* Colombia: 1
+* Denmark: 1
+* El Salvador: 1
+* Mozambique: 1
+* Palestine: 1
+* Russia: 1
+* Slovakia: 1
+* Turkey: 1
+* United Kingdom: 1
+
+However, the story quickly changes when all memorials outside Chile are combined—Chile's 77 memorials are vastly outnumbered by 652 memorials in the rest of the world.
+
+![Bar chart of number of extant places in Chile vs. the rest of the world. Total: 729, Chile: 77, Rest of the world: 652.](assets/dataviz/number_of_extant_places_chile_vs_rest_of_the_world.png)
+
+If the 413 memorials in France are taken separately from the rest of the world, 239 memorials remain. This means that outside Chile, there are more memorials to Allende in France than in the rest of the world combined. [More than 300](http://www.abacq.org/calle/index.php?2009/05/13/349-salvador-allende-en-francia) of the memorials in France that are collected in this project were based on a list of pins in a [Google Maps user map](https://www.google.com/maps/d/u/0/viewer?hl=en&client=firefox-a&ie=UTF8&split=0&gl=fr&ei=FZYGSqbYC96TjAfY-J3xBA&oe=UTF8&msa=0&start=0&num=200&ll=47.620975%2C1.6918949999999988&spn=8.931111%2C17.226563&z=6&mid=1gGLfa09Bonh9I9D6gmdqNRLouRo) created by someone named Jean-Marie. The pins refer to streets alone and exclude other public places like parks, buildings and others, so this user map is not exhaustive (neither are all data in this project).
+
+![Bar chart of number of extant places in Chile vs. France vs. the rest of the world. Total: 729, Chile: 77, France: 413, Rest of the world: 239](assets/dataviz/number_of_extant_places_chile_vs_france_vs_rest_of_the_world.png)
+
+### Map of extant places in the world
+
+![A world map of extant memorial places to Salvador Allende. One marker corresponds to one place. Most of the markers are concentrated in France and Chile, with some more around Europe, South America, and Central America. A few more markers can be seen in Africa, North America, and Australia.](assets/dataviz/map_of_extant_places_in_the_world.png)
+
+### Number of extant places in Chile
+
+![Bar chart of number of extant places in Chile (total: 77). Breakdown of values follows.](assets/dataviz/number_of_extant_places_in_chile_by_region.png)
+
+In Allende's own country, there are at least 77 memorials scattered around 13 of the 16 regions of Chile. As expected, the most number of memorials can be found in the capital region, the Santiago Metropolitan Region.
+
+* Santiago Metropolitan Region: 28
+* Biobío: 7
+* O'Higgins: 7
+* Los Lagos: 6
+* Antofagasta: 6
+* Coquimbo: 5
+* Valparaíso: 5
+* Araucanía: 4
+* Tarapacá: 3
+* Magallanes: 2
+* Maule: 2
+* Los Ríos: 1
+* Atacama: 1
+* Arica y Parinacota: 0
+* Aysén: 0
+* Ñuble: 0
+
+This list may seem like Allende is not well-represented outside the Metropolitan Region, but if all memorials outside of this region are combined, the 49 of them outnumbers the 28 in the Metropolitan Region.
+
+![Bar chart of number of extant places in Santiago Metropolitan Region vs the rest of Chile. Total: 77, Metropolitan Region: 28, Rest of Chile: 49.](assets/dataviz/number_of_extant_places_in_chile_rm_vs_rest_of_chile.png)
+
+The Metropolitan Region is composed of Santiago Province and other provinces just outside it. Santiago Province itself is composed of central Santiago (the location of the La Moneda Palace and what first comes to mind when people think of _the_ capital of Chile) and other communes. As expected, the Metropolitan Region is the most populous Chilean region.
+
+_Una calle Salvador Allende_ lamentably notes that while a lot of capitals in the world have avenues and streets named after Salvador Allende, in central Santiago there is neither an avenue nor a street named after him. Instead, there is only a very short and obscure residential alley named [Pasaje Allende](http://www.abacq.org/calle/index.php?2012/12/04/596-santiago-chile) (note the lack of "Salvador" as evidenced by the alley name signs). Someone suggested that those looking for an actual Salvador Allende street that is long enough to be called such are better off going to San Joaquín [[ID 41](https://goo.gl/maps/gBHuVxzs3kVYmQf18)], one of the communes of Santiago Province.
+
+There aren't a lot of memorials to Allende in central Santiago—in fact, most if not all of them are already enumerated in this investigation. However, it is still interesting to note that of the 28 memorials to Allende in the Metropolitan Region, 22 are found in Santiago Province.
+
+![Bar chart of number of extant places in Santiago Province vs the rest of the Metropolitan Region. Total: 28, Santiago Province: 22, Rest of Metropolitan Region: 6.](assets/dataviz/number_of_extant_places_in_santiago_vs_rest_of_rm.png)
+
+### Map of extant places in Chile
+
+![A map of extant memorial places to Salvador Allende in Chile. One marker corresponds to one place. There are markers all around Chile from north to south, but they are particularly concentrated at the Metropolitan Region in central Chile.](assets/dataviz/map_of_extant_places_in_chile.png)
+
+### Number of extant places by type
+
+![Bar chart of number of extant places by type (total: 729). Breakdown of values follows.](assets/dataviz/number_of_extant_places_by_type.png)
+
+Perhaps the most quoted line from Allende's last speech, as evidenced by memorials above, is:
+
+> Go forward knowing that, much sooner rather than later, the great avenues will open again where free people will walk through to construct a better society.
+
+Indeed, of the 729 extant places in this investigation, 560 are streets or avenues. Other forms of memorials to Allende include:
+
+* Parks: 63
+* Monuments: 30
+* Schools: 25
+* Residential areas (e.g., neighborhood communities, towns): 14
+* Multipurpose centers (e.g., cultural centers): 9
+* Healthcare facilities (e.g., hospitals, clinics): 8
+* Memorial plates: 5
+* Public transport stations (e.g., bus stops): 3
+* Sports centers: 3
+* Bridges: 2
+* Interiors (e.g., rooms, auditoriums): 2
+* Museums: 2
+* Government facility: 1
+* Library: 1
+* Sea port: 1
+
+Even though Allende was a physican by profession who used to be health minister, there aren't a lot of healthcare facilities named after him. Fittingly enough, five of the eight healthcare facilities that this project was able to gather are located in Chile. One of these is the Hospital del Cobre Dr. Salvador Allende G. (Dr. Salvador Allende G. Copper Hospital) [[ID 23](http://www.abacq.org/calle/index.php?2009/02/06/311-calama-chile)], named as such because it used to serve as the hospital of the [Chuquicamata mine](https://en.wikipedia.org/wiki/Chuquicamata), one of the copper mines nationalized during Allende's government.
+
+_[[ID 145](http://www.abacq.org/calle/index.php?2007/02/18/39-san-salvador-el-salvador)] Plaza Salvador Allende at the Faculty of Medicine of the University of El Salvador ([Photos 1](https://commons.wikimedia.org/wiki/File:Visita_a_Universidad_Nacional_de_El_Salvador_(20527780591).jpg) and [2](https://commons.wikimedia.org/wiki/File:Visita_a_Universidad_Nacional_de_El_Salvador_(20521427305).jpg) by Presidencia de El Salvador from San Salvador, El Salvador, América Central, CC0 Public Domain)_
+
+![Michelle Bachelet, President of Chile, looks at a newly unveiled artwork bearing the likeness of Salvador Allende. This memorial plate is located at the Salvador Allende Park at the Faculty of Medicine of the University of El Salvador. Bachelet is accomanied by some officials of the Dean's Office of the Faculty of Medicine.](assets/173_El-Salvador_San-Salvador_Plaza-Salvador-Allende_1.jpg)
+
+![Michelle Bachelet unveils another artwork dedicated to Salvador Allende and publicly displayed at the Salvador Allende Park. The artwork depicts an outline of Allende's face overlaid by various intersecting sharp shapes in various colors suggesting a rainbow.](assets/173_El-Salvador_San-Salvador_Plaza-Salvador-Allende_2.jpg)
+
+Not all that commemorates Dr. Allende has to be a healthcare facility, though. For instance, there is a Salvador Allende Park in front of the Faculty of Medicine of the University of El Salvador. The park was first posted in _Una calle Salvador Allende_ in 2007, though it may have already existed earlier. The memorial plate in one of the artistic works unveiled by President Michelle Bachelet reads:
+
+> Remodeling and artistic works of Salvador Allende Park
+>
+> Inaugurated at the Faculty of Medicine of the University of El Salvador
+>
+> In honor of the former Chilean president and his crusade for social medicine.
+>
+> Michelle Bachelet
+>
+> President of Chile
+>
+> San Salvador, 12 August 2015.
+
+The poster on the right that is hanging on the building makes it more obvious that Dr. Allende is being commemorated as a doctor.
+
+> Long live Salvador Allende!
+>
+> Doctor in service of the public
+>
+> Dean's Office, Faculty of Medicine
+
+### Timeline of dates of establishment of places
+
+![Line chart of number places established per year from 1965 to 2015. Two peak years are emphasized: one is the coup d'état in 1973 and the other is Allende's birth centennial in 2008. Explanation follows.](assets/dataviz/number_of_places_established_per_year_all.png)
+
+Not all extant places have known dates of establihment, or dates of renaming to Salvador Allende if they had been established before. 
 
 ### How did Salvador Allende die, really?
 
