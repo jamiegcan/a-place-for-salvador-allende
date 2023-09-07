@@ -156,11 +156,11 @@ The new goverment which the Soviet Union installed after the revolution grew to 
 
 _[[ID 132](http://www.abacq.org/calle/index.php?2011/08/23/530-la-habana-cuba)] Avenida Salvador Allende at Havana, Cuba_
 
-_[[ID 129]((http://www.abacq.org/calle/index.php?2007/07/17/90-monumento-a-salvador-allende-cuba))] Monument to Salvador Allende by Mónica Bunster at Havana, Cuba_
+_[[ID 129](http://www.abacq.org/calle/index.php?2007/07/17/90-monumento-a-salvador-allende-cuba)] Monument to Salvador Allende by Mónica Bunster at Havana, Cuba_
 
 In Havana, capital of Cuba, Avenida Carlos III was renamed to Avenida Salvador Allende in October 1973, though [OpenStreetMap](https://www.openstreetmap.org/way/23860167) and [Google Maps](https://goo.gl/maps/CfjwCeYfvvFJM6jg9) show both names to refer to the same avenue.
 
-Nearby, there is a monument to Salvador Allende located at a park in Calle 23 corner Calle G (a.k.a. Avenida de los Presidentes). This monument was inaugurated in 2000 and is one of the four replicas of the original monument by Chilean artist Mónica Bunster located at Palmilla, Chile [[ID 25](http://www.abacq.org/calle/index.php?2008/07/01/216-la-palmilla-chile)]. It is a half-body bust of Allende wearing a professional suit without a tie, looking up and waving the right hand up high.
+Nearby, there is a monument to Salvador Allende located at a park in Calle 23 corner Calle G (a.k.a. Avenida de los Presidentes). This monument was inaugurated in 2000 and is one of the four replicas of the original monument by Chilean artist Mónica Bunster located at Palmilla, Chile [[ID 25](http://www.abacq.org/calle/index.php?2008/07/01/216-la-palmilla-chile)]. It is a half-body bust of Allende wearing a suit without a tie, looking up and waving the right hand up high.
 
 The other three replicas are in Castuera, Spain [[ID 357](http://www.abacq.org/calle/index.php?2007/09/11/93-castuera-espana)]; Gijón, Spain [[ID 360](http://www.abacq.org/calle/index.php?2007/03/21/63-gijon-espana)]; and at the University of Guadalajara in Mexico [[ID 213](http://www.abacq.org/calle/index.php?2007/02/18/43-universidad-de-guadalajara)], where Allende spoke the following quote in front of students on 2 December 1972.
 
@@ -522,9 +522,23 @@ This sculpture by Michel de Broin was commissioned in time for Allende's centenn
 
 _[[ID 85](http://www.abacq.org/calle/index.php?2010/01/15/412-copenhague-dinamarca)] Mural and monument to Salvador Allende at Copenhagen, Denmark_
 
-This mural bearing an outline of Allende's likeness contains a small memorial plate that provides context:
+This mural in bright red, inaugurated on 4 November 2003, bears a black outline of Allende's likeness while delivering a speech. It contains a small memorial plate that provides context:
 
-> 
+> **Hommage in memory of Salvador Allende**
+>
+> "Sooner rather than later, the great avenues will open again where free people will walk through to construct a better society"
+>
+> President of Chile
+>
+> 1970–1973
+>
+> On behalf of Chileans residing in Denmark
+>
+> with support from SID
+>
+> Salvador Allende Group
+>
+> Denmark–Chile
 
 _[ID 118] Salvador-Allende-Weg at Donaupark, Vienna, Austria ([Photo](https://commons.wikimedia.org/wiki/File:Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg) by Robot8A, CC BY-SA 4.0)_
 
@@ -869,9 +883,27 @@ The poster on the right that is hanging on the building makes it more obvious th
 
 ### Timeline of dates of establishment of places
 
-![Line chart of number places established per year from 1965 to 2015. Two peak years are emphasized: one is the coup d'état in 1973 and the other is Allende's birth centennial in 2008. Explanation follows.](assets/dataviz/number_of_places_established_per_year_all.png)
+![Line chart of number of places established around the world every year from 1965 to 2015, with two peak years emphasized. Explanation follows.](assets/dataviz/number_of_places_established_per_year_all.png)
 
-Not all extant places have known dates of establihment, or dates of renaming to Salvador Allende if they had been established before. 
+Not all extant places have known dates of establihment, or dates of renaming to Salvador Allende if they had been established before. Places with unknown dates of establishment or renaming were first posted on the internet either through OpenStreetMap, Google Maps or _Una calle Salvador Allende_, but most likely they had been existing even before the internet was invented.
+
+This timeline considers only extant places where the date of establishment or renaming is known—there are 118 of them in this dataset. The one place that was established in 1965 refers to Salvador-Allende-Hof in Vienna, Austria [[ID 115](http://www.abacq.org/calle/index.php?2011/10/23/557-viena-austria)]. This residential complex mentions that it was built between 1963 and 1965, when Allende was a senator at that time. It was probably renamed after him in 1973 or later, though this investigation cannot find sources to confirm this, hence the 1965 establishment year was kept.
+
+There are two peak years in this timeline: the first is 1973 during the coup d'état and Allende's death, and the second is 2008 during Allende's 100th birth anniversary. For each year, there were 15 memorial places dedicated to Allende and perhaps many more that the dataset was not able to cover. Almost every year between 1973 and 2008, there was a sustained interest in dedicating memorial places to Allende: between one to four memorials were being established from 1974 until 2001,  then the trend increased from 2003 to 2007 with between three to seven memorials every year. From 2008 to 2015, there were one to four memorials every year.
+
+![Line chart of number of places established every year from 1965 to 2015, with two peak years emphasized. Two timelines are overlaid against each other—the first one is for Chile and the other one is for the rest of the world. Explanation follows.](assets/dataviz/number_of_places_established_per_year_chile_vs_rest_of_the_world.png)
+
+This timeline of memorial places in Chile vs. the rest of the world reveals where the interest was coming from.
+
+As expected, all memorials to Allende from 1973 to 1990 come from outside Chile, including all 15 memorials established during 1973. From 1991 onwards, when democracy was restored in Chile, memorials to Allende were slowly being established in the country, though most memorials were still being established outside Chile. Inside Chile, the peak number of memorials was reached during Allende's centennial in 2008—of the 15 centennial memorials in the dataset, 6 were established in Chile. From 2008 to 2015, new memorials to Allende were evenly distributed inside and outside Chile.
+
+![Line chart of number of places established every year from 1965 to 2015, with two peak years emphasized. Three timelines are overlaid against each other—the first one is for Chile, the second is for France, and the third is for the rest of the world. Explanation follows.](assets/dataviz/number_of_places_established_per_year_chile_vs_france_vs_rest_of_the_world.png)
+
+Most of the memorials to Allende in the dataset that are outside Chile come from France, so it makes sense to separate French memorials from the rest of the world in order to get a less skewed view of how memorials are geographically distributed across the years.
+
+In this timeline of Chile vs. France vs. the rest of the world, the representation in France is surprisingly not as flattering as the total number of memorials to Allende in France. During 1973, France contributed 3 of the 15 memorials to Allende that are available in the dataset. In the following years, most of the memorials to Allende still came from outside France and Chile. Strangely enough, no memorials to Allende were established in France from 2008 onwards, at least according to the dataset.
+
+This observation for France could be due to data availability issues where dates of establishment or renaming for French memorials could not be found in the sources used in this project. It could also be that some memorial places to Allende that were established earlier had been renamed (and worse, no longer recorded to have had Allende's name) due to several factors such as those mentioned in the [previous section on France](https://github.com/GoGroGlo/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#france). The apparent lack of memorials to Allende in France that were established during 2008 could be because events to mark the centennial were being held in memorial places that had already been established before 2008.
 
 ### How did Salvador Allende die, really?
 
@@ -881,9 +913,7 @@ Some memorials to Allende say that he was killed by the coup plotters, and at le
 
 Allende hinted in his speech during the coup that this was going to be his last, and that he would be willing to sacrifice himself, though the manner of sacrifice was vague.
 
-> Given these facts, the only thing left for me is to say to workers: I am not going to resign! Placed in a historic transition, I will pay for loyalty to the people with my life.
->
-> [...]
+> Given these facts, the only thing left for me is to say to workers: I am not going to resign! Placed in a historic transition, I will pay for loyalty to the people with my life. [...]
 >
 > Long live Chile! Long live the people! Long live the workers! These are my last words, and I am certain that my sacrifice will not be in vain [...]
 
@@ -894,21 +924,50 @@ There could be several reasons a lot of individuals found it easier to believe t
     * > Carvajal: [_in Spanish_] There is a communication from the infantry school staff who is already inside La Moneda, and due to the possibility of interception I will transmit it in English: [_word-for-word_] They say that Allende committed suicide and is dead now. [_in Spanish_] Tell me if you understood.
     * > Pinochet: [_in Spanish_] Understood, perfectly understood.
 * Suicide can be interpreted as an acceptance of defeat and is highly contradictory to Allende's announcement in his last speech that he would not resign. Supporters would rather believe that Allende fought until the end.
-* The exact method of Allende's suicide, at least according to the autopsies, can come off as ridiculous or made-up to some individuals.
+* The exact method of Allende's suicide, at least according to the autopsy, can come off as ridiculous or made-up to some individuals.
   * Who else would shoot oneself with an AK-47? Which was held between the legs and under the chin? And which was a gift from none other than Fidel Castro of Cuba? This is too oddly specific. Allende being shot by enemies would be much easier to imagine, perhaps.
 * Suicide is just taboo for some individuals, depending on their personal background.
 
-Anecdotal evidence supporting suicide only came about after the return of democracy in Chile, and an autopsy in 2011 sought to add further details onto it. Until then, Allende's supporters and others could only speculate about how he died, and the easiest reason was death in the hands of the enemies.
+Narrative evidence supporting suicide only came about after the return of democracy in Chile, and an autopsy ordered by a court investigation in 2011 sought to add further details onto this narrative. Until then, Allende's supporters and others could only speculate about how he died, and the most intuitive reason was death in the hands of the enemies.
 
 Right now, does believing that Allende died in his own hands make someone anti-Allende and pro-coup? Not necessarily, according to [some witnesses to the death](https://en.wikipedia.org/wiki/Death_of_Salvador_Allende):
 
 > The other witnesses kept silent until after the restoration of democracy in Chile, as they believed (according to their own statements) that to corroborate the version of a suicide would in some measure downgrade Allende's sacrifice and lend support to the military regime.
 
+In fact, one of the main advocates of the suicide narrative is one of Allende's children, Isabel Allende Bussi, who [said the following](https://www.bbc.co.uk/news/world-latin-america-14210729) in connection to the 2011 court investigation which concluded that Allende died by suicide:
+
+> The report conclusions are consistent with what we already believed. When faced with extreme circumstances, he made the decision of taking his own life, instead of being humiliated.
+
+[She added](http://www.isabelallendebussi.cl/lo-que-ocurre-la-noche-del-11-no-tiene-nada-que-ver-con-el-legitimo-recuerdo-de-las-victimas/):
+
+> [...] it does not diminish in any way, on the contrary, it exalts the figure of Salvador Allende. It is clear that he was taken to an extreme situation, that he arrived at La Moneda around seven in the morning, that he resisted until two in the afternoon, that he was not willing to accept any offer to take him out of the country and take up exile.
+
+Based on these statements and some others, there could be several reasons a lot of individuals can be convinced by the suicide narrative, but these reasons assume that they have no moral or emotional reservations about the act:
+
+* Suicide, if done willingly, is a form of sacrifice that is as effective and moving as being killed in action.
+* In extreme circumstances such as during the coup, where the only possible outcome Allende was willing to face was death, death in one's own hands can be seen as more dignified than death in the hands of the enemies.
+  * The act shows that Allende was not just a passive victim of the coup. Rather, he wanted to be in charge of his own fate and legacy, which is not incompatible with his final message during the coup.
+* Even if Allende would have made it out of the coup alive, he may have wanted to avoid being captured by the military and suffering the same fate as other Chileans who were killed right after the coup.
+  * Taking up exile might be a good way to avoid capture, but this can be seen as an act of passivity and of choosing one's own convenience over confronting the hostile motivations behind the coup.
+* Allende's death by suicide can be seen as an act of protest against the coup and its hostile motivations and means. Killing the President of Chile would've been as violent as the coup could be.
+  * Even if Allende and his supporters put up an armed resistance against the military during the coup, he would have wanted to avoid having to defend the presidency through violent means.
+  * In fact, Allende was supposed to deliver a speech on 11 September 1973 to call for a plebiscite as a way to resolve the political crisis in Chile that motivated the military to carry out the coup, ironically on the same day.
+
+Regardless of the exact manner, Allende's dramatic death evokes sympathy towards anyone who would come across such narrative. The question now lies on which version of the narrative memorial places to Allende would tell.
+
+![Bar chart tallying what memorial places to Salvador Allende say about his manner of death (total: 56). Breakdown of values follows.](assets/dataviz/how-allende-died.png)
+
+In the dataset, there are 56 memorial places that mention Allende's death. The most used narrative is assassination with 33 places explicitly mentioning it. Meanwhile, only one place in the dataset explicitly mentions suicide: [the bust in Berlin](https://github.com/GoGroGlo/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#former-east-germany). Twenty places mention neither suicide nor assassination and instead keep it generic by saying "died" or something similar. Two places in France get more specific by saying that Allende died with a "weapon on hand", but this could be interpreted both as a suicide (when Allende shot himself with the weapon) and an assassination (when Allende resisted the military with a weapon on hand and was killed while holding the weapon).
+
+## Conclusion
+
+
+
 ![An edited screenshot of a tweet from Gabriel Boric, current president of Chile - edited text follows.](assets/GabrielBoric_a_estas_alturas.png)
 
-> At this point, politically it doesn't really matter how Allende died (if historical%). What matters is that we have streets and parks named after him.
+> At this point, politically it doesn't really matter how Allende died (if historical%). What matters is that we have streets and squares named after him.
 >
-> —Gabriel Boric, current president of Chile. [Tweet](https://twitter.com/GabrielBoric/status/75411227647545344) from 31 May 2011, but edited and taken out of context.  
+> _—Gabriel Boric, current president of Chile. [Tweet](https://twitter.com/GabrielBoric/status/75411227647545344) from 31 May 2011, but edited and taken out of context._
 
 ## Who am I anyway and why am I doing this?
 

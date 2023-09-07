@@ -146,4 +146,4 @@ The scripts here rely on web scraping. While they are written so that they can r
 
 ## License
 
-[GoGroGlo](https://GoGroGlo.carrd.co) maintains this project. The datasets and texts in this project are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to collect data is licensed under the [MIT license](MIT_License.txt). The datasets, texts, and source code can be used for any purpose (hopefully constructive) as long as credit is given—it can be something as simple as a link to this page.
+Glo ([@GoGroGlo](https://GoGroGlo.carrd.co)) maintains this project. The datasets and texts in this project are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to collect data is licensed under the [MIT license](MIT_License.txt). The datasets, texts, and source code can be used for any purpose (hopefully constructive) as long as credit is given—it can be something as simple as a link to this page.
