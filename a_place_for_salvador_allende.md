@@ -1,8 +1,6 @@
 # A Place for Salvador Allende: A Data Investigation
 
-## [Work in progress]
-
-This project seeks to make some sense out of the numerous memorial places to Salvador Allende that contributors have made known through the website [_Una calle Salvador Allende_](http://www.abacq.org/calle/) ("_A Salvador Allende street_").
+This project seeks to make some sense out of the numerous memorial places to Salvador Allende that contributors have made known through the website [_Una calle Salvador Allende_](http://www.abacq.org/calle/) ("_A Salvador Allende street_") and some other websites.
 
 Individually, each place has their own story, but when taken together they reveal some insights on where and how Salvador Allende is commemorated around the world. Overall, these places don't just tell something about Allende, but also the people who made these places possible.
 
@@ -37,7 +35,7 @@ Instead of writing yet another biography, this introduction focuses on these thr
 
 ### A violent end to a peaceful government
 
-Allende's presidency, which started peacefully in 3 November 1970, ended violently in 11 September 1973 with the [US-backed coup d'état](https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat) led by Augusto Pinochet. Instead of resigning as demanded by the coup leaders or taking offers of safe passage to escape the coup alive, Allende delivered his last words to the public and chose to remain in the presidential palace, in the middle of gunshots and explosions, to die as President of Chile.
+Allende's presidency, which started peacefully on 3 November 1970, ended violently on 11 September 1973 with the [US-backed coup d'état](https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat) led by Augusto Pinochet. Instead of resigning as demanded by the coup leaders or taking offers of safe passage to escape the coup alive, Allende delivered his last words to the public and chose to remain in the presidential palace, in the middle of gunshots and explosions, to die as President of Chile.
 
 The military dictatorship that took over the country refused to give him a state funeral that every deceased president deserves. A lot of Chileans, especially Allende's supporters, had to seek exile abroad to save themselves from the human rights violations committed by Pinochet's military dictatorship throughout its 16.5-year rule. Those who were not willing or able to escape abroad were systematically imprisoned, tortured, killed or forced into disapperance and never found again.
 
@@ -80,19 +78,19 @@ Government-led reform within Soviet Russia (in an effort to save its economic an
 
 _[[ID 286](http://www.abacq.org/calle/index.php?2009/11/08/436-berlin-alemania)] Salvador-Allende-Straße at Berlin-Köpenick, Germany ([Photo](https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-M1103-0013,_Berlin,_Pablo-Neruda-Stra%C3%9Fe,_Salvador-Allende-Stra%C3%9Fe.jpg) by Bundesarchiv, Bild 183-M1103-0013, CC-BY-SA 3.0)_
 
-![Archive photo of street signs of Pablo-Neruda-Straße and Salvador-Allende-Straße during the streets' inauguration on 3 November 1973 at Berlin-Köpenick, East Germany.](assets/286_Germany_Berlin_Salvador-Allende-Strasse.jpg)
+![Archive photo of street signs of Pablo-Neruda-Straße and Salvador-Allende-Straße during their inauguration attended by many residents who gathered at the workers' quarters of Berlin-Köpenick, East Germany. A placard in support for Chile can be seen among the crowd.](assets/286_Germany_Berlin_Salvador-Allende-Strasse.jpg)
 
 Residents of the workers' quarters in Berlin-Köpenick, which was then part of East Germany, voted to name two intersecting streets after Salvador Allende and [Pablo Neruda](https://en.wikipedia.org/wiki/Pablo_Neruda), a Chilean poet, Nobel Prize laureate, and important ally of Allende who died a few days after the coup d'état. The street names were officially given on 3 November 1973, which would have marked three years since Allende took office as president.
 
 ⚠ **Content warning: the following photo and quotation from the biography plate contains references to suicide.**
 
-_[[ID 287](http://www.abacq.org/calle/index.php?2012/07/19/575-berlin-alemania)] Bust of Salvador Allende by Dietrich Rohde at Berlin-Köpenick, Germany ([Photos](https://commons.wikimedia.org/wiki/File:Bust_Salvador_Allende_by_Dietrich_Rohde_in_Berlin_01.jpg) by Singlespeedfahrer, CC0 Public Domain. Photo of the biography plate cropped from the [original](https://commons.wikimedia.org/wiki/File:Bust_Salvador_Allende_by_Dietrich_Rohde_in_Berlin_02.jpg).)_
+_[[ID 287](http://www.abacq.org/calle/index.php?2012/07/19/575-berlin-alemania)] Bust of Salvador Allende at Berlin-Köpenick, Germany ([Photos](https://commons.wikimedia.org/wiki/File:Bust_Salvador_Allende_by_Dietrich_Rohde_in_Berlin_01.jpg) by Singlespeedfahrer, CC0 Public Domain. Photo of the biography plate cropped from the [original](https://commons.wikimedia.org/wiki/File:Bust_Salvador_Allende_by_Dietrich_Rohde_in_Berlin_02.jpg).)_
 
-![Photo of the bust of Salvador Allende at Berlin-Köpenick, Germany](assets/287_Germany_Berlin_Bust-Salvador-Allende_1.jpg)
+![Head-and-shoulder bust of Salvador Allende at Berlin-Köpenick, Germany](assets/287_Germany_Berlin_Bust-Salvador-Allende_1.jpg)
 
 ![Plate under the bust with biographies of Salvador Allende and Pablo Neruda - translated text follows.](assets/287_Germany_Berlin_Bust-Salvador-Allende_2.jpg)
 
-A bronze bust of Salvador Allende was installed in 1981 and is currently located at Salvador Allende corner Pablo Neruda streets. There is a plate under the bust that provides brief biographies of the two Chileans.
+A bronze bust of Salvador Allende was created by Dietrich Rohde, installed in 1981 and is currently located at Salvador Allende corner Pablo Neruda streets. There is a plate under the bust that provides brief biographies of the two Chileans.
 
 > **Salvador Allende**
 >
@@ -134,7 +132,7 @@ Peaceful protests influenced the fall of the Berlin Wall, multi-party free and f
 
 _[[ID 157](http://www.abacq.org/calle/index.php?2009/07/15/363-budapest-hungria)] Salvador Allende memorial stone located within a park with the same name at Budapest, Hungary ([Photo](https://commons.wikimedia.org/wiki/File:Salvador_Allende-eml%C3%A9kk%C5%91,_2018_Kelenf%C3%B6ld.jpg) by Globetrotter19, CC BY-SA 3.0)_
 
-![Photo of the Salvador Allende memorial stone at Budapest, Hungary - translated text of memorial stone follows.](assets/157_Hungary_Budapest_Salvador-Allende-eml%C3%A9kk%C5%91.jpg)
+![Salvador Allende memorial stone at Budapest, Hungary, decorated with some floral wreaths - translated text of memorial stone follows.](assets/157_Hungary_Budapest_Salvador-Allende-eml%C3%A9kk%C5%91.jpg)
 
 > Dr. Salvador Allende
 >
@@ -156,7 +154,7 @@ The new goverment which the Soviet Union installed after the revolution grew to 
 
 _[[ID 132](http://www.abacq.org/calle/index.php?2011/08/23/530-la-habana-cuba)] Avenida Salvador Allende at Havana, Cuba_
 
-_[[ID 129](http://www.abacq.org/calle/index.php?2007/07/17/90-monumento-a-salvador-allende-cuba)] Monument to Salvador Allende by Mónica Bunster at Havana, Cuba_
+_[[ID 129](http://www.abacq.org/calle/index.php?2007/07/17/90-monumento-a-salvador-allende-cuba)] Monument to Salvador Allende at Havana, Cuba_
 
 In Havana, capital of Cuba, Avenida Carlos III was renamed to Avenida Salvador Allende in October 1973, though [OpenStreetMap](https://www.openstreetmap.org/way/23860167) and [Google Maps](https://goo.gl/maps/CfjwCeYfvvFJM6jg9) show both names to refer to the same avenue.
 
@@ -234,7 +232,7 @@ Salvador Allende Street at Poitiers was inaugurated on 5 November 1978 and this 
 
 _[[ID 694](http://www.abacq.org/calle/index.php?2009/12/01/430-vitry-sur-seine-francia)] Avenue du Président Salvador Allende at Vitry-sur-Seine, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Vitry-sur-Seine_(FR94)_-_2021-03-17_-_1.jpg) by Chabe01, CC BY-SA 4.0)_
 
-![Photo of the street sign at Avenue du Président Salvador Allende at Vitry-sur-Seine, France - translated text of signage follows.](assets/694_France_Vitry-sur-Seine_Avenue-President-Salvador-Allende.jpg)
+![Street sign of Avenue du Président Salvador Allende at Vitry-sur-Seine, France - translated text of signage follows.](assets/694_France_Vitry-sur-Seine_Avenue-President-Salvador-Allende.jpg)
 
 > Vitry sur Seine
 >
@@ -246,7 +244,7 @@ _[[ID 694](http://www.abacq.org/calle/index.php?2009/12/01/430-vitry-sur-seine-f
 
 _[[ID 740](http://www.abacq.org/calle/index.php?2007/12/11/131-saint-ouen-l-aumone-francia)] Rue Salvador Allende at Saint-Ouen-l'Aumône, France ([Photo](https://commons.wikimedia.org/wiki/File:Saint-Ouen-l%E2%80%99Aum%C3%B4ne_(95)_Rue_Salvador_Allende_426.jpg) by GFreihalter, CC BY-SA 4.0)_
 
-![Photo of the street sign at Rue Salvador Allende at Saint-Ouen-l'Aumône, France - translated text of signage follows.](assets/740_France_Saint-Ouen-l'Aumone_Rue-Salvador-Allende.jpg)
+![Street sign of Rue Salvador Allende at Saint-Ouen-l'Aumône, France - translated text of signage follows.](assets/740_France_Saint-Ouen-l'Aumone_Rue-Salvador-Allende.jpg)
 
 > Salvador Allende Street
 >
@@ -258,7 +256,7 @@ _[[ID 740](http://www.abacq.org/calle/index.php?2007/12/11/131-saint-ouen-l-aumo
 
 _[[ID 699](http://www.abacq.org/calle/index.php?2009/09/13/398-le-blanc-mesnil-francia)] Place Salvador Allende at Le Blanc-Mesnil, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Place_Salvador_Allende_-_Le_Blanc-Mesnil_(FR93)_-_2022-08-21_-_1.jpg) by Chabe01, CC BY-SA 4.0)_
 
-![Photo of the place sign at Place Salvador Allende at Le Blanc-Mesnil, France - translated text of signage follows.](assets/699_France_Le-Blanc-Mesnil_Place-Salvador-Allende.jpg)
+![Place sign of Place Salvador Allende at Le Blanc-Mesnil, France - translated text of signage follows.](assets/699_France_Le-Blanc-Mesnil_Place-Salvador-Allende.jpg)
 
 > Le Blanc-Mesnil
 >
@@ -270,7 +268,7 @@ _[[ID 699](http://www.abacq.org/calle/index.php?2009/09/13/398-le-blanc-mesnil-f
 
 _[[ID 711](http://www.abacq.org/calle/index.php?2009/03/05/332-montreuil-francia)] Avenue du Président Salvador Allende at Montreuil, France ([Photo](https://commons.wikimedia.org/wiki/File:Plaque_Avenue_Pr%C3%A9sident_Salvador_Allende_-_Montreuil_(FR93)_-_2020-10-23_-_2.jpg) by Chabe01, CC BY-SA 4.0)_
 
-![Photo of the street sign at Rue Salvador Allende at Montreuil, France - translated text of signage follows.](assets/711_France_Montreuil_Avenue-du-President-Salvador-Allende.jpg)
+![Street sign of Rue Salvador Allende at Montreuil, France - translated text of signage follows.](assets/711_France_Montreuil_Avenue-du-President-Salvador-Allende.jpg)
 
 > Montreuil
 >
@@ -292,7 +290,7 @@ In this park at Rubí named after Salvador Allende, there is a [dedication stone
 
 _[[ID 312](http://www.abacq.org/calle/index.php?2011/09/09/538-valls-espana)] Monument to Salvador Allende at Plaça de l'Estació in Valls ([Photo](https://commons.wikimedia.org/wiki/File:015_Monument_a_Salvador_Allende,_pl._de_l%27Estaci%C3%B3_(Valls).jpg) by Enric, CC BY-SA 4.0)_
 
-![Photo of the monument to Salvador Allende at Plaça de l'Estació in Valls. It is a vertical artificial stone block that stands on this park filled with greenery. On one side of the block, a portrait of Allende is inscribed on the upper right side. A text inscription can be found below on the lower left side (translation follows).](assets/312_Spain_Valls_Monument-a-Salvador-Allende.jpg)
+![Monument to Salvador Allende at Plaça de l'Estació in Valls. It is a vertical artificial stone block that stands on this park filled with greenery. On one side of the block, a portrait of Allende is inscribed on the upper right side. A text inscription can be found below on the lower left side (translation follows).](assets/312_Spain_Valls_Monument-a-Salvador-Allende.jpg)
 
 > The City of Valls
 >
@@ -304,9 +302,9 @@ _[[ID 312](http://www.abacq.org/calle/index.php?2011/09/09/538-valls-espana)] Mo
 
 _[[ID 339](http://www.abacq.org/calle/index.php?2009/10/25/425-barcelona-espana)] Plaça de Salvador Allende at Barcelona_
 
-_[[ID 359](http://www.abacq.org/calle/index.php?2007/07/09/82-barcelona-espana)] "A Salvador Allende" ("To Salvador Allende") by Lautaro Díaz at Barcelona ([Photo](https://commons.wikimedia.org/wiki/File:Altre_11_de_setembre.jpg) by Xaxat, CC BY-SA 3.0 Spain)_
+_[[ID 359](http://www.abacq.org/calle/index.php?2007/07/09/82-barcelona-espana)] The bust "A Salvador Allende" ("To Salvador Allende") at Barcelona ([Photo](https://commons.wikimedia.org/wiki/File:Altre_11_de_setembre.jpg) by Xaxat, CC BY-SA 3.0 Spain)_
 
-![Photo of the bust "A Salvador Allende" by Lautaro Díaz located within Salvador Allende Park at Barcelona. The bust, composed of Allende's head and neck, is installed jutting off from a bronze plaque with an inscription above the bust (translation of the inscription follows). On the side of the bust, to the viewer's left, there is the Chilean flag and an outline of South America with Chile's borders emphasized. The whole bronze plaque containing these features is placed over a bigger vertical steel sheet so that the plaque could be mounted on the park's wall. Spanning across the vertical steel sheet, below the bronze plaque, and mounted on the wall is a large horizontal dedication plaque that says "A Salvador Allende" ("To Salvador Allende"). Carme Grandas writes in the online catalog of public art in Barcelona: "The head is sculpted in strong, bold, even brutal strokes, appropriate for the person it depicts, his manner of death, and for the work itself."](assets/359_Spain_Barcelona_A-Salvador-Allende.jpg)
+![The bust "A Salvador Allende" by Lautaro Díaz located within Salvador Allende Park at Barcelona. The bust, composed of Allende's head and neck, is installed jutting off from a bronze plaque with an inscription above the bust (translation of the inscription follows). On the side of the bust, to the viewer's left, there is the Chilean flag and an outline of South America with Chile's borders emphasized. The whole bronze plaque containing these features is placed over a bigger vertical steel sheet so that the plaque could be mounted on the park's wall. Spanning across the vertical steel sheet, below the bronze plaque, and mounted on the wall is a large horizontal dedication plaque that says "A Salvador Allende" ("To Salvador Allende"). Carme Grandas writes in the online catalog of public art in Barcelona: "The head is sculpted in strong, bold, even brutal strokes, appropriate for the person it depicts, his manner of death, and for the work itself."](assets/359_Spain_Barcelona_A-Salvador-Allende.jpg)
 
 > **TO SALVADOR ALLENDE**
 >
@@ -382,7 +380,7 @@ Allende's pursuit of social justice through democratic means finds sympathy arou
 
 _[[ID 113](http://www.abacq.org/calle/index.php?2011/09/15/547-buenos-aires-argentina)] Memorial plate to Salvador Allende at Plaza República de Chile, Buenos Aires, Argentina ([Photo](https://commons.wikimedia.org/wiki/File:Salvador_Allende_en_Plaza_Chile.JPG) by Gelpgim22 (Sergio Panei Pitrau), CC BY 3.0)_
 
-![Photo of the memorial plate to Salvador Allende at Plaza Chile, Recoleta, Buenos Aires Argentina - translated text follows.](assets/113_Argentina_Buenos-Aires_Centennial-memorial-plate.jpg)
+![Memorial plate to Salvador Allende, mounted at ground level inside Plaza República de Chile, Recoleta, Buenos Aires Argentina - translated text follows.](assets/113_Argentina_Buenos-Aires_Centennial-memorial-plate.jpg)
 
 This aptly named park in central Buenos Aires—Republic of Chile Park—is located next to the Chilean embassy in Buenos Aires and has monuments and memorial plates to several Chilean historical personalities.
 
@@ -400,7 +398,7 @@ A photo from the park submitted to [Google Maps](https://goo.gl/maps/bC8B4zyaEvw
 
 _[[ID 116](http://www.abacq.org/calle/index.php?2009/10/08/421-viena-austria)] Salvador-Allende-Denkmal at Donaupark, Vienna, Austria ([Photo 1](https://commons.wikimedia.org/wiki/File:20210620_Donaupark_Salvador-Allende-Denkmal_01.jpg) by Funke, CC BY-SA 4.0. [Photo 2](https://commons.wikimedia.org/wiki/File:Salvador_Allende_monument_plaque,_Donaupark_(Vienna).jpg) by Robot8A, CC BY-SA 4.0.)_
 
-![Photo of the Salvador-Allende-Denkmal at Donaupark, Vienna, Austria. A bust of Allende stands on top of a vertical stone surrounded by flowers and grass. A few steps away from the bust is a memorial plate on a relatively flat rock at ground level.](assets/116_Austria_Vienna_Salvador-Allende-Denkmal_1.jpg)
+![Salvador-Allende-Monument at Donaupark, Vienna, Austria. A head-and-neck bust of Allende stands on top of a vertical stone surrounded by flowers and grass. A few steps away from the bust is a memorial plate on a relatively flat rock at ground level.](assets/116_Austria_Vienna_Salvador-Allende-Denkmal_1.jpg)
 
 ![Close-up photo of the memorial plate with inscriptions in German and Spanish - translated text follows.](assets/116_Austria_Vienna_Salvador-Allende-Denkmal_2.jpg)
 
@@ -412,7 +410,7 @@ _[[ID 116](http://www.abacq.org/calle/index.php?2009/10/08/421-viena-austria)] S
 
 _[[ID 772](https://commons.wikimedia.org/wiki/Category:Monuments_and_memorials_to_Salvador_Allende)] Monument to Salvador Allende at Université Libre de Bruxelles, Brussels, Belgium ([Photo](https://commons.wikimedia.org/wiki/File:Buste_Salvator_Allende_ULB_Bruxelles.jpg) by Geertivp, CC BY-SA 4.0)_
 
-![Photo of the monument to Salvador Allende at Université Libre de Bruxelles, Brussels, Belgium - translated text follows](assets/772_Belgium_Brussels_Buste-Salvador-Allende.jpg)
+![Monument to Salvador Allende at Université Libre de Bruxelles, Brussels, Belgium - translated text follows](assets/772_Belgium_Brussels_Buste-Salvador-Allende.jpg)
 
 > Salvador ALLENDE
 >
@@ -480,11 +478,11 @@ _[[ID 85](http://www.abacq.org/calle/index.php?2010/10/20/502-ottawa-canada)] Me
 >
 > June 26, 2008
 
-_[[ID 145](https://commons.wikimedia.org/wiki/Category:L%27arc)] The sculpture "L'Arc" by Michel de Broin, at Montréal, Canada ([Photos 1](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) and [2](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG) by Jeangagnon, CC BY-SA 3.0)_
+_[[ID 145](https://commons.wikimedia.org/wiki/Category:L%27arc)] The sculpture "L'Arc" at Montréal, Canada ([Photos 1](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_02.JPG) and [2](https://commons.wikimedia.org/wiki/File:L-arc_-_Michel_de_Broin_13.JPG) by Jeangagnon, CC BY-SA 3.0)_
 
-![Photo of the the sculpture L'Arc in Montréal, Canada. It "portrays a tree whose crown plunges into the ground to form an arch, rooted at each end". One of the ends has multiple roots, the other one single.](assets/145_Canada_Montreal_L'arc_1.jpg)
+![The sculpture L'Arc in Montréal, Canada. It "portrays a tree whose crown plunges into the ground to form an arch, rooted at each end". One of the ends has multiple roots, the other one single.](assets/145_Canada_Montreal_L'arc_1.jpg)
 
-![Photo of the signage for L'Arc in Montréal, Canada - translated text of signage follows.](assets/145_Canada_Montreal_L'arc_2.jpg)
+![Explanatory signage for L'Arc in Montréal, Canada - translated text of signage follows.](assets/145_Canada_Montreal_L'arc_2.jpg)
 
 This sculpture by Michel de Broin was commissioned in time for Allende's centennial and was completed in 2009.
 
@@ -544,7 +542,7 @@ This mural painted in bright red, inaugurated on 4 November 2003, bears a black 
 
 _[[ID 118](https://www.openstreetmap.org/way/758217539)] Salvador-Allende-Weg at Donaupark, Vienna, Austria ([Photo](https://commons.wikimedia.org/wiki/File:Donaupark_12_M%C3%A4rz_2021_11_12_56_999000.jpeg) by Robot8A, CC BY-SA 4.0)_
 
-![Photo of the signage at Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](assets/118_Austria_Vienna_Salvador-Allende-Weg.jpg)
+![Explanatory signage below the street sign of Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](assets/118_Austria_Vienna_Salvador-Allende-Weg.jpg)
 
 This path is located within the Donaupark (Danube Park) and leads to the memorial bust to Salvador Allende [shown earlier](https://github.com/GoGroGlo/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#argentina-austria-and-belgium).
 
@@ -650,7 +648,7 @@ This park in the place of origin of Allende's family (and sometimes mentioned as
 
 _[[ID 18](http://www.abacq.org/calle/index.php?2008/11/16/285-santiago-chile)] Monument to Salvador Allende in front of La Moneda Palace, Santiago, Chile ([Photo](https://commons.wikimedia.org/wiki/File:Monumento_Salvador_Allende_Gossens.jpg) by Rjcastillo, CC BY-SA 4.0)_
 
-![Photo of the monument to Salvador Allende at Santiago, Chile, in front of La Moneda Palace corner the Ministry of Justice and Human Rights of Chile. The monument depicts Allende looking up with one step forward while his whole body is draped in the Chilean flag.](assets/18_Chile_Santiago_Monument-in-front-of-La-Moneda.jpg)
+![Monument to Salvador Allende at Santiago, Chile, in front of La Moneda Palace corner the Ministry of Justice and Human Rights of Chile. The monument depicts Allende with a neutral facial expression, looking up with one step forward while his whole body is draped in the Chilean flag.](assets/18_Chile_Santiago_Monument-in-front-of-La-Moneda.jpg)
 
 The Congress of Chile approved a law in 1994 which said that three monuments in honor of Allende shall be built in Punta Arenas, Valparaíso, and Santiago. This [monument in Santiago](https://es.wikipedia.org/wiki/Monumento_a_Salvador_Allende_(Santiago_de_Chile)) by Arturo Hevia was inaugurated on 26 June 2000 and stands just outside of the La Moneda Palace, where Allende died in 1973, as well as the Ministry of Justice and Human Rights of Chile. Due to its symbolic location, this monument serves as a [focal point](https://commons.wikimedia.org/wiki/Category:Monumento_a_Salvador_Allende,_Santiago_de_Chile) where supporters do floral offerings and demonstrations to commemorate Allende's death and protest against human rights violations.
 
@@ -676,9 +674,9 @@ During the reconstruction of La Moneda after the coup, the door of Morandé 80 a
 
 The restoration of the room where Allende died includes two paintings by Guillermo Muñoz Vera, one of which is shown below, and some original furniture from before the 1973 coup, including the sofa where Allende died.
 
-_[[ID 38](http://www.abacq.org/calle/index.php?2009/01/08/303-chile)] Salón Blanco Presidente Allende inside La Moneda Palace, Santiago, Chile ([Photo 1](https://commons.wikimedia.org/wiki/File:Sal%C3%B3n_Blanco_%E2%80%9CPresidente_Allende%E2%80%9D.jpg) by Oscampor, CC BY-SA 3.0. [Photo 2](https://commons.wikimedia.org/wiki/File:Oficina_Salvador_Allende.jpg) by Osmar Valdebenito from Santiago, Chile, CC BY-SA 2.0.)_
+_[[ID 38](http://www.abacq.org/calle/index.php?2009/01/08/303-chile)] Salón Blanco "Presidente Allende" inside La Moneda Palace, Santiago, Chile ([Photo 1](https://commons.wikimedia.org/wiki/File:Sal%C3%B3n_Blanco_%E2%80%9CPresidente_Allende%E2%80%9D.jpg) by Oscampor, CC BY-SA 3.0. [Photo 2](https://commons.wikimedia.org/wiki/File:Oficina_Salvador_Allende.jpg) by Osmar Valdebenito from Santiago, Chile, CC BY-SA 2.0.)_
 
-![Photo from inside Salón Blanco "Presidente Allende", a reconstruction of the room where Salvador Allende died inside La Moneda Palace at Santiago, Chile. The photo features a chandelier, desk, seat, and a full-body portrait painting of Allende by Guillermo Muñoz Vera. The portrait depicts Allende with a neutral expression while waving to the viewer.](assets/38_Chile_Santiago_Salon-blanco-Salvador-Allende_1.jpg)
+![Photo from inside Salón Blanco "Presidente Allende", a reconstruction of the room where Salvador Allende died inside La Moneda Palace at Santiago, Chile. The photo features a chandelier, work desk, chair, and a full-body portrait painting of Allende by Guillermo Muñoz Vera. The portrait depicts Allende with a neutral expression while waving to the viewer.](assets/38_Chile_Santiago_Salon-blanco-Salvador-Allende_1.jpg)
 
 ![Photo from inside Salón Blanco "Presidente Allende", a reconstruction of the room where Salvador Allende died inside La Moneda Palace at Santiago, Chile. The photo features the velvet red sofa where Allende died.](assets/38_Chile_Santiago_Salon-blanco-Salvador-Allende_2.jpg)
 
@@ -718,6 +716,8 @@ Those who would like to read the full speech are advised to read this [English t
 This project was able to gather from _Una calle Salvador Allende_, Wikimedia Commons, map websites and others a total of 780 memorial places around the world, but the project makes a distinction between extant and non-extant places. Here, a place is extant if its current name is (Salvador) Allende and if it is verified to exist in OpenStreetMap and/or Google Maps. There are 729 extant places and the following data visualizations focus on these extant places.
 
 ***Important note:*** this is a **non-exhaustive** list of memorial places to Salvador Allende because there could be a lot more that are not available in _Una calle Salvador Allende_ and Wikimedia Commons, both of which relied on user submissions. Finding more memorial places available in online maps (without violating their terms of use and risking an IP address ban) requires more time and effort, and even then not all of these places are recorded in online maps in the first place.
+
+Both automated and manual data collection are prone to errors, and although enough effort has been spent to minimize these errors, the correctness and completeness of every collected data cannot be guaranteed.
 
 ### Number of extant places by geographic region
 
@@ -863,9 +863,9 @@ Even though Allende was a physican by profession who used to be health minister,
 
 _[[ID 145](http://www.abacq.org/calle/index.php?2007/02/18/39-san-salvador-el-salvador)] Plaza Salvador Allende at the Faculty of Medicine of the University of El Salvador ([Photos 1](https://commons.wikimedia.org/wiki/File:Visita_a_Universidad_Nacional_de_El_Salvador_(20527780591).jpg) and [2](https://commons.wikimedia.org/wiki/File:Visita_a_Universidad_Nacional_de_El_Salvador_(20521427305).jpg) by Presidencia de El Salvador from San Salvador, El Salvador, América Central, CC0 Public Domain)_
 
-![Michelle Bachelet, President of Chile, looks at a newly unveiled artwork bearing the likeness of Salvador Allende. This memorial plate is located at the Salvador Allende Square at the Faculty of Medicine of the University of El Salvador. Bachelet is accomanied by some officials of the Dean's Office of the Faculty of Medicine.](assets/173_El-Salvador_San-Salvador_Plaza-Salvador-Allende_1.jpg)
+![Michelle Bachelet, President of Chile, looks at a newly unveiled 3-D artwork bearing the likeness of Salvador Allende. This artwork is located at the Salvador Allende Square at the Faculty of Medicine of the University of El Salvador. Bachelet is accompanied by some officials of the Dean's Office of the Faculty of Medicine.](assets/173_El-Salvador_San-Salvador_Plaza-Salvador-Allende_1.jpg)
 
-![Michelle Bachelet unveils another artwork dedicated to Salvador Allende and publicly displayed at the Salvador Allende Square. The artwork depicts an outline of Allende's face overlaid by various intersecting sharp shapes in various colors suggesting a rainbow.](assets/173_El-Salvador_San-Salvador_Plaza-Salvador-Allende_2.jpg)
+![Michelle Bachelet unveils another artwork dedicated to Salvador Allende and publicly displayed at the Salvador Allende Square. This 2-D artwork depicts an outline of Allende's face overlaid by various intersecting sharp shapes in various colors suggesting a rainbow.](assets/173_El-Salvador_San-Salvador_Plaza-Salvador-Allende_2.jpg)
 
 Not all that commemorates Dr. Allende has to be a healthcare facility, though. For instance, there is a Salvador Allende Square in front of the Faculty of Medicine of the University of El Salvador. The square was first posted in _Una calle Salvador Allende_ in 2007, though it may have already existed earlier. The memorial plate in one of the artistic works unveiled by President Michelle Bachelet reads:
 
@@ -891,7 +891,7 @@ The poster on the right that is hanging on the building makes it more obvious th
 
 ### Timeline of dates of establishment of places
 
-![Line chart of number of places established around the world every year from 1965 to 2015, with two peak years emphasized. Explanation follows.](assets/dataviz/number_of_places_established_per_year_all.png)
+![Line chart of number of memorial places to Salvador Allende established around the world every year from 1965 to 2015, with two peak years emphasized. Explanation follows.](assets/dataviz/number_of_places_established_per_year_all.png)
 
 Not all extant places have known dates of establishment, or dates of renaming to Salvador Allende if they had been established before. Places with unknown dates of establishment or renaming were first posted on the internet either through OpenStreetMap, Google Maps or _Una calle Salvador Allende_, but most likely they had been existing even before the internet was invented.
 
@@ -901,7 +901,7 @@ There are two peak years in this timeline: the first is 1973 during the coup d'�
 
 Almost every year between 1973 and 2008, there was a sustained interest in dedicating memorial places to Allende: between one to four memorials were being established from 1974 until 2001,  then the trend increased from 2003 to 2007 with between three to seven memorials every year. From 2008 to 2015, there were one to four memorials every year.
 
-![Line chart of number of places established every year from 1965 to 2015, with two peak years emphasized. Two timelines are overlaid against each other—the first one is for Chile and the other one is for the rest of the world. Explanation follows.](assets/dataviz/number_of_places_established_per_year_chile_vs_rest_of_the_world.png)
+![Line chart of number of memorial places to Salvador Allende established every year from 1965 to 2015, with two peak years emphasized. Two timelines are overlaid against each other—the first one is for Chile and the other one is for the rest of the world. Explanation follows.](assets/dataviz/number_of_places_established_per_year_chile_vs_rest_of_the_world.png)
 
 This timeline of memorial places in Chile vs. the rest of the world reveals where the interest was coming from.
 
@@ -909,7 +909,7 @@ As expected, all memorials to Allende from 1973 to 1990 come from outside Chile,
 
 Inside Chile, the peak number of memorials was reached during Allende's centennial in 2008—of the 15 centennial memorials in the dataset, 6 were established in Chile. From 2008 to 2015, new memorials to Allende were evenly distributed inside and outside Chile.
 
-![Line chart of number of places established every year from 1965 to 2015, with two peak years emphasized. Three timelines are overlaid against each other—the first one is for Chile, the second is for France, and the third is for the rest of the world. Explanation follows.](assets/dataviz/number_of_places_established_per_year_chile_vs_france_vs_rest_of_the_world.png)
+![Line chart of number of memorial places to Salvador Allende established every year from 1965 to 2015, with two peak years emphasized. Three timelines are overlaid against each other—the first one is for Chile, the second is for France, and the third is for the rest of the world. Explanation follows.](assets/dataviz/number_of_places_established_per_year_chile_vs_france_vs_rest_of_the_world.png)
 
 Most of the memorials to Allende in the dataset that are outside Chile come from France, so it makes sense to separate French memorials from the rest of the world in order to get a less skewed view of how memorials are geographically distributed across the years.
 
@@ -967,7 +967,7 @@ Based on these statements and some others, there could be several reasons a lot 
 
 Regardless of the exact manner, Allende's dramatic death evokes sympathy towards anyone who would come across such narrative. The question now lies on which version of the narrative memorial places to Allende would tell.
 
-![Bar chart tallying what memorial places to Salvador Allende say about his manner of death (total: 56). Breakdown of values follows.](assets/dataviz/how-allende-died.png)
+![Bar chart tallying what memorial places to Salvador Allende say about how he died (total: 56). Breakdown of values follows.](assets/dataviz/how-allende-died.png)
 
 In the dataset, there are 56 memorial places that mention Allende's death. The most used narrative is assassination with 33 places explicitly mentioning it. Meanwhile, only one place in the dataset explicitly mentions suicide: [the bust in Berlin](https://github.com/GoGroGlo/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#former-east-germany).
 
@@ -975,7 +975,27 @@ Twenty places mention neither suicide nor assassination and instead keep it gene
 
 ## Conclusion
 
-[work in progress] 
+This project was able to prove using hundreds of memorial places that Dr. Salvador Allende Gossens, President of Chile from 1970 until his overthrow and death on 11 September 1973, is more commemorated _outside_ Chile than _inside_ Chile. The story does not end here, though.
+
+The lack of memorials to Allende inside Chile from 1973 to 1990 is due to the active repression of memory done by the military dictatorship after overthrowing Allende in a violent coup d'état. Aside from refusing to organize a state funeral for Allende like any other deceased president deserves, the military dictatorship also systematically imprisoned, tortured, killed and forced into disapperance a lot of people in Chile who could have given the posthumous respects to Allende that the dictatorship refused to give.
+
+Chileans who were in a capacity to give posthumous respects to Allende had to escape the repression in their country to be able to do so. From their respective places of exile outside Chile, they were able to find solidarity among fellow Chileans and other locals who sympathized with Allende's peaceful, democratic efforts towards socialism and social justice, and at the same time condemned the violence committed by the dictatorship beginning from the day they overthrew Allende's government.
+
+Before the 1973 coup, Allende's government saw itself under the global political context of a competition between capitalist interests represented by the United States and its allies, and socialist interests represented by the Soviet Union and its allies. The United States saw the socialist tendency of Allende's government as a threat to its interests, hence it supported all possible means to destabilize and overthrow it, up to and including the coup. However, the US government failed to disassociate Allende's democratic path towards socialism from the violent means of gaining and maintaining power that the Soviet Union and its allies were notorious for.
+
+The differences in means (violent vs. democratic) did not prevent some foreign socialist governments from commemorating the Chilean president who pursued the same socialist goals. Foreign governments which profess democratic values have been glad to commemorate him, foreign _socialist_ governments which profess democratic values doubly so. This, combined with solidarity by, among and towards the Chilean community, led to the creation of memorial spaces to Salvador Allende practically everywhere in the world except Chile.
+
+The military dictatorship in Chile ended in 1990, and memorial places to Allende in his own country were starting to be established despite resistance from political detractors (who even resisted against his long overdue state funeral). Elsewhere, efforts to commemorate him continued. The number of new memorial spaces and commemorative events inside and outside Chile peaked in 2008, Allende's 100th birth anniversary. The other peak happened in 1973, right after the coup d'état and Allende's death, and as expected all memorial places to Allende at that time were established outside Chile.
+
+Memorial places to Allende typically represent him as a victim or martyr who died for the sake of democracy and/or socialism and/or social justice in the face of absolute violence supported by Chilean and foreign interest groups who want to reclaim their privileges from the Chilean public to themselves. Many of these places quote from his final speech to the public on the day of the coup, which was an impactful proof of his defiance against the coup and his commitment towards the people who had elected him as president.
+
+Even though some details about Allende are uncertain, such as how exactly he died, and memorial places tend to contradict each other in these details, this project can conclude with certainty that memorial places to Salvador Allende are scattered around the world due to efforts from socialists, democrats and Chileans, and yet they managed to paint a cohesive image of how he would have wanted to be remembered after saying his last words.
+
+> Workers of my country: I want to thank you for the loyalty that you always had, the confidence that you deposited in a man who was only an interpreter of great yearnings for justice, who gave his word that he would respect the Constitution and the law and did just that.
+>
+> _—Excerpt from Salvador Allende's last speech, 11 September 1973_
+
+## Who am I anyway and why am I doing this?
 
 ![An edited screenshot of a tweet from Gabriel Boric, current president of Chile - edited text follows.](assets/GabrielBoric_a_estas_alturas.png)
 
@@ -983,25 +1003,23 @@ Twenty places mention neither suicide nor assassination and instead keep it gene
 >
 > _—Gabriel Boric, current president of Chile. [Tweet](https://twitter.com/GabrielBoric/status/75411227647545344) from 31 May 2011, but edited and taken out of context._
 
-## Who am I anyway and why am I doing this?
-
 Full disclosure: I am not from Chile, I am not of Chilean descent, and I do not have any material connections with Chile.
 
-However, I became interested in Chile because I used to be a data analyst working with publicly traded companies in Latin America. I also have a degree related to social sciences, which informs my approach towards this data investigation.
+However, I became interested in Chile because I used to be a data analyst collecting data about publicly traded companies in Latin America. I also have a degree related to social sciences, which informs my approach towards this data investigation.
 
 _Story time:_ Back when I was in my first year at university, a Chilean professor visited and gave a lecture on Chilean and Southeast Asian relations. I tried to take notes, but my academic interest at that time was clearly not Chilean affairs, so my notes ended up half-baked and I wrote the most controversial statement of 2015:
 
 > Stable democracy (had an authoritarian gov't from 1960s to 1973)
 
-I then finished university and got a job as a data analyst where one of the markets that we were working on is... Chile, so this time I had to be involved in Chilean affairs. During that time, I learned enough Spanish to be able to read it with minimal machine translation.
+A few years later, I finished university and got a job as a data analyst where one of the markets that we were collecting data about on is... Chile, so this time I had to be involved in Chilean affairs. During that time, I learned enough Spanish to be able to read it with minimal machine translation (I am not a fluent speaker, though).
 
-Then The Pandemic came and instead of exploring the central business district around my workplace I had to stay at home. I had nothing much to do aside from reading random Wikipedia articles and getting myself into Wikipedia rabbit holes, which included articles on the history of Chile.
+Then the COVID pandemic came and instead of exploring the central business district around my workplace I had to stay at home. I had nothing much to do aside from reading random Wikipedia articles and getting myself into Wikipedia rabbit holes, which included articles on the history of Chile.
 
 That's how I found out six years later that Chile, in fact, did _not_ have an authoritarian government from the 1960s to 1973. I got the years mixed up because there indeed was an authoritarian government after 1973, but before that the presidents were democratically elected. This included Salvador Allende, the last democratically elected president before 1973.
 
 My social sciences-educated self genuinely appreciates all the efforts that the Chilean diaspora and their counterparts back home have made to keep Allende's memory alive despite active suppression from the authoritarian government and their allies. I've never seen a memorial effort as scattered yet cohesive as this one.
 
-This project is my penance for perpetuating the sin of suggesting that Salvador Allende was authoritarian. Kidding aside, Chile's rough history from Allende onwards was something I didn't have notes of back in 2015 and which I had to find out myself several years later. I am not an expert on the matter; I am just someone who is interested in it and would like to contribute to the cause, to the best of my understanding and abilities.
+This project is my penance for perpetuating the sin of suggesting that Salvador Allende was authoritarian. Kidding aside, Chile's rough history from Allende onwards was something I didn't have notes of back in 2015 and which I had to find out myself several years later. I am not an expert on the matter; I am just someone who is interested in it and would like to contribute to making this narrative more known outside Chile, to the best of my understanding and abilities.
 
 ⚠ **Content warning: the following two paragraphs contain references to suicide.**
 
@@ -1009,6 +1027,14 @@ I did say that I am not from Chile, I am not of Chilean descent, and I do not ha
 
 I got interested enough in the topic to be aware of the details of how Allende died, at least according to the 2011 autopsy. And then I spent a year (perhaps more) fighting my own suicidal thoughts. I eventually got therapy for them, and I decided that engaging further with someone who once [shared](https://www.nytimes.com/1973/09/12/archives/socialist-says-allendeonce-spoke-of-suicide.html)  his own suicidal thoughts two years before doing the act is enabling my own suicidal thoughts, so I dropped all my interest towards Allende and Chile at large for a while. If Allende was actually assassinated and no one disputed it, I wouldn't have needed to write this whole paragraph.
 
-I planned to visit Chile this year during the 50th anniversary of the coup d'état so that I can participate in the commemorations, but I ended up deciding that the money for the trip is better spent on physically and professionally improving myself as a form of mental health recovery. I only started this project when I felt that I was mentally prepared to go back to this interest—and here I am collecting all these places named after Allende while adding to my professional skillset and making sense of my thoughts about these topics.
+I planned to visit Chile during the 50th anniversary of the coup d'état so that I can participate in the commemorations, but I ended up deciding that the money for the trip is better spent on physically and professionally improving myself as a form of mental health recovery. I only started this project when I felt that I was mentally prepared to go back to this interest—and here I am collecting all these streets, squares and spaces for Salvador Allende while adding concrete examples of my professional skillset, understanding further why Allende is worth commemorating, and making sense of my thoughts about these topics.
 
-This project was completed in time for the 50th anniversary of the coup d'état and may be updated from time to time—I do hope that my next updates will be due to new memorial places to Allende.
+I made this project mostly for myself (I personaly think of this as a mini-thesis that I would've made if I were studying at the moment), but I would be glad if someone else finds this useful. This project was completed in time for the 50th anniversary of the coup d'état and might get updates from time to time—I do hope that my next updates will be due to new memorial places to Allende.
+
+_¡Allende vive!_
+
+_Un abrazo_ and warm regards,
+
+Glo (they/them)
+
+September 2023
