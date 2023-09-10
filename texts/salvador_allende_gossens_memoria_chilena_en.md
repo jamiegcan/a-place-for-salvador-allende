@@ -4,7 +4,7 @@ _This is an English translation of the biography of Salvador Allende at [Memoria
 
 _Research materials from Memoria Chilena, National Library of Chile (National Heritage Service) are under a Creative Commons Attribution-ShareAlike 3.0 Unported Licence, except its digital objects._
 
-_This English translation is available as described in this project's [Readme](../README.md)._
+_This English translation is available as described in this project's [Readme](https://github.com/GoGroGlo/a-place-for-salvador-allende#license)._
 
 ## The democratic path towards socialism
 
@@ -27,3 +27,31 @@ Nevertheless, the radical nature of Allende's government program faced fierce op
 During 1972, various industry groups paralized their activities; among these were the mass railway and transportation industries. Shortage of basic goods and persistent rumors of a military coup contributed in creating a collective feeling of misrule among the public.
 
 On 11 September 1973, the Popular Unity government was overthrown by a coup d'État headed by General Augusto Pinochet. A Military Junta was formed and released a first communication requesting President Allende to immediately hand over his powers to the Chilean Armed Forces and Police. Allende resisted along with his most loyal collaborators in the La Moneda palace and warned his loved ones that he would die where the people had put him in place: as President of Chile. He delivered his last words before the bombing of the presidential palace, and at 2 p.m., before the military entered the palace, Salvador Allende died by suicide.
+
+## Timeline
+
+**1908:** 26 June. Salvador Allende is born in Santiago
+
+**1932:** He graduates with a medical degree from the University of Chile
+
+**1933:** Salvador Allende participates in the foundation of the Socialist Party of Chile
+
+**1937:** He is elected member of the Chamber of Deputies for Valparaíso and Quillota
+
+**1939:** He is appointed Minister of Health, Pensions and Social Assistance in the Frente Popular (Popular Front coalition) government
+
+**1945:** He is elected Senator for Valdivia, Llanquihue, Chiloé, Aysén and Magallanes
+
+**1952:** He runs for the Presidency
+
+**1958:** He runs for the Presidency
+
+**1961:** He is elected Senator for Aconcagua y Valparaíso
+
+**1964:** He runs for the Presidency
+
+**1970:** Salvador Allende is elected President of Chile
+
+**1971:** Major copper mines in Chile are nationalized
+
+**1973:** 11 September. Salvador Allende dies by suicide during the Coup d'État

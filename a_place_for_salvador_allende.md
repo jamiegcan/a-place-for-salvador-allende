@@ -1,10 +1,12 @@
 # A Place for Salvador Allende: A Data Investigation
 
+_This data investigation is available as described in this project's [Readme](https://github.com/GoGroGlo/a-place-for-salvador-allende#license)._
+
 This project seeks to make some sense out of the numerous memorial places to Salvador Allende that contributors have made known through the website [_Una calle Salvador Allende_](http://www.abacq.org/calle/) ("_A Salvador Allende street_") and some other websites.
 
 Individually, each place has their own story, but when taken together they reveal some insights on where and how Salvador Allende is commemorated around the world. Overall, these places don't just tell something about Allende, but also the people who made these places possible.
 
-⚠ **Content warning: Throughout this investigation there will be references to sensitive topics, specifically violent means of death. Content warnings like this are provided before the specific sections that refer to these sensitive topics.**
+⚠ **Content warning: Throughout this investigation there will be references to sensitive topics. Content warnings like this are provided before the specific paragraphs or sections that refer to these sensitive topics.**
 
 ## Who was Salvador Allende and why are places named after him?
 
@@ -37,13 +39,15 @@ Instead of writing yet another biography, this introduction focuses on these thr
 
 Allende's presidency, which started peacefully on 3 November 1970, ended violently on 11 September 1973 with the [US-backed coup d'état](https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat) led by Augusto Pinochet. Instead of resigning as demanded by the coup leaders or taking offers of safe passage to escape the coup alive, Allende delivered his last words to the public and chose to remain in the presidential palace, in the middle of gunshots and explosions, to die as President of Chile.
 
+⚠ **Content warning: the following two paragraphs contain references to state-sponsored mass violence.**
+
 The military dictatorship that took over the country refused to give him a state funeral that every deceased president deserves. A lot of Chileans, especially Allende's supporters, had to seek exile abroad to save themselves from the human rights violations committed by Pinochet's military dictatorship throughout its 16.5-year rule. Those who were not willing or able to escape abroad were systematically imprisoned, tortured, killed or forced into disapperance and never found again.
 
 Allende effectively became a taboo topic during the dictatorship, and virtually no one in Chile was able to pay respects to the late president because they either had to escape from Chile or was already killed by accomplices to the dictatorship.
 
 ### Long overdue respects
 
-In 1988, Chileans voted against continuing on with a military government in a [historic referendum](https://en.wikipedia.org/wiki/1988_Chilean_national_plebiscite), and in 1990 the country elected its [first democratically elected president in almost two decades](https://en.wikipedia.org/wiki/Patricio_Aylwin). This year, the time was finally right to hold the [state funeral for Allende](https://twitter.com/LaChileanWay/status/1674960526214852608), but some Chileans still thought it wasn't deserved.
+In 1988, Chileans voted against continuing on with a military government in a [historic referendum](https://en.wikipedia.org/wiki/1988_Chilean_national_plebiscite), and in 1990 the country elected its first democratically elected president [in almost two decades](https://en.wikipedia.org/wiki/Patricio_Aylwin). This year, the time was finally right to hold the [state funeral for Allende](https://twitter.com/LaChileanWay/status/1674960526214852608), but some Chileans still thought it wasn't deserved.
 
 Regardless of when or whether the state funeral was held, many people have taken initiatives to pay respects to Allende as soon as after his death. This project proves that most of the initiatives come from outside of Chile thanks to the following interest groups.
 
@@ -67,6 +71,8 @@ _[[ID 172](http://www.abacq.org/calle/index.php?2008/06/30/214-moscu-rusia)] у�
 [Soviet Russia](https://en.wikipedia.org/wiki/Russian_Soviet_Federative_Socialist_Republic) was the center of the former Soviet Union, and Moscow was the capital of both Soviet Russia and Soviet Union. In 1973, Soviet Russian public organizations recommended to rename Moscow's 7th Sandy Street (7-я Песчаная улица) to [Salvador Allende Street](https://ru.wikipedia.org/wiki/ru:%D0%A3%D0%BB%D0%B8%D1%86%D0%B0%20%D0%A1%D0%B0%D0%BB%D1%8C%D0%B2%D0%B0%D0%B4%D0%BE%D1%80%D0%B0%20%D0%90%D0%BB%D1%8C%D0%B5%D0%BD%D0%B4%D0%B5?uselang=en). This street still carries Allende's name today, and the original memorial plate located at 1 Salvador Allende Street still remains as of May 2021 according to [Google Street View](https://goo.gl/maps/FtSoreDJD2VpteQL6).
 
 Soviet Russia was established after the end of the Russian Empire and an armed revolution in 1917 that overthrew the short-lived provisional government that sought to follow. It became the world's first constitutionally socialist state. Opposition forces armed themselves against the revolution leaders, so the revolution escalated into a civil war. To win the civil war, Soviet Russia took most territories that belonged to the former Russian Empire, turned them into their own nominally "independent" states, and grouped Soviet Russia and these states into the [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union).
+
+⚠ **Content warning: the following paragraph contain references to state-sponsored mass violence.**
 
 The economy of the Soviet Union was highly centralized and state-planned from Moscow. Its economy progressed to the detriment of laborers in the union's extensive forced labor camps. One of Soviet Union's leaders, Joseph Stalin, implemented a Great Purge to eliminate political opponents and anyone else who was a threat to his power, to the point of literally erasing them out of photos with Stalin (see a sample photo [before](https://en.wikipedia.org/wiki/File:Nikolai_Yezhov_with_Stalin_and_Molotov_along_the_Volga%E2%80%93Don_Canal,_orignal.jpg) and [after](https://en.wikipedia.org/wiki/File:Stalin_and_Molotov_along_the_Volga%E2%80%93Don_Canal,_Nikolai_Yezhov_removed.jpg) the purge).
 
@@ -124,6 +130,8 @@ A bronze bust of Salvador Allende was created by Dietrich Rohde, installed in 19
 >
 > Nobel Prize laureate for Literature (1971)
 
+⚠ **Content warning: the following two paragraphs contain references to state-sponsored mass violence.**
+
 [East Germany](https://en.wikipedia.org/wiki/East_Germany) existed from 1949 to 1990 and was a one-party state founded and governed by a socialist-aligned political party. When faced with an increasing number of skilled people leaving the country and weakening the economy, the government responded with building the Berlin Wall and violent means to keep people inside the country: landmines and traps were built around the wall, and border guards either killed people attemtpting to leave or captured them as long-term prisoners.
 
 Peaceful protests influenced the fall of the Berlin Wall, multi-party free and fair elections in East German states, the reunification of East Germany and West Germany into today's Germany, and the prosecution of former East German leaders for crimes against their own people.
@@ -145,6 +153,8 @@ _[[ID 157](http://www.abacq.org/calle/index.php?2009/07/15/363-budapest-hungria)
 > 1973
 
 The Budapest City Council approved the erection of this memorial stone in 24 October 1973. The apartments around the [park](https://commons.wikimedia.org/wiki/Category:Allende_park,_Budapest) were built in the early 1970's by the Hungarian Young Communist League, which was attached to the then ruling socialist-aligned party of Hungary which gained power by suppressing opposition parties.
+
+⚠ **Content warning: the following two paragraphs contain references to state-sponsored mass violence.**
 
 [Hungary](https://en.wikipedia.org/wiki/Hungarian_People%27s_Republic) was a one-party state from 1949 to 1989 with tight control from the Soviet Union, which violently repressed a people's revolution in 1956, killed thousands of Hungarians, and forced thousands more into exile.
 
@@ -185,6 +195,8 @@ In this context, the existence of numerous places in France named after Allende 
 _[[ID 717](http://www.abacq.org/calle/index.php?2008/11/05/281-argenteuil-francia)] Esplanade Salvador Allende at Argenteuil, France_
 
 The place in the dataset that was named after Salvador Allende the earliest is located at Argenteuil, France, where the municipal council at that time unanimously agreed to name a street after Salvador Allende as early as three days after his death. The official announcement (full text below) used an anti-imperialist and pro-worker tone that is commonly seen in socialist-aligned messages, but also mentioned the legal and democratic nature of Allende's socialist government.
+
+⚠ **Content warning: the following translation contains references to state-sponsored mass violence.**
 
 > **A _President Salvador Allende_ Street in Argenteuil**
 >
@@ -280,6 +292,14 @@ _[[ID 711](http://www.abacq.org/calle/index.php?2009/03/05/332-montreuil-francia
 
 #### **Catalonia**
 
+What binds Chilean and Catalan people together in solidarity is the date 11 September. For Chileans, this date is a symbol of Allende's democratic efforts towards economic independence despite external resistance; for Catalans, this date is a symbol of their democratic efforts towards [national independence](https://en.wikipedia.org/wiki/Catalan_independence_movement) despite external resistance.
+
+While 11 September or 9/11 is best known worldwide as the anniversary of the 2001 terror attacks in the US, this in itself is an example of _world_ history being defined exclusively by _US_ events from a _US_ perspective  to benefit _US_ interests exclusively.
+
+The 1973 coup d'état in Chile happened way earlier than these terror attacks, is influenced by global political contexts, is symbolic of external disruptions to internal processes that have become a common theme across peoples (including Catalan people), and has long-lasting consequences and impact. Fifty years later, this event is still lesser known worldwide compared to the terror attacks in the US.
+
+What is even lesser known is that 11 September also marks the national day of Catalonia, called locally as the "[Diada](https://en.wikipedia.org/wiki/National_Day_of_Catalonia)" (literally "Day"). On this day in 1714, after a year-long battle in Barcelona, the Catalan army lost to the army of King Philip V, and the Catalan institutional system and rights were replaced with Philip V's absolute rule in an attempt to unify Spain. Modern-day celebrations of the Diada involve offering flowers and respects to Catalan army members who fought in 1714, as well as rallies in favor of Catalonia's independence from Spain despite persistent resistance from Spanish authorities.
+
 _[[ID 335](http://www.abacq.org/calle/index.php?2010/09/03/500-rubi-espana)] Plaça de Salvador Allende at Rubí_
 
 In this park at Rubí named after Salvador Allende, there is a [dedication stone](https://monuments.iec.cat/fitxa.asp?id=366) made of marble that reads:
@@ -321,14 +341,6 @@ _[[ID 359](http://www.abacq.org/calle/index.php?2007/07/09/82-barcelona-espana)]
 > [_Note: English translation and alt text are taken from the [bust's page](https://w10.bcn.es/APPS/gmocataleg_monum/FitxaMonumentAc.do?idioma=EN&codiMonumIntern=960) in the online catalog of public art in Barcelona. Write-ups by Jaume Fabre, Josep M. Huertas; review by Carme Grandas._]
 
 The Salvador Allende Park at Barcelona was inaugurated in April 1985 and its primary feature used to be a fountain. Upon the initiative of Chilean residents in Barcelona, and to make the dedication to Allende more obvious, Chilean artist Lautaro Díaz created a bust of Allende made of bronze. The bust was installed in this park and was inaugurated on 11 September 1997 (24th anniversary of the coup) in the presence of Isabel Allende Bussi, one of Salvador Allende's children, as well as Chilean and Catalan representatives.
-
-What binds Chilean and Catalan people together in solidarity is the date 11 September. For Chileans, this date is a symbol of Allende's democratic efforts towards economic independence despite external resistance; for Catalans, this date is a symbol of their democratic efforts towards [national independence](https://en.wikipedia.org/wiki/Catalan_independence_movement) despite external resistance.
-
-While 11 September or 9/11 is best known worldwide as the anniversary of the 2001 terror attacks in the US, this in itself is an example of _world_ history being defined exclusively by _US_ events from a _US_ perspective  to benefit _US_ interests exclusively.
-
-The 1973 coup d'état in Chile happened way earlier than these terror attacks, is influenced by global political contexts, is symbolic of external disruptions to internal processes that have become a common theme across peoples (including Catalan people), and has long-lasting consequences and impact. Fifty years later, this event is still lesser known worldwide compared to the terror attacks in the US.
-
-What is even lesser known is that 11 September also marks the national day of Catalonia, called locally as the "[Diada](https://en.wikipedia.org/wiki/National_Day_of_Catalonia)" (literally "Day"). On this day in 1714, after a year-long battle in Barcelona, the Catalan army lost to the army of King Philip V, and the Catalan institutional system and rights were replaced with Philip V's absolute rule in an attempt to unify Spain. Modern-day celebrations of the Diada involve offering flowers and respects to Catalan army members who fought in 1714, as well as rallies in favor of Catalonia's independence from Spain despite persistent resistance from Spanish authorities.
 
 #### **Italy**
 
@@ -410,7 +422,7 @@ _[[ID 116](http://www.abacq.org/calle/index.php?2009/10/08/421-viena-austria)] S
 
 _[[ID 772](https://commons.wikimedia.org/wiki/Category:Monuments_and_memorials_to_Salvador_Allende)] Monument to Salvador Allende at Université Libre de Bruxelles, Brussels, Belgium ([Photo](https://commons.wikimedia.org/wiki/File:Buste_Salvator_Allende_ULB_Bruxelles.jpg) by Geertivp, CC BY-SA 4.0)_
 
-![Monument to Salvador Allende at Université Libre de Bruxelles, Brussels, Belgium - translated text follows](assets/772_Belgium_Brussels_Buste-Salvador-Allende.jpg)
+![Head-and-shoulder bust of Salvador Allende at Université Libre de Bruxelles, Brussels, Belgium. Note the presence of a Freemason symbol presented as a brooch on Allende's left collar. Translated text follows](assets/772_Belgium_Brussels_Buste-Salvador-Allende.jpg)
 
 > Salvador ALLENDE
 >
@@ -520,9 +532,13 @@ This sculpture by Michel de Broin was commissioned in time for Allende's centenn
 
 #### **Chilean community in Europe**
 
-_[[ID 85](http://www.abacq.org/calle/index.php?2010/01/15/412-copenhague-dinamarca)] Mural and monument to Salvador Allende at Copenhagen, Denmark_
+_[[ID 85](http://www.abacq.org/calle/index.php?2010/01/15/412-copenhague-dinamarca)] Mural and monument to Salvador Allende at Copenhagen, Denmark (Photos shared anonymously, CC0 Public Domain)_
 
-This mural painted in bright red, inaugurated on 4 November 2003, bears a black outline of Allende's likeness while delivering a speech. It contains a small memorial plate that provides context:
+![Mural to Salvador Allende at Copenhagen, Denmark - description follows.](assets/85_Denmark_Copenhagen_Mural-to-Salvador-Allende_1.jpg)
+
+![Memorial plate mounted on the mural - description follows.](assets/85_Denmark_Copenhagen_Mural-to-Salvador-Allende_2.jpg)
+
+This mural painted in bright red, inaugurated on 4 November 2003, bears a black outline of Allende's likeness while delivering a speech. It contains a small memorial plate in Danish and Spanish that provides context:
 
 > **Hommage in memory of Salvador Allende**
 >
@@ -551,6 +567,8 @@ This path is located within the Donaupark (Danube Park) and leads to the memoria
 #### **Chilean community in Australia**
 
 _[[ID 114](http://www.abacq.org/calle/index.php?2011/08/25/534-fairfield-australia)] Monument to Salvador Allende at Fairfield, Australia_
+
+⚠ **Content warning: the following memorial transcription contain references to state-sponsored mass violence.**
 
 > **Dr. Salvador Allende Gossens**
 >
@@ -614,7 +632,7 @@ He officially inaugurated the museum on 17 May 1972—at that time, it was named
 
 After the 1973 coup and the installation of the dictatorship, the museum closed and its art, artists and managers went into exile outside Chile. A group of artists organized a roving museum from their places of exile, continued accepting art donations, and organized exhibitions all around Europe to denounce human rights violations during the dictatorship.
 
-The museum was officially reestablished on September 1991, a year after the end of dictatorship in Chile, under its current name. It has since recovered its art collection from the 1970s, received new art donations, and currently houses some of Allende's personal objects, some of which are shown below:
+The museum was officially reestablished on September 1991, a year after the end of dictatorship in Chile, under its current name. It has since recovered some of its art collection from the 1970s, received new art donations, and currently houses some of Allende's personal objects, some of which are shown below:
 
 * Doctor's cape.
 * Presidential sash and a copy of Allende's 1939 work _La realidad médico social chilena_ (_The Chilean medico-social reality_).
@@ -709,11 +727,11 @@ One of the more recent memorials to Allende (relative to other memorials in the 
 
 This sculpture by Oscar Plandiura quotes the most from Allende's last speech—there are nine paragraphs of quotation inscribed on this high monument, excluding the title, location and date of the speech. Even from afar, it already looks like a long read despite not being the full speech.
 
-Those who would like to read the full speech are advised to read this [English translation that comes with the original Spanish recording](https://www.marxists.org/archive/allende/1973/september/11.htm). (Be warned that the recording is suddenly very loud and startling at the end, but it is part of the violent background and emotional intent of Allende's last speech.)
+Those who would like to read the full speech are advised to read this [English translation that comes with the original Spanish recording](https://www.marxists.org/archive/allende/1973/september/11.htm). Be warned that the recording is suddenly very loud and startling at the end, but it is part of the violent background and emotional intent of Allende's last speech.
 
 ## What does the data say about memorials to Salvador Allende around the world?
 
-This project was able to gather from _Una calle Salvador Allende_, Wikimedia Commons, map websites and others a total of 780 memorial places around the world, but the project makes a distinction between extant and non-extant places. Here, a place is extant if its current name is (Salvador) Allende and if it is verified to exist in OpenStreetMap and/or Google Maps. There are 729 extant places and the following data visualizations focus on these extant places.
+This project was able to gather from _Una calle Salvador Allende_, Wikimedia Commons, map websites and others a total of 780 memorial places around the world, but the project makes a distinction between extant and non-extant places. Here, a place is extant if its former name is not (Salvador) Allende (some extant memorial places may not be explicitly named after Allende, like _L'arc_) and if it is verified to exist in OpenStreetMap and/or Google Maps. There are 729 extant places and the following data visualizations focus on these extant places.
 
 ***Important note:*** this is a **non-exhaustive** list of memorial places to Salvador Allende because there could be a lot more that are not available in _Una calle Salvador Allende_ and Wikimedia Commons, both of which relied on user submissions. Finding more memorial places available in online maps (without violating their terms of use and risking an IP address ban) requires more time and effort, and even then not all of these places are recorded in online maps in the first place.
 
@@ -977,6 +995,8 @@ Twenty places mention neither suicide nor assassination and instead keep it gene
 
 This project was able to prove using hundreds of memorial places that Dr. Salvador Allende Gossens, President of Chile from 1970 until his overthrow and death on 11 September 1973, is more commemorated _outside_ Chile than _inside_ Chile. The story does not end here, though.
 
+⚠ **Content warning: the following paragraph contains references to state-sponsored mass violence.**
+
 The lack of memorials to Allende inside Chile from 1973 to 1990 is due to the active repression of memory done by the military dictatorship after overthrowing Allende in a violent coup d'état. Aside from refusing to organize a state funeral for Allende like any other deceased president deserves, the military dictatorship also systematically imprisoned, tortured, killed and forced into disapperance a lot of people in Chile who could have given the posthumous respects to Allende that the dictatorship refused to give.
 
 Chileans who were in a capacity to give posthumous respects to Allende had to escape the repression in their country to be able to do so. From their respective places of exile outside Chile, they were able to find solidarity among fellow Chileans and other locals who sympathized with Allende's peaceful, democratic efforts towards socialism and social justice, and at the same time condemned the violence committed by the dictatorship beginning from the day they overthrew Allende's government.
@@ -987,54 +1007,10 @@ The differences in means (violent vs. democratic) did not prevent some foreign s
 
 The military dictatorship in Chile ended in 1990, and memorial places to Allende in his own country were starting to be established despite resistance from political detractors (who even resisted against his long overdue state funeral). Elsewhere, efforts to commemorate him continued. The number of new memorial spaces and commemorative events inside and outside Chile peaked in 2008, Allende's 100th birth anniversary. The other peak happened in 1973, right after the coup d'état and Allende's death, and as expected all memorial places to Allende at that time were established outside Chile.
 
-Memorial places to Allende typically represent him as a victim or martyr who died for the sake of democracy and/or socialism and/or social justice in the face of absolute violence supported by Chilean and foreign interest groups who want to reclaim their privileges from the Chilean public to themselves. Many of these places quote from his final speech to the public on the day of the coup, which was an impactful proof of his defiance against the coup and his commitment towards the people who had elected him as president.
+Memorial places to Allende typically represent him as a victim or martyr who died for the sake of democracy and/or socialism and/or social justice in the face of absolute violence supported by Chilean and foreign interest groups who want to reclaim their privileges from the Chilean public to themselves. Many of these places quote from his final speech to the public on the day of the coup, which was an impactful proof of his active defiance against the coup and his commitment towards the people who had elected him as president.
 
 Even though some details about Allende are uncertain, such as how exactly he died, and memorial places tend to contradict each other in these details, this project can conclude with certainty that memorial places to Salvador Allende are scattered around the world due to efforts from socialists, democrats and Chileans, and yet they managed to paint a cohesive image of how he would have wanted to be remembered after saying his last words.
 
 > Workers of my country: I want to thank you for the loyalty that you always had, the confidence that you deposited in a man who was only an interpreter of great yearnings for justice, who gave his word that he would respect the Constitution and the law and did just that.
 >
 > _—Excerpt from Salvador Allende's last speech, 11 September 1973_
-
-## Who am I anyway and why am I doing this?
-
-![An edited screenshot of a tweet from Gabriel Boric, current president of Chile - edited text follows.](assets/GabrielBoric_a_estas_alturas.png)
-
-> At this point, politically it doesn't really matter how Allende died (if historical%). What matters is that we have streets and squares named after him.
->
-> _—Gabriel Boric, current president of Chile. [Tweet](https://twitter.com/GabrielBoric/status/75411227647545344) from 31 May 2011, but edited and taken out of context._
-
-Full disclosure: I am not from Chile, I am not of Chilean descent, and I do not have any material connections with Chile.
-
-However, I became interested in Chile because I used to be a data analyst collecting data about publicly traded companies in Latin America. I also have a degree related to social sciences, which informs my approach towards this data investigation.
-
-_Story time:_ Back when I was in my first year at university, a Chilean professor visited and gave a lecture on Chilean and Southeast Asian relations. I tried to take notes, but my academic interest at that time was clearly not Chilean affairs, so my notes ended up half-baked and I wrote the most controversial statement of 2015:
-
-> Stable democracy (had an authoritarian gov't from 1960s to 1973)
-
-A few years later, I finished university and got a job as a data analyst where one of the markets that we were collecting data about on is... Chile, so this time I had to be involved in Chilean affairs. During that time, I learned enough Spanish to be able to read it with minimal machine translation (I am not a fluent speaker, though).
-
-Then the COVID pandemic came and instead of exploring the central business district around my workplace I had to stay at home. I had nothing much to do aside from reading random Wikipedia articles and getting myself into Wikipedia rabbit holes, which included articles on the history of Chile.
-
-That's how I found out six years later that Chile, in fact, did _not_ have an authoritarian government from the 1960s to 1973. I got the years mixed up because there indeed was an authoritarian government after 1973, but before that the presidents were democratically elected. This included Salvador Allende, the last democratically elected president before 1973.
-
-My social sciences-educated self genuinely appreciates all the efforts that the Chilean diaspora and their counterparts back home have made to keep Allende's memory alive despite active suppression from the authoritarian government and their allies. I've never seen a memorial effort as scattered yet cohesive as this one.
-
-This project is my penance for perpetuating the sin of suggesting that Salvador Allende was authoritarian. Kidding aside, Chile's rough history from Allende onwards was something I didn't have notes of back in 2015 and which I had to find out myself several years later. I am not an expert on the matter; I am just someone who is interested in it and would like to contribute to making this narrative more known outside Chile, to the best of my understanding and abilities.
-
-⚠ **Content warning: the following two paragraphs contain references to suicide.**
-
-I did say that I am not from Chile, I am not of Chilean descent, and I do not have any material connections with Chile. However, I still do have a personal connection towards Allende as a topic.
-
-I got interested enough in the topic to be aware of the details of how Allende died, at least according to the 2011 autopsy. And then I spent a year (perhaps more) fighting my own suicidal thoughts. I eventually got therapy for them, and I decided that engaging further with someone who once [shared](https://www.nytimes.com/1973/09/12/archives/socialist-says-allendeonce-spoke-of-suicide.html)  his own suicidal thoughts two years before doing the act is enabling my own suicidal thoughts, so I dropped all my interest towards Allende and Chile at large for a while. If Allende was actually assassinated and no one disputed it, I wouldn't have needed to write this whole paragraph.
-
-I planned to visit Chile during the 50th anniversary of the coup d'état so that I can participate in the commemorations, but I ended up deciding that the money for the trip is better spent on physically and professionally improving myself as a form of mental health recovery. I only started this project when I felt that I was mentally prepared to go back to this interest—and here I am collecting all these streets, squares and spaces for Salvador Allende while adding concrete examples of my professional skillset, understanding further why Allende is worth commemorating, and making sense of my thoughts about these topics.
-
-I made this project mostly for myself (I personaly think of this as a mini-thesis that I would've made if I were studying at the moment), but I would be glad if someone else finds this useful. This project was completed in time for the 50th anniversary of the coup d'état and might get updates from time to time—I do hope that my next updates will be due to new memorial places to Allende.
-
-_¡Allende vive!_
-
-_Un abrazo_ and warm regards,
-
-Glo (they/them)
-
-September 2023
