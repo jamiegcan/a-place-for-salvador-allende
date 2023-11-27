@@ -6,7 +6,7 @@ Non-exhaustive data and observations on how Salvador Allende, President of Chile
 
 This project builds up upon _Una calle Salvador Allende_ ("_A Salvador Allende street_") at <http://www.abacq.org/calle/>, a non-exhaustive resource for streets and other memorial places named after Salvador Allende, president of Chile from 1970 to 1973. The website accepted inputs from individuals around the world, mostly Chileans within and outside of Chile. The website was active from late 2000's (around the centennial of Allende's birth) to early 2010's, and many of these streets and places may have changed since then.
 
-According to the website, there are at least [48 territories](texts/there_are_s_allende_streets_in.md) with a place for Salvador Allende. This project was able to confirm that he is present in at least 34 of them.
+According to the website, there are at least [48 territories](texts/there_are_s_allende_streets_in.md) with a place for Salvador Allende. This project was able to confirm that he is present in at least 35 of them.
 
 1. Algeria
 2. Angola
@@ -40,8 +40,9 @@ According to the website, there are at least [48 territories](texts/there_are_s_
 30. Spain
 31. Turkey
 32. United Kingdom
-33. Uruguay
-34. Venezuela
+33. United States
+34. Uruguay
+35. Venezuela
 
 In a nutshell, this project goes through every article in _Una calle Salvador Allende_ and cross-checks them automatically using OpenStreetMap (OSM) and manually using Google Maps to see if they still exist. The scripts here automate most of the data collection, but the data are still manually verified whenever I have the time.
 
@@ -51,7 +52,7 @@ For now, this project focuses on the already extensive list of places in _Una ca
 
 Some articles in _Una calle Salvador Allende_ include places named after or dedicated to [Pablo Neruda](https://en.wikipedia.org/wiki/Pablo_Neruda), [Victor Jara](https://en.wikipedia.org/wiki/Victor_Jara), and other notable Chilean personalities. They are not included in this project but they are as interesting and relevant as Allende.
 
-The main work for this project was done from March to September 2023, in time for the 50th anniversary of the [coup d'état where Allende died]((https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat)).
+The main work for this project was done from March to September 2023, in time for the 50th anniversary of the [coup d'état where Allende died]((https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat)). This project might be updated from time to time to reflect new data usually from Wikimedia Commons.
 
 ## Technical notes on data collection
 
@@ -95,7 +96,8 @@ Both automated and manual data collection are prone to errors, and although enou
 
 * `id` [int]
   * A distinct number that is assigned to a place when it is added to the main dataset `a_place_for_salvador_allende_raw.xlsx`. One ID corresponds to exactly one _standalone_ place.
-  * _Standalone_ here means a distinct place that is located in a distinct locale and is established on a distinct date. For two or more places that are located in the same locale, each place is considered standalone if it can exist independently of the other.
+  * _Standalone_ here means a distinct place that is located in a distinct locale and is established on a distinct date.
+    * For two or more places that are located in the same locale, each place is considered standalone if each place was established on a distinct date (see IDs 339 and 359), _or_ if each place can exist independently of the other.
     * Standalone example: If a street hypothetically changes its name from "Salvador Allende" to something else, but a park named after Salvador Allende would remain there, then both places are considered standalone (see IDs 146 and 147).
     * Non-standalone example: If there is a bus stop named after Salvador Allende, not because it deserves its own name but because the street it is located at is named "Salvador Allende", then the bus stop will not be added to the main dataset. For this reason, the hundreds of bus stops in Chile named after Salvador Allende are not included in the main dataset, but their corresponding streets are. Also, if there is a street named after Salvador Allende, but it is part of the passagaways around a park named after Salvador Allende, then only the park is included.
 * `name` [str]
@@ -170,7 +172,7 @@ My full investigation is available here: [**A Place for Salvador Allende: A Data
 
 _In case of discrepancy between this excerpt and the data investigation page, consider the data investigation page the more current one._
 
-This project was able to gather from _Una calle Salvador Allende_, Wikimedia Commons, map websites and others a total of 780 memorial places around the world, but the project makes a distinction between extant and non-extant places. Here, a place is extant if `former_name` does not contain `Allende` and if `verified_in_maps` = `1`. There are 729 extant places that meet this criteria.
+This project was able to gather from _Una calle Salvador Allende_, Wikimedia Commons, map websites and other sources a total of 783 memorial places around the world, but the project makes a distinction between extant and non-extant places. Here, a place is extant if `former_name` does not contain `Allende` and if `verified_in_maps` = `1`. There are 732 extant places that meet this criteria.
 
 This project was able to prove using hundreds of memorial places that [Dr. Salvador Allende Gossens](texts/salvador_allende_gossens_memoria_chilena_en.md), President of Chile from 1970 until his overthrow and death on 11 September 1973, is more commemorated _outside_ Chile than _inside_ Chile. The story does not end here, though.
 
@@ -206,11 +208,11 @@ Full disclosure: I am not from Chile, I am not of Chilean descent, and I do not 
 
 However, I became interested in Chile because I used to be a data analyst collecting data about publicly traded companies in Latin America. I also have a degree related to social sciences, which informs my approach towards this data investigation.
 
-_Story time:_ Back when I was in my first year at university, a Chilean professor visited and gave a lecture on Chilean and Southeast Asian relations. I tried to take notes, but my academic interest at that time was clearly not Chilean affairs, so my notes ended up half-baked and I wrote the most controversial statement of 2015:
+_Story time:_ Back when I was in university, a Chilean professor visited and gave a lecture on Chilean and Southeast Asian relations. I tried to take notes, but my academic interest at that time was clearly not Chilean affairs, so my notes ended up half-baked and I wrote the most controversial statement of 2015:
 
 > Stable democracy (had an authoritarian gov't from 1960s to 1973)
 
-A few years later, I finished university and got a job as a data analyst where one of the markets that we were collecting data about on is... Chile, so this time I had to be involved in Chilean affairs. During that time, I learned enough Spanish to be able to read it with minimal machine translation (I am not a fluent speaker, though).
+A few years later, I finished university and got a job as a data analyst where one of the markets that we were collecting data about is... Chile, so this time I somewhat had to be involved in Chilean affairs. During that time, I learned enough Spanish to be able to read it with minimal machine translation (I am not a fluent speaker, though).
 
 Then the COVID pandemic came and instead of exploring the central business district around my workplace I had to stay at home. I had nothing much to do aside from reading random Wikipedia articles and getting myself into Wikipedia rabbit holes, which included articles on the history of Chile.
 
@@ -224,9 +226,11 @@ This project is my penance for perpetuating the sin of suggesting that Salvador 
 
 I did say that I am not from Chile, I am not of Chilean descent, and I do not have any material connections with Chile. However, I still do have a personal connection towards Allende as a topic.
 
-I got interested enough in the topic to be aware of the details of how Allende died, at least according to the 2011 autopsy. And then I spent a year (perhaps more) fighting my own suicidal thoughts. I eventually got therapy for them, and I decided that engaging further with someone who once [shared](https://www.nytimes.com/1973/09/12/archives/socialist-says-allendeonce-spoke-of-suicide.html)  his own suicidal thoughts two years before doing the act is enabling my own suicidal thoughts, so I dropped all my interest towards Allende and Chile at large for a while. If Allende was actually assassinated and no one disputed it, I wouldn't have needed to write this whole paragraph.
+I got interested enough in the topic to be aware of the details of how Allende died, at least according to the 2011 autopsy. And then I spent a year (perhaps more) fighting my own suicidal thoughts. I eventually got therapy for them, and I decided that engaging further with someone who once [shared](https://www.nytimes.com/1973/09/12/archives/socialist-says-allendeonce-spoke-of-suicide.html) his own suicidal thoughts two years before doing the act is enabling my own suicidal thoughts, so I dropped all my interest towards Allende and Chile at large for a while. If Allende was actually assassinated and no one disputed it, I wouldn't have needed to write this whole paragraph.
 
 I planned to visit Chile during the 50th anniversary of the coup d'état so that I can participate in the commemorations, but I ended up deciding that the money for the trip is better spent on physically and professionally improving myself as a form of mental health recovery. I only started this project when I felt that I was mentally prepared to go back to this interest—and here I am collecting all these streets, squares and spaces for Salvador Allende while adding concrete examples of my professional skillset, understanding further why Allende is worth commemorating, and making sense of my thoughts about these topics.
+
+While working on this project, I somehow experienced more than mental health recovery. I gained a new perspective that allows me to overcome my anger issues: choosing a peaceful path towards pursuing political goals and dealing with conflict on a global level is similar to choosing to be civil and constructive while asserting my needs and dealing with disagreements on a personal level.
 
 I made this project mostly for myself (I personaly think of this as a mini-thesis that I would've made if I were studying at the moment), but I would be glad if someone else finds this useful. This project was completed in time for the 50th anniversary of the coup d'état and might get updates from time to time—I do hope that my next updates will be due to new memorial places to Allende.
 
@@ -234,10 +238,12 @@ _¡Allende vive!_
 
 _Un abrazo_ and warm regards,
 
-Glo (they/them)
+Glo (they/them/their)
 
 September 2023
 
 ## License
 
-Glo ([@GoGroGlo](https://GoGroGlo.carrd.co)) maintains this project. The datasets and texts in this project are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to collect data is licensed under the [MIT license](MIT_License.txt). The datasets, texts, and source code can be used for any purpose (hopefully constructive) as long as credit is given—it can be something as simple as a link to this page (<https://github.com/GoGroGlo/a-place-for-salvador-allende>).
+©️ 2023 GoGroGlo, some rights reserved.
+
+[@GoGroGlo](https://GoGroGlo.carrd.co) maintains this project. The datasets and texts in this project are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to collect data is licensed under the [MIT license](MIT_License.txt). The datasets, texts, and source code can be used for any purpose (hopefully constructive) as long as credit is given—it can be something as simple as a link to this page (<https://github.com/GoGroGlo/a-place-for-salvador-allende>).
