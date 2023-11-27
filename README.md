@@ -38,7 +38,7 @@ According to the website, there are at least [48 territories](texts/there_are_s_
 28. Serbia
 29. Slovakia
 30. Spain
-31. Turkey
+31. Türkiye
 32. United Kingdom
 33. United States
 34. Uruguay
