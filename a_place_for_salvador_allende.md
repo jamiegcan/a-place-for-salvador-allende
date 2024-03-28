@@ -1,6 +1,6 @@
 # A Place for Salvador Allende: A Data Investigation
 
-_This data investigation is available as described in this project's [Readme](https://github.com/GoGroGlo/a-place-for-salvador-allende#license)._
+_This data investigation is available as described in this project's [Readme](https://github.com/jamieglohere/a-place-for-salvador-allende#license)._
 
 This project seeks to make some sense out of the numerous memorial places to Salvador Allende that contributors have made known through the website [_Una calle Salvador Allende_](http://www.abacq.org/calle/) ("_A Salvador Allende street_") and some other websites.
 
@@ -23,7 +23,7 @@ Salvador Allende's biography in [Memoria Chilena](https://www.memoriachilena.gob
 
 > Salvador Allende was the president who attempted to establish socialism in Chile through democratic means.
 
-An English translation of this biography is available [here](texts/salvador_allende_gossens_memoria_chilena_en.md) for those who are looking for a concise biography from a Chilean source. [English Wikipedia](https://en.wikipedia.org/wiki/Salvador_Allende) also works too and people can take advantage of the sources used in this article. There is also an equivalent article in the underrated [Simple English version](https://simple.wikipedia.org/wiki/Salvador_Allende) of Wikipedia that is written in a way that those unfamiliar with politics would understand.
+An English translation of this biography is available [here](texts/salvador_allende_gossens_memoria_chilena_en.md) for those who are looking for a concise biography from a Chilean source. [English Wikipedia](https://en.wikipedia.org/wiki/Salvador_Allende) also works and people can take advantage of the sources used in this article. There is also an equivalent article in the underrated [Simple English version](https://simple.wikipedia.org/wiki/Salvador_Allende) of Wikipedia that is written in a way that those unfamiliar with politics would understand.
 
 ### Socialist, democratic, Chilean
 
@@ -41,13 +41,13 @@ Allende's presidency, which started peacefully on 3 November 1970, ended violent
 
 ⚠ **Content warning: the following two paragraphs contain references to state-sponsored mass violence.**
 
-The military dictatorship that took over the country refused to give him a state funeral that every deceased president deserves. A lot of Chileans, especially Allende's supporters, had to seek exile abroad to save themselves from the human rights violations committed by Pinochet's military dictatorship throughout its 16.5-year rule. Those who were not willing or able to escape abroad were systematically imprisoned, tortured, killed or forced into disapperance and never found again.
+The military dictatorship that took over the country refused to give him a state funeral that every deceased president deserves, and even buried him in an unnamed grave. A lot of Chileans, especially Allende's supporters, had to seek exile abroad to save themselves from the human rights violations committed by Pinochet's military dictatorship throughout its 16.5-year rule. Those who were not willing or able to escape abroad were systematically imprisoned, tortured, killed or forced into disapperance and never found again.
 
 Allende effectively became a taboo topic during the dictatorship, and virtually no one in Chile was able to pay respects to the late president because they either had to escape from Chile or was already killed by accomplices to the dictatorship.
 
 ### Long overdue respects
 
-In 1988, Chileans voted against continuing on with a military government in a [historic referendum](https://en.wikipedia.org/wiki/1988_Chilean_national_plebiscite), and in 1990 the country elected its first democratically elected president [in almost two decades](https://en.wikipedia.org/wiki/Patricio_Aylwin). This year, the time was finally right to hold the [state funeral for Allende](https://twitter.com/LaChileanWay/status/1674960526214852608), but some Chileans still thought it wasn't deserved.
+In 1988, Chileans voted against continuing on with a military government in a [historic referendum](https://en.wikipedia.org/wiki/1988_Chilean_national_plebiscite), and in 1990 the country elected its first democratically elected president [in almost two decades](https://en.wikipedia.org/wiki/Patricio_Aylwin). This year, the time was finally right to hold the [state funeral for Allende](https://twitter.com/LaChileanWay/status/1674960526214852608) and move his remains to a [named grave](https://commons.wikimedia.org/wiki/File:Aqu%C3%AD_yace_el_m%C3%A1s_grande_(409559963).jpg), but some Chileans still thought it wasn't deserved.
 
 Regardless of when or whether the state funeral was held, many people have taken initiatives to pay respects to Allende as soon as after his death. This project proves that most of the initiatives come from outside of Chile thanks to the following interest groups.
 
@@ -372,11 +372,9 @@ _[[ID 243](http://www.abacq.org/calle/index.php?2007/02/18/26-italia)] Piazza Sa
 
 The place name sign isn't immediately apparent from the [Google Street View imagery](https://goo.gl/maps/cpr44t88iWfcRxSz5)—viewers have to move and/or turn through the parking area towards the area with bushes, trees and other greenery. To the right, there stands an aging place name sign with a green pole that looks like a [dental floss handle](https://i.pinimg.com/originals/61/14/c2/6114c2ab4270b50db318ea333891fd79.jpg). Upon zooming in, the sign reads:
 
-> Salvator Allende
+> Salvator Allende [_sic_]
 >
 > Antifascist martyr
->
-> [_Note: the typo is included in the sign itself._]
 
 _[[ID 267](http://www.abacq.org/calle/index.php?2008/09/10/262-orgosolo-italia)] Via Allende and mural dedicated to Salvador Allende at Orgosolo, Italy_
 
@@ -392,23 +390,21 @@ The mural also quotes an excerpt—in its original Spanish language—from Allen
 
 #### **Argentina, Austria and Belgium**
 
-Allende's pursuit of social justice through democratic means finds sympathy around the world, because respect for democracy and respect for social justice is not exclusive to socialism. Rather, both should be expected from any government, local or national, regardless of political affiliation or lack thereof.
+Allende's pursuit of social justice through democratic means finds sympathy around the world, because respect for democracy and respect for social justice are not exclusive to socialism. Rather, both should be expected from any government, local or national, regardless of political affiliation or lack thereof.
 
 _[[ID 113](http://www.abacq.org/calle/index.php?2011/09/15/547-buenos-aires-argentina)] Memorial plate to Salvador Allende at Plaza República de Chile, Buenos Aires, Argentina ([Photo](https://commons.wikimedia.org/wiki/File:Salvador_Allende_en_Plaza_Chile.JPG) by Gelpgim22 (Sergio Panei Pitrau), CC BY 3.0)_
 
 ![Memorial plate to Salvador Allende, mounted at ground level inside Plaza República de Chile, Recoleta, Buenos Aires Argentina - translated text follows.](assets/113_Argentina_Buenos-Aires_Centennial-memorial-plate.jpg)
 
-This aptly named park in central Buenos Aires—Republic of Chile Park—is located next to the Chilean embassy in Buenos Aires and has monuments and memorial plates to several Chilean historical personalities.
+This aptly named park in central Buenos Aires—the Republic of Chile Park—is located next to the Chilean embassy in Buenos Aires and has monuments and memorial plates to several Chilean historical personalities.
 
 > Hommage of the legislature of the City of Buenos Aires in the birth centennial of the President of the Republic of Chile
 >
-> Salvador Allende Grossens
+> Salvador Allende Grossens [_sic_]
 >
 > Fighter for liberty, democracy and social justice
 >
 > 1908 - 26 June - 2008
->
-> [_Note: the typo is included in the memorial plate itself._]
 
 A photo from the park submitted to [Google Maps](https://goo.gl/maps/bC8B4zyaEvwK6u64A) by Ramon Luizaga on December 2021 reveals that there is another memorial plate to Allende inaugurated by the legislature of the City of Buenos Aires during the 25th anniversary of the coup in 1998.
 
@@ -564,7 +560,7 @@ _[[ID 118](https://www.openstreetmap.org/way/758217539)] Salvador-Allende-Weg at
 
 ![Explanatory signage below the street sign of Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](assets/118_Austria_Vienna_Salvador-Allende-Weg.jpg)
 
-This path is located within the Donaupark (Danube Park) and leads to the memorial bust to Salvador Allende [shown earlier](https://github.com/GoGroGlo/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#argentina-austria-and-belgium).
+This path is located within the Donaupark (Danube Park) and leads to the memorial bust to Salvador Allende [shown earlier](https://github.com/jamieglohere/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#argentina-austria-and-belgium).
 
 > The "Salvador-Allende-Weg" [Salvador Allende Way] was named after Salvador Allende, born in 1908 in Valparaíso, president of Chile, physician and co-founder of the Socialist Party of Chile. Allende died on 11 September 1973 in Santiago de Chile during the takeover of the presidential palace by the coup plotters. This path on the Danube Park was built with support from Chilean workers (refugees).
 
@@ -719,7 +715,7 @@ _[[ID 14](http://www.abacq.org/calle/index.php?2009/03/07/330-rancagua-chile)] M
 
 ![Monument to Salvador Allende at Rancagua, O'Higgins Region, Chile - description follows.](assets/14_Chile_Rancagua_Monumento-Salvador-Allende.jpg)
 
-The bust of Allende by sculptor Gregorio Berchenko is made of copper, the same resource that Allende nationalized to assert Chile's economic independence, much to the hostile reaction of the US government and businesses whom the copper mines were taken from.
+The bust of Allende by sculptor Gregorio Berchenko (or at least the original iteration of it) is made of copper, the same resource that Allende nationalized to assert Chile's economic independence, much to the hostile reaction of the US government and businesses from whom the copper mines were taken.
 
 The bust is framed within a white quadrilateral pillar that stands alongside two others. The pillar on the viewer's left has a large star drilled onto its upper half. The pillar on the right looks empty, but the article at _Una calle Salvador Allende_ says that it contains an excerpt from Allende's last speech. The star, the different textures across the three pillars, and the subtle line that divides the upper and lower parts of the pillars evoke the image of the flag of Chile. This monument was inaugurated on January 2009.
 
@@ -779,7 +775,7 @@ _[ID 781] Morandé 80, Santiago, Chile ([Photo](https://commons.wikimedia.org/wi
 
 > **Morandé 80**
 >
-> At the door constructed here in 1906, during the term of President Pedro Montt Montt, the body of President Salvador Allende Gossens was taken out on 11 September 1973 after the bombing of the La Moneda Palace.
+> At the door constructed here in 1906, during the term of President Pedro Montt Montt [_sic_], the body of President Salvador Allende Gossens was taken out on 11 September 1973 after the bombing of the La Moneda Palace.
 >
 > 11 September 2023
 
@@ -871,7 +867,7 @@ _([Photo](https://commons.wikimedia.org/wiki/File:Memorial_frente_a_Morand%C3%A9
 >
 > Democracy is memory and future
 
-The 32 member states of the Organization of American States (OAS) decided unanimously to name the main entrance of its headquarters in Washington, D.C. in honor of Salvador Allende Gossens. The inauguration ceremony on 22 September 2023 was attended by Gabriel Boric, current president of Chile.
+Outside Chile, The 32 member states of the Organization of American States (OAS) decided unanimously to name the main entrance of its headquarters in Washington, D.C. in honor of Salvador Allende Gossens. The inauguration ceremony on 22 September 2023 was attended by Gabriel Boric, current president of Chile.
 
 _[ID 782] President Salvador Allende Gossens Main Entrance at the headquarters of the Organization of American States in Washington, D.C. ([Photo](https://prensa.presidencia.cl/fotografia.aspx?id=252025) by Fernando Ramirez, Dirección de Prensa, Presidencia de la República de Chile, prensa.presidencia.cl. Notice: "All rights released. All content can be reproduced, used and downloaded, without altering it and citing the source.")_
 
@@ -883,7 +879,7 @@ _[ID 782] President Salvador Allende Gossens Main Entrance at the headquarters o
 
 ## What does the data say about memorials to Salvador Allende around the world?
 
-This project was able to gather from _Una calle Salvador Allende_, Wikimedia Commons, map websites and other sources a total of 783 memorial places around the world, but the project makes a distinction between extant and non-extant places. Here, a place is extant if its former name is not "(Salvador) Allende" (some extant memorial places may not be explicitly named after Allende, like _L'arc_) and if it is verified to exist in OpenStreetMap and/or Google Maps. There are 732 extant places and the following data visualizations focus on these extant places.
+This project was able to gather from _Una calle Salvador Allende_, Wikimedia Commons, map websites and other sources a total of 784 memorial places around the world, but the project makes a distinction between extant and non-extant places. Here, a place is extant if its former name is not "(Salvador) Allende" (some extant memorial places may not be explicitly named after Allende, like _L'arc_) and if it is verified to exist in OpenStreetMap and/or Google Maps. There are 733 extant places and the following data visualizations focus on these extant places.
 
 ***Important note:*** this is a **non-exhaustive** list of memorial places to Salvador Allende because there could be a lot more that are not available in _Una calle Salvador Allende_ and Wikimedia Commons, both of which relied on user submissions. Finding more memorial places available in online maps (without violating their terms of use and risking an IP address ban) requires more time and effort, and even then not all of these places are recorded in online maps in the first place.
 
@@ -891,9 +887,9 @@ Both automated and manual data collection are prone to errors, and although enou
 
 ### Number of extant places by geographic region
 
-![Bar chart of number of extant places by geographic region (total: 732). Breakdown of values follows.](assets/dataviz/number_of_extant_places_by_region.png)
+![Bar chart of number of extant places by geographic region (total: 733). Breakdown of values follows.](assets/dataviz/number_of_extant_places_by_region.png)
 
-There are disproportionately more memorials to Allende in Europe than in any other geographical region, including South America itself where Chile is located: there are 592 memorials to Allende in Europe and 106 in South America. In the rest of the world, there are 14 in North America, 10 in Central America, 7 in Africa, 2 in the Middle East, and 1 in Australia.
+There are disproportionately more memorials to Allende in Europe than in any other geographical region, including South America itself where Chile is located: there are 593 memorials to Allende in Europe and 106 in South America. In the rest of the world, there are 14 in North America, 10 in Central America, 7 in Africa, 2 in the Middle East, and 1 in Australia.
 
 There are two reasons for the geographic bias towards Europe, particularly France.
 
@@ -901,19 +897,19 @@ There are two reasons for the geographic bias towards Europe, particularly Franc
 
 * Second, most submitters to _Una calle Salvador Allende_ submitted places within Europe. The maintainer of this website, Fernando Orellana, is a Chilean political refugee living in France (the website's [root URL](http://www.abacq.org/) showcases Orellana's photographic collections in French and Spanish). Since there are many Chilean refugees in Europe and freedom of movement across European countries is possible for European residents and citizens, it was easy for Chilean refugees in Europe to meet each other, find memorials to Allende, and even [expropriate](http://www.abacq.org/calle/index.php?2019/09/11/620-villejuif-francia) some place name signs to share between themselves and keep for future generations.
 
-![Bar chart of number of extant places by geographic region, excluding France (total: 319). Breakdown of new values follows.](assets/dataviz/number_of_extant_places_by_region_excluding_france.png)
+![Bar chart of number of extant places by geographic region, excluding France (total: 320). Breakdown of new values follows.](assets/dataviz/number_of_extant_places_by_region_excluding_france.png)
 
-The initiative of Orellana and other users in France led to this project identifying 413 memorials to Allende in Metropolitan France (i.e., European France) and France's overseas departments of French Guiana in South America, Guadeloupe in Central America, and Réunion in the African part of Indian Ocean. If we exclude memorials in France, there are 186 in Europe, 105 in South America, 14 in North America, 8 in Central America, 3 in Africa, 2 in the Middle East, and 1 in Australia.
+The initiative of Orellana and other users in France led to this project identifying 413 memorials to Allende in Metropolitan France (i.e., European France) and France's overseas departments of French Guiana in South America, Guadeloupe in Central America, and Réunion in the African part of Indian Ocean. If we exclude memorials in France, there are 187 in Europe, 105 in South America, 14 in North America, 8 in Central America, 3 in Africa, 2 in the Middle East, and 1 in Australia.
 
 ### Number of extant places by country
 
-![Bar chart of number of extant places by country (total: 732). Breakdown of values follows.](assets/dataviz/number_of_extant_places_by_country.png)
+![Bar chart of number of extant places by country (total: 733). Breakdown of values follows.](assets/dataviz/number_of_extant_places_by_country.png)
 
 > Surely Radio Magallanes will be silenced, and the calm metal instrument of my voice will no longer reach you. It does not matter. You will continue hearing it. I will always be next to you.
 >
 > _—Excerpt from Salvador Allende's last speech, 11 September 1973_
 
-Salvador Allende is present in at least 35 countries in the world including Chile.
+Salvador Allende is next to us in at least 35 countries in the world including Chile.
 
 Breaking down the number of memorials to Allende by country reveals a bleak yet expected reality that Salvador Allende, President of Chile, is more commemorated _outside_ Chile than _inside_ Chile.
 
@@ -925,7 +921,7 @@ If we exclude France's 413 memorials, Chile would have the most number of memori
 * Belgium: 13
 * Portugal: 11
 * Mexico: 9
-* Netherlands: 7
+* Netherlands: 8
 * Ecuador: 6
 * Venezuela: 6
 * Cuba: 5
@@ -953,13 +949,13 @@ If we exclude France's 413 memorials, Chile would have the most number of memori
 * United Kingdom: 1
 * United States: 1
 
-However, the story quickly changes when all memorials outside Chile are combined—Chile's 79 memorials are vastly outnumbered by 653 memorials in the rest of the world.
+However, the story quickly changes when all memorials outside Chile are combined—Chile's 79 memorials are vastly outnumbered by 654 memorials in the rest of the world.
 
-![Bar chart of number of extant places in Chile vs. the rest of the world. Total: 732, Chile: 79, Rest of the world: 653.](assets/dataviz/number_of_extant_places_chile_vs_rest_of_the_world.png)
+![Bar chart of number of extant places in Chile vs. the rest of the world. Total: 733, Chile: 79, Rest of the world: 654.](assets/dataviz/number_of_extant_places_chile_vs_rest_of_the_world.png)
 
-If the 413 memorials in France are taken separately from the rest of the world, 242 memorials remain. This means that outside Chile, there are more memorials to Allende in France than in the rest of the world combined. [More than 300](http://www.abacq.org/calle/index.php?2009/05/13/349-salvador-allende-en-francia) of the memorials in France that are collected in this project were based on a list of pins in a [Google Maps user map](https://www.google.com/maps/d/u/0/viewer?hl=en&client=firefox-a&ie=UTF8&split=0&gl=fr&ei=FZYGSqbYC96TjAfY-J3xBA&oe=UTF8&msa=0&start=0&num=200&ll=47.620975%2C1.6918949999999988&spn=8.931111%2C17.226563&z=6&mid=1gGLfa09Bonh9I9D6gmdqNRLouRo) created by someone named Jean-Marie. The pins refer to streets alone and exclude other public places like parks, buildings and others, so this user map is not exhaustive (neither are all data in this project).
+If the 413 memorials in France are taken separately from the rest of the world, 241 memorials remain. This means that outside Chile, there are more memorials to Allende in France than in the rest of the world combined. [More than 300](http://www.abacq.org/calle/index.php?2009/05/13/349-salvador-allende-en-francia) of the memorials in France that are collected in this project were based on a list of pins in a [Google Maps user map](https://www.google.com/maps/d/u/0/viewer?hl=en&client=firefox-a&ie=UTF8&split=0&gl=fr&ei=FZYGSqbYC96TjAfY-J3xBA&oe=UTF8&msa=0&start=0&num=200&ll=47.620975%2C1.6918949999999988&spn=8.931111%2C17.226563&z=6&mid=1gGLfa09Bonh9I9D6gmdqNRLouRo) created by someone named Jean-Marie. The pins refer to streets alone and exclude other public places like parks, buildings and others, so this user map is not exhaustive (neither are all data in this project).
 
-![Bar chart of number of extant places in Chile vs. France vs. the rest of the world. Total: 732, Chile: 79, France: 413, Rest of the world: 240](assets/dataviz/number_of_extant_places_chile_vs_france_vs_rest_of_the_world.png)
+![Bar chart of number of extant places in Chile vs. France vs. the rest of the world. Total: 733, Chile: 79, France: 413, Rest of the world: 241](assets/dataviz/number_of_extant_places_chile_vs_france_vs_rest_of_the_world.png)
 
 ### Map of extant places in the world
 
@@ -994,7 +990,7 @@ This list may seem like Allende is not well-represented outside the Metropolitan
 
 The Metropolitan Region is composed of Santiago Province and other provinces just outside it. Santiago Province itself is composed of central Santiago (the location of the La Moneda Palace and what first comes to mind when people think of _the_ capital of Chile) and other communes. As expected, the Metropolitan Region is the most populous Chilean region.
 
-_Una calle Salvador Allende_ lamentably notes that while a lot of capitals in the world have avenues and streets named after Salvador Allende, in central Santiago there is neither an avenue nor a street named after him. Instead, there is only a very short and obscure residential alley named Pasaje Allende (note the lack of "Salvador" as evidenced by the alley name signs) [[ID 4](http://www.abacq.org/calle/index.php?2012/12/04/596-santiago-chile)]. Someone suggested that those looking for an actual Salvador Allende street that is long enough to be called such are better off going to San Joaquín [[ID 41](https://goo.gl/maps/gBHuVxzs3kVYmQf18)], one of the communes of Santiago Province.
+_Una calle Salvador Allende_ lamentably notes that while a lot of capitals in the world have avenues and streets named after Salvador Allende, in central Santiago there is neither an avenue nor a street named after him. Instead, there is only a very short and obscure residential alley named Pasaje Allende (note the lack of "Salvador" as evidenced by the alley name signs) [[ID 4](http://www.abacq.org/calle/index.php?2012/12/04/596-santiago-chile)]. Someone suggested that those looking for an actual Salvador Allende street that is long enough to be called such are better off going to San Joaquín [[ID 41](https://goo.gl/maps/gBHuVxzs3kVYmQf18)], a commune outside central Santiago.
 
 There aren't a lot of memorials to Allende in central Santiago—in fact, most if not all of them are already enumerated in this investigation. However, it is still interesting to note that of the 29 memorials to Allende in the Metropolitan Region, 23 are found in Santiago Province.
 
@@ -1006,13 +1002,13 @@ There aren't a lot of memorials to Allende in central Santiago—in fact, most i
 
 ### Number of extant places by type
 
-![Bar chart of number of extant places by type (total: 732). Breakdown of values follows.](assets/dataviz/number_of_extant_places_by_type.png)
+![Bar chart of number of extant places by type (total: 733). Breakdown of values follows.](assets/dataviz/number_of_extant_places_by_type.png)
 
 Perhaps the most quoted line from Allende's last speech, as evidenced by memorials above, is:
 
 > Go forward knowing that, much sooner rather than later, the great avenues will open again where free people will walk through to construct a better society.
 
-Indeed, of the 729 extant places in this investigation, 560 are streets or avenues. Other forms of memorials to Allende include:
+Indeed, of the 733 extant places in this investigation, 561 are streets or avenues. Other forms of memorials to Allende include:
 
 * Parks: 63
 * Monuments: 30
@@ -1080,7 +1076,7 @@ This timeline of memorial places in Chile vs. the rest of the world reveals wher
 
 As expected, all memorials to Allende from 1973 to 1990 come from outside Chile, including all 15 memorials established during 1973. From 1991 onwards, when democracy was restored in Chile, memorials to Allende were slowly being established in the country, though most memorials were still being established outside Chile.
 
-Inside Chile, the peak number of memorials was reached during Allende's centennial in 2008—of the 15 centennial memorials in the dataset, 6 were established in Chile. From 2008 to 2015, new memorials to Allende were evenly distributed inside and outside Chile.
+Inside Chile, the peak number of memorials was reached during Allende's birth centennial in 2008—of the 15 birth centennial memorials in the dataset, 6 were established in Chile. From 2008 to 2015, new memorials to Allende were evenly distributed inside and outside Chile.
 
  During 2023, two of the three identified memorials were established in Chile. The other one outside Chile, the main entrance to the OAS headquarters, was most likely named after Allende upon the initiative of the Chilean government. This shows that as time goes by, Chile is making up for its overdue respects to its own former president.
 
@@ -1090,7 +1086,7 @@ Most of the memorials to Allende in the dataset that are outside Chile come from
 
 In this timeline of Chile vs. France vs. the rest of the world, the representation in France is surprisingly not as flattering as the total number of memorials to Allende in France. During 1973, France contributed 3 of the 15 memorials to Allende that are available in the dataset. In the following years, most of the memorials to Allende still came from outside France and Chile. Strangely enough, no memorials to Allende were established in France from 2008 onwards, at least according to the dataset.
 
-This observation for France could be due to data availability issues where dates of establishment or renaming for French memorials could not be found in the sources used in this project. It could also be that some memorial places to Allende that were established earlier had been renamed (and worse, no longer recorded to have had Allende's name) due to several factors such as those mentioned in the [previous section on France](https://github.com/GoGroGlo/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#france). The apparent lack of memorials to Allende in France that were established during 2008 could be because events to mark the centennial were being held in memorial places that had already been established before 2008.
+This observation for France could be due to data availability issues where dates of establishment or renaming for French memorials could not be found in the sources used in this project. It could also be that some memorial places to Allende that were established earlier had been renamed (and worse, no longer recorded to have had Allende's name) due to several factors such as those mentioned in the [previous section on France](https://github.com/jamieglohere/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#france). The apparent lack of memorials to Allende in France that were established during 2008 could be because events to mark the birth centennial were being held in memorial places that had already been established before 2008.
 
 ### How did Salvador Allende die, really?
 
@@ -1107,7 +1103,7 @@ Allende hinted in his speech during the coup that this was going to be his last,
 There could be several reasons a lot of individuals found it easier to believe that Allende was killed.
 
 * The first people who announced that Allende had killed himself were the coup plotters. Why would Allende's supporters believe what their enemies were saying?
-  * An actual exchange between Pinochet and Vice Admiral Patricio Carvajal during the coup - 05:19 onwards in this [video from Memoria Chilena](http://www.memoriachilena.gob.cl/archivos2/videos/MC0043416.mpg):
+  * An actual exchange between Augusto Pinochet and Vice Admiral Patricio Carvajal during the coup - 05:19 onwards in this [video from Memoria Chilena](http://www.memoriachilena.gob.cl/archivos2/videos/MC0043416.mpg):
     * > Carvajal: [_in Spanish_] There is a communication from the infantry school staff who is already inside La Moneda, and due to the possibility of interception I will transmit it in English: [_word-for-word_] They say that Allende committed suicide and is dead now. [_in Spanish_] Tell me if you understood.
     * > Pinochet: [_in Spanish_] Understood, perfectly understood.
 * Suicide can be interpreted as an acceptance of defeat and is highly contradictory to Allende's announcement in his last speech that he would not resign. Supporters would rather believe that Allende fought until the end.
@@ -1131,20 +1127,20 @@ In fact, one of the main advocates of the suicide narrative is one of Allende's 
 
 Based on these statements and some others, there could be several reasons a lot of individuals can be convinced by the suicide narrative, but these reasons assume that they have no moral or emotional reservations about the act:
 
-* Suicide, if done willingly, is a form of sacrifice that is as effective and moving as being killed in action.
+* Suicide, if done without external coercion, is a form of sacrifice that is as effective and moving as being killed in action.
 * In extreme circumstances such as during the coup, where the only possible outcome Allende was willing to face was death, death in one's own hands can be seen as more dignified than death in the hands of the enemies.
   * The act shows that Allende was not just a passive victim of the coup. Rather, he wanted to be in charge of his own fate and legacy, which is not incompatible with his final message during the coup.
 * Even if Allende would have made it out of the coup alive, he may have wanted to avoid being captured by the military and suffering the same fate as other Chileans who were killed right after the coup.
   * Taking up exile might be a good way to avoid capture, but this can be seen as an act of passivity and of choosing one's own convenience over confronting the hostile motivations behind the coup.
-* Allende's death by suicide can be seen as an act of protest against the coup and its hostile motivations and means. Killing the President of Chile would've been as violent as the coup could be.
+* Allende's death by suicide can be seen as an act of protest against the coup and its hostile motivations and means. Trying to kill the President of Chile would've been as violent as the coup could be.
   * Even if Allende and his supporters put up an armed resistance against the military during the coup, he would have wanted to avoid having to defend the presidency through violent means.
   * In fact, Allende was supposed to deliver a speech on 11 September 1973 to call for a plebiscite as a way to resolve the political crisis in Chile that motivated the military to carry out the coup, ironically on the same day.
 
 Regardless of the exact manner, Allende's dramatic death evokes sympathy towards anyone who would come across such narrative. The question now lies on which version of the narrative memorial places to Allende would tell.
 
-![Bar chart tallying what memorial places to Salvador Allende say about how he died (total: 56). Breakdown of values follows.](assets/dataviz/how-allende-died.png)
+![Bar chart tallying what memorial places to Salvador Allende say about how he died (total: 56). Breakdown of values follows.](assets/dataviz/how_allende_died.png)
 
-In the dataset, there are 56 memorial places that mention Allende's death. The most used narrative is assassination with 33 places explicitly mentioning it. Meanwhile, only one place in the dataset explicitly mentions suicide: [the bust in Berlin](https://github.com/GoGroGlo/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#former-east-germany).
+In the dataset, there are 56 memorial places that mention Allende's death. The most used narrative is assassination with 33 places explicitly mentioning it. Meanwhile, only one place in the dataset explicitly mentions suicide: [the bust in Berlin](https://github.com/jamieglohere/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#former-east-germany).
 
 Twenty places mention neither suicide nor assassination and instead keep it generic by saying "died" or something similar. Two places in France get more specific by saying that Allende died with a "weapon on hand", but this could be interpreted both as a suicide (when Allende shot himself with the weapon) and an assassination (when Allende resisted the military with a weapon on hand and was killed while holding the weapon).
 

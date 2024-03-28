@@ -1,5 +1,5 @@
 # allende-scraper-main.py
-# Main repo: https://github.com/GoGroGlo/a-place-for-salvador-allende
+# Main repo: https://github.com/jamieglohere/a-place-for-salvador-allende
 
 # Automates the data collection by 
 # scraping articles from http://www.abacq.org/calle/ 

@@ -4,7 +4,7 @@ _This is an English translation of the biography of Salvador Allende at [Memoria
 
 _Research materials from Memoria Chilena, National Library of Chile (National Heritage Service) are under a Creative Commons Attribution-ShareAlike 3.0 Unported Licence, except its digital objects._
 
-_This English translation is available as described in this project's [Readme](https://github.com/GoGroGlo/a-place-for-salvador-allende#license)._
+_This English translation is available as described in this project's [Readme](https://github.com/jamieglohere/a-place-for-salvador-allende#license)._
 
 ## The democratic path towards socialism
 
@@ -24,7 +24,7 @@ For the first time in history, and causing expectation around the world, a Socia
 
 Nevertheless, the radical nature of Allende's government program faced fierce opposition within and outside of his country. In the middle of a political context still dominated by the Cold War, the United States government decided to use all means necessary to achieve their ultimate goal of overthrowing the Chilean government.
 
-During 1972, various industry groups paralized their activities; among these were the mass railway and transportation industries. Shortage of basic goods and persistent rumors of a military coup contributed in creating a collective feeling of misrule among the public.
+During 1972, various industry groups paralyzed their activities; among these were the mass railway and transportation industries. Shortage of basic goods and persistent rumors of a military coup contributed in creating a collective feeling of misrule among the public.
 
 On 11 September 1973, the Popular Unity government was overthrown by a coup d'État headed by General Augusto Pinochet. A Military Junta was formed and released a first communication requesting President Allende to immediately hand over his powers to the Chilean Armed Forces and Police. Allende resisted along with his most loyal collaborators in the La Moneda palace and warned his loved ones that he would die where the people had put him in place: as President of Chile. He delivered his last words before the bombing of the presidential palace, and at 2 p.m., before the military entered the palace, Salvador Allende died by suicide.
 

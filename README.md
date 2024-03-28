@@ -52,11 +52,11 @@ For now, this project focuses on the already extensive list of places in _Una ca
 
 Some articles in _Una calle Salvador Allende_ include places named after or dedicated to [Pablo Neruda](https://en.wikipedia.org/wiki/Pablo_Neruda), [Victor Jara](https://en.wikipedia.org/wiki/Victor_Jara), and other notable Chilean personalities. They are not included in this project but they are as interesting and relevant as Allende.
 
-The main work for this project was done from March to September 2023, in time for the 50th anniversary of the [coup d'état where Allende died]((https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat)). This project might be updated from time to time to reflect new data usually from Wikimedia Commons.
+The main work for this project was done from March to September 2023, in time for the 50th anniversary of the [coup d'état where Allende died](https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat). This project might be updated from time to time to reflect new data usually from Wikimedia Commons.
 
 ## Technical notes on data collection
 
-Test scripts and datasets are in my [datasets-of-interest](https://github.com/GoGroGlo/datasets-of-interest/tree/main/a-place-for-salvador-allende) repository. This repository contains the main dataset and scripts that have been tested to work. If there are discrepancies between the files in this repository and in datasets-of-interest, consider this repository as the more updated one.
+Test scripts and datasets are in my [datasets-of-interest](https://github.com/jamieglohere/datasets-of-interest/tree/main/a-place-for-salvador-allende) repository. This repository contains the main dataset and scripts that have been tested to work. If there are discrepancies between the files in this repository and in datasets-of-interest, consider this repository as the more updated one.
 
 The Python scripts used to scrape data can be found in the [**src**](src) folder of this repository. The way they were written may not be the best, but they fulfill the purpose of automating data collection in a way that is convenient for me.
 
@@ -99,7 +99,7 @@ Both automated and manual data collection are prone to errors, and although enou
   * _Standalone_ here means a distinct place that is located in a distinct locale and is established on a distinct date.
     * For two or more places that are located in the same locale, each place is considered standalone if each place was established on a distinct date (see IDs 339 and 359), _or_ if each place can exist independently of the other.
     * Standalone example: If a street hypothetically changes its name from "Salvador Allende" to something else, but a park named after Salvador Allende would remain there, then both places are considered standalone (see IDs 146 and 147).
-    * Non-standalone example: If there is a bus stop named after Salvador Allende, not because it deserves its own name but because the street it is located at is named "Salvador Allende", then the bus stop will not be added to the main dataset. For this reason, the hundreds of bus stops in Chile named after Salvador Allende are not included in the main dataset, but their corresponding streets are. Also, if there is a street named after Salvador Allende, but it is part of the passagaways around a park named after Salvador Allende, then only the park is included.
+    * Non-standalone example: If there is a bus stop named after Salvador Allende, not because it deserves its own name but because the street it is located at is named "Salvador Allende", then the bus stop will not be added to the main dataset. For this reason, the hundreds of bus stops in Chile named after Salvador Allende are not included in the main dataset, but their corresponding streets are. Also, if there is a street named after Salvador Allende, but it is part of the passageways around a park named after Salvador Allende, then only the park is included.
 * `name` [str]
   * Either of the following:
     * The local name of the place (e.g., `Avenida Salvador Allende` or `Allendeho`); or
@@ -113,7 +113,7 @@ Both automated and manual data collection are prone to errors, and although enou
 * `country` [str]
   * The country where the place is located, specified either by <http://www.abacq.org/calle/> or OpenStreetMap.
 * `locale_1` [str]
-  * The topmost geographical unit of the country, for example a Chilean region, Canadian province, or French overseas department (Réunion, French Guiana). This is the only locale column that is always populated.
+  * The topmost geographical unit of the country, for example a Chilean region, a Canadian province or territory, or a French overseas department (Réunion, French Guiana). This is the only locale column that is always populated.
 * `locale_2` [str, optional]
   * The second topmost geographical unit of the country, used for distinguishing between places within the same country and for getting more specific within `locale_1`.
 * `locale_3` [str, optional]
@@ -172,7 +172,7 @@ My full investigation is available here: [**A Place for Salvador Allende: A Data
 
 _In case of discrepancy between this excerpt and the data investigation page, consider the data investigation page the more current one._
 
-This project was able to gather from _Una calle Salvador Allende_, Wikimedia Commons, map websites and other sources a total of 783 memorial places around the world, but the project makes a distinction between extant and non-extant places. Here, a place is extant if `former_name` does not contain `Allende` and if `verified_in_maps` = `1`. There are 732 extant places that meet this criteria.
+This project was able to gather from _Una calle Salvador Allende_, Wikimedia Commons, map websites and other sources a total of 784 memorial places around the world, but the project makes a distinction between extant and non-extant places. Here, a place is extant if `former_name` does not contain `Allende` and if `verified_in_maps` = `1`. There are 733 extant places that meet this criteria.
 
 This project was able to prove using hundreds of memorial places that [Dr. Salvador Allende Gossens](texts/salvador_allende_gossens_memoria_chilena_en.md), President of Chile from 1970 until his overthrow and death on 11 September 1973, is more commemorated _outside_ Chile than _inside_ Chile. The story does not end here, though.
 
@@ -238,12 +238,12 @@ _¡Allende vive!_
 
 _Un abrazo_ and warm regards,
 
-Glo (they/them/their)
+jamieglohere (they/he)
 
 September 2023
 
 ## License
 
-©️ 2023 GoGroGlo, some rights reserved.
+©️ 2023 jamieglohere, some rights reserved.
 
-[@GoGroGlo](https://GoGroGlo.carrd.co) maintains this project. The datasets and texts in this project are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to collect data is licensed under the [MIT license](MIT_License.txt). The datasets, texts, and source code can be used for any purpose (hopefully constructive) as long as credit is given—it can be something as simple as a link to this page (<https://github.com/GoGroGlo/a-place-for-salvador-allende>).
+[@jamieglohere](https://jamieglohere.carrd.co) maintains this project. The datasets and texts in this project are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to collect data is licensed under the [MIT license](MIT_License.txt). The datasets, texts, and source code can be used for any purpose (hopefully constructive) as long as credit is given—it can be something as simple as a link to this page (<https://github.com/jamieglohere/a-place-for-salvador-allende>).

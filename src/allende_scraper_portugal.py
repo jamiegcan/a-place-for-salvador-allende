@@ -1,5 +1,5 @@
 # allende-scraper-portugal.py
-# Main repo: https://github.com/GoGroGlo/a-place-for-salvador-allende
+# Main repo: https://github.com/jamieglohere/a-place-for-salvador-allende
 # Portugal-specific scraper covering only this list: http://www.abacq.org/calle/index.php?2008/04/06/167-portugal
 
 
