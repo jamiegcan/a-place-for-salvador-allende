@@ -1,5 +1,5 @@
 # allende-scraper-belgium_liege.py
-# Main repo: https://github.com/jamieglohere/a-place-for-salvador-allende
+# Main repo: https://github.com/jamiegcan/a-place-for-salvador-allende
 # Liège-specific scraper covering only this list: http://www.abacq.org/calle/index.php?2013/10/05/618-provincia-de-liege-belgica
 
 

@@ -1,6 +1,6 @@
 # A Place for Salvador Allende: A Data Investigation
 
-_This data investigation is available as described in this project's [Readme](https://github.com/jamieglohere/a-place-for-salvador-allende#license)._
+_This data investigation is available as described in this project's [Readme](https://github.com/jamiegcan/a-place-for-salvador-allende#license)._
 
 This project seeks to make some sense out of the numerous memorial places to Salvador Allende that contributors have made known through the website [_Una calle Salvador Allende_](http://www.abacq.org/calle/) ("_A Salvador Allende street_") and some other websites.
 
@@ -560,7 +560,7 @@ _[[ID 118](https://www.openstreetmap.org/way/758217539)] Salvador-Allende-Weg at
 
 ![Explanatory signage below the street sign of Salvador-Allende-Weg at Donaupark, Vienna, Austria - translated text of signage follows.](assets/118_Austria_Vienna_Salvador-Allende-Weg.jpg)
 
-This path is located within the Donaupark (Danube Park) and leads to the memorial bust to Salvador Allende [shown earlier](https://github.com/jamieglohere/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#argentina-austria-and-belgium).
+This path is located within the Donaupark (Danube Park) and leads to the memorial bust to Salvador Allende [shown earlier](https://github.com/jamiegcan/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#argentina-austria-and-belgium).
 
 > The "Salvador-Allende-Weg" [Salvador Allende Way] was named after Salvador Allende, born in 1908 in Valparaíso, president of Chile, physician and co-founder of the Socialist Party of Chile. Allende died on 11 September 1973 in Santiago de Chile during the takeover of the presidential palace by the coup plotters. This path on the Danube Park was built with support from Chilean workers (refugees).
 
@@ -1086,7 +1086,7 @@ Most of the memorials to Allende in the dataset that are outside Chile come from
 
 In this timeline of Chile vs. France vs. the rest of the world, the representation in France is surprisingly not as flattering as the total number of memorials to Allende in France. During 1973, France contributed 3 of the 15 memorials to Allende that are available in the dataset. In the following years, most of the memorials to Allende still came from outside France and Chile. Strangely enough, no memorials to Allende were established in France from 2008 onwards, at least according to the dataset.
 
-This observation for France could be due to data availability issues where dates of establishment or renaming for French memorials could not be found in the sources used in this project. It could also be that some memorial places to Allende that were established earlier had been renamed (and worse, no longer recorded to have had Allende's name) due to several factors such as those mentioned in the [previous section on France](https://github.com/jamieglohere/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#france). The apparent lack of memorials to Allende in France that were established during 2008 could be because events to mark the birth centennial were being held in memorial places that had already been established before 2008.
+This observation for France could be due to data availability issues where dates of establishment or renaming for French memorials could not be found in the sources used in this project. It could also be that some memorial places to Allende that were established earlier had been renamed (and worse, no longer recorded to have had Allende's name) due to several factors such as those mentioned in the [previous section on France](https://github.com/jamiegcan/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#france). The apparent lack of memorials to Allende in France that were established during 2008 could be because events to mark the birth centennial were being held in memorial places that had already been established before 2008.
 
 ### How did Salvador Allende die, really?
 
@@ -1140,7 +1140,7 @@ Regardless of the exact manner, Allende's dramatic death evokes sympathy towards
 
 ![Bar chart tallying what memorial places to Salvador Allende say about how he died (total: 56). Breakdown of values follows.](assets/dataviz/how_allende_died.png)
 
-In the dataset, there are 56 memorial places that mention Allende's death. The most used narrative is assassination with 33 places explicitly mentioning it. Meanwhile, only one place in the dataset explicitly mentions suicide: [the bust in Berlin](https://github.com/jamieglohere/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#former-east-germany).
+In the dataset, there are 56 memorial places that mention Allende's death. The most used narrative is assassination with 33 places explicitly mentioning it. Meanwhile, only one place in the dataset explicitly mentions suicide: [the bust in Berlin](https://github.com/jamiegcan/a-place-for-salvador-allende/blob/main/a_place_for_salvador_allende.md#former-east-germany).
 
 Twenty places mention neither suicide nor assassination and instead keep it generic by saying "died" or something similar. Two places in France get more specific by saying that Allende died with a "weapon on hand", but this could be interpreted both as a suicide (when Allende shot himself with the weapon) and an assassination (when Allende resisted the military with a weapon on hand and was killed while holding the weapon).
 

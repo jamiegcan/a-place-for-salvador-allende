@@ -56,7 +56,7 @@ The main work for this project was done from March to September 2023, in time fo
 
 ## Technical notes on data collection
 
-Test scripts and datasets are in my [datasets-of-interest](https://github.com/jamieglohere/datasets-of-interest/tree/main/a-place-for-salvador-allende) repository. This repository contains the main dataset and scripts that have been tested to work. If there are discrepancies between the files in this repository and in datasets-of-interest, consider this repository as the more updated one.
+Test scripts and datasets are in my [datasets-of-interest](https://github.com/jamiegcan/datasets-of-interest/tree/main/a-place-for-salvador-allende) repository. This repository contains the main dataset and scripts that have been tested to work. If there are discrepancies between the files in this repository and in datasets-of-interest, consider this repository as the more updated one.
 
 The Python scripts used to scrape data can be found in the [**src**](src) folder of this repository. The way they were written may not be the best, but they fulfill the purpose of automating data collection in a way that is convenient for me.
 
@@ -238,12 +238,12 @@ _¡Allende vive!_
 
 _Un abrazo_ and warm regards,
 
-jamieglohere (they/he)
+jamiegcan (they/he)
 
 September 2023
 
 ## License
 
-©️ 2023 jamieglohere, some rights reserved.
+©️ 2023 jamiegcan, some rights reserved.
 
-[@jamieglohere](https://jamieglohere.carrd.co) maintains this project. The datasets and texts in this project are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to collect data is licensed under the [MIT license](MIT_License.txt). The datasets, texts, and source code can be used for any purpose (hopefully constructive) as long as credit is given—it can be something as simple as a link to this page (<https://github.com/jamieglohere/a-place-for-salvador-allende>).
+[@jamiegcan](https://jamiegcan.carrd.co) maintains this project. The datasets and texts in this project are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to collect data is licensed under the [MIT license](MIT_License.txt). The datasets, texts, and source code can be used for any purpose (hopefully constructive) as long as credit is given—it can be something as simple as a link to this page (<https://github.com/jamiegcan/a-place-for-salvador-allende>).

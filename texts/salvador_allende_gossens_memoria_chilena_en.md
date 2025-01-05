@@ -4,7 +4,7 @@ _This is an English translation of the biography of Salvador Allende at [Memoria
 
 _Research materials from Memoria Chilena, National Library of Chile (National Heritage Service) are under a Creative Commons Attribution-ShareAlike 3.0 Unported Licence, except its digital objects._
 
-_This English translation is available as described in this project's [Readme](https://github.com/jamieglohere/a-place-for-salvador-allende#license)._
+_This English translation is available as described in this project's [Readme](https://github.com/jamiegcan/a-place-for-salvador-allende#license)._
 
 ## The democratic path towards socialism
 

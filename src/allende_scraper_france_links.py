@@ -1,5 +1,5 @@
 # allende-scraper-france-links.py
-# Main repo: https://github.com/jamieglohere/a-place-for-salvador-allende
+# Main repo: https://github.com/jamiegcan/a-place-for-salvador-allende
 
 # Automates the data collection by verifying using https://www.openstreetmap.org
 # the list of links that weren't already captured in allende_scraper_france_streets.py via 

@@ -1,5 +1,5 @@
 # allende-scraper-france-streets.py
-# Main repo: https://github.com/jamieglohere/a-place-for-salvador-allende
+# Main repo: https://github.com/jamiegcan/a-place-for-salvador-allende
 
 # Automates the data collection by verifying the list from 
 # http://www.abacq.org/calle/index.php?2009/05/13/349-salvador-allende-en-francia 
